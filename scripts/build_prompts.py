@@ -52,10 +52,12 @@ def main():
     PROMPTS.mkdir(parents=True, exist_ok=True)
     chunks = load_chunks()
     cite_index = load_cite_index()
-    task_card = load_task_card('T1_entity_relation')
-
+    task_card = load_task_card('T123_combined')
     if not task_card:
-        print("ERROR: T1 task card not found")
+        # Fallback to T1
+        task_card = load_task_card('T1_entity_relation')
+    if not task_card:
+        print("ERROR: T123_combined and T1 task cards not found")
         return
 
     system_prompt = task_card.get('system_prompt', '')

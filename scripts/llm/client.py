@@ -405,7 +405,7 @@ class LLMClient:
                     raise
                 backoff = self.config['rate_limit_backoff_ms'] * (
                     self.config['rate_limit_backoff_multiplier'] ** (retry_count - 1))
-                backoff = min(backoff, 120000)  # cap at 2 minutes
+                backoff = min(backoff, self.config.get('rate_limit_backoff_max_ms', 180000))  # cap
                 print(f"  [RATE LIMITED] retry {retry_count}/{self.config.get('max_rate_limit_retries', 5)} "
                       f"in {backoff/1000:.0f}s...", end=' ', flush=True)
                 time.sleep(backoff / 1000)

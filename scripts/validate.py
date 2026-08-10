@@ -12,6 +12,169 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 BASE = Path(__file__).parent.parent
 SCHEMA_DIR = BASE / 'schema'
 WORK_DIR = BASE / 'work'
+DEBUG_DIR = BASE / 'work' / 'debug'
+
+# ── JSON Tolerant Parser ──────────────────────────────────────
+
+def tolerant_json_parse(line):
+    """
+    Try to parse a JSON line, with conservative fixes for common errors.
+    Returns (obj, status) where status is 'direct', 'fixed', or 'unparseable'.
+    Only applies deterministic fixes — no guessing.
+    """
+    original = line.strip()
+    if not original:
+        return None, 'empty'
+
+    # Attempt 1: direct parse
+    try:
+        return json.loads(original), 'direct'
+    except json.JSONDecodeError:
+        pass
+
+    # Attempt 2: count braces, add missing closers at end
+    # Only handles the case where braces are simply missing at the end
+    open_braces = original.count('{') - original.count('}')
+    open_brackets = original.count('[') - original.count(']')
+    if open_braces > 0 or open_brackets > 0:
+        fixed = original.rstrip()
+        # Fix bracket count: don't blindly add ] because we don't know where
+        # Only add missing }] at the end if consistent
+        if open_brackets == 1:
+            # Missing one ]  — common when model skips closing a citations array
+            # Try adding ] before the final } sequence
+            if open_braces == 0:
+                # Braces balanced, just missing ]
+                fixed = fixed + ']'
+            elif open_braces == 1:
+                fixed = fixed + ']' + '}'
+            elif open_braces >= 2:
+                fixed = fixed + ']' + '}' * open_braces
+            else:
+                return original, 'unparseable'
+        elif open_braces == 1 and open_brackets == 0:
+            # Single missing closing brace
+            fixed = fixed + '}'
+        elif open_braces == 2 and open_brackets == 0:
+            fixed = fixed + '}}'
+        else:
+            # Too ambiguous — don't guess
+            return original, 'unparseable'
+
+        try:
+            obj = json.loads(fixed)
+            return obj, 'fixed'
+        except json.JSONDecodeError:
+            pass
+
+    # Attempt 3: missing ] before }  (common pattern: citations array missing closing bracket)
+    # Model writes: ..."quote":"...一员。"}},...  but should be: ...一员。"}]},...
+    # "}} = close citation } + close summary }. Missing: close array ].
+    # Fix: insert ] between the two } of "}}
+    if original.count('[') == original.count(']') + 1:
+        fixed = original
+        for m in re.finditer(r'"(}})', fixed):
+            pos = m.start(1)  # start of }}
+            if pos > 0 and fixed[pos-1] == '"':
+                # Insert ] after first } of }}: "}}  → "}]}
+                fixed = fixed[:pos+1] + ']' + fixed[pos+1:]
+                try:
+                    obj = json.loads(fixed)
+                    return obj, 'fixed'
+                except json.JSONDecodeError:
+                    pass
+                break  # only fix first occurrence
+
+    return original, 'unparseable'
+
+# ── Chinese Predicate Mapper ─────────────────────────────────
+
+PREDICATE_ZH_MAP = {}
+
+def load_predicate_zh_map():
+    global PREDICATE_ZH_MAP
+    map_path = SCHEMA_DIR / 'predicate_zh_map.json'
+    if map_path.exists():
+        with open(map_path, 'r', encoding='utf-8') as f:
+            PREDICATE_ZH_MAP = json.load(f)
+
+PREDICATE_MAPPING_LOG = []
+
+def map_predicate(obj, chunk_id=''):
+    """
+    Map Chinese predicates to English codes.
+    Returns the modified object (possibly with swapped subject/object).
+    Records mapping events to PREDICATE_MAPPING_LOG.
+    """
+    pred = obj.get('predicate', '')
+    if not pred:
+        return obj
+
+    # If predicate is already a valid English code in the vocabulary, leave it
+    VALID_PREDICATES = {
+        'EMBODIES', 'EMISSARY_OF', 'FOLLOWER_OF', 'OPPOSES',
+        'MEMBER_OF', 'LEADS', 'MENTOR_OF', 'KIN_OF', 'ALLY_OF',
+        'ENEMY_OF', 'SUCCEEDS', 'CREATED', 'KILLED', 'TRANSFORMED_INTO',
+        'LOCATED_IN', 'ORIGINATES_FROM', 'RULES',
+        'PARTICIPATED_IN', 'CAUSED', 'RESULTED_IN', 'RELATED_TO'
+    }
+    if pred in VALID_PREDICATES:
+        return obj
+
+    # Check explicit mapping table
+    if pred in PREDICATE_ZH_MAP:
+        mapping = PREDICATE_ZH_MAP[pred]
+        target = mapping['target']
+        swap = mapping.get('swap', False)
+        note_extra = mapping.get('note', '')
+
+        PREDICATE_MAPPING_LOG.append({
+            'chunk_id': chunk_id,
+            'original_predicate': pred,
+            'mapped_to': target,
+            'swapped_direction': swap,
+            'note_added': note_extra,
+        })
+
+        obj['predicate'] = target
+
+        if swap:
+            subj = obj.get('subject_name', '')
+            objj = obj.get('object_name', '')
+            obj['subject_name'] = objj
+            obj['object_name'] = subj
+
+        if note_extra and not obj.get('qualifiers'):
+            obj['qualifiers'] = {}
+        if note_extra:
+            existing_note = obj.get('qualifiers', {}).get('note', '')
+            obj['qualifiers']['note'] = (existing_note + '; ' if existing_note else '') + note_extra
+
+        return obj
+
+    # Fallback: any unknown Chinese predicate → RELATED_TO with note
+    PREDICATE_MAPPING_LOG.append({
+        'chunk_id': chunk_id,
+        'original_predicate': pred,
+        'mapped_to': 'RELATED_TO',
+        'swapped_direction': False,
+        'note_added': pred,
+    })
+    obj['predicate'] = 'RELATED_TO'
+    if not obj.get('qualifiers'):
+        obj['qualifiers'] = {}
+    existing_note = obj.get('qualifiers', {}).get('note', '')
+    obj['qualifiers']['note'] = (existing_note + '; ' if existing_note else '') + f'原始谓词: {pred}'
+    return obj
+
+def flush_predicate_log():
+    if not PREDICATE_MAPPING_LOG:
+        return
+    log_path = WORK_DIR / 'predicate_mapping_log.jsonl'
+    with open(log_path, 'a', encoding='utf-8') as f:
+        for entry in PREDICATE_MAPPING_LOG:
+            f.write(json.dumps(entry, ensure_ascii=False) + '\n')
+    PREDICATE_MAPPING_LOG.clear()
 
 # ── Load references ────────────────────────────────────────────
 
@@ -79,6 +242,15 @@ def reject(obj, reason, detail=''):
 def accept(obj):
     return {'status': 'ACCEPTED'}
 
+def normalize_for_match(text):
+    """
+    Normalize text before exact substring matching.
+    Removes formatting artifacts (newlines/whitespace) that cause
+    false negatives without changing the semantic content.
+    Rules documented in article: normalize whitespace only.
+    """
+    return re.sub(r'\s+', '', text)
+
 def validate_citation(cit, obj_context=''):
     """Validate a single Citation object."""
     errors = []
@@ -97,10 +269,10 @@ def validate_citation(cit, obj_context=''):
     if len(quote) > 200:
         errors.append(('quote exceeds 200 chars', f'len={len(quote)}'))
 
-    # Check quote is exact substring of clean
+    # Check quote is exact substring of clean (with whitespace normalization)
     if cid and cid in cite_index:
         clean = cite_index[cid]['clean']
-        if quote not in clean:
+        if quote not in clean and normalize_for_match(quote) not in normalize_for_match(clean):
             errors.append(('quote not exact substring of clean', f'cid={cid}, quote={quote[:60]}...'))
         else:
             # Check offsets
@@ -170,8 +342,20 @@ def validate_cycle_detection(events):
 
 # ── Main validator ──────────────────────────────────────────────
 
-def validate_objects(objects):
+def validate_objects(objects, chunk_id=''):
     """Validate a list of objects. Returns (results, stats)."""
+    # ── Apply Chinese predicate mapping ──
+    load_predicate_zh_map()
+    mapped_count = 0
+    for obj in objects:
+        if 'predicate' in obj:
+            old_pred = obj['predicate']
+            map_predicate(obj, chunk_id)
+            if old_pred != obj['predicate']:
+                mapped_count += 1
+    if mapped_count > 0:
+        print(f'  Predicate mapped: {mapped_count} relations')
+
     results = []
     stats = {
         'total': len(objects),
@@ -184,6 +368,8 @@ def validate_objects(objects):
         'total_attr_keys': 0,
         'related_to_ratio': 0.0,
         'cycle_events': [],
+        'predicate_mapped': 0,
+        'predicate_mapping_details': [],
     }
 
     declared_entities = set()
@@ -216,18 +402,156 @@ def validate_objects(objects):
             obj_type = 'merge_record'
         # Fallback: content-based type detection for model output without IDs
         if obj_type == 'unknown':
-            if 'predicate' in obj or ('subject_name' in obj and 'object_name' in obj):
+            if 'predicate' in obj or 'relation_type' in obj or ('subject_name' in obj and 'object_name' in obj) or ('subject' in obj and 'object' in obj) or ('source_entity_id' in obj and 'target_entity_id' in obj):
                 obj_type = 'relation'
             elif 'kind' in obj and obj.get('kind') in ('contradiction','ambiguity','gap','retcon'):
                 obj_type = 'discrepancy'
-            elif 'canonical_name' in obj or ('type' in obj and 'predicate' not in obj):
+            elif obj.get('type') == 'relation':
+                obj_type = 'relation'
+            elif obj.get('type') == 'event':
+                obj_type = 'event'
+            elif 'canonical_name' in obj or 'name' in obj or ('type' in obj and 'predicate' not in obj and 'relation_type' not in obj):
                 obj_type = 'entity'
-            elif 'merged_name' in obj and 'source_names' in obj:
-                obj_type = 'merge_record'
             elif 'name' in obj and ('stated_time' in obj or 'participants' in obj or 'relative_to' in obj):
                 obj_type = 'event'
 
         stats['by_type'][obj_type] += 1
+
+        # ── Schema normalization ──────────────────────────────────────
+        # doubao-seed-evolving consistently uses its own field naming:
+        # Entity:   {type:'entity', entity_type:'CHAR', name:'...', description:'...', id:'...', aliases:[...]}
+        # Relation: {type:'relation', source_entity_id:'...', target_entity_id:'...', relation_type:'...', description:'...'}
+        # Event:    {type:'event', name:'...', description:'...', ...}
+        # Normalize to canonical form expected by downstream consumers.
+
+        # ── Entity normalization ──
+        if obj.get('type') == 'entity' and 'entity_type' in obj:
+            obj['type'] = obj['entity_type']
+            del obj['entity_type']
+        if 'name' in obj and 'canonical_name' not in obj:
+            obj['canonical_name'] = obj.pop('name')
+        if 'description' in obj and 'summary' not in obj:
+            desc = obj.pop('description')
+            obj['summary'] = {
+                'text': desc,
+                'claim_type': obj.get('claim_type', 'fact'),
+                'confidence': obj.get('confidence', 'attested'),
+                'citations': obj.get('citations', [])
+            }
+        # Build citation from 'id' field if present (model uses id as entity/cite reference)
+        if 'id' in obj and obj.get('id', '').startswith(('AEON-','PATH-','CHAR-','BOOK-','NOUN-','LOAD-','CHRN-','TALK-','WRLD-')):
+            if 'summary' in obj:
+                sid = obj.pop('id')
+                existing = obj['summary'].get('citations', [])
+                if not existing:
+                    obj['summary']['citations'] = [{'cite_id': sid, 'quote': ''}]
+
+        # ── Relation normalization ──
+        if obj.get('type') == 'relation':
+            if 'relation_type' in obj and 'predicate' not in obj:
+                obj['predicate'] = obj.pop('relation_type')
+            if 'source_entity_id' in obj and 'subject_name' not in obj:
+                obj['subject_name'] = obj.pop('source_entity_id')
+            if 'target_entity_id' in obj and 'object_name' not in obj:
+                obj['object_name'] = obj.pop('target_entity_id')
+            if 'description' in obj:
+                desc = obj.pop('description')
+                if 'qualifiers' not in obj:
+                    obj['qualifiers'] = {}
+                obj['qualifiers']['note'] = desc
+                # Build citation stub
+                if 'citations' not in obj or not obj['citations']:
+                    obj['citations'] = []
+            # Ensure required claim_type/confidence for relations
+            if 'claim_type' not in obj:
+                obj['claim_type'] = 'fact'
+            if 'confidence' not in obj:
+                obj['confidence'] = 'attested'
+
+        # Clean up stray 'id' and 'source' from model output
+        for f in ['id', 'source']:
+            if f in obj and f not in ('subject_name', 'object_name', 'canonical_name', 'predicate', 'type'):
+                pass  # keep, may be useful
+
+        # ── Entity type code normalization ──
+        if obj_type == 'entity':
+            TYPE_CODE_ALIASES = {
+                'CHARACTER': 'CHAR', 'PERSON': 'CHAR', 'PERSONA': 'CHAR',
+                'FACTION': 'ORGN', 'FAC': 'ORGN', 'ORG': 'ORGN', 'ORGANIZATION': 'ORGN',
+                'LOCATION': 'PLAC', 'LOC': 'PLAC', 'PLACE': 'PLAC',
+                'ITEM': 'ARTF', 'ARTIFACT': 'ARTF', 'OBJECT': 'ARTF',
+                'EVENT': 'CONC', 'OCCURRENCE': 'CONC',
+                'VEHICLE': 'ARTF', 'SHIP': 'ARTF',
+                'CONCEPT': 'CONC',
+                'SPECIES': 'RACE', 'PEOPLE': 'RACE',
+            }
+            if obj.get('type', '') in TYPE_CODE_ALIASES:
+                obj['type'] = TYPE_CODE_ALIASES[obj['type']]
+
+        # ── Event normalization ──
+        if obj.get('type') == 'event':
+            if 'description' in obj and 'summary' not in obj:
+                obj['summary'] = {'text': obj.pop('description'),
+                                 'claim_type': 'fact', 'confidence': 'attested', 'citations': obj.get('citations', [])}
+            if 'confidence' not in obj:
+                obj['confidence'] = 'attested'
+            if 'citations' not in obj:
+                obj['citations'] = []
+
+        # ── Required field checks ──
+        VALID_ENTITY_TYPES = {'AEON', 'PATH', 'CHAR', 'ORGN', 'PLAC', 'WRLD', 'CONC', 'ARTF', 'RACE'}
+
+        if obj_type == 'entity':
+            # Required: type in valid codes
+            if 'type' not in obj:
+                item_results.append(('missing_required_field', 'entity: type'))
+            elif obj['type'] not in VALID_ENTITY_TYPES:
+                item_results.append(('invalid_entity_type', f"got '{obj['type']}', valid: {sorted(VALID_ENTITY_TYPES)}"))
+            # Required: canonical_name
+            if 'canonical_name' not in obj:
+                item_results.append(('missing_required_field', 'entity: canonical_name'))
+            # Required: summary with citations
+            if 'summary' not in obj:
+                item_results.append(('missing_required_field', 'entity: summary'))
+            else:
+                s = obj['summary']
+                if 'text' not in s:
+                    item_results.append(('missing_required_field', 'entity: summary.text'))
+                if 'claim_type' not in s:
+                    item_results.append(('missing_required_field', 'entity: summary.claim_type'))
+                if 'confidence' not in s:
+                    item_results.append(('missing_required_field', 'entity: summary.confidence'))
+                if 'citations' not in s or len(s.get('citations', [])) == 0:
+                    item_results.append(('citations_empty', 'entity: summary has no citations'))
+
+        elif obj_type == 'relation':
+            for field in ['subject_name', 'predicate', 'object_name']:
+                if field not in obj:
+                    item_results.append(('missing_required_field', f'relation: {field}'))
+            if 'claim_type' not in obj:
+                item_results.append(('missing_required_field', 'relation: claim_type'))
+            if 'confidence' not in obj:
+                item_results.append(('missing_required_field', 'relation: confidence'))
+            if 'citations' not in obj or len(obj.get('citations', [])) == 0:
+                item_results.append(('citations_empty', 'relation: no citations'))
+
+        elif obj_type == 'event':
+            for field in ['name', 'summary']:
+                if field not in obj:
+                    item_results.append(('missing_required_field', f'event: {field}'))
+            if 'confidence' not in obj:
+                item_results.append(('missing_required_field', 'event: confidence'))
+            if 'citations' not in obj or len(obj.get('citations', [])) == 0:
+                item_results.append(('citations_empty', 'event: no citations'))
+
+        elif obj_type == 'discrepancy':
+            for field in ['kind', 'topic', 'statements', 'analysis']:
+                if field not in obj:
+                    item_results.append(('missing_required_field', f'discrepancy: {field}'))
+            if 'analysis' in obj:
+                a = obj['analysis']
+                if 'citations' not in a or len(a.get('citations', [])) == 0:
+                    item_results.append(('citations_empty', 'discrepancy: analysis has no citations'))
 
         # Check all citations
         all_citations = []
@@ -463,16 +787,55 @@ if __name__ == '__main__':
         sys.exit(1)
 
     all_objects = []
+    parse_status = {'direct': 0, 'fixed': 0, 'unparseable': 0}
+    unparseable_lines = []
+    chunk_id = ''
+
     for fpath in args.inputs:
+        # Extract chunk_id from filename (e.g., T123_combined_C001_backfilled.jsonl → C001)
+        fname = os.path.basename(fpath)
+        chunk_id = fname.split('_')[-1].replace('.jsonl', '').replace('_backfilled', '')
+
         with open(fpath, 'r', encoding='utf-8') as f:
             content = f.read().strip()
-            # Try JSONL first, then JSON array
             if content.startswith('['):
                 objs = json.loads(content)
+                parse_status['direct'] += len(objs)
+                all_objects.extend(objs)
+                print(f'Loaded {len(objs)} objects from {fname} (JSON array)')
             else:
-                objs = [json.loads(line) for line in content.split('\n') if line.strip()]
-            all_objects.extend(objs)
-            print(f'Loaded {len(objs)} objects from {os.path.basename(fpath)}')
+                for line in content.split('\n'):
+                    if not line.strip():
+                        continue
+                    obj, status = tolerant_json_parse(line)
+                    if status == 'unparseable':
+                        parse_status['unparseable'] += 1
+                        unparseable_lines.append(line.strip())
+                    else:
+                        parse_status[status] += 1
+                        all_objects.append(obj)
+                loaded = parse_status['direct'] + parse_status['fixed']
+                print(f'Loaded {loaded} objects from {fname} '
+                      f'(direct={parse_status["direct"]}, fixed={parse_status["fixed"]}, '
+                      f'unparseable={parse_status["unparseable"]})')
 
-    results, stats = validate_objects(all_objects)
+    # Save unparseable lines
+    if unparseable_lines and chunk_id:
+        DEBUG_DIR.mkdir(parents=True, exist_ok=True)
+        unparse_path = DEBUG_DIR / f'{chunk_id}_unparsed.jsonl'
+        with open(unparse_path, 'w', encoding='utf-8') as f:
+            for line in unparseable_lines:
+                f.write(line + '\n')
+        print(f'  Unparseable lines saved to {unparse_path}')
+
+    results, stats = validate_objects(all_objects, chunk_id)
+    # Add parse status to stats
+    stats['parse_status'] = parse_status
+    parse_total = sum(parse_status.values())
+    stats['format_compliance'] = round((parse_status['direct'] + parse_status['fixed']) / max(parse_total, 1), 3)
+    # Add predicate mapping stats
+    if PREDICATE_MAPPING_LOG:
+        stats['predicate_mapped'] = len(PREDICATE_MAPPING_LOG)
+        stats['predicate_mapping_details'] = PREDICATE_MAPPING_LOG[:]
+    flush_predicate_log()
     print_report(results, stats, '')

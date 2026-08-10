@@ -181,14 +181,15 @@ class CompletedTracker:
 
 def execute_chunk(task_name, task_card, chunk, cite_index, client, run_logs,
                   val_logs, completed_tracker, is_live, stop_event, fuse_error,
-                  pass1_dir=None):
+                  pass1_dir=None, force=False):
     """Execute a single chunk. Returns (cid, success, summary) or raises."""
     cid = chunk['chunk_id']
     volume = chunk.get('volume', '')
     task_cid = f"{task_name}:{cid}"  # per-task tracking key
     pass_num = task_card.get('pass', 1)
+    live_max_tokens = 16384  # configurable per-chunk output budget
 
-    if completed_tracker.is_completed(task_cid):
+    if not force and completed_tracker.is_completed(task_cid):
         return (cid, 'skipped', {'chunk_id': cid, 'volume': volume,
                 'accepted': 0, 'rejected': 0, 'rejection_rate': 0.0})
 
@@ -203,8 +204,26 @@ def execute_chunk(task_name, task_card, chunk, cite_index, client, run_logs,
         if is_live:
             messages = build_real_prompt(task_card, chunk, cite_index)
             response = client.chat(messages=messages, task_name=f"{task_name}/{cid}",
-                                   input_volume=chunk.get('volume', ''))
+                                   input_volume=chunk.get('volume', ''),
+                                   max_tokens=live_max_tokens)
             output_text = response.get('content', '')
+
+            # ── Finish reason check ──
+            finish_reason = response.get('finish_reason', 'unknown')
+            completion_tokens = response.get('usage', {}).get('completion_tokens', 0)
+            if finish_reason != 'stop' and finish_reason != 'unknown':
+                # Truncation or other abnormal termination — mark as failed, don't mark completed
+                token_ratio = completion_tokens / live_max_tokens if live_max_tokens > 0 else 0
+                print(f"\n  [{cid}] ⚠ FINISH REASON: {finish_reason} "
+                      f"(completion_tokens={completion_tokens}, max_tokens={live_max_tokens}, "
+                      f"ratio={token_ratio:.1%})")
+                print(f"  [{cid}] OUTPUT TRUNCATED — not marking as completed.")
+                print(f"  [{cid}] Manual intervention required: increase max_tokens and re-run with --force")
+                return (cid, 'truncated', {
+                    'chunk_id': cid, 'volume': volume,
+                    'accepted': 0, 'rejected': 0, 'rejection_rate': 0.0,
+                    'error': f'finish_reason={finish_reason}, completion_tokens={completion_tokens}, max_tokens={live_max_tokens}'
+                })
         elif pass_num == 2:
             # Pass2: build prompt from pass1 output data
             messages, whitelist_ids, full_prompt = build_pass2_prompt(
@@ -308,6 +327,8 @@ def main():
     parser.add_argument('--concurrency', type=int, default=1, help='Concurrent chunks (default 1, recommend 3-4)')
     parser.add_argument('--run-id', default='', help='Override run_id')
     parser.add_argument('--resume', action='store_true', help='Resume from completed_chunks.txt')
+    parser.add_argument('--force', action='store_true', help='Force re-run even if already completed')
+    parser.add_argument('--pause-after', help='Pause after completing this chunk ID for manual review')
     args = parser.parse_args()
 
     # ── R2: Reject --skip-gate with --live ──
@@ -349,7 +370,7 @@ def main():
     # ── Live protection ──
     run_logs = LOGS / 'runs' / run_id
     if args.live or args.provider != 'mock':
-        if run_logs.exists() and any(run_logs.iterdir()) and not args.resume:
+        if run_logs.exists() and any(run_logs.iterdir()) and not args.resume and not args.force:
             print(f"ERROR: Live run directory '{run_logs}' already exists and is non-empty.")
             print(f"  To avoid overwriting, use a different --run-id or --resume.")
             sys.exit(1)
@@ -382,18 +403,18 @@ def main():
         if card:
             tasks_to_run = [(args.task, card)]
     else:
-        for tname in ['T1_entity_relation','T2_event','T3_discrepancy_intra',
+        for tname in ['T123_combined','T1_entity_relation','T2_event','T3_discrepancy_intra',
                       'T4_entity_merge','T5_relation_crossvol','T6_discrepancy_cross','T7_event_timeline']:
             card = load_task_card(tname)
             if card:
                 tasks_to_run.append((tname, card))
 
-    # ── Lore gate (--live only, without --skip-gate) ──
-    if args.live and not args.skip_gate and not args.resume:
+    # ── Lore gate (--live only, without --skip-gate, not --force, not --resume) ──
+    if args.live and not args.skip_gate and not args.resume and not args.force:
         print("=" * 60)
         print("LORE GATE — running T1 + lore only for manual review")
         print("=" * 60)
-        tasks_to_run = [(t, c) for t, c in tasks_to_run if t == 'T1_entity_relation']
+        tasks_to_run = [(t, c) for t, c in tasks_to_run if t in ('T123_combined', 'T1_entity_relation')]
 
     # ── Setup client ──
     client = LLMClient(profile=args.provider if args.live else 'mock', run_id=run_id)
@@ -468,7 +489,7 @@ def main():
                         'completed': 0, 'failed': 0, 'stopped': 0, 'skipped': 0}
 
         # Lore gate: first chunk must run alone in serial
-        if args.live and not args.skip_gate and task_name == 'T1_entity_relation' and not args.resume:
+        if args.live and not args.skip_gate and not args.force and task_name in ('T123_combined', 'T1_entity_relation') and not args.resume:
             gate_chunk = task_chunks[0] if task_chunks else None
             gate_concurrency = 1
             if gate_chunk:
@@ -505,7 +526,8 @@ def main():
             task_chunks = task_chunks[1:]
 
         # Concurrent execution for remaining chunks
-        remaining = [ch for ch in task_chunks if not completed_tracker.is_completed(ch['chunk_id'])]
+        remaining = [ch for ch in task_chunks
+                     if args.force or not completed_tracker.is_completed(f"{task_name}:{ch['chunk_id']}")]
         skipped = len(task_chunks) - len(remaining)
         task_manifest['skipped'] = skipped
 
@@ -517,7 +539,7 @@ def main():
                     continue
                 cid = chunk['chunk_id']
                 task_cid = f"{task_name}:{cid}"
-                if completed_tracker.is_completed(task_cid):
+                if not args.force and completed_tracker.is_completed(task_cid):
                     print(f"  [{cid}] SKIP (completed)")
                     task_manifest['skipped'] += 1
                     continue
@@ -527,7 +549,8 @@ def main():
                 cid, status, summary = execute_chunk(
                     task_name, task_card, chunk, cite_index, client,
                     run_logs, val_logs, completed_tracker,
-                    args.live, stop_event, fuse_error, pass1_dir=pass1_dir)
+                    args.live, stop_event, fuse_error, pass1_dir=pass1_dir,
+                    force=args.force)
 
                 if status == 'ok':
                     print(f"OK ({summary.get('accepted',0)}a/{summary.get('rejected',0)}r)")
@@ -540,6 +563,17 @@ def main():
                     print(f"{status}")
                     task_manifest['failed'] += 1
                 total_ran += 1
+
+                # Pause-after
+                if args.pause_after and cid == args.pause_after:
+                    print(f"\n  ⏸ PAUSE: --pause-after {args.pause_after} reached")
+                    print(f"  Chunk {cid}: {status} ({summary.get('accepted',0)}a/{summary.get('rejected',0)}r)")
+                    manifest['stop_reason'] = f'pause_after_{args.pause_after}'
+                    manifest['end_time'] = datetime.now(timezone.utc).isoformat()
+                    manifest['total_chunks_ran'] = total_ran
+                    with open(run_logs / 'manifest.json', 'w', encoding='utf-8') as f:
+                        json.dump(manifest, f, ensure_ascii=False, indent=2)
+                    return
 
                 # Stop-after-volume
                 if args.stop_after_volume and chunk['volume'] == args.stop_after_volume:
@@ -559,7 +593,7 @@ def main():
                 for chunk in task_chunks:
                     cid = chunk['chunk_id']
                     task_cid = f"{task_name}:{cid}"
-                    if completed_tracker.is_completed(task_cid):
+                    if not args.force and completed_tracker.is_completed(task_cid):
                         print(f"  [{cid}] SKIP (completed)")
                         task_manifest['skipped'] += 1
                         continue
@@ -569,7 +603,8 @@ def main():
                     future = executor.submit(
                         execute_chunk, task_name, task_card, chunk, cite_index, client,
                         run_logs, val_logs, completed_tracker,
-                        args.live, stop_event, fuse_error, pass1_dir=pass1_dir)
+                        args.live, stop_event, fuse_error, pass1_dir=pass1_dir,
+                        force=args.force)
                     futures[future] = chunk
 
                 for future in as_completed(futures):

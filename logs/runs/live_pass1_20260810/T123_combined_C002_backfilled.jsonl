@@ -1,0 +1,214 @@
+{"type": "entity", "id": "aeon_001", "name": "阿基维利", "entity_type": "AEON", "aliases": ["游云天君"], "description": "开拓命途的星神，铺设星轨、建造星穹列车，已陨落。"}
+{"type": "entity", "id": "aeon_002", "name": "纳努克", "entity_type": "AEON", "aliases": ["烬灭祸祖"], "description": "毁灭命途的星神，统领反物质军团毁灭诸界。"}
+{"type": "entity", "id": "aeon_003", "name": "岚", "entity_type": "AEON", "aliases": ["帝弓司命"], "description": "巡猎命途的星神，曾射断建木，是仙舟联盟信仰的核心。"}
+{"type": "entity", "id": "aeon_004", "name": "药师", "entity_type": "AEON", "aliases": ["寿瘟祸祖"], "description": "丰饶命途的星神，赐予众生长生，其赐福也带来魔阴身等灾难。"}
+{"type": "entity", "id": "aeon_005", "name": "Ⅸ", "entity_type": "AEON", "aliases": [], "description": "虚无命途的星神，认为存在毫无价值。"}
+{"type": "entity", "id": "aeon_006", "name": "博识尊", "entity_type": "AEON", "aliases": ["遍智天君"], "description": "智识命途的星神，演算宇宙方程，邀请天才加入天才俱乐部。"}
+{"type": "entity", "id": "aeon_007", "name": "希佩", "entity_type": "AEON", "aliases": [], "description": "同谐命途的星神，千面一体，家族信仰的核心。"}
+{"type": "entity", "id": "aeon_008", "name": "克里珀", "entity_type": "AEON", "aliases": ["琥珀王", "补天司命"], "description": "存护命途的星神，最古老的星神之一，铸造星墙保护诸界。"}
+{"type": "entity", "id": "aeon_009", "name": "塔伊兹育罗斯", "entity_type": "AEON", "aliases": ["虫皇", "螟蝗祸祖", "沙王"], "description": "繁育命途的星神，创造虫群，已逝去但虫群仍在肆虐。"}
+{"type": "entity", "id": "aeon_010", "name": "阿哈", "entity_type": "AEON", "aliases": ["常乐天君"], "description": "欢愉命途的星神，以戏弄众生为乐，赐予假面愚者力量。"}
+{"type": "entity", "id": "aeon_011", "name": "伊德莉拉", "entity_type": "AEON", "aliases": ["妙见天君", "恩•德芮"], "description": "纯美命途的星神，已失踪，纯美骑士团和揽镜人在寻找她。"}
+{"type": "entity", "id": "aeon_012", "name": "浮黎", "entity_type": "AEON", "aliases": [], "description": "记忆命途的星神，流光忆庭的主人，让忆者以迷因形式存活。"}
+{"type": "entity", "id": "aeon_013", "name": "迷思", "entity_type": "AEON", "aliases": [], "description": "神秘命途的星神，主张模糊真相、破坏历史和语言的确定性。"}
+{"type": "entity", "id": "aeon_014", "name": "奥博洛斯", "entity_type": "AEON", "aliases": ["诸界渴饮者"], "description": "贪饕命途的星神，会思考的黑洞，吞噬一切。"}
+{"type": "entity", "id": "path_001", "name": "开拓", "entity_type": "PATH", "aliases": [], "description": "阿基维利执掌的命途，核心是探索未知、连接诸界。"}
+{"type": "entity", "id": "path_002", "name": "毁灭", "entity_type": "PATH", "aliases": [], "description": "纳努克执掌的命途，核心是熵增、毁灭文明。"}
+{"type": "entity", "id": "path_003", "name": "巡猎", "entity_type": "PATH", "aliases": [], "description": "岚执掌的命途，核心是追猎丰饶孽物、复仇。"}
+{"type": "entity", "id": "path_004", "name": "丰饶", "entity_type": "PATH", "aliases": [], "description": "药师执掌的命途，核心是生命繁衍、长生不老。"}
+{"type": "entity", "id": "path_005", "name": "虚无", "entity_type": "PATH", "aliases": [], "description": "Ⅸ执掌的命途，核心是存在无意义。"}
+{"type": "entity", "id": "path_006", "name": "智识", "entity_type": "PATH", "aliases": [], "description": "博识尊执掌的命途，核心是探求宇宙真理。"}
+{"type": "entity", "id": "path_007", "name": "同谐", "entity_type": "PATH", "aliases": [], "description": "希佩执掌的命途，核心是团结、和谐、万众一心。"}
+{"type": "entity", "id": "path_008", "name": "存护", "entity_type": "PATH", "aliases": [], "description": "克里珀执掌的命途，核心是筑墙、保护文明。"}
+{"type": "entity", "id": "path_009", "name": "繁育", "entity_type": "PATH", "aliases": [], "description": "塔伊兹育罗斯执掌的命途，核心是无限增殖。"}
+{"type": "entity", "id": "path_010", "name": "欢愉", "entity_type": "PATH", "aliases": [], "description": "阿哈执掌的命途，核心是快乐、玩笑、颠覆常理。"}
+{"type": "entity", "id": "path_011", "name": "纯美", "entity_type": "PATH", "aliases": [], "description": "伊德莉拉执掌的命途，核心是美、艺术、价值统合。"}
+{"type": "entity", "id": "path_012", "name": "记忆", "entity_type": "PATH", "aliases": [], "description": "浮黎执掌的命途，核心是保存记忆、对抗遗忘。"}
+{"type": "entity", "id": "path_013", "name": "神秘", "entity_type": "PATH", "aliases": [], "description": "迷思执掌的命途，核心是不可知、模糊真相。"}
+{"type": "entity", "id": "path_014", "name": "贪饕", "entity_type": "PATH", "aliases": [], "description": "奥博洛斯执掌的命途，核心是吞噬、占有。"}
+{"type": "entity", "id": "faction_001", "name": "星穹列车", "entity_type": "FACTION", "aliases": ["银河列车"], "description": "阿基维利建造的列车，无名客的载体，穿梭于星轨之间。"}
+{"type": "entity", "id": "faction_002", "name": "无名客", "entity_type": "FACTION", "aliases": [], "description": "追随阿基维利开拓意志的冒险者，搭乘星穹列车探索宇宙。"}
+{"type": "entity", "id": "faction_003", "name": "反物质军团", "entity_type": "FACTION", "aliases": [], "description": "纳努克的信徒，由绝灭大君统领，毁灭诸界文明。"}
+{"type": "entity", "id": "faction_004", "name": "仙舟联盟", "entity_type": "FACTION", "aliases": [], "description": "追随岚的长生种文明联盟，由九艘仙舟组成，以猎杀丰饶孽物为己任。"}
+{"type": "entity", "id": "faction_005", "name": "丰饶之民", "entity_type": "FACTION", "aliases": [], "description": "追随药师的文明和种族的统称，包括步离人、造翼者等，是仙舟的世敌。"}
+{"type": "entity", "id": "faction_006", "name": "天才俱乐部", "entity_type": "FACTION", "aliases": [], "description": "博识尊亲自邀请的天才组成的组织，共84席，成员多为怪才。"}
+{"type": "entity", "id": "faction_007", "name": "博识学会", "entity_type": "FACTION", "aliases": [], "description": "智识命途的世俗学术组织，主张知识流通，包含多个学派。"}
+{"type": "entity", "id": "faction_008", "name": "星际和平公司", "entity_type": "FACTION", "aliases": ["公司"], "description": "存护命途的巨型企业财团，发行信用点，垄断星际贸易，以奉献克里珀为初心。"}
+{"type": "entity", "id": "faction_009", "name": "家族", "entity_type": "FACTION", "aliases": [], "description": "同谐命途的信徒组织，统治匹诺康尼，由多个家系组成，追求万众和谐。"}
+{"type": "entity", "id": "faction_010", "name": "假面愚者", "entity_type": "FACTION", "aliases": [], "description": "欢愉命途的激进信徒，为了找乐子不惜颠覆世界。"}
+{"type": "entity", "id": "faction_011", "name": "流光忆庭", "entity_type": "FACTION", "aliases": [], "description": "记忆命途的信徒组织，忆者以迷因形式存活，收集宇宙中的记忆。"}
+{"type": "entity", "id": "faction_012", "name": "星核猎手", "entity_type": "FACTION", "aliases": [], "description": "神秘组织，成员有卡芙卡、银狼、刃、萨姆等，穿梭诸界夺取星核。"}
+{"type": "entity", "id": "faction_013", "name": "药王秘传", "entity_type": "FACTION", "aliases": [], "description": "仙舟内部的丰饶邪教，试图利用建木复兴丰饶，被仙舟列为非法组织。"}
+{"type": "entity", "id": "faction_014", "name": "云骑军", "entity_type": "FACTION", "aliases": [], "description": "仙舟联盟的正规军队，负责对外作战、猎杀丰饶孽物。"}
+{"type": "entity", "id": "faction_015", "name": "十王司", "entity_type": "FACTION", "aliases": [], "description": "仙舟的司法冥差机构，负责接引魔阴身者、关押重犯、维护律法。"}
+{"type": "entity", "id": "faction_016", "name": "贝洛伯格", "entity_type": "FACTION", "aliases": [], "description": "雅利洛-VI上的人类城邦，由大守护者统治，分为上层区和下层区。"}
+{"type": "entity", "id": "faction_017", "name": "银鬃铁卫", "entity_type": "FACTION", "aliases": [], "description": "贝洛伯格的正规军队，负责抵御裂界怪物和外敌。"}
+{"type": "entity", "id": "faction_018", "name": "地火", "entity_type": "FACTION", "aliases": [], "description": "贝洛伯格下层区的抵抗组织，保护下层居民，对抗上层区的高压统治。"}
+{"type": "entity", "id": "faction_019", "name": "黑塔空间站", "entity_type": "FACTION", "aliases": [], "description": "天才俱乐部#83黑塔建立的空间站，收藏奇物、开展科学研究。"}
+{"type": "entity", "id": "faction_020", "name": "黄金裔", "entity_type": "FACTION", "aliases": [], "description": "翁法罗斯的英雄群体，目标是讨伐失控泰坦、夺取火种、拯救世界。"}
+{"type": "entity", "id": "faction_021", "name": "步离人", "entity_type": "FACTION", "aliases": [], "description": "丰饶之民的主要分支，犬类特征的长生种，尚武好战，分为六大猎群。"}
+{"type": "entity", "id": "faction_022", "name": "造翼者", "entity_type": "FACTION", "aliases": [], "description": "丰饶之民的主要分支，鸟类特征的长生种，居住在树状世界穹桑，母星已被反物质军团摧毁。"}
+{"type": "entity", "id": "character_001", "name": "姬子", "entity_type": "CHARACTER", "aliases": [], "description": "星穹列车的修复者，红发少女，带领开拓者展开开拓之旅。"}
+{"type": "entity", "id": "character_002", "name": "瓦尔特·杨", "entity_type": "CHARACTER", "aliases": ["杨叔"], "description": "星穹列车成员，来自过去的地球，拥有第九神之键的力量。"}
+{"type": "entity", "id": "character_003", "name": "丹恒", "entity_type": "CHARACTER", "aliases": [], "description": "星穹列车成员，持明族，饮月君的转世，擅长使枪。"}
+{"type": "entity", "id": "character_004", "name": "三月七", "entity_type": "CHARACTER", "aliases": [], "description": "星穹列车成员，失去记忆的少女，擅长冰系能力，热爱拍照。"}
+{"type": "entity", "id": "character_005", "name": "帕姆", "entity_type": "CHARACTER", "aliases": [], "description": "星穹列车的列车长，负责列车运营。"}
+{"type": "entity", "id": "character_006", "name": "卡芙卡", "entity_type": "CHARACTER", "aliases": [], "description": "星核猎手成员，雷属性，擅长精神控制，是开拓者的唤醒者。"}
+{"type": "entity", "id": "character_007", "name": "银狼", "entity_type": "CHARACTER", "aliases": [], "description": "星核猎手成员，量子属性，以太骇客，擅长修改现实数据。"}
+{"type": "entity", "id": "character_008", "name": "刃", "entity_type": "CHARACTER", "aliases": ["应星"], "description": "星核猎手成员，风属性，不死之身，前仙舟工匠，云上五骁之一。"}
+{"type": "entity", "id": "character_009", "name": "萨姆", "entity_type": "CHARACTER", "aliases": [], "description": "星核猎手成员，火属性，身着机甲的战士。"}
+{"type": "entity", "id": "character_010", "name": "黑塔", "entity_type": "CHARACTER", "aliases": [], "description": "天才俱乐部#83，黑塔空间站的建立者，返老还童的超级天才。"}
+{"type": "entity", "id": "character_011", "name": "景元", "entity_type": "CHARACTER", "aliases": ["闭目将军"], "description": "仙舟罗浮神策将军，帝弓七天将之一，云上五骁之一，雷属性。"}
+{"type": "entity", "id": "character_012", "name": "符玄", "entity_type": "CHARACTER", "aliases": [], "description": "仙舟罗浮太卜司之首，量子属性，擅长占卜和布局。"}
+{"type": "entity", "id": "character_013", "name": "丹枢", "entity_type": "CHARACTER", "aliases": [], "description": "罗浮丹鼎司丹士长，药王秘传的魁首，盲人，后背叛仙舟。"}
+{"type": "entity", "id": "character_014", "name": "灵砂", "entity_type": "CHARACTER", "aliases": [], "description": "罗浮丹鼎司新任司鼎，云华的徒弟，火属性，擅长医术。"}
+{"type": "entity", "id": "character_015", "name": "白露", "entity_type": "CHARACTER", "aliases": ["龙女"], "description": "丹鼎司的持明龙尊，冰属性，拥有治愈能力，是持明族的领袖。"}
+{"type": "entity", "id": "character_016", "name": "布洛妮娅", "entity_type": "CHARACTER", "aliases": [], "description": "贝洛伯格新任大守护者，可可利亚的养女，风属性。"}
+{"type": "entity", "id": "character_017", "name": "杰帕德", "entity_type": "CHARACTER", "aliases": [], "description": "银鬃铁卫统领，冰属性，负责贝洛伯格的防务。"}
+{"type": "entity", "id": "character_018", "name": "希儿", "entity_type": "CHARACTER", "aliases": [], "description": "地火成员，量子属性，下层区的强力战士。"}
+{"type": "entity", "id": "character_019", "name": "娜塔莎", "entity_type": "CHARACTER", "aliases": [], "description": "地火的医生，物理属性，照顾下层区的孤儿和伤者。"}
+{"type": "entity", "id": "character_020", "name": "桑博", "entity_type": "CHARACTER", "aliases": [], "description": "贝洛伯格的行商，风属性，身份神秘，立场摇摆不定。"}
+{"type": "entity", "id": "character_021", "name": "凯撒", "entity_type": "CHARACTER", "aliases": ["刻律德菈"], "description": "翁法罗斯古代传奇统帅，统一奥赫玛，发动第一次逐火之旅，史称凯撒。"}
+{"type": "entity", "id": "character_022", "name": "阿格莱雅", "entity_type": "CHARACTER", "aliases": ["金织"], "description": "现代黄金裔领袖，金线能洞悉人心，主持第二次逐火之旅。"}
+{"type": "entity", "id": "character_023", "name": "白厄", "entity_type": "CHARACTER", "aliases": [], "description": "现代黄金裔，武力高强，曾挑战纷争试炼失败。"}
+{"type": "entity", "id": "character_024", "name": "万敌", "entity_type": "CHARACTER", "aliases": [], "description": "现代黄金裔，悬锋王储，后通过纷争试炼成为半神，击溃盗火行者。"}
+{"type": "entity", "id": "character_025", "name": "遐蝶", "entity_type": "CHARACTER", "aliases": [], "description": "现代黄金裔，能通过触碰夺走生命，参与讨伐尼卡多利。"}
+{"type": "entity", "id": "character_026", "name": "缇宝", "entity_type": "CHARACTER", "aliases": [], "description": "现代黄金裔，能通过时空复现能力修补建筑。"}
+{"type": "entity", "id": "character_027", "name": "荒笛", "entity_type": "CHARACTER", "aliases": ["掣地爵"], "description": "翁法罗斯大地兽之王，后加入逐火军，杀死大地泰坦吉奥里亚，成为掣地爵。"}
+{"type": "entity", "id": "character_028", "name": "吉奥刻勒斯", "entity_type": "CHARACTER", "aliases": ["开山者"], "description": "翁法罗斯山民领袖，龙骑军建立者，吉奥里亚讨伐战中战败。"}
+{"type": "entity", "id": "character_029", "name": "赛法利娅", "entity_type": "CHARACTER", "aliases": ["赛飞儿", "扯谎猫", "欺世之人"], "description": "多洛斯第三百零一位侠盗，策划瞒神伟业，夺取诡计泰坦火种成为半神。"}
+{"type": "entity", "id": "character_030", "name": "路易斯·弗莱明", "entity_type": "CHARACTER", "aliases": [], "description": "星际和平公司创始人之一，与东方启行共同建立公司、发行信用点。"}
+{"type": "entity", "id": "character_031", "name": "东方启行", "entity_type": "CHARACTER", "aliases": [], "description": "星际和平公司创始人之一，与路易斯·弗莱明共同建立公司。"}
+{"type": "entity", "id": "character_032", "name": "陶德·雷奥登", "entity_type": "CHARACTER", "aliases": [], "description": "博识学会学者，前往仙舟研究长生秘密，试图商业化长生技术。"}
+{"type": "entity", "id": "character_033", "name": "何塞·拉萨罗", "entity_type": "CHARACTER", "aliases": ["猎彗人"], "description": "前黑塔空间站地概科员，后成为无名客、博识学会武装考古学派队员。"}
+{"type": "entity", "id": "character_034", "name": "艾迪恩", "entity_type": "CHARACTER", "aliases": ["苏萨先生", "苏乐达之父"], "description": "前监狱主厨，在阿斯德纳星系监狱发明苏乐达饮料，后成为苏乐达公司创始人。"}
+{"type": "entity", "id": "location_001", "name": "雅利洛-VI", "entity_type": "LOCATION", "aliases": [], "description": "贝洛伯格所在的星球，遭遇寒潮和裂界侵蚀。"}
+{"type": "entity", "id": "location_002", "name": "仙舟罗浮", "entity_type": "LOCATION", "aliases": ["罗浮"], "description": "仙舟联盟六艘现存仙舟之一，主线剧情发生地，有星槎海、长乐天、鳞渊境等洞天。"}
+{"type": "entity", "id": "location_003", "name": "匹诺康尼", "entity_type": "LOCATION", "aliases": ["盛会之星"], "description": "同谐命途的梦境世界，家族统治，以旅游业和娱乐业闻名，谐乐大典举办地。"}
+{"type": "entity", "id": "location_004", "name": "翁法罗斯", "entity_type": "LOCATION", "aliases": [], "description": "十二泰坦创造的世界，正遭遇黑潮灾难，黄金裔在此展开逐火之旅。"}
+{"type": "entity", "id": "location_005", "name": "奥赫玛", "entity_type": "LOCATION", "aliases": ["圣城"], "description": "翁法罗斯的核心城邦，黄金裔的大本营，永昼之地，有云石天宫、黎明云崖等。"}
+{"type": "entity", "id": "location_006", "name": "悬锋城", "entity_type": "LOCATION", "aliases": [], "description": "翁法罗斯纷争泰坦尼卡多利的城邦，尚武之风盛行，是移动堡垒。"}
+{"type": "entity", "id": "location_007", "name": "黑塔空间站", "entity_type": "LOCATION", "aliases": [], "description": "黑塔建立的空间站，位于宇宙中，收藏大量奇物，主线剧情开端。"}
+{"type": "entity", "id": "location_008", "name": "贝洛伯格", "entity_type": "LOCATION", "aliases": [], "description": "雅利洛-VI上的人类城邦，分为上层行政区和下层磐岩镇。"}
+{"type": "entity", "id": "location_009", "name": "鳞渊境", "entity_type": "LOCATION", "aliases": [], "description": "罗浮仙舟的持明族圣地，持明卵孵化地，建木玄根被封印于此。"}
+{"type": "entity", "id": "location_010", "name": "神悟树庭", "entity_type": "LOCATION", "aliases": [], "description": "翁法罗斯智慧泰坦瑟希斯的圣地，七学派所在，后被黑潮和盗火行者摧毁。"}
+{"type": "entity", "id": "race_001", "name": "仙舟人", "entity_type": "RACE", "aliases": [], "description": "仙舟联盟的主体种族，药师赐福的长生种，寿命漫长，最终会堕入魔阴身。"}
+{"type": "entity", "id": "race_002", "name": "持明族", "entity_type": "RACE", "aliases": [], "description": "仙舟联盟的种族之一，龙祖后裔，拥有蜕生能力，寿命漫长但不会堕入魔阴身。"}
+{"type": "entity", "id": "race_003", "name": "狐人", "entity_type": "RACE", "aliases": [], "description": "仙舟联盟的种族之一，犬科特征的长生种，寿命约200-300岁，精神力敏锐。"}
+{"type": "entity", "id": "race_004", "name": "步离人", "entity_type": "RACE", "aliases": [], "description": "丰饶之民分支，犬类特征，尚武好战，拥有月狂变形能力。"}
+{"type": "entity", "id": "race_005", "name": "造翼者", "entity_type": "RACE", "aliases": [], "description": "丰饶之民分支，鸟类特征，擅长飞行，曾入侵仙舟。"}
+{"type": "entity", "id": "race_006", "name": "幻造种", "entity_type": "RACE", "aliases": [], "description": "二相乐园的智慧种族，由愿力驱动、离散物质构成，包括噗噜、欧克、机铠等。"}
+{"type": "entity", "id": "race_007", "name": "黄金裔", "entity_type": "RACE", "aliases": [], "description": "翁法罗斯的英雄种族，拥有泰坦血脉，能承载火种神力。"}
+{"type": "entity", "id": "item_001", "name": "星穹列车", "entity_type": "ITEM", "aliases": [], "description": "阿基维利建造的列车，能在星轨上行驶，无名客的座驾。"}
+{"type": "entity", "id": "item_002", "name": "信用点", "entity_type": "ITEM", "aliases": [], "description": "星际和平公司发行的通用货币，在全银河流通。"}
+{"type": "entity", "id": "item_003", "name": "建木", "entity_type": "ITEM", "aliases": [], "description": "药师赐福的神树，为仙舟人带来长生，被岚射断，后在罗浮重生。"}
+{"type": "entity", "id": "item_004", "name": "玉兆", "entity_type": "ITEM", "aliases": [], "description": "仙舟的晶石计算机，兼具量子通讯功能，是太卜司占卜的工具。"}
+{"type": "entity", "id": "item_005", "name": "星槎", "entity_type": "ITEM", "aliases": [], "description": "仙舟的飞行载具，由生物科技培育，能在洞天和宇宙中航行。"}
+{"type": "entity", "id": "item_006", "name": "联觉信标", "entity_type": "ITEM", "aliases": [], "description": "博识学会通感学派发明的翻译工具，能实现跨语言实时交流。"}
+{"type": "entity", "id": "item_007", "name": "冬城盾", "entity_type": "ITEM", "aliases": [], "description": "贝洛伯格的流通货币。"}
+{"type": "entity", "id": "item_008", "name": "苏乐达", "entity_type": "ITEM", "aliases": [], "description": "匹诺康尼生产的碳酸饮料，风靡全银河，艾迪恩发明。"}
+{"type": "entity", "id": "item_009", "name": "龙蟠虬跃", "entity_type": "ITEM", "aliases": [], "description": "药王秘传研制的药物，以持明髓为原料，能诱发可控魔阴身、提升力量。"}
+{"type": "entity", "id": "item_010", "name": "幽囚狱", "entity_type": "ITEM", "aliases": [], "description": "仙舟关押重刑犯的监狱，关押了止戈型金人、燧皇、呼雷等要犯。"}
+{"type": "entity", "id": "concept_001", "name": "魔阴身", "entity_type": "CONCEPT", "aliases": [], "description": "长生种寿命尽头的变异状态，失去理智、肉身失控，是仙舟人最大的恐惧。"}
+{"type": "entity", "id": "concept_002", "name": "火种", "entity_type": "CONCEPT", "aliases": [], "description": "翁法罗斯泰坦的神权结晶，黄金裔夺取后可通过试炼成为半神。"}
+{"type": "entity", "id": "concept_003", "name": "黑潮", "entity_type": "CONCEPT", "aliases": [], "description": "翁法罗斯的灾难现象，导致泰坦失控、城邦毁灭，是逐火之旅的起因。"}
+{"type": "entity", "id": "concept_004", "name": "星核", "entity_type": "CONCEPT", "aliases": [], "description": "万界之癌的伴生产物，会带来毁灭和异变，星核猎手的目标。"}
+{"type": "entity", "id": "concept_005", "name": "洞天", "entity_type": "CONCEPT", "aliases": [], "description": "仙舟利用空间折叠技术创造的内部空间，每个洞天都是独立的小世界。"}
+{"type": "entity", "id": "concept_006", "name": "托蝶幻境", "entity_type": "CONCEPT", "aliases": [], "description": "仙舟狐人创造的沉浸式艺术形式，利用精神力让体验者进入幻境。"}
+{"type": "entity", "id": "concept_007", "name": "幻月游戏", "entity_type": "CONCEPT", "aliases": [], "description": "欢愉命途的游戏，八名谒者获得一分钟阿哈的神力，可随意改写现实。"}
+{"type": "entity", "id": "concept_008", "name": "令使", "entity_type": "CONCEPT", "aliases": [], "description": "星神亲自赐予力量的凡人，拥有远超常人的能力，是星神意志的代行者。"}
+{"type": "relation", "id": "rel_001", "source_entity_id": "aeon_001", "target_entity_id": "path_001", "relation_type": "EMBODIES", "description": "阿基维利是开拓命途的执掌者。"}
+{"type": "relation", "id": "rel_002", "source_entity_id": "aeon_002", "target_entity_id": "path_002", "relation_type": "EMBODIES", "description": "纳努克是毁灭命途的执掌者。"}
+{"type": "relation", "id": "rel_003", "source_entity_id": "aeon_003", "target_entity_id": "path_003", "relation_type": "EMBODIES", "description": "岚是巡猎命途的执掌者。"}
+{"type": "relation", "id": "rel_004", "source_entity_id": "aeon_004", "target_entity_id": "path_004", "relation_type": "EMBODIES", "description": "药师是丰饶命途的执掌者。"}
+{"type": "relation", "id": "rel_005", "source_entity_id": "aeon_005", "target_entity_id": "path_005", "relation_type": "EMBODIES", "description": "Ⅸ是虚无命途的执掌者。"}
+{"type": "relation", "id": "rel_006", "source_entity_id": "aeon_006", "target_entity_id": "path_006", "relation_type": "EMBODIES", "description": "博识尊是智识命途的执掌者。"}
+{"type": "relation", "id": "rel_007", "source_entity_id": "aeon_007", "target_entity_id": "path_007", "relation_type": "EMBODIES", "description": "希佩是同谐命途的执掌者。"}
+{"type": "relation", "id": "rel_008", "source_entity_id": "aeon_008", "target_entity_id": "path_008", "relation_type": "EMBODIES", "description": "克里珀是存护命途的执掌者。"}
+{"type": "relation", "id": "rel_009", "source_entity_id": "aeon_009", "target_entity_id": "path_009", "relation_type": "EMBODIES", "description": "塔伊兹育罗斯是繁育命途的执掌者。"}
+{"type": "relation", "id": "rel_010", "source_entity_id": "aeon_010", "target_entity_id": "path_010", "relation_type": "EMBODIES", "description": "阿哈是欢愉命途的执掌者。"}
+{"type": "relation", "id": "rel_011", "source_entity_id": "aeon_011", "target_entity_id": "path_011", "relation_type": "EMBODIES", "description": "伊德莉拉是纯美命途的执掌者。"}
+{"type": "relation", "id": "rel_012", "source_entity_id": "aeon_012", "target_entity_id": "path_012", "relation_type": "EMBODIES", "description": "浮黎是记忆命途的执掌者。"}
+{"type": "relation", "id": "rel_013", "source_entity_id": "aeon_013", "target_entity_id": "path_013", "relation_type": "EMBODIES", "description": "迷思是神秘命途的执掌者。"}
+{"type": "relation", "id": "rel_014", "source_entity_id": "aeon_014", "target_entity_id": "path_014", "relation_type": "EMBODIES", "description": "奥博洛斯是贪饕命途的执掌者。"}
+{"type": "relation", "id": "rel_015", "source_entity_id": "faction_002", "target_entity_id": "aeon_001", "relation_type": "FOLLOWS", "description": "无名客追随开拓星神阿基维利的意志。"}
+{"type": "relation", "id": "rel_016", "source_entity_id": "faction_003", "target_entity_id": "aeon_002", "relation_type": "FOLLOWS", "description": "反物质军团追随毁灭星神纳努克。"}
+{"type": "relation", "id": "rel_017", "source_entity_id": "faction_004", "target_entity_id": "aeon_003", "relation_type": "FOLLOWS", "description": "仙舟联盟追随巡猎星神岚。"}
+{"type": "relation", "id": "rel_018", "source_entity_id": "faction_005", "target_entity_id": "aeon_004", "relation_type": "FOLLOWS", "description": "丰饶之民追随丰饶星神药师。"}
+{"type": "relation", "id": "rel_019", "source_entity_id": "faction_006", "target_entity_id": "aeon_006", "relation_type": "FOLLOWS", "description": "天才俱乐部受智识星神博识尊邀请成立。"}
+{"type": "relation", "id": "rel_020", "source_entity_id": "faction_007", "target_entity_id": "aeon_006", "relation_type": "FOLLOWS", "description": "博识学会以智识星神博识尊为信仰核心。"}
+{"type": "relation", "id": "rel_021", "source_entity_id": "faction_008", "target_entity_id": "aeon_008", "relation_type": "FOLLOWS", "description": "星际和平公司以奉献存护星神克里珀为初心。"}
+{"type": "relation", "id": "rel_022", "source_entity_id": "faction_009", "target_entity_id": "aeon_007", "relation_type": "FOLLOWS", "description": "家族追随同谐星神希佩。"}
+{"type": "relation", "id": "rel_023", "source_entity_id": "faction_010", "target_entity_id": "aeon_010", "relation_type": "FOLLOWS", "description": "假面愚者追随欢愉星神阿哈。"}
+{"type": "relation", "id": "rel_024", "source_entity_id": "faction_011", "target_entity_id": "aeon_012", "relation_type": "FOLLOWS", "description": "流光忆庭追随记忆星神浮黎。"}
+{"type": "relation", "id": "rel_025", "source_entity_id": "faction_013", "target_entity_id": "aeon_004", "relation_type": "FOLLOWS", "description": "药王秘传秘密追随丰饶星神药师。"}
+{"type": "relation", "id": "rel_026", "source_entity_id": "faction_004", "target_entity_id": "faction_005", "relation_type": "IS_ENEMY_OF", "description": "仙舟联盟与丰饶之民是持续数千年的世敌。"}
+{"type": "relation", "id": "rel_027", "source_entity_id": "faction_004", "target_entity_id": "faction_003", "relation_type": "IS_ENEMY_OF", "description": "仙舟联盟长期与反物质军团作战。"}
+{"type": "relation", "id": "rel_028", "source_entity_id": "faction_004", "target_entity_id": "faction_013", "relation_type": "IS_ENEMY_OF", "description": "仙舟联盟镇压药王秘传的叛乱。"}
+{"type": "relation", "id": "rel_029", "source_entity_id": "faction_008", "target_entity_id": "faction_012", "relation_type": "IS_ENEMY_OF", "description": "星际和平公司通缉星核猎手。"}
+{"type": "relation", "id": "rel_030", "source_entity_id": "faction_008", "target_entity_id": "faction_007", "relation_type": "IS_ALLY_OF", "description": "星际和平公司长期资助博识学会的学术研究。"}
+{"type": "relation", "id": "rel_031", "source_entity_id": "faction_014", "target_entity_id": "faction_004", "relation_type": "BELONGS_TO", "description": "云骑军是仙舟联盟的正规军队。"}
+{"type": "relation", "id": "rel_032", "source_entity_id": "faction_015", "target_entity_id": "faction_004", "relation_type": "BELONGS_TO", "description": "十王司是仙舟联盟的司法机构。"}
+{"type": "relation", "id": "rel_033", "source_entity_id": "faction_017", "target_entity_id": "faction_016", "relation_type": "BELONGS_TO", "description": "银鬃铁卫是贝洛伯格的正规军队。"}
+{"type": "relation", "id": "rel_034", "source_entity_id": "faction_018", "target_entity_id": "faction_016", "relation_type": "BELONGS_TO", "description": "地火是贝洛伯格下层区的抵抗组织。"}
+{"type": "relation", "id": "rel_035", "source_entity_id": "faction_021", "target_entity_id": "faction_005", "relation_type": "BELONGS_TO", "description": "步离人是丰饶之民的主要分支。"}
+{"type": "relation", "id": "rel_036", "source_entity_id": "faction_022", "target_entity_id": "faction_005", "relation_type": "BELONGS_TO", "description": "造翼者是丰饶之民的主要分支。"}
+{"type": "relation", "id": "rel_037", "source_entity_id": "character_001", "target_entity_id": "faction_001", "relation_type": "BELONGS_TO", "description": "姬子是星穹列车的成员。"}
+{"type": "relation", "id": "rel_038", "source_entity_id": "character_002", "target_entity_id": "faction_001", "relation_type": "BELONGS_TO", "description": "瓦尔特·杨是星穹列车的成员。"}
+{"type": "relation", "id": "rel_039", "source_entity_id": "character_003", "target_entity_id": "faction_001", "relation_type": "BELONGS_TO", "description": "丹恒是星穹列车的成员。"}
+{"type": "relation", "id": "rel_040", "source_entity_id": "character_004", "target_entity_id": "faction_001", "relation_type": "BELONGS_TO", "description": "三月七是星穹列车的成员。"}
+{"type": "relation", "id": "rel_041", "source_entity_id": "character_005", "target_entity_id": "faction_001", "relation_type": "BELONGS_TO", "description": "帕姆是星穹列车的列车长。"}
+{"type": "relation", "id": "rel_042", "source_entity_id": "character_006", "target_entity_id": "faction_012", "relation_type": "BELONGS_TO", "description": "卡芙卡是星核猎手成员。"}
+{"type": "relation", "id": "rel_043", "source_entity_id": "character_007", "target_entity_id": "faction_012", "relation_type": "BELONGS_TO", "description": "银狼是星核猎手成员。"}
+{"type": "relation", "id": "rel_044", "source_entity_id": "character_008", "target_entity_id": "faction_012", "relation_type": "BELONGS_TO", "description": "刃是星核猎手成员。"}
+{"type": "relation", "id": "rel_045", "source_entity_id": "character_009", "target_entity_id": "faction_012", "relation_type": "BELONGS_TO", "description": "萨姆是星核猎手成员。"}
+{"type": "relation", "id": "rel_046", "source_entity_id": "character_010", "target_entity_id": "faction_019", "relation_type": "IS_LEADER_OF", "description": "黑塔是黑塔空间站的建立者和所有者。"}
+{"type": "relation", "id": "rel_047", "source_entity_id": "character_010", "target_entity_id": "faction_006", "relation_type": "BELONGS_TO", "description": "黑塔是天才俱乐部#83席成员。"}
+{"type": "relation", "id": "rel_048", "source_entity_id": "character_011", "target_entity_id": "faction_004", "relation_type": "BELONGS_TO", "description": "景元是仙舟罗浮神策将军。"}
+{"type": "relation", "id": "rel_049", "source_entity_id": "character_012", "target_entity_id": "faction_004", "relation_type": "BELONGS_TO", "description": "符玄是仙舟罗浮太卜司之首。"}
+{"type": "relation", "id": "rel_050", "source_entity_id": "character_013", "target_entity_id": "faction_013", "relation_type": "IS_LEADER_OF", "description": "丹枢是药王秘传的魁首。"}
+{"type": "relation", "id": "rel_051", "source_entity_id": "character_014", "target_entity_id": "faction_004", "relation_type": "BELONGS_TO", "description": "灵砂是罗浮丹鼎司新任司鼎。"}
+{"type": "relation", "id": "rel_052", "source_entity_id": "character_015", "target_entity_id": "race_002", "relation_type": "IS_LEADER_OF", "description": "白露是持明族的龙尊。"}
+{"type": "relation", "id": "rel_053", "source_entity_id": "character_016", "target_entity_id": "faction_016", "relation_type": "IS_LEADER_OF", "description": "布洛妮娅是贝洛伯格新任大守护者。"}
+{"type": "relation", "id": "rel_054", "source_entity_id": "character_017", "target_entity_id": "faction_017", "relation_type": "IS_LEADER_OF", "description": "杰帕德是银鬃铁卫统领。"}
+{"type": "relation", "id": "rel_055", "source_entity_id": "character_018", "target_entity_id": "faction_018", "relation_type": "BELONGS_TO", "description": "希儿是地火组织成员。"}
+{"type": "relation", "id": "rel_056", "source_entity_id": "character_019", "target_entity_id": "faction_018", "relation_type": "BELONGS_TO", "description": "娜塔莎是地火组织的医生。"}
+{"type": "relation", "id": "rel_057", "source_entity_id": "character_021", "target_entity_id": "location_005", "relation_type": "IS_LEADER_OF", "description": "凯撒是古代奥赫玛的统治者，发动第一次逐火之旅。"}
+{"type": "relation", "id": "rel_058", "source_entity_id": "character_022", "target_entity_id": "faction_020", "relation_type": "IS_LEADER_OF", "description": "阿格莱雅是现代黄金裔的领袖。"}
+{"type": "relation", "id": "rel_059", "source_entity_id": "character_024", "target_entity_id": "concept_002", "relation_type": "BECOMES_HOLDER_OF", "description": "万敌通过尼卡多利的火种试炼，成为纷争半神。"}
+{"type": "relation", "id": "rel_060", "source_entity_id": "character_027", "target_entity_id": "concept_002", "relation_type": "BECOMES_HOLDER_OF", "description": "荒笛杀死吉奥里亚后，成为大地泰坦的掣地爵。"}
+{"type": "relation", "id": "rel_061", "source_entity_id": "character_029", "target_entity_id": "concept_002", "relation_type": "BECOMES_HOLDER_OF", "description": "赛法利娅夺取扎格列斯的火种，成为诡计半神。"}
+{"type": "relation", "id": "rel_062", "source_entity_id": "character_028", "target_entity_id": "character_027", "relation_type": "IS_FORMER_COMRADES_OF", "description": "吉奥刻勒斯曾是荒笛的战友，后荒笛倒戈导致龙骑军溃败。"}
+{"type": "relation", "id": "rel_063", "source_entity_id": "character_030", "target_entity_id": "faction_008", "relation_type": "CO_FOUNDED", "description": "路易斯·弗莱明与东方启行共同创立星际和平公司。"}
+{"type": "relation", "id": "rel_064", "source_entity_id": "character_031", "target_entity_id": "faction_008", "relation_type": "CO_FOUNDED", "description": "东方启行与路易斯·弗莱明共同创立星际和平公司。"}
+{"type": "relation", "id": "rel_065", "source_entity_id": "character_032", "target_entity_id": "faction_007", "relation_type": "BELONGS_TO", "description": "陶德·雷奥登是博识学会的学者。"}
+{"type": "relation", "id": "rel_066", "source_entity_id": "character_033", "target_entity_id": "faction_002", "relation_type": "BELONGS_TO", "description": "何塞·拉萨罗是无名客成员。"}
+{"type": "relation", "id": "rel_067", "source_entity_id": "character_033", "target_entity_id": "faction_007", "relation_type": "BELONGS_TO", "description": "何塞·拉萨罗是博识学会武装考古学派队员。"}
+{"type": "relation", "id": "rel_068", "source_entity_id": "character_008", "target_entity_id": "character_011", "relation_type": "IS_ENEMY_OF", "description": "刃作为星核猎手，与仙舟神策将军景元敌对。"}
+{"type": "relation", "id": "rel_069", "source_entity_id": "character_003", "target_entity_id": "character_011", "relation_type": "IS_FRIEND_OF", "description": "丹恒作为星穹列车成员，与景元是旧识盟友。"}
+{"type": "relation", "id": "rel_070", "source_entity_id": "item_001", "target_entity_id": "aeon_001", "relation_type": "CREATED_BY", "description": "星穹列车由开拓星神阿基维利建造。"}
+{"type": "relation", "id": "rel_071", "source_entity_id": "item_001", "target_entity_id": "character_001", "relation_type": "REPAIRED_BY", "description": "星穹列车由姬子修复并重新启航。"}
+{"type": "relation", "id": "rel_072", "source_entity_id": "item_002", "target_entity_id": "faction_008", "relation_type": "ISSUED_BY", "description": "信用点由星际和平公司发行。"}
+{"type": "relation", "id": "rel_073", "source_entity_id": "item_003", "target_entity_id": "aeon_004", "relation_type": "CREATED_BY", "description": "建木是丰饶星神药师赐下的神树。"}
+{"type": "relation", "id": "rel_074", "source_entity_id": "item_003", "target_entity_id": "aeon_003", "relation_type": "SEALED_BY", "description": "建木被巡猎星神岚射断，后由持明族封印在鳞渊境。"}
+{"type": "relation", "id": "rel_075", "source_entity_id": "item_009", "target_entity_id": "faction_013", "relation_type": "CREATED_BY", "description": "龙蟠虬跃由药王秘传研制。"}
+{"type": "event", "id": "event_001", "name": "阿基维利陨落", "event_type": "GOD_FALL", "time": "数千年前", "location": null, "participants": ["aeon_001", "faction_002"], "description": "开拓星神阿基维利在探索宇宙时因意外陨落，无名客继承其遗志继续开拓。"}
+{"type": "event", "id": "event_002", "name": "姬子修复星穹列车", "event_type": "REPAIR", "time": "数十年前", "location": "location_007", "participants": ["character_001", "item_001"], "description": "姬子在少年时遭遇星轨事故，后修复废弃的星穹列车，重新开启开拓之旅。"}
+{"type": "event", "id": "event_003", "name": "仙舟启航求药", "event_type": "EXPEDITION", "time": "约七千年前", "location": null, "participants": ["faction_004", "aeon_004"], "description": "古代仙舟先民为求长生，建造九艘巨舰启航星海，寻找丰饶星神药师。"}
+{"type": "event", "id": "event_004", "name": "建木赐福", "event_type": "BLESSING", "time": "约六千年前", "location": "location_002", "participants": ["aeon_004", "faction_004", "item_003"], "description": "药师降临仙舟航路，赐下建木，仙舟人获得长生，但也埋下魔阴身的隐患。"}
+{"type": "event", "id": "event_005", "name": "三劫时代", "event_type": "WAR", "time": "星历3000-4000年", "location": null, "participants": ["faction_004", "faction_005", "faction_022"], "description": "仙舟历史上的黑暗时期，包括生劫（阋墙之战）、火劫（造翼者入侵）、空劫（金人叛乱）。"}
+{"type": "event", "id": "event_006", "name": "帝弓射断建木", "event_type": "GOD_MANIFESTATION", "time": "星历3400年左右", "location": "location_002", "participants": ["aeon_003", "item_003", "faction_004"], "description": "巡猎星神岚降下光矢，射断建木，终结了火劫大战，仙舟联盟随后成立。"}
+{"type": "event", "id": "event_007", "name": "仙舟联盟成立", "event_type": "FOUNDING", "time": "星历约4000年", "location": null, "participants": ["faction_004"], "description": "七艘现存仙舟签订《仙舟联盟宣言》，成立联盟，以猎杀丰饶孽物为己任。"}
+{"type": "event", "id": "event_008", "name": "星际和平公司成立", "event_type": "FOUNDING", "time": "约七百七十琥珀纪前", "location": null, "participants": ["character_030", "character_031", "faction_008"], "description": "路易斯·弗莱明与东方启行将存护后援会改组为星际和平公司，发行信用点，成为银河最大财团。"}
+{"type": "event", "id": "event_009", "name": "贝洛伯格寒潮", "event_type": "DISASTER", "time": "数百年前", "location": "location_001", "participants": ["faction_016"], "description": "雅利洛-VI遭遇永恒寒潮，地表被冰雪覆盖，贝洛伯格分裂为上下层区。"}
+{"type": "event", "id": "event_010", "name": "贝洛伯格事变", "event_type": "WAR", "time": "主线剧情时期", "location": "location_008", "participants": ["faction_016", "faction_017", "faction_018", "character_016"], "description": "星穹列车介入贝洛伯格事务，击败反派大守护者可可利亚，布洛妮娅继任为新任大守护者，上下层区和解。"}
+{"type": "event", "id": "event_011", "name": "黑塔空间站遇袭", "event_type": "WAR", "time": "主线剧情开端", "location": "location_007", "participants": ["faction_019", "faction_003", "faction_001"], "description": "反物质军团入侵黑塔空间站，星穹列车成员协助击退军团，开拓者加入列车。"}
+{"type": "event", "id": "event_012", "name": "罗浮丹鼎司之乱", "event_type": "REBELLION", "time": "主线剧情时期", "location": "location_002", "participants": ["faction_004", "faction_013", "character_011", "character_013", "faction_001"], "description": "药王秘传在丹枢带领下试图复活建木，被仙舟与星穹列车联合阻止，丹枢失踪，灵砂继任司鼎。"}
+{"type": "event", "id": "event_013", "name": "翁法罗斯黑潮降临", "event_type": "DISASTER", "time": "主线剧情时期", "location": "location_004", "participants": ["faction_020"], "description": "黑潮席卷翁法罗斯，泰坦纷纷失控，黄金裔在阿格莱雅带领下展开第二次逐火之旅。"}
+{"type": "event", "id": "event_014", "name": "尼卡多利讨伐战", "event_type": "WAR", "time": "主线剧情时期", "location": "location_006", "participants": ["faction_020", "character_023", "character_024", "character_025"], "description": "黄金裔讨伐纷争泰坦尼卡多利，白厄试炼失败，万敌最终通过试炼成为半神，击溃盗火行者。"}
+{"type": "event", "id": "event_015", "name": "神悟树庭毁灭", "event_type": "DISASTER", "time": "主线剧情时期", "location": "location_010", "participants": ["faction_020", "character_026"], "description": "盗火行者率领黑潮造物摧毁神悟树庭，瑟希斯火种被夺回，那刻夏获救。"}
+{"type": "event", "id": "event_016", "name": "多洛斯瞒神伟业", "event_type": "HEIST", "time": "约九百年前", "location": "location_004", "participants": ["character_029", "faction_020"], "description": "赛法利娅集结三百零一位侠盗，设计引出诡计泰坦扎格列斯，夺取其火种成为半神。"}
+{"type": "event", "id": "event_017", "name": "吉奥里亚讨伐战", "event_type": "WAR", "time": "光历3957年", "location": "location_004", "participants": ["character_021", "character_027", "character_028"], "description": "凯撒率领逐火军讨伐大地泰坦吉奥里亚，荒笛倒戈加入逐火军，最终杀死吉奥里亚。"}
+{"type": "event", "id": "event_018", "name": "第三次丰饶民战争", "event_type": "WAR", "time": "约三十年前", "location": null, "participants": ["faction_004", "faction_005"], "description": "仙舟联盟与丰饶民爆发第三次大规模战争，方壶仙舟成为主战场，大量战士牺牲。"}
+{"type": "event", "id": "event_019", "name": "苏乐达发明", "event_type": "INVENTION", "time": "琥珀历2148纪", "location": null, "participants": ["character_034", "item_008"], "description": "艾迪恩在阿斯德纳星系监狱担任主厨时，利用监狱物资和梦见草发明了苏乐达饮料，后风靡全银河。"}
+{"type": "contradiction", "id": "contradiction_001", "topic": "吉奥刻勒斯的结局", "statements": [{"source": "BOOK-191928《凯撒传记·吉奥里亚讨伐战》", "content": "凯撒命塞涅卡率精兵绕后，俘虏了以吉奥刻勒斯为首的山之民将领。"}, {"source": "BOOK-191930《诸王通鉴·伏龙荒笛》", "content": "吉奥里亚讨伐战中，‘开山者’目睹最信任的战友倒戈、百战不殆的龙骑军如决堤洪流般溃败，‘开山者’拒降、坠入岩渊。"}], "description": "两处史料对吉奥刻勒斯在吉奥里亚讨伐战后的结局描述存在矛盾，一处称其被俘虏，另一处称其拒降后坠入岩渊。"}

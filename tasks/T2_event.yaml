@@ -4,7 +4,7 @@
 task_id: T2
 pass: 1
 name: 事件抽取
-applies_to: [lore, books, characters, narrative, unattributed]
+applies_to: []  # all volumes switched to T123_combined
 note: artifacts 与 rogue 几乎不含时序事件，dialogue 的事件线索在 T5 间接覆盖。
 input_spec: { source: work/cite_index.jsonl, format: 每条语料一段，不经 OpenViking }
 output_schema: [schema/event.schema.json]
@@ -40,7 +40,14 @@ system_prompt: |
   特别：星铁无统一纪年，stated_time 存原文表述不要换算。
   relative_to 只指向本块内事件。时间信息不足时宁可不出。
 
-  再次强调：找不到就返回空。
+  再次强调：找不到就返回空，不要编造。
+
+  ## ⚠️ 输出格式铁律
+  每行必须是一个完整且合法的 JSON 对象。
+  括号与引号必须配对——检查每个 { 都有对应的 }，
+  每个 [ 都有对应的 ]，每个 " 都有对应的 "。
+  行内不得换行，行末不得有多余字符。
+  生成每一行后请自行确认括号配对再输出下一行。
 
 user_prompt_template: |
   ## 元信息

@@ -118,11 +118,21 @@ def build_entities_with_merges(pass1_entities, pass2_entities, merge_records):
     # Annotate pass1 entities
     result = []
     seen_ids = set()
+    seen_names = set()  # fallback dedup: type+name+volume
 
     for ent in entities:
         eid = ent.get('entity_id', '')
-        if eid in seen_ids:
-            continue
+        # Generate fallback ID if model didn't output one
+        if not eid:
+            name_key = (ent.get('type',''), ent.get('canonical_name',''), ent.get('source_volume',''))
+            # Skip true duplicates (same type+name+volume)
+            if name_key in seen_names:
+                continue
+            seen_names.add(name_key)
+            eid = f"{ent.get('type','')}:{ent.get('canonical_name','')}:{ent.get('source_volume','')}"
+        else:
+            if eid in seen_ids:
+                continue
         seen_ids.add(eid)
 
         ent['_merged'] = eid in merge_map
@@ -156,6 +166,9 @@ def build_relations(pass1_relations, pass2_relations):
     result = []
     for rel in pass1_relations + pass2_relations:
         rid = rel.get('relation_id', '')
+        if not rid:
+            # Generate fallback key
+            rid = f"{rel.get('subject_name','')}:{rel.get('predicate','')}:{rel.get('object_name','')}:{rel.get('source_volume','')}"
         if rid and rid not in seen:
             seen.add(rid)
             result.append(rel)
@@ -166,12 +179,17 @@ def build_events(pass1_events, pass2_events):
     """Combine events. Annotate with _timeline_inferred."""
     event_map = {}
     result = []
+    seen_keys = set()
     for evt in pass1_events:
         eid = evt.get('event_id', '')
-        if eid:
-            evt['_timeline_inferred'] = True  # Default: pass2 missing → inferred
-            event_map[eid] = evt
-            result.append(evt)
+        if not eid:
+            eid = f"{evt.get('name','')}:{evt.get('source_volume','')}"
+        if eid in seen_keys:
+            continue
+        seen_keys.add(eid)
+        evt['_timeline_inferred'] = True  # Default: pass2 missing → inferred
+        event_map[eid] = evt
+        result.append(evt)
 
     # T7 pass2 events may have relative_to additions
     for evt in pass2_events:

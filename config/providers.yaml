@@ -9,9 +9,10 @@ defaults:
   max_total_input_tokens: 25000000
   max_total_output_tokens: 4000000
   # Rate limit protection
-  max_rate_limit_retries: 5
-  rate_limit_backoff_ms: 5000
+  max_rate_limit_retries: 8
+  rate_limit_backoff_ms: 30000
   rate_limit_backoff_multiplier: 2.0
+  rate_limit_backoff_max_ms: 300000
   # TPM/RPM — set by user after checking console
   # doubao-pro-32k typical: 300K TPM, 60 RPM
   tpm_limit: 0
@@ -30,7 +31,7 @@ profiles:
     model_id: "doubao-seed-evolving"
     base_url: "https://ark.cn-beijing.volces.com/api/plan/v3"
     api_key: "${ARK_API_KEY}"
-    timeout_ms: 600000
+    timeout_ms: 2700000
     max_retries: 5
 
   openviking:

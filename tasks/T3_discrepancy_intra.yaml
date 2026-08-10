@@ -4,7 +4,7 @@
 task_id: T3
 pass: 1
 name: 卷内矛盾检测
-applies_to: [lore, books, characters, narrative, artifacts, rogue]
+applies_to: []  # all volumes switched to T123_combined
 note: dialogue 跳过（对白矛盾多为角色说谎/视角差异），unattributed 跳过（无说话人归属缺乏依据）。
 input_spec: { source: work/cite_index.jsonl, format: 同 T1 }
 output_schema: [schema/discrepancy.schema.json]
@@ -37,7 +37,14 @@ system_prompt: |
   contradiction 类至少 2 条 statements。
   不要把角色之间的正常分歧标为矛盾。
 
-  再次强调：找不到就返回空。
+  再次强调：找不到就返回空，不要编造。
+
+  ## ⚠️ 输出格式铁律
+  每行必须是一个完整且合法的 JSON 对象。
+  括号与引号必须配对——检查每个 { 都有对应的 }，
+  每个 [ 都有对应的 ]，每个 " 都有对应的 "。
+  行内不得换行，行末不得有多余字符。
+  生成每一行后请自行确认括号配对再输出下一行。
 
 user_prompt_template: |
   ## 元信息

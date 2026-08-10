@@ -4,7 +4,7 @@
 task_id: T1
 pass: 1
 name: 实体与关系抽取
-applies_to: [lore, books, characters, narrative, dialogue, artifacts, rogue, unattributed]
+applies_to: []  # all volumes switched to T123_combined
 
 input_spec:
   source: work/cite_index.jsonl
@@ -82,6 +82,33 @@ system_prompt: |
 
   列表外使用时必须以 x: 前缀标记（如 x:战斗风格）。
 
+  ## 输出示例（关键——参照此格式，但使用真实名称）
+
+  以下是基于崩坏：星穹铁道真实内容的正确输出示例：
+
+  实体示例：
+  {"type": "AEON", "canonical_name": "纳努克", "aliases": ["毁灭"], "summary": {"text": "「毁灭」星神，反物质军团的缔造者。", "claim_type": "fact", "confidence": "attested", "citations": [{"cite_id": "NOUN-xxx", "quote": "行于毁灭命途的星神纳努克"}]}, "attributes": [{"key": "身份", "value": "毁灭星神", "claim_type": "fact", "confidence": "attested", "citations": [{"cite_id": "NOUN-xxx", "quote": "行于毁灭命途的星神纳努克"}]}], "source_volume": "lore"}
+  {"type": "ORGN", "canonical_name": "天才俱乐部", "aliases": [], "summary": {"text": "由博识尊瞥视的天才组成的组织。", "claim_type": "fact", "confidence": "attested", "citations": [{"cite_id": "NOUN-xxx", "quote": "赢得了博识尊的瞥视，成为了天才俱乐部的一员"}]}, "attributes": [], "source_volume": "lore"}
+  {"type": "PLAC", "canonical_name": "仙舟「罗浮」", "aliases": ["罗浮"], "summary": {"text": "仙舟联盟六大座舰之一，漂航于星海中。", "claim_type": "fact", "confidence": "attested", "citations": [{"cite_id": "NOUN-xxx", "quote": "仙舟「罗浮」是仙舟联盟的六大座舰之一"}]}, "attributes": [], "source_volume": "lore"}
+
+  关系示例：
+  {"subject_name": "黑塔", "predicate": "MEMBER_OF", "object_name": "天才俱乐部", "qualifiers": {}, "claim_type": "fact", "confidence": "attested", "citations": [{"cite_id": "NOUN-xxx", "quote": "黑塔…赢得了博识尊的瞥视，成为了天才俱乐部的一员"}], "source_volume": "lore"}
+  {"subject_name": "纳努克", "predicate": "CREATED", "object_name": "反物质军团", "qualifiers": {}, "claim_type": "fact", "confidence": "attested", "citations": [{"cite_id": "NOUN-xxx", "quote": "响应着「毁灭一切」的愿望"}], "source_volume": "lore"}
+
+  ## ⚠️ canonical_name 铁律（违反即拒收）
+
+  canonical_name 必须是语料原文中出现过的真实名称。
+  严禁使用任何形式的编号、占位符或自动生成的标识。
+  以下格式绝对禁止：
+    - "实体-C001-0"、"实体-某卷-1" 等包含"实体-"前缀的名称
+    - "示例身份-1"、"示例xxx" 等包含"示例"的名称
+    - "角色-A"、"组织-B" 等字母编号名称
+    - "事件-C001-0"、"矛盾-chunk-1" 等带 chunk 标识的名称
+    - 任何不是从语料原文中直接提取的名称
+
+  判断方法：你输出的每一个 canonical_name，读者都能在语料正文里找到一模一样的原文。
+  找不到原文对应的名字 → 不要输出这个实体。
+
   ## 引证格式
 
   每条引证格式为 { cite_id, quote }。不要输出任何位置信息（offset 等），
@@ -101,6 +128,67 @@ system_prompt: |
   7. attribute.key 只能从 12 个受控词表选。不适用时用 x: 前缀。
   8. 输出为纯 JSON Lines，一个对象一行，不要包裹在 markdown 代码块里。
   9. 指向另一实体的信息输出为 Relation，自身性质输出为 attribute。
+
+  ━━━━━━━━━━━━━━━━━━━━━━━
+  ## ⚠️ 谓词铁律（predicate 必须填英文代码）
+
+  predicate 字段必须填写英文代码本身，不得填写中文含义。
+  即使输入语料全部为中文，输出的 predicate 也必须是英文代码。
+
+  中英对照表（共 21 个）：
+  | 英文代码       | 中文含义     | 适用场景                 |
+  |---------------|-------------|------------------------|
+  | EMBODIES      | 承载命途      | 星神承载某命途            |
+  | EMISSARY_OF   | 是…的使者     | 令使/使者归属            |
+  | FOLLOWER_OF   | 追随         | 派系/个人追随星神         |
+  | OPPOSES       | 敌对         | 命途对立、星神敌对         |
+  | MEMBER_OF     | 属于…的成员   | 人物属于组织              |
+  | LEADS         | 领导         | 人物领导组织              |
+  | MENTOR_OF     | 是…的导师     | 师承关系                 |
+  | KIN_OF        | 是…的亲属     | 兄弟姐妹、父母子女、祖孙    |
+  | ALLY_OF       | 与…同盟       | 组织/人物同盟关系          |
+  | ENEMY_OF      | 与…为敌       | 组织/人物敌对关系          |
+  | SUCCEEDS      | 继承/接任     | 继承职位、接任            |
+  | CREATED       | 创造/缔造     | 星神创造令使、人物创建组织   |
+  | KILLED        | 杀死         | 杀害关系                 |
+  | TRANSFORMED_INTO | 转化为     | 变形/转变为另一个实体       |
+  | LOCATED_IN    | 位于         | 地点位于更大区域           |
+  | ORIGINATES_FROM | 起源于      | 人物/事物的出身地          |
+  | RULES         | 统治         | 掌管某区域/领域           |
+  | PARTICIPATED_IN | 参与       | 参与某事件               |
+  | CAUSED        | 导致         | 引发某事件               |
+  | RESULTED_IN   | 结果为       | 事件的结果               |
+  | RELATED_TO    | 其他关联（兜底）| 上述 20 个均不匹配时使用   |
+
+  选择 predicate 前，请先逐一核对 21 个谓词是否有匹配项。
+  常见的中文表述对应关系举例：
+    是姐姐 / 是孙女 / 是父亲 → KIN_OF
+    担任某组织的领导者 → LEADS
+    是某组织的成员 / 属于某组织 → MEMBER_OF
+    出身于 / 来自 → ORIGINATES_FROM
+    位于 / 坐落在 → LOCATED_IN
+    继承 / 接任 → SUCCEEDS
+  只有确认 21 个谓词均不匹配时，才使用 RELATED_TO。
+  使用 RELATED_TO 时必须在 qualifiers.note 中写明具体关系。
+
+  ━━━━━━━━━━━━━━━━━━━━━━━
+  ## ⚠️ 关系与属性的区分
+
+  指向另一个实体的信息 → 输出为 Relation。
+  描述实体自身性质的信息 → 输出为 Entity 的 attribute。
+  例如「某某是医生」「某某是龙尊」「某某是影卫」描述的是
+  该角色自身的身份，应作为 attribute（key 用「身份」），
+  不要输出为 RELATED_TO 关系。
+  同一个事实不要同时以两种形式输出。
+
+  ━━━━━━━━━━━━━━━━━━━━━━━
+  ## ⚠️ 输出格式铁律
+
+  每行必须是一个完整且合法的 JSON 对象。
+  括号与引号必须配对——检查每个 { 都有对应的 }，
+  每个 [ 都有对应的 ]，每个 " 都有对应的 "。
+  行内不得换行，行末不得有多余字符。
+  生成每一行后请自行确认括号配对再输出下一行。
 
   再次强调：找不到就返回空，不要编造。
 
@@ -125,6 +213,7 @@ constraints:
   - json_lines
   - empty_if_none
   - relation_vs_attribute
+  - canonical_name_no_placeholder
 
 failure_criteria:
   parse_failure: 输出无法解析为 JSON Lines → 重试（最多 3 次）

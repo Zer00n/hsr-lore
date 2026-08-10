@@ -1,0 +1,15 @@
+{
+  "run_id": "a1_calibration",
+  "start_time": "2026-08-10T00:24:10.702808+00:00",
+  "last_updated": "2026-08-10T00:24:21.020684+00:00",
+  "call_count": 2,
+  "total_input_tokens": 2849,
+  "total_output_tokens": 356,
+  "total_tokens": 3205,
+  "total_latency_ms": 9824,
+  "success_count": 2,
+  "failure_count": 0,
+  "max_total_input_tokens": 25000000,
+  "max_total_output_tokens": 4000000,
+  "completed_chunks": []
+}

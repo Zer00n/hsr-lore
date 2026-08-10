@@ -1,0 +1,15 @@
+{
+  "run_id": "20260810_072629",
+  "start_time": "2026-08-10T07:26:29.166377+00:00",
+  "last_updated": "2026-08-10T07:26:33.636762+00:00",
+  "call_count": 2,
+  "total_input_tokens": 703,
+  "total_output_tokens": 101,
+  "total_tokens": 804,
+  "total_latency_ms": 4425,
+  "success_count": 2,
+  "failure_count": 0,
+  "max_total_input_tokens": 25000000,
+  "max_total_output_tokens": 4000000,
+  "completed_chunks": []
+}

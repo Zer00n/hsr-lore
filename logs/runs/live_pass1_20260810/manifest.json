@@ -1,0 +1,15 @@
+{
+  "run_id": "live_pass1_20260810",
+  "start_time": "2026-08-10T10:09:55.064098+00:00",
+  "last_updated": "2026-08-10T12:35:22.095805+00:00",
+  "call_count": 16,
+  "total_input_tokens": 936616,
+  "total_output_tokens": 583402,
+  "total_tokens": 1520018,
+  "total_latency_ms": 8726813,
+  "success_count": 16,
+  "failure_count": 0,
+  "max_total_input_tokens": 25000000,
+  "max_total_output_tokens": 4000000,
+  "completed_chunks": []
+}
