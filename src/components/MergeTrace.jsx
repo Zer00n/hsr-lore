@@ -7,7 +7,7 @@ export default function MergeTrace({ merges = [] }) {
   if (!merges || merges.length === 0) {
     return (
       <div className="merge-empty">
-        <div className="merge-empty-icon" aria-hidden="true">🔗</div>
+        <span className="merge-empty-mark" aria-hidden="true" />
         <p className="merge-empty-title">归并溯源数据暂缺</p>
         <p className="merge-empty-desc">pass2 实体归并尚未运行。运行后将在此展示每组归并的判定方法与原文依据。</p>
       </div>
@@ -18,13 +18,15 @@ export default function MergeTrace({ merges = [] }) {
   const CONFIDENCE_LABELS = { attested: '确认', inferred: '推断', disputed: '存疑' };
 
   return (
-    <div className="merge-trace" style={{ height: '100%', overflowY: 'auto', padding: 'var(--space-5)' }}>
-      <h2 className="merge-title">归并溯源</h2>
-      <p className="merge-subtitle">下表展示 pass2 实体归并的每一步判定与原文依据。</p>
+    <div className="merge-trace">
+      <header className="merge-header">
+        <h2 className="merge-title">归并溯源</h2>
+        <p className="merge-subtitle">下表展示 pass2 实体归并的每一步判定与原文依据。</p>
+      </header>
 
       <div className="merge-list">
         {merges.map((m) => (
-          <div key={m.merge_id || m.merged_entity_id} className="merge-card">
+          <article key={m.merge_id || m.merged_entity_id} className="merge-card">
             <div className="merge-card-top">
               <span className="merge-target">
                 归并至 <strong>{m.merged_entity_id || m.canonical_name}</strong>
@@ -35,15 +37,15 @@ export default function MergeTrace({ merges = [] }) {
               </span>
             </div>
             <div className="merge-card-sources">
-              <span className="merge-sources-label">来源：</span>
+              <span className="merge-sources-label mono">来源</span>
               {(m.source_entity_ids || []).map((sid) => (
-                <span key={sid} className="merge-source-item">{sid}</span>
+                <span key={sid} className="merge-source-item mono">{sid}</span>
               ))}
             </div>
             {m.rationale?.text && (
-              <div className="merge-card-rationale">{m.rationale.text}</div>
+              <p className="merge-card-rationale">{m.rationale.text}</p>
             )}
-          </div>
+          </article>
         ))}
       </div>
     </div>

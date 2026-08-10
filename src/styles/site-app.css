@@ -119,37 +119,47 @@
 /* ── 引证徽章 ── */
 .cite-badge-wrap { vertical-align: middle; }
 .cite-badge {
-  display: inline-flex; align-items: center; gap: 3px;
+  display: inline-flex; align-items: center; gap: 4px;
   padding: 1px 6px; border: 1px solid var(--accent); border-radius: var(--radius-sm);
-  background: var(--accent-muted); color: var(--accent); cursor: pointer;
-  font-size: var(--text-xs); transition: all var(--duration-fast);
+  background: transparent; color: var(--accent); cursor: pointer;
+  font-size: var(--text-xs);
+  transition: background var(--duration-fast) var(--ease-standard),
+              color var(--duration-fast) var(--ease-standard);
 }
 .cite-badge:hover { background: var(--accent); color: var(--bg-base); }
-.cite-icon { font-size: 11px; }
-.cite-label { font-family: var(--font-mono); font-size: 10px; }
+.cite-icon { font-size: 11px; line-height: 1; }
+.cite-label { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.02em; }
 
 .cite-popup {
-  position: absolute; z-index: 30; left: 0; top: calc(100% + 6px);
-  width: 360px; max-width: 90vw;
+  position: absolute; z-index: 30; left: 0; top: calc(100% + 8px);
+  width: 380px; max-width: 90vw;
   background: var(--bg-elevated); border: 1px solid var(--border-light);
-  border-radius: var(--radius-md); box-shadow: var(--shadow-lg);
+  border-radius: var(--radius-sm); box-shadow: var(--shadow-lg);
   padding: var(--space-4); font-size: var(--text-xs);
 }
 .cite-popup-section { margin-bottom: var(--space-3); }
+.cite-popup-section:last-child { margin-bottom: 0; }
 .cite-popup-label {
-  font-size: 10px; text-transform: uppercase; letter-spacing: 0.08em;
+  font-family: var(--font-mono);
+  font-size: 10px; text-transform: uppercase; letter-spacing: 0.12em;
   color: var(--text-muted); margin-bottom: 4px;
 }
-.cite-popup-text { color: var(--text-primary); line-height: var(--leading-relaxed); }
+.cite-popup-text {
+  font-family: var(--font-serif);
+  color: var(--text-primary); line-height: var(--leading-serif);
+}
 .cite-popup-quote {
-  color: var(--accent-alt); background: var(--accent-muted);
-  padding: var(--space-2) var(--space-3); border-radius: var(--radius-sm);
-  line-height: var(--leading-relaxed); font-style: italic;
+  font-family: var(--font-serif);
+  color: var(--text-primary);
+  padding: var(--space-2) 0 var(--space-2) var(--space-3);
+  border-left: 2px solid var(--accent);
+  line-height: var(--leading-serif);
 }
 .cite-popup-meta {
   display: flex; flex-wrap: wrap; gap: var(--space-3);
   color: var(--text-muted); font-family: var(--font-mono); font-size: 10px;
   border-top: 1px solid var(--border); padding-top: var(--space-3);
+  letter-spacing: 0.03em;
 }
 
 /* ── 命途星图 ── */
@@ -593,38 +603,54 @@
 
 
 /* ── 归并溯源 ── */
-.merge-trace { height: 100%; overflow-y: auto; }
-.merge-title { font-size: var(--text-xl); font-weight: 700; margin-bottom: var(--space-2); }
-.merge-subtitle { font-size: var(--text-sm); color: var(--text-muted); margin-bottom: var(--space-5); }
-.merge-list { display: flex; flex-direction: column; gap: var(--space-3); }
+.merge-trace { height: 100%; overflow-y: auto; padding: var(--space-6) var(--space-5) var(--space-8); }
+.merge-header { margin-bottom: var(--space-6); }
+.merge-title {
+  font-family: var(--font-serif);
+  font-size: var(--text-2xl); font-weight: 400; margin-bottom: var(--space-2);
+}
+.merge-subtitle { font-size: var(--text-sm); color: var(--text-secondary); line-height: var(--leading-relaxed); max-width: 560px; }
+.merge-list { display: flex; flex-direction: column; gap: var(--space-2); }
 .merge-card {
   background: var(--bg-base); border: 1px solid var(--border);
-  border-radius: var(--radius-md); padding: var(--space-4);
+  border-radius: var(--radius-md); padding: var(--space-4) var(--space-5);
 }
 .merge-card-top {
   display: flex; align-items: center; gap: var(--space-3); flex-wrap: wrap;
-  margin-bottom: var(--space-2);
+  margin-bottom: var(--space-3);
 }
-.merge-target { font-size: var(--text-sm); color: var(--text-primary); }
+.merge-target { font-size: var(--text-sm); color: var(--text-secondary); }
+.merge-target strong { font-family: var(--font-serif); font-weight: 400; color: var(--text-primary); }
 .merge-method {
-  font-size: var(--text-xs); background: var(--bg-elevated); color: var(--accent);
-  padding: 1px 8px; border-radius: var(--radius-sm);
+  font-family: var(--font-mono); font-size: 10px; color: var(--accent);
+  padding: 2px var(--space-2); border: 1px solid var(--border-light);
+  border-radius: var(--radius-sm); letter-spacing: 0.04em;
 }
-.merge-confidence { font-size: var(--text-xs); padding: 1px 6px; border-radius: var(--radius-sm); }
-.conf-attested { background: var(--success); color: var(--bg-base); }
-.conf-inferred { background: var(--warning); color: var(--bg-base); }
-.conf-disputed { background: var(--danger); color: var(--bg-base); }
-.merge-card-sources { font-size: var(--text-xs); display: flex; flex-wrap: wrap; gap: var(--space-1); align-items: center; }
-.merge-sources-label { color: var(--text-muted); }
-.merge-source-item { font-family: var(--font-mono); font-size: 10px; color: var(--accent); background: var(--accent-muted); padding: 1px 4px; border-radius: var(--radius-sm); }
-.merge-card-rationale { font-size: var(--text-sm); color: var(--text-secondary); margin-top: var(--space-2); line-height: var(--leading-relaxed); }
+.merge-confidence {
+  font-family: var(--font-mono); font-size: 10px; padding: 2px var(--space-2);
+  border-radius: var(--radius-sm); letter-spacing: 0.06em;
+}
+.conf-attested { background: rgba(126,184,150,0.14); color: var(--success); border: 1px solid rgba(126,184,150,0.4); }
+.conf-inferred { background: rgba(212,168,83,0.12); color: var(--warning); border: 1px solid rgba(212,168,83,0.4); }
+.conf-disputed { background: rgba(210,122,85,0.12); color: var(--danger); border: 1px solid rgba(210,122,85,0.4); }
+.merge-card-sources { display: flex; flex-wrap: wrap; gap: var(--space-2); align-items: center; margin-bottom: var(--space-2); }
+.merge-sources-label { font-size: 10px; color: var(--text-muted); letter-spacing: 0.08em; }
+.merge-source-item { font-size: 10px; color: var(--text-secondary); background: var(--bg-elevated); padding: 1px 6px; border-radius: var(--radius-sm); border: 1px solid var(--border-light); }
+.merge-card-rationale {
+  font-family: var(--font-serif);
+  font-size: var(--text-sm); color: var(--text-secondary);
+  margin-top: var(--space-2); line-height: var(--leading-serif);
+}
 .merge-empty {
   display: flex; flex-direction: column; align-items: center; justify-content: center;
-  height: 100%; gap: var(--space-3); text-align: center; padding: var(--space-8);
+  height: 100%; gap: var(--space-4); text-align: center; padding: var(--space-8);
 }
-.merge-empty-icon { font-size: var(--text-4xl); }
-.merge-empty-title { font-size: var(--text-lg); font-weight: 600; color: var(--text-primary); }
-.merge-empty-desc { font-size: var(--text-sm); color: var(--text-muted); max-width: 480px; line-height: var(--leading-relaxed); }
+.merge-empty-mark { width: 24px; height: 24px; border: 1px solid var(--border-light); }
+.merge-empty-title {
+  font-family: var(--font-serif);
+  font-size: var(--text-lg); font-weight: 400; color: var(--text-primary);
+}
+.merge-empty-desc { font-size: var(--text-sm); color: var(--text-muted); max-width: 480px; line-height: var(--leading-serif); }
 
 /* ── 引证审计台 ── */
 .audit { height: 100%; display: flex; flex-direction: column; background: var(--bg-surface); }
@@ -893,12 +919,8 @@
   .audit-pane-claim { border-right: none; border-bottom: 1px solid var(--border); }
   .audit-topbar { flex-direction: column; align-items: stretch; }
   .audit-reroll { width: 100%; justify-content: center; }
-  .quality-hero { flex-direction: column; text-align: center; }
-  .quality-hero-meta { flex-direction: column; }
-  .quality-bar-label { width: 100px; }
-  .quality-task-grid { grid-template-columns: 1fr; }
-  .quality-violation-grid { grid-template-columns: 1fr; }
+  .q-hero { grid-template-columns: 1fr; gap: var(--space-5); text-align: left; }
+  .q-bar-row { grid-template-columns: 130px 1fr 40px; gap: var(--space-2); }
   .cite-popup { width: 280px; left: auto; right: 0; }
-  .mystery-card-source-quote { max-width: 200px; }
   .merge-card-top { flex-direction: column; align-items: flex-start; }
 }
