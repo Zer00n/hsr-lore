@@ -284,6 +284,104 @@
 .graph-iso-chip:hover { border-color: var(--accent); color: var(--text-primary); }
 .graph-isolated-more { font-size: 10px; color: var(--text-muted); align-self: center; }
 
+/* ── 银河编年史 ── */
+.chrono { height: 100%; overflow-y: auto; background: var(--bg-surface); }
+.chrono-banner {
+  display: flex; align-items: center; gap: var(--space-3);
+  padding: var(--space-2) var(--space-5);
+  border-bottom: 1px solid var(--border);
+  font-size: var(--text-xs); color: var(--text-secondary);
+  background: var(--bg-elevated);
+}
+.chrono-banner .mono { color: var(--warning); letter-spacing: 0.12em; }
+
+.chrono-list {
+  list-style: none; position: relative;
+  margin: 0; padding: var(--space-6) var(--space-5) var(--space-8) 0;
+}
+/* 中央竖轨（桌面） */
+.chrono-list::before {
+  content: ''; position: absolute;
+  top: 0; bottom: 0; left: 168px;
+  width: 1px; background: var(--border);
+}
+.chrono-row {
+  position: relative;
+  display: grid; grid-template-columns: 168px minmax(0, 1fr);
+  gap: var(--space-6);
+  padding: 0 0 var(--space-6) var(--space-5);
+}
+.chrono-row:last-child { padding-bottom: 0; }
+
+/* 节点 */
+.chrono-node {
+  position: absolute; left: 163px; top: 6px;
+  width: 11px; height: 11px;
+  background: var(--accent); border: 1px solid var(--accent);
+  z-index: 1;
+}
+.is-inferred .chrono-node {
+  background: var(--bg-surface); border: 1.5px solid var(--text-secondary);
+}
+.is-doubtful .chrono-node {
+  background: var(--bg-surface); border: 1.5px solid var(--danger);
+}
+
+.chrono-time {
+  text-align: right;
+  font-size: var(--text-xs); color: var(--text-muted);
+  letter-spacing: 0.04em; padding-top: 2px;
+  word-break: break-word;
+}
+.chrono-card {
+  min-width: 0;
+  padding-left: var(--space-5);
+}
+.chrono-meta { display: flex; align-items: center; gap: var(--space-3); margin-bottom: var(--space-2); }
+.chrono-tier {
+  font-size: 10px; letter-spacing: 0.1em;
+  padding: 1px var(--space-2); border: 1px solid var(--border-light);
+  border-radius: var(--radius-sm);
+}
+.tier-certain   { color: var(--accent); border-color: var(--accent); }
+.tier-inferred  { color: var(--text-secondary); }
+.tier-doubtful  { color: var(--danger); border-color: var(--danger); }
+
+.chrono-title {
+  font-family: var(--font-serif);
+  font-size: var(--text-lg); font-weight: 400;
+  color: var(--text-primary); line-height: 1.4;
+  margin-bottom: var(--space-2);
+}
+.chrono-desc {
+  font-family: var(--font-serif);
+  font-size: var(--text-sm); line-height: var(--leading-serif);
+  color: var(--text-secondary); margin-bottom: var(--space-3);
+}
+.chrono-foot {
+  display: flex; align-items: center; gap: var(--space-3);
+  flex-wrap: wrap;
+}
+.chrono-actors {
+  font-family: var(--font-mono);
+  font-size: 10px; color: var(--text-muted); letter-spacing: 0.03em;
+}
+.chrono-empty {
+  display: flex; align-items: center; justify-content: center;
+  height: 100%; color: var(--text-muted); font-size: var(--text-sm);
+}
+
+@media (max-width: 768px) {
+  .chrono-list::before { left: 11px; }
+  .chrono-row {
+    grid-template-columns: 1fr; gap: 0;
+    padding-left: var(--space-8); padding-bottom: var(--space-5);
+  }
+  .chrono-node { left: 6px; }
+  .chrono-time { text-align: left; padding-top: 0; margin-bottom: var(--space-1); }
+  .chrono-card { padding-left: 0; }
+}
+
 /* ── 未解之谜墙 ── */
 
 @media (max-width: 768px) {

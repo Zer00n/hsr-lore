@@ -1,96 +1,117 @@
 /**
- * 银河编年史 — 可缩放时间轴，带确定性等级标记与可点击引证
+ * 银河编年史 — 垂直时间轴
  *
- * 降级渲染：跨块 relative_to 缺失时，按 order_hint 排列并标注该段时序为推断。
+ * 确定性三档：
+ *   certain   明确记载 — 实心金色节点
+ *   inferred  可推断   — 空心节点
+ *   doubtful  存疑     — 赭红描边节点
+ *
+ * 降级：pass2 T7 未运行时所有事件 _timeline_inferred=true，
+ * 节点统一显示为「推断」并在顶部给出等宽说明条。
+ *
+ * 数据源: /data/events.json
  */
-import { useState, useRef } from 'react';
 import CitationBadge from './CitationBadge.jsx';
 
-const PLACEHOLDER_EVENTS = [
-  { id: '1', date: '琥珀纪 2157', title: '星穹列车启程', description: '开拓者登上星穹列车', certainty: 'certain', cite_id: 'CHRN-1000101', quote: '' },
-  { id: '2', date: '琥珀纪 2157', title: '黑塔空间站遇袭', description: '反物质军团入侵空间站', certainty: 'certain', cite_id: 'CHRN-1000102', quote: '' },
-  { id: '3', date: '琥珀纪 2157', title: '雅利洛-VI 星核危机', description: '贝洛伯格面临寒潮与星核双重威胁', certainty: 'certain', cite_id: 'CHRN-1000201', quote: '' },
-  { id: '4', date: '琥珀纪 2158', title: '仙舟罗浮事件', description: '建木生长失控，药王秘传作乱', certainty: 'certain', cite_id: 'CHRN-1000301', quote: '' },
-  { id: '5', date: '未知', title: '星核猎手起源', description: '推测与星神有关', certainty: 'doubtful', cite_id: 'TALK-5001', quote: '' },
-];
-
-const CERTAINTY_LABELS = {
-  certain: '明确记载',
-  inferred: '推断',
-  doubtful: '存疑',
+const CERTAINTY = {
+  certain:  { label: '明确记载', tier: 'certain' },
+  inferred: { label: '可推断',   tier: 'inferred' },
+  doubtful: { label: '存疑',     tier: 'doubtful' },
 };
 
 function buildTimelineData(events) {
-  if (!events || events.length === 0) {
-    return { displayEvents: PLACEHOLDER_EVENTS, inferredCount: 0 };
-  }
+  if (!events || events.length === 0) return { displayEvents: [], inferredCount: 0 };
+
   const sorted = [...events].sort((a, b) => {
     const aHint = a.order_hint ?? 999;
     const bHint = b.order_hint ?? 999;
     if (aHint !== bHint) return aHint - bHint;
-    return (a.stated_time || '').localeCompare(b.stated_time || '');
+    return (a.stated_time || '').localeCompare(b.stated_time || '', 'zh');
   });
 
   const displayEvents = sorted.map((evt) => {
-    const isInferred = evt._timeline_inferred === true;
-    const firstCite = evt.citations?.[0] || evt.summary?.citations?.[0] || {};
+    const isInferred =
+      evt._timeline_inferred === true ||
+      evt.confidence === 'inferred' ||
+      !evt.stated_time;
+    const isDoubtful = evt.confidence === 'disputed';
+    const certainty = isDoubtful ? 'doubtful' : isInferred ? 'inferred' : 'certain';
 
     return {
       id: evt.event_id || evt.name,
       date: evt.stated_time || '时间未记载',
       title: evt.name || evt.event_id || '未命名事件',
-      description: evt.summary?.text?.substring(0, 120) || '',
-      certainty: isInferred ? 'inferred' : 'certain',
+      description: evt.summary?.text?.substring(0, 160) || '',
+      certainty,
       citations: evt.citations || evt.summary?.citations || [],
       sourceVolume: evt.source_volume || '',
+      participants: evt.participants || [],
+      locations: evt.locations || [],
     };
   });
 
-  const inferredCount = displayEvents.filter((e) => e.certainty === 'inferred').length;
+  const inferredCount = displayEvents.filter((e) => e.certainty !== 'certain').length;
   return { displayEvents, inferredCount };
 }
 
-export default function Timeline({ events = null, onEventClick = (e) => console.log('Event clicked:', e) }) {
-  const [scale, setScale] = useState(1);
-  const containerRef = useRef(null);
+export default function Timeline({ events = null }) {
   const { displayEvents, inferredCount } = buildTimelineData(events);
 
+  if (displayEvents.length === 0) {
+    return (
+      <div className="chrono-empty">
+        <p>暂无编年史数据</p>
+      </div>
+    );
+  }
+
   return (
-    <div ref={containerRef} style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
+    <div className="chrono">
       {inferredCount > 0 && (
-        <div style={{ background: 'var(--warning)', color: 'var(--bg-base)', padding: '4px 12px', fontSize: 'var(--text-xs)', borderRadius: 'var(--radius-sm)', display: 'flex', alignItems: 'center', gap: '8px', flexShrink: 0 }}>
-          <span>⚠ 推断模式</span>
-          <span>— {inferredCount}/{displayEvents.length} 个事件的时序为推断（pass2 T7 未运行或未补全）</span>
+        <div className="chrono-banner">
+          <span className="mono">TIMING INFERRED</span>
+          <span>
+            {inferredCount}/{displayEvents.length} 个事件时序为推断
+            （pass2 T7 时序补全未运行）
+          </span>
         </div>
       )}
 
-      <div style={{ padding: 'var(--space-3) var(--space-4)', borderBottom: '1px solid var(--border)', flexShrink: 0, display: 'flex', alignItems: 'center', gap: '8px' }}>
-        <button onClick={() => setScale((s) => Math.max(0.5, s - 0.25))} style={{ background: 'var(--bg-elevated)', color: 'var(--text-primary)', border: '1px solid var(--border)', padding: '4px 12px', borderRadius: 'var(--radius-sm)', cursor: 'pointer' }}>− 缩小</button>
-        <span style={{ color: 'var(--text-secondary)', fontSize: 'var(--text-sm)' }}>{Math.round(scale * 100)}%</span>
-        <button onClick={() => setScale((s) => Math.min(3, s + 0.25))} style={{ background: 'var(--bg-elevated)', color: 'var(--text-primary)', border: '1px solid var(--border)', padding: '4px 12px', borderRadius: 'var(--radius-sm)', cursor: 'pointer' }}>+ 放大</button>
-      </div>
-
-      <div style={{ padding: 'var(--space-4)', overflowY: 'auto', flex: 1 }}>
-        {displayEvents.map((evt, i) => (
-          <div key={evt.id || i} onClick={() => onEventClick(evt)}
-            style={{ padding: 'var(--space-3) var(--space-4)', borderLeft: `3px solid var(--${evt.certainty === 'certain' ? 'success' : evt.certainty === 'inferred' ? 'warning' : 'danger'})`, marginBottom: 'var(--space-1)', background: 'var(--bg-surface)', cursor: 'pointer', transition: 'background var(--duration-fast)' }}
-            onMouseEnter={(e) => (e.currentTarget.style.background = 'var(--bg-elevated)')}
-            onMouseLeave={(e) => (e.currentTarget.style.background = 'var(--bg-surface)')}
-          >
-            <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', marginBottom: '2px' }}>{evt.date}</div>
-            <div style={{ fontWeight: 600, fontSize: 'var(--text-sm)', display: 'flex', alignItems: 'center', gap: '8px', flexWrap: 'wrap' }}>
-              {evt.title}
-              <span className={`certainty-${evt.certainty}`} style={{ fontSize: 'var(--text-xs)' }}>{CERTAINTY_LABELS[evt.certainty]}</span>
-              {evt.citations.length > 0 && (
-                <CitationBadge citations={evt.citations} claimText={evt.description} sourceVolume={evt.sourceVolume} />
-              )}
-            </div>
-            {evt.description && (
-              <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-secondary)', marginTop: '2px', lineHeight: 'var(--leading-relaxed)' }}>{evt.description}</div>
-            )}
-          </div>
-        ))}
-      </div>
+      <ol className="chrono-list">
+        {displayEvents.map((evt, i) => {
+          const c = CERTAINTY[evt.certainty];
+          return (
+            <li key={evt.id || i} className={`chrono-row is-${c.tier}`}>
+              <span className="chrono-node" aria-hidden="true" />
+              <article className="chrono-card">
+                <div className="chrono-meta">
+                  <time className="chrono-time mono">{evt.date}</time>
+                  <span className={`chrono-tier mono tier-${c.tier}`}>{c.label}</span>
+                </div>
+                <h3 className="chrono-title">{evt.title}</h3>
+                {evt.description && <p className="chrono-desc">{evt.description}</p>}
+                {(evt.participants.length > 0 || evt.citations.length > 0) && (
+                  <div className="chrono-foot">
+                    {evt.participants.length > 0 && (
+                      <span className="chrono-actors">
+                        {evt.participants.slice(0, 4).join(' · ')}
+                        {evt.participants.length > 4 ? ' · …' : ''}
+                      </span>
+                    )}
+                    {evt.citations.length > 0 && (
+                      <CitationBadge
+                        citations={evt.citations}
+                        claimText={evt.description}
+                        sourceVolume={evt.sourceVolume}
+                      />
+                    )}
+                  </div>
+                )}
+              </article>
+            </li>
+          );
+        })}
+      </ol>
     </div>
   );
 }
