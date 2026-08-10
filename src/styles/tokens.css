@@ -1,23 +1,24 @@
 /* ═══════════════════════════════════════════════════════════
    设计 Token — 星铁世界观考据站
    组件只引用变量，不写死数值。
-   配色方案通过切换 CSS 变量值实现，当前为方案 A（蓝紫）。
+   暗金学术调：近黑底 / 金 / 冷青 / 赭红。
+   三字体体系：衬线（标题与世界观正文）· 无衬线（界面）· 等宽（数据）。
    ═══════════════════════════════════════════════════════════ */
 
 :root {
-  /* ── 色板：方案 B 暗金学术调（默认） ── */
+  /* ── 色板：暗金学术调 ── */
   --bg-base:        #12100d;
   --bg-surface:     #1a1815;
   --bg-elevated:    #26231e;
-  --bg-overlay:     rgba(18, 16, 13, 0.85);
+  --bg-overlay:     rgba(18, 16, 13, 0.92);
 
   --text-primary:   #e6e0d3;
-  --text-secondary: #8c8878;
-  --text-muted:     #5c584c;
+  --text-secondary: #9d9787; /* 5.4:1 on elevated, 6.5:1 on base */
+  --text-muted:     #908a7c; /* 4.56:1 on elevated — AA 正文下限 */
 
   --accent:         #d4a853;
   --accent-hover:   #e0bc6e;
-  --accent-muted:   rgba(212, 168, 83, 0.15);
+  --accent-muted:   rgba(212, 168, 83, 0.14);
   --accent-alt:     #6e9aa8;
 
   --border:         #2a2722;
@@ -25,17 +26,27 @@
 
   --success:        #7eb896;
   --warning:        #d4a853;
-  --danger:         #c96f4a;
+  --danger:         #d27a55; /* 提亮至 AA，色相不变 */
   --info:           #6e9aa8;
 
-  /* ── 字阶 ── */
-  --font-family:    -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
-                    "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue",
-                    Helvetica, Arial, sans-serif;
-  --font-mono:      "SF Mono", "Fira Code", "Cascadia Code", Consolas, monospace;
-  /* 中文字体占位，切换点：--font-family-cjk */
-  --font-family-cjk: var(--font-family);
+  /* ── 字体体系 ──
+     衬线走系统栈：macOS=Songti SC，Windows=SimSun，
+     装了思源/Noto 的环境优先取之。不打包 CJK 字体（数 MB 级）。
+     等宽拉丁字母走 CDN 渐进增强（JetBrains Mono），回落 Consolas。 */
+  --font-serif:     "Songti SC", "STSong", "Source Han Serif SC",
+                    "Noto Serif SC", "SimSun", serif;
+  --font-sans:      -apple-system, BlinkMacSystemFont, "Segoe UI",
+                    "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+                    "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-mono:      "JetBrains Mono", "IBM Plex Mono", "SF Mono",
+                    "Cascadia Code", Consolas, "PingFang SC",
+                    "Microsoft YaHei", monospace;
 
+  /* 兼容旧变量名 */
+  --font-family:    var(--font-sans);
+  --font-family-cjk: var(--font-sans);
+
+  /* ── 字阶 ── */
   --text-xs:    0.75rem;
   --text-sm:    0.875rem;
   --text-base:  1rem;
@@ -44,10 +55,13 @@
   --text-2xl:   1.5rem;
   --text-3xl:   1.875rem;
   --text-4xl:   2.25rem;
+  --text-5xl:   3rem;
+  --text-6xl:   3.75rem;
 
-  --leading-tight:  1.25;
-  --leading-normal: 1.6;
-  --leading-relaxed: 1.75;
+  --leading-tight:    1.25;
+  --leading-normal:   1.6;
+  --leading-relaxed:  1.75;
+  --leading-serif:    1.8;
 
   /* ── 间距刻度 ── */
   --space-1:  0.25rem;
@@ -61,29 +75,29 @@
   --space-12: 3rem;
   --space-16: 4rem;
   --space-20: 5rem;
+  --space-24: 6rem;
 
-  /* ── 圆角 ── */
-  --radius-sm:  4px;
-  --radius-md:  8px;
-  --radius-lg:  12px;
-  --radius-xl:  16px;
-  --radius-full: 9999px;
+  /* ── 圆角：锐利几何，全站 ≤4px ── */
+  --radius-sm:  2px;
+  --radius-md:  3px;
+  --radius-lg:  4px;
+  --radius-xl:  4px;
+  --radius-full: 9999px; /* 仅用于真正的圆形（状态点），不用于卡片 */
 
-  /* ── 阴影 ── */
-  --shadow-sm:  0 1px 2px rgba(0, 0, 0, 0.3);
-  --shadow-md:  0 4px 6px rgba(0, 0, 0, 0.4);
-  --shadow-lg:  0 10px 25px rgba(0, 0, 0, 0.5);
-  --shadow-glow: 0 0 20px var(--accent-muted);
+  /* ── 阴影：极克制，结构靠 1px 边框 ── */
+  --shadow-sm:  0 1px 0 rgba(0, 0, 0, 0.25);
+  --shadow-md:  0 2px 8px rgba(0, 0, 0, 0.4);
+  --shadow-lg:  0 12px 32px rgba(0, 0, 0, 0.55); /* 仅弹层 */
+  --shadow-glow: none; /* 禁用霓虹辉光 */
 
-  /* ── 动效 ── */
+  /* ── 动效：150–250ms，单一标准缓动 ── */
   --duration-fast:   150ms;
-  --duration-normal: 300ms;
-  --duration-slow:   500ms;
-  --duration-xslow:  800ms;
+  --duration-normal: 200ms;
+  --duration-slow:   250ms;
 
-  --ease-out:   cubic-bezier(0.16, 1, 0.3, 1);
-  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
-  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-out:    cubic-bezier(0.2, 0, 0, 1);
+  --ease-in-out: cubic-bezier(0.2, 0, 0, 1);
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1);
 
   /* ── 布局 ── */
   --content-max-width: 1200px;
@@ -91,38 +105,29 @@
   --header-height: 56px;
 }
 
-/* ── 方案 A：星穹蓝紫调 ── */
-/*
-:root.theme-stellar {
-  --bg-base:        #0a0e1a;
-  --bg-surface:     #111827;
-  --bg-elevated:    #1a2236;
-  --text-primary:   #e8ecf4;
-  --text-secondary: #8892a8;
-  --accent:         #5b8def;
-  --accent-alt:     #c4b5fd;
-  --border:         #1e293b;
-  --success:        #34d399;
-  --warning:        #fbbf24;
-  --danger:         #f87171;
+/* ── JetBrains Mono 拉丁子集，渐进增强（~45KB，font-display: swap）──
+   中文等宽回落无衬线，见 --font-mono 栈末尾。 */
+@font-face {
+  font-family: "JetBrains Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://cdn.jsdelivr.net/npm/@fontsource/jetbrains-mono@5.0.19/files/jetbrains-mono-latin-400-normal.woff2") format("woff2");
 }
-*/
-
-/* ── 方案 C：低饱和冷灰 ── */
-/*
-:root.theme-cool {
-  --bg-base:        #0f1117;
-  --bg-surface:     #161822;
-  --bg-elevated:    #1e2130;
-  --text-primary:   #c8ccd4;
-  --text-secondary: #6b7080;
-  --accent:         #7eb8da;
-  --accent-alt:     #e8a87c;
-  --border:         #252836;
-  --success:        #8cb88c;
-  --warning:        #d4b87c;
+@font-face {
+  font-family: "JetBrains Mono";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("https://cdn.jsdelivr.net/npm/@fontsource/jetbrains-mono@5.0.19/files/jetbrains-mono-latin-500-normal.woff2") format("woff2");
 }
-*/
+@font-face {
+  font-family: "JetBrains Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("https://cdn.jsdelivr.net/npm/@fontsource/jetbrains-mono@5.0.19/files/jetbrains-mono-latin-700-normal.woff2") format("woff2");
+}
 
 /* ── 全局重置 ── */
 *, *::before, *::after {
@@ -132,31 +137,68 @@
 }
 
 html {
-  font-family: var(--font-family);
+  font-family: var(--font-sans);
   font-size: 16px;
   line-height: var(--leading-normal);
   color: var(--text-primary);
   background: var(--bg-base);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 body {
   min-height: 100vh;
+  /* 中英混排自动留白（Chromium 渐进增强），不支持的浏览器忽略 */
+  text-autospace: normal;
 }
 
 a {
   color: var(--accent);
   text-decoration: none;
-  transition: color var(--duration-fast) var(--ease-out);
+  transition: color var(--duration-fast) var(--ease-standard);
 }
 a:hover { color: var(--accent-hover); }
+
+a:focus-visible,
+button:focus-visible,
+[tabindex]:focus-visible {
+  outline: 1px solid var(--accent);
+  outline-offset: 2px;
+}
 
 code, pre {
   font-family: var(--font-mono);
 }
 
+/* 拉丁/数字在中文语境中略加字距 */
+:where(p, li, h1, h2, h3, h4, td, th, span, div) {
+  /* 仅对真正的拉丁段生效；CJK 字符不受影响 */
+  font-kerning: normal;
+}
+
 /* ── 确定性等级标记 ── */
-.certainty-certain  { color: var(--success); }
-.certainty-inferred { color: var(--warning); }
+.certainty-certain  { color: var(--accent); }
+.certainty-inferred { color: var(--text-secondary); }
 .certainty-doubtful { color: var(--danger); }
+
+/* ── 衬线工具类：标题与世界观正文 ── */
+.font-serif {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  line-height: var(--leading-serif);
+}
+.font-mono {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+/* ── 减弱动效：全站关闭非必要动画 ── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

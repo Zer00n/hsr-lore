@@ -38,8 +38,8 @@ const {
     <header class="site-header">
       <div class="header-inner">
         <a href="/" class="brand">
-          <span class="brand-mark" aria-hidden="true">✦</span>
-          <span class="brand-text">星铁世界观考据站</span>
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span class="brand-text">星穹铁道世界观考据站</span>
         </a>
         <span class="data-badge">Pass1 · 四卷</span>
       </div>
@@ -63,8 +63,7 @@ const {
     position: sticky;
     top: 0;
     z-index: 20;
-    background: var(--bg-overlay);
-    backdrop-filter: blur(8px);
+    background: var(--bg-base);
     border-bottom: 1px solid var(--border);
   }
   .header-inner {
@@ -80,36 +79,50 @@ const {
   .brand {
     display: flex;
     align-items: center;
-    gap: var(--space-2);
+    gap: var(--space-3);
     color: var(--text-primary);
-    font-weight: 600;
-    letter-spacing: 0.05em;
   }
   .brand-mark {
-    color: var(--accent);
-    font-size: var(--text-lg);
+    width: 14px;
+    height: 14px;
+    border: 1px solid var(--accent);
+    background: var(--accent-muted);
+    flex-shrink: 0;
+  }
+  .brand-text {
+    font-family: var(--font-serif);
+    font-size: var(--text-base);
+    font-weight: 400;
+    letter-spacing: 0.04em;
   }
   .data-badge {
+    font-family: var(--font-mono);
     font-size: var(--text-xs);
-    color: var(--accent);
-    background: var(--accent-muted);
+    color: var(--text-muted);
     border: 1px solid var(--border-light);
     padding: 2px var(--space-3);
-    border-radius: var(--radius-full);
+    border-radius: var(--radius-sm);
+    letter-spacing: 0.04em;
   }
   .site-main {
     max-width: var(--content-max-width);
     margin: 0 auto;
-    padding: var(--space-8) var(--space-6) var(--space-12);
+    padding: var(--space-12) var(--space-6) var(--space-16);
   }
   .site-footer {
     border-top: 1px solid var(--border);
-    padding: var(--space-6) var(--space-6) var(--space-10);
+    padding: var(--space-8) var(--space-6) var(--space-12);
     text-align: center;
     color: var(--text-muted);
     font-size: var(--text-xs);
+    line-height: var(--leading-relaxed);
   }
   .footer-links { margin-top: var(--space-2); }
   .footer-links a { color: var(--text-muted); }
   .footer-links a:hover { color: var(--accent); }
+
+  @media (max-width: 768px) {
+    .brand-text { font-size: var(--text-sm); }
+    .site-main { padding: var(--space-8) var(--space-4) var(--space-12); }
+  }
 </style>

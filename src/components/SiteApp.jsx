@@ -83,7 +83,6 @@ export default function SiteApp() {
 
   const degraded = summary?.degradation ?? null;
   const counts = summary?.outputs ?? null;
-  const tot = stats?.totals ?? null;
   const pass2Available = summary?.build_args?.pass2_enabled ?? false;
   const filterStats = summary?.quality_filter ?? null;
 
@@ -133,23 +132,6 @@ export default function SiteApp() {
   return (
     <section className="app">
       <ConfidenceFilter filter={confFilter} onChange={setConfFilter} hiddenCounts={hiddenCounts} />
-
-      {(summary || stats) && (
-        <div className="stat-highlight-strip">
-          <div className="stat-highlight-item"><span className="stat-hi-num">23M</span><span className="stat-hi-label">语料字符</span></div>
-          <div className="stat-highlight-item"><span className="stat-hi-num">27.6万</span><span className="stat-hi-label">语料条目</span></div>
-          <div className="stat-highlight-item"><span className="stat-hi-num">{tot?.entities ?? counts?.entities ?? '—'}</span><span className="stat-hi-label">实体</span></div>
-          <div className="stat-highlight-item"><span className="stat-hi-num">{tot?.relations ?? counts?.relations ?? '—'}</span><span className="stat-hi-label">关系</span></div>
-          <div className="stat-highlight-item"><span className="stat-hi-num">{tot?.events ?? counts?.events ?? '—'}</span><span className="stat-hi-label">事件</span></div>
-          <div className="stat-highlight-item"><span className="stat-hi-num">{tot?.discrepancies ?? counts?.discrepancies ?? '—'}</span><span className="stat-hi-label">矛盾</span></div>
-          <div className="stat-highlight-item"><span className="stat-hi-num">{counts?.citations ?? '—'}</span><span className="stat-hi-label">引证条数</span></div>
-          <div className="stat-highlight-item stat-hi-accent">
-            <span className="stat-hi-num">{stats ? (stats.citation_pass_rate * 100).toFixed(1) + '%' : '—'}</span>
-            <span className="stat-hi-label">引证通过率</span>
-          </div>
-          <div className="stat-hi-mock-badge">Pass1 · 2026-08-10</div>
-        </div>
-      )}
 
       {degraded && (
         <div className="status-strip">

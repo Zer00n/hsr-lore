@@ -1,22 +1,56 @@
 ---
 import Base from '../layouts/Base.astro';
 import SiteApp from '../components/SiteApp.jsx';
+import fs from 'node:fs';
+import path from 'node:path';
+
+const dataDir = path.resolve('./public/data');
+const readJson = (f) => JSON.parse(fs.readFileSync(path.join(dataDir, f), 'utf8'));
+const stats = readJson('stats.json');
+const summary = readJson('build_summary.json');
+
+const t = stats.totals ?? {};
+const out = summary.outputs ?? {};
+const metrics = [
+  { num: t.entities ?? out.entities ?? '—', label: '实体' },
+  { num: t.relations ?? out.relations ?? '—', label: '关系' },
+  { num: t.events ?? out.events ?? '—', label: '事件' },
+  { num: t.discrepancies ?? out.discrepancies ?? '—', label: '矛盾' },
+  { num: out.citations ?? '—', label: '引证' },
+  {
+    num: typeof stats.citation_pass_rate === 'number'
+      ? (stats.citation_pass_rate * 100).toFixed(1) + '%'
+      : '—',
+    label: '引证通过率',
+    accent: true,
+  },
+];
 ---
 
 <Base>
   <section class="hero">
     <div class="hero-overlay" aria-hidden="true" />
     <div class="hero-content">
-      <h1>「崩坏：星穹铁道」世界观考据站</h1>
-      <p>
+      <p class="hero-eyebrow">HSR · WORLDLORE ARCHIVE</p>
+      <h1>「崩坏：星穹铁道」<br />世界观考据站</h1>
+      <p class="hero-sub">
         穿梭银河，逐句追溯——每一条结论，都回响着原作的对白与叙事。
       </p>
     </div>
   </section>
 
+  <section class="databand" aria-label="考据规模">
+    {metrics.map((m) => (
+      <div class={`databand-item${m.accent ? ' is-accent' : ''}`}>
+        <span class="databand-num">{m.num}</span>
+        <span class="databand-label">{m.label}</span>
+      </div>
+    ))}
+  </section>
+
   <noscript>
     <div class="noscript-notice">
-      <p>⚠ 此页面依赖 JavaScript 加载数据并渲染交互式考据视图。</p>
+      <p>此页面依赖 JavaScript 加载数据并渲染交互式考据视图。</p>
       <p>请启用 JavaScript 后刷新。</p>
     </div>
   </noscript>
@@ -27,48 +61,111 @@ import SiteApp from '../components/SiteApp.jsx';
 <style>
   .hero {
     position: relative;
-    margin-bottom: var(--space-6);
-    padding: var(--space-12) 0;
+    margin-bottom: 0;
+    padding: var(--space-20) 0 var(--space-16);
     border-bottom: 1px solid var(--border);
     background: url('/images/hero-bg.jpg') center/cover no-repeat;
-    min-height: 300px;
+    min-height: 320px;
     display: flex;
     align-items: center;
   }
   .hero-overlay {
     position: absolute;
     inset: 0;
-    background: linear-gradient(to bottom, rgba(18,16,13,0.6) 0%, rgba(18,16,13,0.85) 50%, var(--bg-base) 100%);
+    background:
+      linear-gradient(to bottom, rgba(18, 16, 13, 0.55) 0%, rgba(18, 16, 13, 0.82) 60%, var(--bg-base) 100%);
     z-index: 0;
   }
   .hero-content {
     position: relative;
     z-index: 1;
     max-width: var(--content-max-width);
+    width: 100%;
     margin: 0 auto;
     padding: 0 var(--space-6);
   }
+  .hero-eyebrow {
+    font-family: var(--font-mono);
+    font-size: var(--text-xs);
+    letter-spacing: 0.22em;
+    color: var(--accent);
+    margin-bottom: var(--space-4);
+  }
   .hero h1 {
-    font-size: var(--text-3xl);
-    font-weight: 700;
-    letter-spacing: 0.04em;
-    margin-bottom: var(--space-3);
+    font-family: var(--font-serif);
+    font-size: var(--text-5xl);
+    font-weight: 400;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    margin-bottom: var(--space-5);
     color: var(--text-primary);
   }
-  .hero p {
+  .hero-sub {
     max-width: 640px;
     color: var(--text-secondary);
     font-size: var(--text-base);
     line-height: var(--leading-relaxed);
   }
+
+  /* 数据带：1px 上下边框界定，等宽数字，不做成卡片 */
+  .databand {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    border-bottom: 1px solid var(--border);
+    max-width: var(--content-max-width);
+    margin: 0 auto;
+  }
+  .databand-item {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    padding: var(--space-6) var(--space-4);
+    border-right: 1px solid var(--border);
+  }
+  .databand-item:last-child { border-right: none; }
+  .databand-num {
+    font-family: var(--font-mono);
+    font-size: var(--text-4xl);
+    font-weight: 500;
+    line-height: 1;
+    color: var(--text-primary);
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.01em;
+  }
+  .databand-item.is-accent .databand-num { color: var(--accent); }
+  .databand-label {
+    font-family: var(--font-sans);
+    font-size: var(--text-xs);
+    color: var(--text-muted);
+    letter-spacing: 0.06em;
+  }
+
   .noscript-notice {
     padding: var(--space-4) var(--space-5);
     background: var(--bg-elevated);
-    border: 1px solid var(--warning);
-    border-radius: var(--radius-md);
-    color: var(--warning);
+    border: 1px solid var(--danger);
+    border-radius: var(--radius-sm);
+    color: var(--danger);
     font-size: var(--text-sm);
-    margin-bottom: var(--space-6);
+    margin: var(--space-6) 0;
   }
   .noscript-notice p { margin-bottom: var(--space-2); }
+  .noscript-notice p:last-child { margin-bottom: 0; }
+
+  @media (max-width: 768px) {
+    .hero { padding: var(--space-12) 0 var(--space-10); min-height: 240px; }
+    .hero h1 { font-size: var(--text-3xl); }
+    .hero-eyebrow { margin-bottom: var(--space-3); }
+    .databand {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    /* 每列右侧分隔；第三列去掉右边框，第二行整体加上边框 */
+    .databand-item:nth-child(3n) { border-right: none; }
+    .databand-item:nth-child(n+4) { border-top: 1px solid var(--border); }
+    .databand-num { font-size: var(--text-3xl); }
+  }
+
+  @media (max-width: 420px) {
+    .databand-item { padding: var(--space-4) var(--space-3); }
+  }
 </style>
