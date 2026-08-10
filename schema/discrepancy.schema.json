@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hsr-lore/schema/discrepancy.schema.json",
+  "title": "Discrepancy",
+  "description": "矛盾与悬案 — 同一事实的互斥表述、含混、留白或设定变更",
+  "type": "object",
+  "required": ["discrepancy_id", "kind", "topic", "statements", "analysis", "related_entities"],
+  "properties": {
+    "discrepancy_id": {
+      "type": "string",
+      "pattern": "^DSC:[a-f0-9]{12}$"
+    },
+    "kind": {
+      "type": "string",
+      "enum": ["contradiction", "ambiguity", "gap", "retcon"]
+    },
+    "topic": { "type": "string", "minLength": 1 },
+    "statements": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["text", "citation"],
+        "properties": {
+          "text": { "type": "string", "minLength": 1 },
+          "citation": { "$ref": "citation.schema.json" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "analysis": {
+      "type": "object",
+      "required": ["text", "claim_type", "citations"],
+      "properties": {
+        "text": { "type": "string", "minLength": 1 },
+        "claim_type": { "type": "string", "const": "interpretation" },
+        "confidence": { "type": "string", "enum": ["attested", "inferred", "disputed"] },
+        "citations": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "citation.schema.json" }
+        }
+      },
+      "additionalProperties": false
+    },
+    "related_entities": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "impact": {
+      "type": "string",
+      "enum": ["low", "medium", "high"]
+    }
+  },
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "if": {
+        "properties": { "kind": { "const": "contradiction" } }
+      },
+      "then": {
+        "properties": {
+          "statements": { "minItems": 2 }
+        }
+      }
+    }
+  ]
+}

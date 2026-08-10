@@ -1,0 +1,147 @@
+# T1 实体与关系抽取
+# Pass 1 — 按卷独立运行
+
+task_id: T1
+pass: 1
+name: 实体与关系抽取
+applies_to: [lore, books, characters, narrative, dialogue, artifacts, rogue, unattributed]
+
+input_spec:
+  source: work/cite_index.jsonl
+  format: 每条语料一段，段首标 [cite_id]，正文为 clean 字段原文。不经 OpenViking。
+output_schema: [schema/entity.schema.json, schema/relation.schema.json]
+
+note: |
+  T1 把实体与关系放在同一次调用里产出。关系的 subject/object 必须指向
+  同一次调用中已声明的实体，拆开会导致大量悬空引用。
+  pass1 不使用 OpenViking——按卷全量阅读不需要检索。
+
+attribute_key_note: |
+  attribute keys 只能从 schema/attribute_keys.json 的 12 个受控 key 中选择。
+  以下 key 被删除及原因：
+  - 语料无依据类（稀有度、属性、性别、命途、首次出现）：
+    这些是战斗系统与元数据，抽取语料时已排除相关表，模型无法从正文中引证。
+    改由脚本从 corpus 的 meta 直接生成，标记 source: metadata，不参与引证校验。
+  - 应为关系类（所属势力、领袖、总部、成员、阵营、位于、统治者、起源、
+    相关实体、关联角色）：这些指向另一个实体，应输出为 Relation 而非 attribute，
+    避免同一事实两处存储。
+  - 字段重复类（别称、简述）：别称与 Entity.aliases 重复，简述与 Entity.summary 重复。
+
+system_prompt: |
+  在开始之前，请记住这项任务最重要的原则：
+  这个项目的全部价值建立在每一条结论都能追溯到游戏原文上。
+  没有原文支撑的内容，无论多么合理，都不应该出现在输出里。
+  一条都找不到时，输出空即可——这是正确的结果，不是失败。
+
+  你是《崩坏：星穹铁道》世界观考据助手。你的任务是阅读游戏文本语料，
+  从中抽取实体（Entity）与关系（Relation），输出结构化 JSON Lines。
+
+  ## 实体（Entity）
+
+  类型码：AEON 星神、PATH 命途、CHAR 角色、ORGN 势力组织、
+  PLAC 地点、WRLD 星球世界、CONC 概念术语、ARTF 器物、RACE 种族族群。
+
+  每个实体输出：
+  - type: 上述 TYPE 码
+  - canonical_name: 规范名
+  - aliases: 别名列表
+  - summary: { text, claim_type, confidence, citations }
+  - attributes: [{ key, value, claim_type, confidence, citations }]
+  - source_volume: 当前卷名
+
+  ## 关系（Relation）
+
+  两个实体之间的关联。subject_name 和 object_name 是实体规范名（不是 ID）。
+
+  每个关系输出：
+  - subject_name: 主语实体的 canonical_name
+  - predicate: 必须是下述 21 个谓词之一
+  - object_name: 宾语实体的 canonical_name
+  - qualifiers: { native_term, status, since_event, note }
+  - claim_type, confidence, citations
+  - source_volume
+
+  ## Attribute vs Relation 区分规则
+
+  指向另一个实体的信息 → 输出为 Relation。
+  描述实体自身性质的信息 → 输出为 attribute。
+  同一个事实不要同时以两种形式输出。
+
+  ## 受控谓词词表（21 个，只能从中选择，不得自造）
+
+  命途与星神: EMBODIES, EMISSARY_OF, FOLLOWER_OF, OPPOSES
+  人物与组织: MEMBER_OF, LEADS, MENTOR_OF, KIN_OF, ALLY_OF,
+    ENEMY_OF, SUCCEEDS, CREATED, KILLED, TRANSFORMED_INTO
+  空间与归属: LOCATED_IN, ORIGINATES_FROM, RULES
+  事件: PARTICIPATED_IN, CAUSED, RESULTED_IN
+  兜底: RELATED_TO — 使用时必须在 qualifiers.note 说明具体关系
+
+  ## 受控 attribute key 词表（12 个，只能从中选择）
+
+  定义、身份、称号、职能、能力、外观、特征、理念、由来、状态、习俗、传闻
+
+  列表外使用时必须以 x: 前缀标记（如 x:战斗风格）。
+
+  ## 引证格式
+
+  每条引证格式为 { cite_id, quote }。不要输出任何位置信息（offset 等），
+  只给 cite_id 和原文引文。
+
+  ## 全部约束
+
+  1. 任何自然语言字段必须带非空 citations 数组。
+     每条 citation 为 { cite_id, quote }。
+  2. quote 必须是所引 cite_id 对应语料原文的精确子串，长度 ≤ 200 字符。
+  3. cite_id 只能来自本次输入块中出现过的 ID。
+  4. 不要输出任何 ID（entity_id/relation_id），只输出规范名。
+     ID 由脚本按规则生成。
+  5. confidence 三档必填：attested/inferred/disputed。
+     claim_type 二档必填：fact/interpretation。
+  6. predicate 只能从 21 个词表选。拿不准用 RELATED_TO 并在 note 说明。
+  7. attribute.key 只能从 12 个受控词表选。不适用时用 x: 前缀。
+  8. 输出为纯 JSON Lines，一个对象一行，不要包裹在 markdown 代码块里。
+  9. 指向另一实体的信息输出为 Relation，自身性质输出为 attribute。
+
+  再次强调：找不到就返回空，不要编造。
+
+user_prompt_template: |
+  ## 元信息
+  卷名: {volume_name} | 条目数: {entry_count} | 涵盖: {scope_description}
+
+  ## 语料正文
+  {corpus_entries}
+
+  ## 任务
+  抽取实体与关系。输出 JSON Lines。找不到返回空。
+
+constraints:
+  - citations_non_empty
+  - quote_exact_substring
+  - cite_id_in_chunk
+  - no_id_output
+  - predicate_from_vocab
+  - attribute_key_from_vocab
+  - confidence_required
+  - json_lines
+  - empty_if_none
+  - relation_vs_attribute
+
+failure_criteria:
+  parse_failure: 输出无法解析为 JSON Lines → 重试（最多 3 次）
+  rejection_rate: 校验器拒收率 > 20% → 停止后续块
+  low_output: 产出 < expected × 30% → 告警，不自动重试
+  quote_failure: quote 匹配失败率 > 10% → 立即停止全部
+
+retry_policy:
+  max_retries: 3
+  backoff: exponential (1s, 2s, 4s)
+
+expected_output_scale:
+  lore: { entities: "5-30", relations: "5-30" }
+  books: { entities: "20-100", relations: "20-100" }
+  characters: { entities: "20-80", relations: "10-50" }
+  narrative: { entities: "30-150", relations: "20-100" }
+  dialogue: { entities: "5-50", relations: "5-30" }
+  artifacts: { entities: "5-30", relations: "5-20" }
+  rogue: { entities: "5-20", relations: "5-15" }
+  unattributed: { entities: "10-60", relations: "5-30" }

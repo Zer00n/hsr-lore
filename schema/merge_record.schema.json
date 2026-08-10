@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hsr-lore/schema/merge_record.schema.json",
+  "title": "MergeRecord",
+  "description": "归并记录 — 跨卷合并时产生的同名实体合并",
+  "type": "object",
+  "required": ["merge_id", "merged_entity_id", "source_entity_ids", "method", "rationale", "confidence"],
+  "properties": {
+    "merge_id": {
+      "type": "string",
+      "pattern": "^MRG:[a-f0-9]{12}$"
+    },
+    "merged_entity_id": { "type": "string" },
+    "source_entity_ids": {
+      "type": "array",
+      "minItems": 2,
+      "items": { "type": "string" }
+    },
+    "method": {
+      "type": "string",
+      "enum": ["exact_name", "alias_match", "contextual"]
+    },
+    "rationale": {
+      "type": "object",
+      "required": ["text", "claim_type", "citations"],
+      "properties": {
+        "text": { "type": "string", "minLength": 1 },
+        "claim_type": { "type": "string", "const": "interpretation" },
+        "citations": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "citation.schema.json" }
+        }
+      },
+      "additionalProperties": false
+    },
+    "confidence": {
+      "type": "string",
+      "enum": ["attested", "inferred", "disputed"]
+    }
+  },
+  "additionalProperties": false
+}

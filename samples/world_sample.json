@@ -1,0 +1,38 @@
+[
+  {
+    "BookSeriesWorld": 1,
+    "BookSeriesWorldTextmapID": "空间站「黑塔」",
+    "BookSeriesWorldIconPath": "SpriteOutput/TabIcon/World/World00Icon.png",
+    "BookSeriesWorldBackgroundPath": "SpriteOutput/Mission/ChapterIconBig/ChapterIconBigPrologue.png"
+  },
+  {
+    "BookSeriesWorld": 2,
+    "BookSeriesWorldTextmapID": "雅利洛-Ⅵ",
+    "BookSeriesWorldIconPath": "SpriteOutput/TabIcon/World/World01Icon.png",
+    "BookSeriesWorldBackgroundPath": "SpriteOutput/Mission/ChapterIconBig/ChapterIconBigFirstworld.png"
+  },
+  {
+    "BookSeriesWorld": 3,
+    "BookSeriesWorldTextmapID": "仙舟「罗浮」",
+    "BookSeriesWorldIconPath": "SpriteOutput/TabIcon/World/World02Icon.png",
+    "BookSeriesWorldBackgroundPath": "SpriteOutput/Mission/ChapterIconBig/ChapterIconBigSecondworld.png"
+  },
+  {
+    "BookSeriesWorld": 4,
+    "BookSeriesWorldTextmapID": "匹诺康尼",
+    "BookSeriesWorldIconPath": "SpriteOutput/TabIcon/World/World03Icon.png",
+    "BookSeriesWorldBackgroundPath": "SpriteOutput/Mission/ChapterIconBig/ChapterIconBigThirdWorld.png"
+  },
+  {
+    "BookSeriesWorld": 5,
+    "BookSeriesWorldTextmapID": "翁法罗斯",
+    "BookSeriesWorldIconPath": "SpriteOutput/TabIcon/World/World04Icon.png",
+    "BookSeriesWorldBackgroundPath": "SpriteOutput/Mission/ChapterIconBig/ChapterIconBigFourthworld.png"
+  },
+  {
+    "BookSeriesWorld": 6,
+    "BookSeriesWorldTextmapID": "二相乐园",
+    "BookSeriesWorldIconPath": "SpriteOutput/TabIcon/World/World05Icon.png",
+    "BookSeriesWorldBackgroundPath": "SpriteOutput/Mission/ChapterIconBig/ChapterIconBigFifthWorld.png"
+  }
+]

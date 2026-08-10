@@ -1,0 +1,1 @@
+{"choices": [{"message": {"content": "Mock response 19: analysis result."}}], "usage": {"prompt_tokens": 330, "completion_tokens": 470, "total_tokens": 800}, "finish_reason": "stop"}

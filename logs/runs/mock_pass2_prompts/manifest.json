@@ -1,0 +1,20 @@
+{
+  "run_id": "mock_pass2_prompts",
+  "provider": "mock",
+  "concurrency": 1,
+  "live": false,
+  "start_time": "2026-08-07T09:46:29.225904+00:00",
+  "tasks": [
+    {
+      "task_id": "T6_discrepancy_cross",
+      "total_chunks": 1,
+      "completed": 1,
+      "failed": 0,
+      "stopped": 0,
+      "skipped": 0
+    }
+  ],
+  "end_time": "2026-08-07T09:46:30.935361+00:00",
+  "total_chunks_ran": 1,
+  "elapsed_seconds": 1.7
+}

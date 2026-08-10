@@ -1,0 +1,42 @@
+[
+  {
+    "BookSeriesID": 1,
+    "BookSeries": "随花束附赠的花语手册",
+    "BookSeriesComments": "收录了贝洛伯格常用花语，人情世故浓缩在手册之中。",
+    "BookSeriesNum": 1,
+    "BookSeriesWorld": 2,
+    "IsShowInBookshelf": true
+  },
+  {
+    "BookSeriesID": 2,
+    "BookSeries": "咖啡师的手账残页",
+    "BookSeriesComments": "从某本秘密手账上脱落下来的手写活页。",
+    "BookSeriesNum": 1,
+    "BookSeriesWorld": 2,
+    "IsShowInBookshelf": true
+  },
+  {
+    "BookSeriesID": 3,
+    "BookSeries": "《矿山员工安全手册》",
+    "BookSeriesComments": "磨损严重的安全手册。下层区矿工人手一本。",
+    "BookSeriesNum": 1,
+    "BookSeriesWorld": 2,
+    "IsShowInBookshelf": true
+  },
+  {
+    "BookSeriesID": 4,
+    "BookSeries": "关于煦日节庆典相关事宜的安排",
+    "BookSeriesComments": "不知何年的贝洛伯格传统节日庆典安排…但至少不是今年的。",
+    "BookSeriesNum": 1,
+    "BookSeriesWorld": 2,
+    "IsShowInBookshelf": true
+  },
+  {
+    "BookSeriesID": 5,
+    "BookSeries": "矿业机械订单列表",
+    "BookSeriesComments": "一张矿业机械调度订单列表。见证了下层区尚且繁荣时货物与资金的流向。",
+    "BookSeriesNum": 1,
+    "BookSeriesWorld": 2,
+    "IsShowInBookshelf": true
+  }
+]

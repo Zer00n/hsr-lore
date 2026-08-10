@@ -1,0 +1,1 @@
+{"entity_id": "CHAR:test-entity", "type": "CHAR", "canonical_name": "测试实体", "aliases": [], "summary": {"text": "测试实体的摘要。", "claim_type": "fact", "confidence": "attested", "citations": [{"cite_id": "AVTR-N-1313", "quote": "测试引文"}]}, "attributes": [], "source_volume": "lore"}

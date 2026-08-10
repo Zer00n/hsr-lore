@@ -1,0 +1,12 @@
+[
+  {
+    "violation": "interpretation_no_citation",
+    "cite_id": "",
+    "detail": "interpretation with empty citations"
+  },
+  {
+    "violation": "single_statement_contradiction",
+    "cite_id": "",
+    "detail": "only 1 statement"
+  }
+]

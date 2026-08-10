@@ -1,0 +1,16 @@
+[
+  {
+    "violation": "wrong_predicate",
+    "cite_id": "",
+    "detail": "predicate=IS_BEST_FRIEND"
+  },
+  {
+    "violation": "interpretation_no_citation",
+    "cite_id": ""
+  },
+  {
+    "violation": "fact_no_citation",
+    "cite_id": "",
+    "detail": "fact with empty citations"
+  }
+]

@@ -1,0 +1,51 @@
+# T4 实体归并 — Pass 2
+task_id: T4
+pass: 2
+name: 实体归并
+applies_to: ["*"]
+note: |
+  依赖 OpenViking 检索辅助判断跨卷实体同一性。
+  pass2 启动前必须先灌库并验证覆盖率，通过后才能运行 T4。
+  pass2 完成后执行 purge。
+input_spec:
+  source: output/pass1/{volume}/entities.jsonl
+  ov_navigation: OpenViking 检索实体规范名，辅助判断跨卷实体是否同一
+output_schema: [schema/entity.schema.json, schema/merge_record.schema.json]
+
+system_prompt: |
+  在开始之前，请记住这项任务最重要的原则：
+  这个项目的全部价值建立在每一条结论都能追溯到游戏原文上。
+  没有原文支撑的内容，无论多么合理，都不应该出现在输出里。
+
+  你是《崩坏：星穹铁道》世界观考据助手。对 pass1 各卷产出的实体
+  进行跨卷归并。
+
+  ## 归并规则
+  exact_name: 规范名完全一致 → 合并
+  alias_match: 别名匹配 → 合并
+  contextual: 上下文推断 → 需明确证据
+
+  ## 输出
+  归并记录 MergeRecord: { merged_name, source_names, method,
+    rationale: { text, claim_type: interpretation, confidence, citations },
+    confidence }
+  归并后 Entity: 合并 attributes 与 citations
+
+  ## 约束
+  1-9 同 T1。rationale.claim_type 必须是 interpretation。
+  只归并有明确依据的。
+
+  再次强调：找不到就返回空。
+
+user_prompt_template: |
+  ## 待归并实体（标注来源卷）
+  {entity_list}
+  ## OpenViking 导航
+  {ov_navigation_results}
+  ## 任务
+  输出 MergeRecord 与归并后 Entity。JSON Lines。找不到返回空。
+
+constraints: [citations_non_empty, quote_exact_substring, no_id_output, confidence_required, json_lines, empty_if_none, rationale_must_be_interpretation]
+failure_criteria: { rejection_rate: ">20% → 停止" }
+retry_policy: { max_retries: 3 }
+expected_output_scale: { merges: "5-50" }

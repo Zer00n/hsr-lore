@@ -1,0 +1,11 @@
+[
+  {
+    "violation": "interpretation_no_citation",
+    "cite_id": "",
+    "detail": "interpretation with empty citations"
+  },
+  {
+    "violation": "wrong_predicate",
+    "cite_id": ""
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "violation": "fake_cite_id",
+    "cite_id": ""
+  },
+  {
+    "violation": "missing_confidence",
+    "cite_id": ""
+  }
+]

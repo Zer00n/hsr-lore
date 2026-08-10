@@ -1,0 +1,16 @@
+[
+  {
+    "violation": "single_statement_contradiction",
+    "cite_id": "",
+    "detail": "only 1 statement"
+  },
+  {
+    "violation": "wrong_predicate",
+    "cite_id": ""
+  },
+  {
+    "violation": "doctored_quote",
+    "cite_id": "",
+    "detail": "quote doctored from \"我是「地衡司内最聪明的头脑派」，只有他们两个都派不上用场的时...\""
+  }
+]

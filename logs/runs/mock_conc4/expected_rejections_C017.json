@@ -1,0 +1,12 @@
+[
+  {
+    "violation": "single_statement_contradiction",
+    "cite_id": "",
+    "detail": "only 1 statement"
+  },
+  {
+    "violation": "fake_cite_id",
+    "cite_id": "",
+    "detail": "cite_id=FAKE-BAD-99999"
+  }
+]

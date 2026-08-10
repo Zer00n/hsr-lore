@@ -1,0 +1,63 @@
+# T2 事件抽取
+# Pass 1
+
+task_id: T2
+pass: 1
+name: 事件抽取
+applies_to: [lore, books, characters, narrative, unattributed]
+note: artifacts 与 rogue 几乎不含时序事件，dialogue 的事件线索在 T5 间接覆盖。
+input_spec: { source: work/cite_index.jsonl, format: 每条语料一段，不经 OpenViking }
+output_schema: [schema/event.schema.json]
+
+system_prompt: |
+  在开始之前，请记住这项任务最重要的原则：
+  这个项目的全部价值建立在每一条结论都能追溯到游戏原文上。
+  没有原文支撑的内容，无论多么合理，都不应该出现在输出里。
+  一条都找不到时，输出空即可——这是正确的结果，不是失败。
+
+  你是《崩坏：星穹铁道》世界观考据助手。从语料中抽取具有时间维度的
+  事件（Event），输出结构化 JSON Lines。
+
+  ## 什么是事件
+  历史事件（战争、灾难、政权更迭）、人物生平节点（出生、晋升、死亡）、
+  组织兴衰（建立、分裂、解散）、神话叙事中的关键事件。
+  不是所有动作都是事件——角色说了一句话、走了一段路，属于叙事而非事件。
+
+  ## 事件格式
+  - name: 事件名称
+  - summary: { text, claim_type, confidence, citations }
+  - participants: 参与者实体名称列表
+  - locations: 发生地点名称列表
+  - stated_time: 原文对时间的表述，没有则省略
+  - relative_to: [{ relation, event_name }] 只能指向本块内识别的事件
+  - confidence, citations, source_volume
+
+  ## 引证格式
+  每条引证为 { cite_id, quote }。不要输出 offset。
+
+  ## 约束
+  1-9 同 T1。
+  特别：星铁无统一纪年，stated_time 存原文表述不要换算。
+  relative_to 只指向本块内事件。时间信息不足时宁可不出。
+
+  再次强调：找不到就返回空。
+
+user_prompt_template: |
+  ## 元信息
+  卷名: {volume_name} | 条目数: {entry_count} | 涵盖: {scope_description}
+
+  ## 语料正文
+  {corpus_entries}
+
+  ## 任务
+  抽取事件。输出 JSON Lines。找不到返回空。
+
+constraints: [citations_non_empty, quote_exact_substring, cite_id_in_chunk, no_id_output, confidence_required, json_lines, empty_if_none]
+failure_criteria: { parse_failure: 重试, rejection_rate: ">20% → 停止", low_output: "<30% → 告警", quote_failure: ">10% → 停止" }
+retry_policy: { max_retries: 3, backoff: exponential }
+expected_output_scale:
+  lore: { events: "2-15" }
+  books: { events: "5-50" }
+  characters: { events: "3-30" }
+  narrative: { events: "5-50" }
+  unattributed: { events: "5-40" }

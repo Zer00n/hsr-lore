@@ -1,0 +1,17 @@
+[
+  {
+    "violation": "doctored_quote",
+    "cite_id": "",
+    "detail": "quote doctored from \"远行时，颂唱诗歌驱赶扎格列斯，可以减少旅途中遭遇的欺诈和偷盗...\""
+  },
+  {
+    "violation": "interpretation_no_citation",
+    "cite_id": "",
+    "detail": "interpretation with empty citations"
+  },
+  {
+    "violation": "fake_cite_id",
+    "cite_id": "",
+    "detail": "cite_id=FAKE-BAD-99999"
+  }
+]

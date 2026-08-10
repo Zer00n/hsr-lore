@@ -1,0 +1,15 @@
+[
+  {
+    "violation": "fake_cite_id",
+    "cite_id": ""
+  },
+  {
+    "violation": "missing_confidence",
+    "cite_id": ""
+  },
+  {
+    "violation": "fact_no_citation",
+    "cite_id": "",
+    "detail": "fact with empty citations"
+  }
+]

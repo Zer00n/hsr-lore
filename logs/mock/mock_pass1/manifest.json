@@ -1,0 +1,58 @@
+{
+  "run_id": "mock_pass1",
+  "provider": "mock",
+  "start_time": "2026-08-07T07:16:08.500335+00:00",
+  "tasks": [
+    {
+      "task_id": "T1_entity_relation",
+      "chunks": [],
+      "total_chunks": 34,
+      "completed": 34,
+      "failed": 0
+    },
+    {
+      "task_id": "T2_event",
+      "chunks": [],
+      "total_chunks": 19,
+      "completed": 19,
+      "failed": 0
+    },
+    {
+      "task_id": "T3_discrepancy_intra",
+      "chunks": [],
+      "total_chunks": 15,
+      "completed": 15,
+      "failed": 0
+    },
+    {
+      "task_id": "T4_entity_merge",
+      "chunks": [],
+      "total_chunks": 34,
+      "completed": 34,
+      "failed": 0
+    },
+    {
+      "task_id": "T5_relation_crossvol",
+      "chunks": [],
+      "total_chunks": 34,
+      "completed": 34,
+      "failed": 0
+    },
+    {
+      "task_id": "T6_discrepancy_cross",
+      "chunks": [],
+      "total_chunks": 34,
+      "completed": 34,
+      "failed": 0
+    },
+    {
+      "task_id": "T7_event_timeline",
+      "chunks": [],
+      "total_chunks": 34,
+      "completed": 34,
+      "failed": 0
+    }
+  ],
+  "end_time": "2026-08-07T07:16:43.857174+00:00",
+  "total_chunks_ran": 24
+}

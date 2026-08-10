@@ -1,0 +1,405 @@
+[
+  {
+    "MonsterName": "冰锋",
+    "MonsterIntroduction": "守护者创造的巨大冰矛，能释放出席卷全场的刺骨霜风。",
+    "MonsterStrategy": [],
+    "MonsterID": 1002011,
+    "MonsterTemplateID": 1002011,
+    "EliteGroup": 1,
+    "HardLevelGroup": 1,
+    "AttackModifyRatio": {
+      "Value": 1
+    },
+    "DefenceModifyRatio": {
+      "Value": 1
+    },
+    "HPModifyRatio": {
+      "Value": 1
+    },
+    "SpeedModifyRatio": {
+      "Value": 1
+    },
+    "StanceModifyRatio": {
+      "Value": 1
+    },
+    "StanceWeakList": [
+      "Fire",
+      "Thunder"
+    ],
+    "DamageTypeResistance": [
+      {
+        "DamageType": "Physical",
+        "Value": {
+          "Value": 0.2
+        }
+      },
+      {
+        "DamageType": "Ice",
+        "Value": {
+          "Value": 0.2
+        }
+      },
+      {
+        "DamageType": "Wind",
+        "Value": {
+          "Value": 0.2
+        }
+      },
+      {
+        "DamageType": "Quantum",
+        "Value": {
+          "Value": 0.2
+        }
+      },
+      {
+        "DamageType": "Imaginary",
+        "Value": {
+          "Value": 0.2
+        }
+      }
+    ],
+    "DebuffResist": [
+      {
+        "Key": "STAT_CTRL_Frozen",
+        "Value": {
+          "Value": 1
+        }
+      }
+    ],
+    "CustomValueTags": [
+      "W1_Ice"
+    ],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "SummonIDList": [],
+    "OverrideAIPath": "",
+    "OverrideAISkillSequence": [],
+    "AbilityNameList": [],
+    "SkillList": [
+      100201101
+    ],
+    "OverrideSkillParams": []
+  },
+  {
+    "MonsterName": "冰锋",
+    "MonsterIntroduction": "守护者创造的巨大冰矛，能释放出席卷全场的刺骨霜风。",
+    "MonsterStrategy": [],
+    "MonsterID": 100201101,
+    "MonsterTemplateID": 1002011,
+    "EliteGroup": 1,
+    "HardLevelGroup": 1,
+    "AttackModifyRatio": {
+      "Value": 1
+    },
+    "DefenceModifyRatio": {
+      "Value": 1
+    },
+    "HPModifyRatio": {
+      "Value": 0.266667
+    },
+    "SpeedModifyRatio": {
+      "Value": 1
+    },
+    "StanceModifyRatio": {
+      "Value": 1
+    },
+    "StanceWeakList": [
+      "Fire",
+      "Thunder"
+    ],
+    "DamageTypeResistance": [
+      {
+        "DamageType": "Physical",
+        "Value": {
+          "Value": 0.2
+        }
+      },
+      {
+        "DamageType": "Ice",
+        "Value": {
+          "Value": 0.2
+        }
+      },
+      {
+        "DamageType": "Wind",
+        "Value": {
+          "Value": 0.2
+        }
+      },
+      {
+        "DamageType": "Quantum",
+        "Value": {
+          "Value": 0.2
+        }
+      },
+      {
+        "DamageType": "Imaginary",
+        "Value": {
+          "Value": 0.2
+        }
+      }
+    ],
+    "DebuffResist": [
+      {
+        "Key": "STAT_CTRL_Frozen",
+        "Value": {
+          "Value": 1
+        }
+      }
+    ],
+    "CustomValueTags": [
+      "W1_Ice"
+    ],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "SummonIDList": [],
+    "OverrideAIPath": "",
+    "OverrideAISkillSequence": [],
+    "AbilityNameList": [],
+    "SkillList": [
+      100201101
+    ],
+    "OverrideSkillParams": []
+  },
+  {
+    "MonsterName": "冰锋",
+    "MonsterIntroduction": "守护者创造的巨大冰矛，能释放出席卷全场的刺骨霜风。",
+    "MonsterStrategy": [],
+    "MonsterID": 1002012,
+    "MonsterTemplateID": 1002012,
+    "EliteGroup": 1,
+    "HardLevelGroup": 1,
+    "AttackModifyRatio": {
+      "Value": 1
+    },
+    "DefenceModifyRatio": {
+      "Value": 1
+    },
+    "HPModifyRatio": {
+      "Value": 1
+    },
+    "SpeedModifyRatio": {
+      "Value": 1
+    },
+    "StanceModifyRatio": {
+      "Value": 1
+    },
+    "StanceWeakList": [
+      "Fire",
+      "Quantum"
+    ],
+    "DamageTypeResistance": [
+      {
+        "DamageType": "Physical",
+        "Value": {
+          "Value": 0.2
+        }
+      },
+      {
+        "DamageType": "Ice",
+        "Value": {
+          "Value": 0.2
+        }
+      },
+      {
+        "DamageType": "Thunder",
+        "Value": {
+          "Value": 0.2
+        }
+      },
+      {
+        "DamageType": "Wind",
+        "Value": {
+          "Value": 0.2
+        }
+      },
+      {
+        "DamageType": "Imaginary",
+        "Value": {
+          "Value": 0.2
+        }
+      }
+    ],
+    "DebuffResist": [
+      {
+        "Key": "STAT_CTRL_Frozen",
+        "Value": {
+          "Value": 1
+        }
+      }
+    ],
+    "CustomValueTags": [
+      "W1_Ice"
+    ],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "SummonIDList": [],
+    "OverrideAIPath": "",
+    "OverrideAISkillSequence": [],
+    "AbilityNameList": [],
+    "SkillList": [
+      100201201
+    ],
+    "OverrideSkillParams": []
+  },
+  {
+    "MonsterName": "冰锋",
+    "MonsterIntroduction": "守护者创造的巨大冰矛，能释放出席卷全场的刺骨霜风。",
+    "MonsterStrategy": [],
+    "MonsterID": 100201201,
+    "MonsterTemplateID": 1002012,
+    "EliteGroup": 1,
+    "HardLevelGroup": 1,
+    "AttackModifyRatio": {
+      "Value": 1
+    },
+    "DefenceModifyRatio": {
+      "Value": 1
+    },
+    "HPModifyRatio": {
+      "Value": 0.266667
+    },
+    "SpeedModifyRatio": {
+      "Value": 1
+    },
+    "StanceModifyRatio": {
+      "Value": 1
+    },
+    "StanceWeakList": [
+      "Fire",
+      "Quantum"
+    ],
+    "DamageTypeResistance": [
+      {
+        "DamageType": "Physical",
+        "Value": {
+          "Value": 0.2
+        }
+      },
+      {
+        "DamageType": "Ice",
+        "Value": {
+          "Value": 0.2
+        }
+      },
+      {
+        "DamageType": "Thunder",
+        "Value": {
+          "Value": 0.2
+        }
+      },
+      {
+        "DamageType": "Wind",
+        "Value": {
+          "Value": 0.2
+        }
+      },
+      {
+        "DamageType": "Imaginary",
+        "Value": {
+          "Value": 0.2
+        }
+      }
+    ],
+    "DebuffResist": [
+      {
+        "Key": "STAT_CTRL_Frozen",
+        "Value": {
+          "Value": 1
+        }
+      }
+    ],
+    "CustomValueTags": [
+      "W1_Ice"
+    ],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "SummonIDList": [],
+    "OverrideAIPath": "",
+    "OverrideAISkillSequence": [],
+    "AbilityNameList": [],
+    "SkillList": [
+      100201201
+    ],
+    "OverrideSkillParams": []
+  },
+  {
+    "MonsterName": "无尽寒冬之槊",
+    "MonsterIntroduction": "可可利亚召唤出的巨大冰矛，环绕着能如刀刃般撕裂肉身的极寒气流。",
+    "MonsterStrategy": [],
+    "MonsterID": 1002013,
+    "MonsterTemplateID": 1002013,
+    "EliteGroup": 1,
+    "HardLevelGroup": 1,
+    "AttackModifyRatio": {
+      "Value": 1
+    },
+    "DefenceModifyRatio": {
+      "Value": 1
+    },
+    "HPModifyRatio": {
+      "Value": 1
+    },
+    "SpeedModifyRatio": {
+      "Value": 1
+    },
+    "StanceModifyRatio": {
+      "Value": 1
+    },
+    "StanceWeakList": [
+      "Fire",
+      "Thunder"
+    ],
+    "DamageTypeResistance": [
+      {
+        "DamageType": "Physical",
+        "Value": {
+          "Value": 0.2
+        }
+      },
+      {
+        "DamageType": "Ice",
+        "Value": {
+          "Value": 0.2
+        }
+      },
+      {
+        "DamageType": "Wind",
+        "Value": {
+          "Value": 0.2
+        }
+      },
+      {
+        "DamageType": "Quantum",
+        "Value": {
+          "Value": 0.2
+        }
+      },
+      {
+        "DamageType": "Imaginary",
+        "Value": {
+          "Value": 0.2
+        }
+      }
+    ],
+    "DebuffResist": [
+      {
+        "Key": "STAT_CTRL_Frozen",
+        "Value": {
+          "Value": 1
+        }
+      }
+    ],
+    "CustomValueTags": [],
+    "CustomValues": [],
+    "DynamicValues": [],
+    "SummonIDList": [],
+    "OverrideAIPath": "",
+    "OverrideAISkillSequence": [],
+    "AbilityNameList": [],
+    "SkillList": [
+      100201301
+    ],
+    "OverrideSkillParams": []
+  }
+]

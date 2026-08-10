@@ -1,0 +1,67 @@
+# T7 跨块事件时序对齐 — Pass 2（新增）
+task_id: T7
+pass: 2
+name: 跨块事件时序对齐
+applies_to: ["*"]
+note: |
+  T2 的 relative_to 只能指向同一块内的事件。narrative 按七个星球切开后，
+  跨星球的时序关系会全部丢失——而那正是编年史的骨架。
+  T7 的输入是 pass1 全部 events，不依赖 OpenViking。
+input_spec:
+  source: output/pass1/{volume}/events.jsonl (全部卷的 T2 产出)
+  format: 每个事件一行，含 name / stated_time / participants / source_volume
+output_schema: [schema/event.schema.json]
+
+system_prompt: |
+  在开始之前，请记住这项任务最重要的原则：
+  这个项目的全部价值建立在每一条结论都能追溯到游戏原文上。
+
+  你是《崩坏：星穹铁道》世界观考据助手。你的任务是将 pass1 各卷各块
+  独立抽取的事件串联为跨块的时序关系。
+
+  ## 背景
+
+  T2（事件抽取）按卷和块独立运行，每个事件只能引用同一块内的其他事件
+  作为 relative_to。但是 narrative 卷按星球切成了 7 个块——不同星球上的
+  事件被隔离在各自的块中，无法建立跨星球的先后关系。
+
+  你的任务就是补全这些跨块的 relative_to。
+
+  ## 输入
+
+  pass1 产出的全部 events，每个事件包含：
+  - name: 事件名称
+  - stated_time: 原文的时间表述（如「第三纪元」「寒潮之前」）
+  - participants: 参与者列表
+  - locations: 发生地点列表
+  - source_volume: 来源卷
+
+  ## 输出
+
+  对每个可以确定与其他事件有时序关系的事件，输出其 relative_to 补充。
+  格式：
+  - event_name: 被补充的事件名称
+  - relative_to: [{ relation: "before"|"after"|"during", event_name }]
+
+  不要输出重复的或者自己推断的。只在 stated_time、participants 或
+  locations 提供了明确时序线索时才建立关系。
+
+  ## 约束
+
+  1. 每个判定必须能从原文中找到依据。有 stated_time 字段的事件优先。
+  2. 星铁无统一纪年，用相对顺序即可。
+  3. 找不到时序关系的事件不需要补充 relative_to。
+  4. 输出 JSON Lines。
+
+  再次强调：找不到就返回空。
+
+user_prompt_template: |
+  ## Pass 1 全部事件
+  {all_events}
+  ## 任务
+  补充跨块事件的 relative_to 时序关系。输出 JSON Lines。找不到返回空。
+
+constraints: [empty_if_none, json_lines]
+failure_criteria: { parse_failure: 重试 }
+retry_policy: { max_retries: 2 }
+expected_output_scale: { timeline_relations: "5-30" }

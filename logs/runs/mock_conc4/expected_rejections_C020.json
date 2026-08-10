@@ -1,0 +1,17 @@
+[
+  {
+    "violation": "bad_attribute_key",
+    "cite_id": "",
+    "detail": "key=bad_key_not_in_vocab"
+  },
+  {
+    "violation": "doctored_quote",
+    "cite_id": "",
+    "detail": "quote doctored from \"曜青云骑皆已整装待...\""
+  },
+  {
+    "violation": "single_statement_contradiction",
+    "cite_id": "",
+    "detail": "only 1 statement"
+  }
+]

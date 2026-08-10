@@ -1,0 +1,10 @@
+{
+  "run_id": "mock_gate_test",
+  "gate_test": true,
+  "chunk": "C001 (lore)",
+  "total_objects": 7,
+  "expected_rejections": 2,
+  "actual_rejected": 2,
+  "rejection_rate": 0.2857142857142857,
+  "gate_triggered": true
+}

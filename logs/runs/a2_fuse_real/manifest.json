@@ -1,0 +1,15 @@
+{
+  "run_id": "a2_fuse_real",
+  "start_time": "2026-08-07T09:31:21.975931+00:00",
+  "last_updated": "2026-08-07T09:31:22.094184+00:00",
+  "call_count": 16,
+  "total_input_tokens": 1750569,
+  "total_output_tokens": 128,
+  "total_tokens": 1750697,
+  "total_latency_ms": 18,
+  "success_count": 16,
+  "failure_count": 0,
+  "max_total_input_tokens": 2000000,
+  "max_total_output_tokens": 4000000,
+  "completed_chunks": []
+}

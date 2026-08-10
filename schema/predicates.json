@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hsr-lore/schema/predicates.json",
+  "title": "受控谓词词表",
+  "description": "模型只能从这 21 个谓词中选择，不许自造。RELATED_TO 使用超过 10% 需告警。",
+  "predicates": {
+    "aeon_path": [
+      "EMBODIES",
+      "EMISSARY_OF",
+      "FOLLOWER_OF",
+      "OPPOSES"
+    ],
+    "character_org": [
+      "MEMBER_OF",
+      "LEADS",
+      "MENTOR_OF",
+      "KIN_OF",
+      "ALLY_OF",
+      "ENEMY_OF",
+      "SUCCEEDS",
+      "CREATED",
+      "KILLED",
+      "TRANSFORMED_INTO"
+    ],
+    "space": [
+      "LOCATED_IN",
+      "ORIGINATES_FROM",
+      "RULES"
+    ],
+    "event": [
+      "PARTICIPATED_IN",
+      "CAUSED",
+      "RESULTED_IN"
+    ],
+    "fallback": [
+      "RELATED_TO"
+    ]
+  },
+  "all": [
+    "EMBODIES", "EMISSARY_OF", "FOLLOWER_OF", "OPPOSES",
+    "MEMBER_OF", "LEADS", "MENTOR_OF", "KIN_OF",
+    "ALLY_OF", "ENEMY_OF", "SUCCEEDS", "CREATED",
+    "KILLED", "TRANSFORMED_INTO",
+    "LOCATED_IN", "ORIGINATES_FROM", "RULES",
+    "PARTICIPATED_IN", "CAUSED", "RESULTED_IN",
+    "RELATED_TO"
+  ]
+}

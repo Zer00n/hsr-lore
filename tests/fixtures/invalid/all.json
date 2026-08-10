@@ -1,0 +1,306 @@
+[
+  {
+    "entity_id": "CHAR:TooLong",
+    "type": "CHAR",
+    "canonical_name": "TooLong",
+    "summary": {
+      "text": "test",
+      "claim_type": "fact",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "AEON-10-1",
+          "quote": "……「同谐」的希佩，噢，集群星之母！祂宣扬和谐一致的喜乐，将所有意志归于一尊。家族的颂歌传播于世间各个角落，祂对万物意志理解、支持与配合的拿捏程度难以想象，或许在此之上祂已走向凡人难以想象的维度。无限扩张的「同谐」着实令人憧憬，宇宙如液体碎钻环绕、装饰祂的身躯，文明在祂手中变成一抹捏住的彩虹。我十分好奇祂如何吞并「秩序」——希佩的颂歌总纵向传播扩张，时而以意识态支配；太一的和音则以立体音程排开，如同帝皇掌控万生等级秩序；二者在命途上确有一定重合，但古老的「秩序」体量庞大，绝不可小觑，吞并祂怎会是",
+          "offset_start": 0,
+          "offset_end": 250
+        }
+      ]
+    },
+    "source_volume": "lore"
+  },
+  {
+    "entity_id": "CHAR:FakeID",
+    "type": "CHAR",
+    "canonical_name": "FakeID",
+    "summary": {
+      "text": "test",
+      "claim_type": "fact",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "FAKE-99999",
+          "quote": "fake quote",
+          "offset_start": 0,
+          "offset_end": 10
+        }
+      ]
+    },
+    "source_volume": "lore"
+  },
+  {
+    "entity_id": "CHAR:FakeQuote",
+    "type": "CHAR",
+    "canonical_name": "FakeQuote",
+    "summary": {
+      "text": "test",
+      "claim_type": "fact",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "BOOK-190573",
+          "quote": "THIS TEXT DOES NOT EXIST IN SOURCE",
+          "offset_start": 0,
+          "offset_end": 10
+        }
+      ]
+    },
+    "source_volume": "lore"
+  },
+  {
+    "entity_id": "CHAR:BadOffset",
+    "type": "CHAR",
+    "canonical_name": "BadOffset",
+    "summary": {
+      "text": "test",
+      "claim_type": "fact",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "STRY-1304-1",
+          "quote": "星际和平公司「战略投资部」的高级干部，「石心十人」之一，基石",
+          "offset_start": 999,
+          "offset_end": 1029
+        }
+      ]
+    },
+    "source_volume": "lore"
+  },
+  {
+    "entity_id": "CHAR:NoCite",
+    "type": "CHAR",
+    "canonical_name": "NoCite",
+    "summary": {
+      "text": "test",
+      "claim_type": "fact",
+      "confidence": "attested",
+      "citations": []
+    },
+    "source_volume": "lore"
+  },
+  {
+    "relation_id": "REL:eeeeeeeeeeee",
+    "subject_id": "CHAR:三月七",
+    "predicate": "IS_BEST_FRIEND",
+    "object_id": "CHAR:丹恒",
+    "claim_type": "fact",
+    "confidence": "attested",
+    "citations": [
+      {
+        "cite_id": "LOAD-20026",
+        "quote": "匹诺康尼因影视乐园骚动一时陷入混乱，知更鸟（？）决定趁机派发",
+        "offset_start": 0,
+        "offset_end": 30
+      }
+    ],
+    "source_volume": "characters"
+  },
+  {
+    "entity_id": "CHAR:BadConf",
+    "type": "CHAR",
+    "canonical_name": "BadConf",
+    "summary": {
+      "text": "test",
+      "claim_type": "fact",
+      "confidence": "maybe",
+      "citations": [
+        {
+          "cite_id": "LOAD-20026",
+          "quote": "匹诺康尼因影视乐园骚动一时陷入混乱，知更鸟（？）决定趁机派发",
+          "offset_start": 0,
+          "offset_end": 30
+        }
+      ]
+    },
+    "source_volume": "lore"
+  },
+  {
+    "entity_id": "WRONG_FORMAT",
+    "type": "CHAR",
+    "canonical_name": "BadFormat",
+    "summary": {
+      "text": "test",
+      "claim_type": "fact",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "LOAD-20026",
+          "quote": "匹诺康尼因影视乐园骚动一时陷入混乱，知更鸟（？）决定趁机派发",
+          "offset_start": 0,
+          "offset_end": 30
+        }
+      ]
+    },
+    "source_volume": "lore"
+  },
+  {
+    "discrepancy_id": "DSC:ffffffffffff",
+    "kind": "contradiction",
+    "topic": "test",
+    "statements": [
+      {
+        "text": "only one",
+        "citation": {
+          "cite_id": "LOAD-20026",
+          "quote": "匹诺康尼因影视乐园骚动一时陷入混乱，知更鸟（？）决定趁机派发",
+          "offset_start": 0,
+          "offset_end": 30
+        }
+      }
+    ],
+    "analysis": {
+      "text": "analysis",
+      "claim_type": "interpretation",
+      "confidence": "inferred",
+      "citations": []
+    },
+    "related_entities": [],
+    "impact": "low"
+  },
+  {
+    "discrepancy_id": "DSC:gggggggggggg",
+    "kind": "ambiguity",
+    "topic": "test",
+    "statements": [
+      {
+        "text": "stmt",
+        "citation": {
+          "cite_id": "LOAD-20026",
+          "quote": "匹诺康尼因影视乐园骚动一时陷入混乱，知更鸟（？）决定趁机派发",
+          "offset_start": 0,
+          "offset_end": 30
+        }
+      }
+    ],
+    "analysis": {
+      "text": "analysis",
+      "claim_type": "fact",
+      "confidence": "inferred",
+      "citations": [
+        {
+          "cite_id": "LOAD-20026",
+          "quote": "匹诺康尼因影视乐园骚动一时陷入混乱，知更鸟（？）决定趁机派发",
+          "offset_start": 0,
+          "offset_end": 30
+        }
+      ]
+    },
+    "related_entities": [],
+    "impact": "low"
+  },
+  {
+    "relation_id": "REL:hhhhhhhhhhhh",
+    "subject_id": "CHAR:UndefinedEntity",
+    "predicate": "ALLY_OF",
+    "object_id": "CHAR:三月七",
+    "claim_type": "fact",
+    "confidence": "attested",
+    "citations": [
+      {
+        "cite_id": "LOAD-20026",
+        "quote": "匹诺康尼因影视乐园骚动一时陷入混乱，知更鸟（？）决定趁机派发",
+        "offset_start": 0,
+        "offset_end": 30
+      }
+    ],
+    "source_volume": "characters"
+  },
+  {
+    "relation_id": "WRONG_REL_ID",
+    "subject_id": "CHAR:三月七",
+    "predicate": "ALLY_OF",
+    "object_id": "CHAR:丹恒",
+    "claim_type": "fact",
+    "confidence": "attested",
+    "citations": [
+      {
+        "cite_id": "LOAD-20026",
+        "quote": "匹诺康尼因影视乐园骚动一时陷入混乱，知更鸟（？）决定趁机派发",
+        "offset_start": 0,
+        "offset_end": 30
+      }
+    ],
+    "source_volume": "characters"
+  },
+  {
+    "entity_id": "CHAR:BadClaim",
+    "type": "CHAR",
+    "canonical_name": "BadClaim",
+    "summary": {
+      "text": "test",
+      "claim_type": "guess",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "LOAD-20026",
+          "quote": "匹诺康尼因影视乐园骚动一时陷入混乱，知更鸟（？）决定趁机派发",
+          "offset_start": 0,
+          "offset_end": 30
+        }
+      ]
+    },
+    "source_volume": "lore"
+  },
+  {
+    "merge_id": "MRG:iiiiiiiiiiii",
+    "merged_entity_id": "CHAR:Test",
+    "source_entity_ids": [
+      "CHAR:Test1",
+      "CHAR:Test2"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "reason",
+      "claim_type": "fact",
+      "citations": [
+        {
+          "cite_id": "LOAD-20026",
+          "quote": "匹诺康尼因影视乐园骚动一时陷入混乱，知更鸟（？）决定趁机派发",
+          "offset_start": 0,
+          "offset_end": 30
+        }
+      ]
+    },
+    "confidence": "inferred"
+  },
+  {
+    "entity_id": "CHAR:BadVol",
+    "type": "CHAR",
+    "canonical_name": "BadVol",
+    "summary": {
+      "text": "test",
+      "claim_type": "fact",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "LOAD-20026",
+          "quote": "匹诺康尼因影视乐园骚动一时陷入混乱，知更鸟（？）决定趁机派发",
+          "offset_start": 0,
+          "offset_end": 30
+        }
+      ]
+    },
+    "source_volume": "invalid_volume"
+  },
+  {
+    "entity_id": "CHAR:NoCiteInterp",
+    "type": "CHAR",
+    "canonical_name": "NoCiteInterp",
+    "summary": {
+      "text": "这是一个模型分析，应该有引证。",
+      "claim_type": "interpretation",
+      "confidence": "inferred",
+      "citations": []
+    },
+    "source_volume": "lore"
+  }
+]

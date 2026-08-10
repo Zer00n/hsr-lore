@@ -1,0 +1,16 @@
+[
+  {
+    "violation": "bad_attribute_key",
+    "cite_id": "",
+    "detail": "key=bad_key_not_in_vocab"
+  },
+  {
+    "violation": "interpretation_no_citation",
+    "cite_id": ""
+  },
+  {
+    "violation": "single_statement_contradiction",
+    "cite_id": "",
+    "detail": "only 1 statement"
+  }
+]

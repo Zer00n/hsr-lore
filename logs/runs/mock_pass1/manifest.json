@@ -1,0 +1,16 @@
+{
+  "run_id": "mock_pass1",
+  "provider": "mock",
+  "start_time": "2026-08-07T08:19:37.755323+00:00",
+  "tasks": [
+    {
+      "task_id": "T4_entity_merge",
+      "chunks": [],
+      "total_chunks": 34,
+      "completed": 34,
+      "failed": 0
+    }
+  ],
+  "end_time": "2026-08-07T08:20:07.577420+00:00",
+  "total_chunks_ran": 34
+}

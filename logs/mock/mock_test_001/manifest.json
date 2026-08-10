@@ -1,0 +1,12 @@
+{
+  "run_id": "mock_test_001",
+  "start_time": "2026-08-06T10:30:34.601302+00:00",
+  "last_updated": "2026-08-06T10:30:34.724274+00:00",
+  "call_count": 20,
+  "total_input_tokens": 4900,
+  "total_output_tokens": 6850,
+  "total_tokens": 11750,
+  "total_latency_ms": 100,
+  "success_count": 20,
+  "failure_count": 0
+}

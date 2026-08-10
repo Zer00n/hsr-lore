@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hsr-lore/schema/entity.schema.json",
+  "title": "Entity",
+  "description": "实体 — 星铁世界观中的角色、地点、组织、概念等",
+  "type": "object",
+  "required": ["entity_id", "type", "canonical_name", "source_volume"],
+  "properties": {
+    "entity_id": {
+      "type": "string",
+      "description": "ID 格式 {TYPE}:{slug}，例 CHAR:三月七",
+      "pattern": "^(AEON|PATH|CHAR|ORGN|PLAC|WRLD|CONC|ARTF|RACE):.+$"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["AEON", "PATH", "CHAR", "ORGN", "PLAC", "WRLD", "CONC", "ARTF", "RACE"]
+    },
+    "canonical_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "aliases": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "summary": {
+      "type": "object",
+      "required": ["text", "claim_type", "confidence", "citations"],
+      "properties": {
+        "text": { "type": "string", "minLength": 1 },
+        "claim_type": { "type": "string", "enum": ["fact", "interpretation"] },
+        "confidence": { "type": "string", "enum": ["attested", "inferred", "disputed"] },
+        "citations": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "citation.schema.json" }
+        }
+      }
+    },
+    "attributes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["key", "value", "claim_type", "confidence", "citations"],
+        "properties": {
+          "key": { "type": "string", "minLength": 1 },
+          "value": { "type": "string" },
+          "claim_type": { "type": "string", "enum": ["fact", "interpretation"] },
+          "confidence": { "type": "string", "enum": ["attested", "inferred", "disputed"] },
+          "citations": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "$ref": "citation.schema.json" }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "source_volume": {
+      "type": "string",
+      "enum": ["lore", "books", "characters", "narrative", "dialogue", "artifacts", "rogue"]
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,11 @@
+[
+  {
+    "violation": "wrong_predicate",
+    "cite_id": "",
+    "detail": "predicate=IS_BEST_FRIEND"
+  },
+  {
+    "violation": "missing_confidence",
+    "cite_id": ""
+  }
+]

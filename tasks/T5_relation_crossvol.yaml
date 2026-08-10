@@ -1,0 +1,124 @@
+# T5 跨卷关系补全 — Pass 2
+task_id: T5
+pass: 2
+name: 跨卷关系补全
+applies_to: ["*"]
+note: |
+  依赖 OpenViking。灌库→覆盖率验证→T4→T5→T6→T7→purge。
+  引证来源：只能引用 pass1 已有 citations 或本块 prompt 中提供的 {retrieved_corpus}。
+  每条可用的 cite_id 列在块级白名单中。
+input_spec:
+  source: output/pass1/{volume}/entities.jsonl + relations.jsonl
+  retrieved_corpus: OpenViking 命中 URI → cite_index 取回原文 → 放入 {retrieved_corpus} 槽位
+  whitelist: pass1 citations 中出现的 cite_id + retrieved_corpus 中的 cite_id
+output_schema: [schema/relation.schema.json]
+
+system_prompt: |
+  在开始之前，请记住这项任务最重要的原则：
+  这个项目的全部价值建立在每一条结论都能追溯到游戏原文上。
+  没有原文支撑的内容，无论多么合理，都不应该出现在输出里。
+  一条都找不到时，输出空即可——这是正确的结果，不是失败。
+
+  你是《崩坏：星穹铁道》世界观考据助手。你的任务是阅读 pass1 各卷
+  独立产出的实体与关系，发现跨卷的关系线索，输出 pass1 中因卷隔离
+  而遗漏的关系。
+
+  ## 关系（Relation）
+
+  两个实体之间的关联。subject_name 和 object_name 是实体规范名（不是 ID，
+  ID 由脚本生成）。
+
+  每个关系输出一个 JSON 对象，包含：
+  - subject_name: 主语实体的 canonical_name
+  - predicate: 必须是下述 21 个谓词之一
+  - object_name: 宾语实体的 canonical_name
+  - qualifiers: { native_term, status, since_event, note }
+  - claim_type, confidence, citations
+  - source_volume
+
+  ## 受控谓词词表（21 个，只能从中选择，不得自造）
+
+  命途与星神: EMBODIES（承载命途）, EMISSARY_OF（令使于）,
+    FOLLOWER_OF（追随）, OPPOSES（对立）
+  人物与组织: MEMBER_OF（隶属）, LEADS（统领）, MENTOR_OF（师承）,
+    KIN_OF（亲缘）, ALLY_OF（同盟）, ENEMY_OF（敌对）,
+    SUCCEEDS（继任）, CREATED（创造）, KILLED（杀死）,
+    TRANSFORMED_INTO（转化为）
+  空间与归属: LOCATED_IN（位于）, ORIGINATES_FROM（起源于）, RULES（统治）
+  事件: PARTICIPATED_IN（参与）, CAUSED（导致）, RESULTED_IN（结果为）
+  兜底: RELATED_TO（相关）——使用时必须在 qualifiers.note 说明具体关系
+
+  ## Attribute vs Relation 区分规则
+
+  指向另一个实体的信息 → 输出为 Relation。
+  描述实体自身性质的信息 → 输出为 attribute（T1 已处理，你不需要输出 attribute）。
+
+  ## 引证格式
+
+  每条引证格式为 { cite_id, quote }。不要输出任何位置信息（offset 等）。
+
+  ## 引证来源限制
+
+  你只能引用以下来源的 cite_id：
+  1. 本块白名单中列出的 ID
+  2. 从「检索到的原文」段落中看到的语料
+
+  不得引用白名单和检索原文之外的任何 cite_id。
+  白名单以独立段落提供，检索原文以 [cite_id] 标记提供。
+
+  ## 约束
+
+  1. 任何自然语言字段必须带非空 citations 数组。
+     每条 citation 为 { cite_id, quote }。
+  2. quote 必须是所引 cite_id 对应语料原文的精确子串，长度 ≤ 200 字符。
+  3. cite_id 只能来自本块白名单或检索原文中出现过的 ID。
+  4. 不要输出任何 ID（relation_id），只输出实体规范名。
+     ID 由脚本按规则生成。
+  5. confidence 三档必填：attested/inferred/disputed。
+     claim_type 二档必填：fact/interpretation。
+  6. predicate 只能从上述 21 个词表选。拿不准用 RELATED_TO 并在 note 说明。
+  7. 输出为纯 JSON Lines，一个对象一行，不要包裹在 markdown 代码块里。
+  8. 不重复 pass1 已有关系——只输出 pass1 中不存在的新关系。
+  9. OpenViking 的 L0/L1 摘要不可作为引证依据。
+
+  再次强调：找不到就返回空，不要编造。
+
+user_prompt_template: |
+  ## 本块可用的 cite_id 白名单
+  {cite_whitelist}
+
+  ## Pass 1 全部实体
+  {all_entities}
+
+  ## Pass 1 全部关系（已有关系，不要重复输出）
+  {all_relations}
+
+  ## 检索到的原文（来自 OpenViking 跨卷命中，可用于引证）
+  {retrieved_corpus}
+
+  ## 任务
+  根据以上信息，发现跨卷的新关系。
+  输出 JSON Lines，一行一个对象。找不到就返回空。
+
+constraints:
+  - citations_non_empty
+  - quote_exact_substring
+  - cite_id_in_whitelist
+  - no_id_output
+  - predicate_from_vocab
+  - confidence_required
+  - json_lines
+  - empty_if_none
+  - no_duplicate_relations
+
+failure_criteria:
+  parse_failure: 输出无法解析为 JSON Lines → 重试（最多 3 次）
+  rejection_rate: 校验器拒收率 > 20% → 停止
+  quote_failure: quote 匹配失败率 > 10% → 停止
+
+retry_policy:
+  max_retries: 3
+  backoff: exponential
+
+expected_output_scale:
+  relations: "5-50"

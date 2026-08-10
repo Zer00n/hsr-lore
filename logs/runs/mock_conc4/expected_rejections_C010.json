@@ -1,0 +1,16 @@
+[
+  {
+    "violation": "doctored_quote",
+    "cite_id": "",
+    "detail": "quote doctored from \"司辰宫中，满心...\""
+  },
+  {
+    "violation": "wrong_predicate",
+    "cite_id": ""
+  },
+  {
+    "violation": "interpretation_no_citation",
+    "cite_id": "",
+    "detail": "interpretation with empty citations"
+  }
+]

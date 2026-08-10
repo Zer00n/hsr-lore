@@ -1,0 +1,16 @@
+[
+  {
+    "violation": "interpretation_no_citation",
+    "cite_id": ""
+  },
+  {
+    "violation": "doctored_quote",
+    "cite_id": "",
+    "detail": "quote doctored from \"你的开拓第一站，是名为「雅利洛-Ⅵ」的...\""
+  },
+  {
+    "violation": "bad_attribute_key",
+    "cite_id": "",
+    "detail": "key=bad_key_not_in_vocab"
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "AchievementID": 4010101,
+    "SeriesID": 1,
+    "QuestID": 4010101,
+    "LinearQuestID": 4010101,
+    "AchievementTitle": "炽燃不灭的琥珀",
+    "AchievementDesc": "开拓者踏上「存护」命途",
+    "AchievementDescPS": "开拓者踏上「存护」命途",
+    "ParamList": [],
+    "Priority": 10000,
+    "Rarity": "High",
+    "ShowType": "ShowAfterFinish",
+    "PSTrophyID": "0001"
+  },
+  {
+    "AchievementID": 4010201,
+    "SeriesID": 1,
+    "QuestID": 4010201,
+    "LinearQuestID": 4010201,
+    "AchievementTitle": "命运之中（一）",
+    "AchievementDesc": "拥有1枚等级达到<unbreak>#1[i]</unbreak>级的光锥",
+    "AchievementDescPS": "拥有1枚等级达到<unbreak>40</unbreak>级的光锥",
+    "ParamList": [
+      {
+        "Value": 40
+      }
+    ],
+    "Priority": 9950,
+    "Rarity": "Mid",
+    "PSTrophyID": "0002"
+  },
+  {
+    "AchievementID": 4010202,
+    "SeriesID": 1,
+    "QuestID": 4010202,
+    "LinearQuestID": 4010202,
+    "AchievementTitle": "命运之中（二）",
+    "AchievementDesc": "拥有1枚等级达到<unbreak>#1[i]</unbreak>级的光锥",
+    "AchievementDescPS": "拥有1枚等级达到<unbreak>60</unbreak>级的光锥",
+    "ParamList": [
+      {
+        "Value": 60
+      }
+    ],
+    "Priority": 9940,
+    "Rarity": "Mid",
+    "PSTrophyID": "0003"
+  },
+  {
+    "AchievementID": 4010203,
+    "SeriesID": 1,
+    "QuestID": 4010203,
+    "LinearQuestID": 4010203,
+    "AchievementTitle": "命运之中（三）",
+    "AchievementDesc": "拥有1枚等级达到<unbreak>#1[i]</unbreak>级的光锥",
+    "ParamList": [
+      {
+        "Value": 80
+      }
+    ],
+    "Priority": 9930,
+    "Rarity": "High",
+    "PSTrophyID": ""
+  },
+  {
+    "AchievementID": 4010103,
+    "SeriesID": 1,
+    "QuestID": 4010103,
+    "LinearQuestID": 4010103,
+    "AchievementTitle": "时间足够你爱",
+    "AchievementDesc": "拥有4枚等级达到<unbreak>80</unbreak>级的光锥",
+    "ParamList": [],
+    "Priority": 9920,
+    "Rarity": "High",
+    "PSTrophyID": ""
+  }
+]

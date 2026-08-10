@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hsr-lore/schema/citation.schema.json",
+  "title": "Citation",
+  "description": "引证 — 一等对象，被其他所有对象引用",
+  "type": "object",
+  "required": ["cite_id", "quote", "offset_start", "offset_end"],
+  "properties": {
+    "cite_id": {
+      "type": "string",
+      "description": "语料条目 ID，格式 {TYPE}-{PK}"
+    },
+    "quote": {
+      "type": "string",
+      "maxLength": 200,
+      "description": "原文引用，长度上限 200 字符"
+    },
+    "offset_start": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "引用在 clean 字段中的起始位置"
+    },
+    "offset_end": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "引用在 clean 字段中的结束位置"
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,582 @@
+[
+  {
+    "entity_id": "CHAR:三月七",
+    "type": "CHAR",
+    "canonical_name": "三月七",
+    "aliases": [
+      "三月"
+    ],
+    "summary": {
+      "text": "三月七是星铁世界观中的存在。",
+      "claim_type": "fact",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "LOAD-20026",
+          "quote": "匹诺康尼因影视乐园骚动一时陷入混乱，知更鸟（？）决定趁机派发她的小礼物……",
+          "offset_start": 0,
+          "offset_end": 37
+        }
+      ]
+    },
+    "attributes": [
+      {
+        "key": "描述",
+        "value": "来自游戏文本",
+        "claim_type": "fact",
+        "confidence": "attested",
+        "citations": [
+          {
+            "cite_id": "LOAD-20026",
+            "quote": "匹诺康尼因影视乐园骚动一时陷入混乱，知更鸟（？）决定趁机派发她的小礼物……",
+            "offset_start": 0,
+            "offset_end": 37
+          }
+        ]
+      }
+    ],
+    "source_volume": "characters"
+  },
+  {
+    "entity_id": "AEON:纳努克",
+    "type": "AEON",
+    "canonical_name": "纳努克",
+    "aliases": [
+      "纳努"
+    ],
+    "summary": {
+      "text": "纳努克是星铁世界观中的存在。",
+      "claim_type": "fact",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "BOOK-190573",
+          "quote": "{Img#1}\n「盛会之星」系列收藏卡牌由艾弗法出版集团旗下梦星娱乐™设计发行，",
+          "offset_start": 0,
+          "offset_end": 40
+        }
+      ]
+    },
+    "attributes": [
+      {
+        "key": "描述",
+        "value": "来自游戏文本",
+        "claim_type": "fact",
+        "confidence": "attested",
+        "citations": [
+          {
+            "cite_id": "BOOK-190573",
+            "quote": "{Img#1}\n「盛会之星」系列收藏卡牌由艾弗法出版集团旗下梦星娱乐™设计发行，",
+            "offset_start": 0,
+            "offset_end": 40
+          }
+        ]
+      }
+    ],
+    "source_volume": "lore"
+  },
+  {
+    "entity_id": "WRLD:雅利洛-Ⅵ",
+    "type": "WRLD",
+    "canonical_name": "雅利洛-Ⅵ",
+    "aliases": [],
+    "summary": {
+      "text": "雅利洛-Ⅵ是星铁世界观中的存在。",
+      "claim_type": "fact",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "STRY-1304-1",
+          "quote": "星际和平公司「战略投资部」的高级干部，「石心十人」之一，基石为「诡弈砂金」。\n个",
+          "offset_start": 0,
+          "offset_end": 40
+        }
+      ]
+    },
+    "attributes": [
+      {
+        "key": "描述",
+        "value": "来自游戏文本",
+        "claim_type": "fact",
+        "confidence": "attested",
+        "citations": [
+          {
+            "cite_id": "STRY-1304-1",
+            "quote": "星际和平公司「战略投资部」的高级干部，「石心十人」之一，基石为「诡弈砂金」。\n个",
+            "offset_start": 0,
+            "offset_end": 40
+          }
+        ]
+      }
+    ],
+    "source_volume": "lore"
+  },
+  {
+    "entity_id": "ORGN:星穹列车",
+    "type": "ORGN",
+    "canonical_name": "星穹列车",
+    "aliases": [],
+    "summary": {
+      "text": "星穹列车是星铁世界观中的存在。",
+      "claim_type": "fact",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "SUBM-D-103020107",
+          "quote": "你们从艾丽小姐那里取得了梦境护照，这也意味着漫长的入住流程终于迎来了尾声。\n现在",
+          "offset_start": 0,
+          "offset_end": 40
+        }
+      ]
+    },
+    "attributes": [],
+    "source_volume": "narrative"
+  },
+  {
+    "entity_id": "PLAC:黑塔空间站",
+    "type": "PLAC",
+    "canonical_name": "黑塔空间站",
+    "aliases": [],
+    "summary": {
+      "text": "黑塔空间站是星铁世界观中的存在。",
+      "claim_type": "fact",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "TALK-304006406",
+          "quote": "这里距离我们所生活的年代实在太过遥远，即使阿格莱雅大人的金丝也无法触及。为了更好",
+          "offset_start": 0,
+          "offset_end": 40
+        }
+      ]
+    },
+    "attributes": [],
+    "source_volume": "books"
+  },
+  {
+    "entity_id": "CONC:星核",
+    "type": "CONC",
+    "canonical_name": "星核",
+    "aliases": [],
+    "summary": {
+      "text": "星核是星铁世界观中的存在。",
+      "claim_type": "fact",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "MONS-100402009",
+          "quote": "银鬃铁卫的戍卫长。\n杰帕德会指挥麾下士兵集中攻击，并且能为士兵提供免疫一次攻击的",
+          "offset_start": 0,
+          "offset_end": 40
+        }
+      ]
+    },
+    "attributes": [],
+    "source_volume": "artifacts"
+  },
+  {
+    "entity_id": "RACE:持明族",
+    "type": "RACE",
+    "canonical_name": "持明族",
+    "aliases": [],
+    "summary": {
+      "text": "持明族是星铁世界观中的存在。",
+      "claim_type": "fact",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "MIRC-155",
+          "quote": "在一些被强制开发的边缘星域，承担廉价劳力的土著会误以为，公司使用的货币是某种植物",
+          "offset_start": 0,
+          "offset_end": 40
+        }
+      ]
+    },
+    "attributes": [],
+    "source_volume": "rogue"
+  },
+  {
+    "entity_id": "PATH:毁灭",
+    "type": "PATH",
+    "canonical_name": "毁灭",
+    "aliases": [],
+    "summary": {
+      "text": "毁灭是星铁世界观中的存在。",
+      "claim_type": "fact",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "TALK-146080614",
+          "quote": "神悟树庭七贤人已踏上行程，不日将逐批抵达，投身抵抗事业。在他们中，有一位名叫阿那",
+          "offset_start": 0,
+          "offset_end": 40
+        }
+      ]
+    },
+    "attributes": [],
+    "source_volume": "lore"
+  },
+  {
+    "entity_id": "CHAR:丹恒",
+    "type": "CHAR",
+    "canonical_name": "丹恒",
+    "aliases": [],
+    "summary": {
+      "text": "丹恒是星铁世界观中的存在。",
+      "claim_type": "fact",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "TALK-140317314",
+          "quote": "七贤人就更是笑谈了，若真是在吾之树荫下蒙受庇护的贤人，吾必能发觉。汝不也对树庭的",
+          "offset_start": 0,
+          "offset_end": 40
+        }
+      ]
+    },
+    "attributes": [],
+    "source_volume": "characters"
+  },
+  {
+    "entity_id": "AEON:岚",
+    "type": "AEON",
+    "canonical_name": "岚",
+    "aliases": [],
+    "summary": {
+      "text": "岚是星铁世界观中的存在。",
+      "claim_type": "fact",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "TALK-504053124",
+          "quote": "有专程来朝圣的信徒，有研究历史的学者，也有来探索未来运势的商人。",
+          "offset_start": 0,
+          "offset_end": 32
+        }
+      ]
+    },
+    "attributes": [],
+    "source_volume": "lore"
+  },
+  {
+    "relation_id": "REL:6dfd9ccfd770",
+    "subject_id": "CHAR:三月七",
+    "predicate": "MEMBER_OF",
+    "object_id": "ORGN:星穹列车",
+    "qualifiers": {},
+    "claim_type": "fact",
+    "confidence": "attested",
+    "citations": [
+      {
+        "cite_id": "LOAD-20026",
+        "quote": "匹诺康尼因影视乐园骚动一时陷入混乱，知更鸟（？）决定趁机派发她的小礼物……",
+        "offset_start": 0,
+        "offset_end": 37
+      }
+    ],
+    "source_volume": "characters"
+  },
+  {
+    "relation_id": "REL:e40b72b15c27",
+    "subject_id": "AEON:纳努克",
+    "predicate": "EMBODIES",
+    "object_id": "PATH:毁灭",
+    "qualifiers": {},
+    "claim_type": "fact",
+    "confidence": "attested",
+    "citations": [
+      {
+        "cite_id": "BOOK-190573",
+        "quote": "{Img#1}\n「盛会之星」系列收藏卡牌由艾弗法出版集团旗下梦星娱乐™设计发行，",
+        "offset_start": 0,
+        "offset_end": 40
+      }
+    ],
+    "source_volume": "characters"
+  },
+  {
+    "relation_id": "REL:b83fe857ac0c",
+    "subject_id": "CHAR:三月七",
+    "predicate": "RELATED_TO",
+    "object_id": "CHAR:丹恒",
+    "qualifiers": {
+      "note": "测试关系"
+    },
+    "claim_type": "fact",
+    "confidence": "attested",
+    "citations": [
+      {
+        "cite_id": "STRY-1304-1",
+        "quote": "星际和平公司「战略投资部」的高级干部，「石心十人」之一，基石为「诡弈砂金」。\n个",
+        "offset_start": 0,
+        "offset_end": 40
+      }
+    ],
+    "source_volume": "characters"
+  },
+  {
+    "relation_id": "REL:1e9f5764b94c",
+    "subject_id": "AEON:纳努克",
+    "predicate": "OPPOSES",
+    "object_id": "AEON:岚",
+    "qualifiers": {},
+    "claim_type": "fact",
+    "confidence": "attested",
+    "citations": [
+      {
+        "cite_id": "SUBM-D-103020107",
+        "quote": "你们从艾丽小姐那里取得了梦境护照，这也意味着漫长的入住流程终于迎来了尾声。\n现在",
+        "offset_start": 0,
+        "offset_end": 40
+      }
+    ],
+    "source_volume": "characters"
+  },
+  {
+    "relation_id": "REL:4e521f7b3075",
+    "subject_id": "CHAR:三月七",
+    "predicate": "LOCATED_IN",
+    "object_id": "WRLD:雅利洛-Ⅵ",
+    "qualifiers": {},
+    "claim_type": "fact",
+    "confidence": "attested",
+    "citations": [
+      {
+        "cite_id": "TALK-304006406",
+        "quote": "这里距离我们所生活的年代实在太过遥远，即使阿格莱雅大人的金丝也无法触及。为了更好",
+        "offset_start": 0,
+        "offset_end": 40
+      }
+    ],
+    "source_volume": "characters"
+  },
+  {
+    "event_id": "EVT:星核坠落",
+    "name": "星核坠落",
+    "summary": {
+      "text": "星核坠落的相关描述。",
+      "claim_type": "fact",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "LOAD-20026",
+          "quote": "匹诺康尼因影视乐园骚动一时陷入混乱，知更鸟（？）决定趁机派发她的小礼物……",
+          "offset_start": 0,
+          "offset_end": 37
+        }
+      ]
+    },
+    "participants": [],
+    "locations": [],
+    "stated_time": "未知",
+    "relative_to": [],
+    "order_hint": 0,
+    "confidence": "attested",
+    "citations": [
+      {
+        "cite_id": "LOAD-20026",
+        "quote": "匹诺康尼因影视乐园骚动一时陷入混乱，知更鸟（？）决定趁机派发她的小礼物……",
+        "offset_start": 0,
+        "offset_end": 37
+      }
+    ]
+  },
+  {
+    "event_id": "EVT:贝洛伯格建城",
+    "name": "贝洛伯格建城",
+    "summary": {
+      "text": "贝洛伯格建城的相关描述。",
+      "claim_type": "fact",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "BOOK-190573",
+          "quote": "{Img#1}\n「盛会之星」系列收藏卡牌由艾弗法出版集团旗下梦星娱乐™设计发行，",
+          "offset_start": 0,
+          "offset_end": 40
+        }
+      ]
+    },
+    "participants": [],
+    "locations": [],
+    "stated_time": "未知",
+    "relative_to": [
+      {
+        "relation": "after",
+        "event_id": "EVT:星核坠落"
+      }
+    ],
+    "order_hint": 1000,
+    "confidence": "attested",
+    "citations": [
+      {
+        "cite_id": "BOOK-190573",
+        "quote": "{Img#1}\n「盛会之星」系列收藏卡牌由艾弗法出版集团旗下梦星娱乐™设计发行，",
+        "offset_start": 0,
+        "offset_end": 40
+      }
+    ]
+  },
+  {
+    "event_id": "EVT:第一次开拓",
+    "name": "第一次开拓",
+    "summary": {
+      "text": "第一次开拓的相关描述。",
+      "claim_type": "fact",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "STRY-1304-1",
+          "quote": "星际和平公司「战略投资部」的高级干部，「石心十人」之一，基石为「诡弈砂金」。\n个",
+          "offset_start": 0,
+          "offset_end": 40
+        }
+      ]
+    },
+    "participants": [],
+    "locations": [],
+    "stated_time": "未知",
+    "relative_to": [
+      {
+        "relation": "after",
+        "event_id": "EVT:星核坠落"
+      }
+    ],
+    "order_hint": 2000,
+    "confidence": "attested",
+    "citations": [
+      {
+        "cite_id": "STRY-1304-1",
+        "quote": "星际和平公司「战略投资部」的高级干部，「石心十人」之一，基石为「诡弈砂金」。\n个",
+        "offset_start": 0,
+        "offset_end": 40
+      }
+    ]
+  },
+  {
+    "discrepancy_id": "DSC:aaaaaaaaaaaa",
+    "kind": "contradiction",
+    "topic": "某角色的战斗能力",
+    "statements": [
+      {
+        "text": "角色A战斗力极强。",
+        "citation": {
+          "cite_id": "LOAD-20026",
+          "quote": "匹诺康尼因影视乐园骚动一时陷入混乱，知更鸟（？）决定趁机派发",
+          "offset_start": 0,
+          "offset_end": 30
+        }
+      },
+      {
+        "text": "角色A在战斗中落败。",
+        "citation": {
+          "cite_id": "BOOK-190573",
+          "quote": "{Img#1}\n「盛会之星」系列收藏卡牌由艾弗法出版集团旗下",
+          "offset_start": 0,
+          "offset_end": 30
+        }
+      }
+    ],
+    "analysis": {
+      "text": "两处表述存在矛盾。",
+      "claim_type": "interpretation",
+      "confidence": "inferred",
+      "citations": [
+        {
+          "cite_id": "LOAD-20026",
+          "quote": "匹诺康尼因影视乐园骚动一时陷入混乱，知更鸟（？）决定趁机派发",
+          "offset_start": 0,
+          "offset_end": 30
+        }
+      ]
+    },
+    "related_entities": [
+      "CHAR:三月七"
+    ],
+    "impact": "medium"
+  },
+  {
+    "discrepancy_id": "DSC:bbbbbbbbbbbb",
+    "kind": "ambiguity",
+    "topic": "某事件的起因",
+    "statements": [
+      {
+        "text": "起因不明。",
+        "citation": {
+          "cite_id": "STRY-1304-1",
+          "quote": "星际和平公司「战略投资部」的高级干部，「石心十人」之一，基石",
+          "offset_start": 0,
+          "offset_end": 30
+        }
+      }
+    ],
+    "analysis": {
+      "text": "原文表述含混。",
+      "claim_type": "interpretation",
+      "confidence": "inferred",
+      "citations": [
+        {
+          "cite_id": "LOAD-20026",
+          "quote": "匹诺康尼因影视乐园骚动一时陷入混乱，知更鸟（？）决定趁机派发",
+          "offset_start": 0,
+          "offset_end": 30
+        }
+      ]
+    },
+    "related_entities": [],
+    "impact": "low"
+  },
+  {
+    "discrepancy_id": "DSC:cccccccccccc",
+    "kind": "gap",
+    "topic": "未解释的设定",
+    "statements": [
+      {
+        "text": "某些设定未被解释。",
+        "citation": {
+          "cite_id": "SUBM-D-103020107",
+          "quote": "你们从艾丽小姐那里取得了梦境护照，这也意味着漫长的入住流程终",
+          "offset_start": 0,
+          "offset_end": 30
+        }
+      }
+    ],
+    "analysis": {
+      "text": "这是一个官方留白。",
+      "claim_type": "interpretation",
+      "confidence": "inferred",
+      "citations": [
+        {
+          "cite_id": "LOAD-20026",
+          "quote": "匹诺康尼因影视乐园骚动一时陷入混乱，知更鸟（？）决定趁机派发",
+          "offset_start": 0,
+          "offset_end": 30
+        }
+      ]
+    },
+    "related_entities": [],
+    "impact": "low"
+  },
+  {
+    "merge_id": "MRG:dddddddddddd",
+    "merged_entity_id": "CHAR:丹恒",
+    "source_entity_ids": [
+      "CHAR:丹恒",
+      "CHAR:丹恒•饮月"
+    ],
+    "method": "alias_match",
+    "rationale": {
+      "text": "同一角色的不同形态，通过别名关联确认。",
+      "claim_type": "interpretation",
+      "citations": [
+        {
+          "cite_id": "LOAD-20026",
+          "quote": "匹诺康尼因影视乐园骚动一时陷入混乱，知更鸟（？）决定趁机派发",
+          "offset_start": 0,
+          "offset_end": 30
+        }
+      ]
+    },
+    "confidence": "inferred"
+  }
+]

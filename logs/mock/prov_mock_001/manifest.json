@@ -1,0 +1,12 @@
+{
+  "run_id": "prov_mock_001",
+  "start_time": "2026-08-07T03:03:54.466404+00:00",
+  "last_updated": "2026-08-07T03:03:54.466414+00:00",
+  "call_count": 0,
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "total_tokens": 0,
+  "total_latency_ms": 0,
+  "success_count": 0,
+  "failure_count": 0
+}

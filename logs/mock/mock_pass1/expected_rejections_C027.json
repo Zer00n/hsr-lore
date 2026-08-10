@@ -1,0 +1,11 @@
+[
+  {
+    "violation": "bad_attribute_key",
+    "cite_id": "",
+    "detail": "key=bad_key_not_in_vocab"
+  },
+  {
+    "violation": "wrong_predicate",
+    "cite_id": ""
+  }
+]

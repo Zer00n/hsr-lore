@@ -1,0 +1,17 @@
+[
+  {
+    "violation": "fake_cite_id",
+    "cite_id": "",
+    "detail": "cite_id=FAKE-BAD-99999"
+  },
+  {
+    "violation": "interpretation_no_citation",
+    "cite_id": "",
+    "detail": "interpretation with empty citations"
+  },
+  {
+    "violation": "single_statement_contradiction",
+    "cite_id": "",
+    "detail": "only 1 statement"
+  }
+]

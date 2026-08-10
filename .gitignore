@@ -1,0 +1,19 @@
+# 语料数据不入 git
+vendor/
+raw/
+work/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment
+.env

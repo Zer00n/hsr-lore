@@ -1,0 +1,42 @@
+{
+  "lore": {
+    "entries": 570,
+    "chars": 70767,
+    "estimated_tokens": 53075
+  },
+  "books": {
+    "entries": 1772,
+    "chars": 779736,
+    "estimated_tokens": 584802
+  },
+  "characters": {
+    "entries": 5539,
+    "chars": 309082,
+    "estimated_tokens": 231811
+  },
+  "narrative": {
+    "entries": 37431,
+    "chars": 1056641,
+    "estimated_tokens": 792480
+  },
+  "dialogue": {
+    "entries": 179034,
+    "chars": 4883535,
+    "estimated_tokens": 3662651
+  },
+  "artifacts": {
+    "entries": 6016,
+    "chars": 366096,
+    "estimated_tokens": 274572
+  },
+  "rogue": {
+    "entries": 742,
+    "chars": 138999,
+    "estimated_tokens": 104249
+  },
+  "total": {
+    "entries": 231104,
+    "chars": 7604856,
+    "estimated_tokens": 5703642
+  }
+}

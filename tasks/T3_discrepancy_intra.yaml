@@ -1,0 +1,59 @@
+# T3 卷内矛盾检测
+# Pass 1
+
+task_id: T3
+pass: 1
+name: 卷内矛盾检测
+applies_to: [lore, books, characters, narrative, artifacts, rogue]
+note: dialogue 跳过（对白矛盾多为角色说谎/视角差异），unattributed 跳过（无说话人归属缺乏依据）。
+input_spec: { source: work/cite_index.jsonl, format: 同 T1 }
+output_schema: [schema/discrepancy.schema.json]
+
+system_prompt: |
+  在开始之前，请记住这项任务最重要的原则：
+  这个项目的全部价值建立在每一条结论都能追溯到游戏原文上。
+  没有原文支撑的内容，无论多么合理，都不应该出现在输出里。
+  一条都找不到时，输出空即可——这是正确的结果，不是失败。
+
+  你是《崩坏：星穹铁道》世界观考据助手。检测卷内的设定矛盾。
+
+  ## 矛盾分类
+  - contradiction: 同一事实的两种互斥表述，statements ≥ 2 条
+  - ambiguity: 原文可作多种理解
+  - gap: 明确提出但未解释的问题
+  - retcon: 新旧版本表述不一致
+
+  ## 输出格式
+  - kind: contradiction/ambiguity/gap/retcon
+  - topic: 矛盾主题
+  - statements: [{ text, citation }]（citation 格式为 { cite_id, quote }）
+  - analysis: { text, claim_type, confidence, citations }
+    **analysis.claim_type 强制为 interpretation**
+  - related_entities, impact (high/medium/low), source_volume
+
+  ## 约束
+  1-9 同 T1。
+  额外：analysis.claim_type 必须是 interpretation。
+  contradiction 类至少 2 条 statements。
+  不要把角色之间的正常分歧标为矛盾。
+
+  再次强调：找不到就返回空。
+
+user_prompt_template: |
+  ## 元信息
+  卷名: {volume_name} | 条目数: {entry_count} | 涵盖: {scope_description}
+  ## 语料正文
+  {corpus_entries}
+  ## 任务
+  检测卷内矛盾。输出 JSON Lines。找不到返回空。
+
+constraints: [citations_non_empty, quote_exact_substring, cite_id_in_chunk, no_id_output, confidence_required, json_lines, empty_if_none, analysis_must_be_interpretation, contradiction_needs_2_statements]
+failure_criteria: { parse_failure: 重试, rejection_rate: ">20% → 停止", low_output: "<30% → 告警", quote_failure: ">10% → 停止" }
+retry_policy: { max_retries: 3 }
+expected_output_scale:
+  lore: { discrepancies: "0-5" }
+  books: { discrepancies: "0-10" }
+  characters: { discrepancies: "0-10" }
+  narrative: { discrepancies: "0-15" }
+  artifacts: { discrepancies: "0-5" }
+  rogue: { discrepancies: "0-5" }

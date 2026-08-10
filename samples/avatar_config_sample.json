@@ -1,0 +1,422 @@
+[
+  {
+    "AvatarID": 1001,
+    "AvatarName": "三月七",
+    "AvatarFullName": "N/A",
+    "AdventurePlayerID": 1001,
+    "AvatarVOTag": "mar7th",
+    "Rarity": "CombatPowerAvatarRarityType4",
+    "JsonPath": "Config/ConfigCharacter/Avatar/Avatar_Mar_7th_00_Config.json",
+    "DamageType": "Ice",
+    "SPNeed": {
+      "Value": 120
+    },
+    "ExpGroup": 1,
+    "MaxPromotion": 6,
+    "MaxRank": 6,
+    "RankIDList": [
+      100101,
+      100102,
+      100103,
+      100104,
+      100105,
+      100106
+    ],
+    "SkillList": [
+      100101,
+      100102,
+      100103,
+      100104,
+      100106,
+      100107
+    ],
+    "AvatarBaseType": "Knight",
+    "DefaultAvatarModelPath": "Characters/CharacterPrefabs/Avatar/Mar_7th_00/Avatar_Mar_7th_00.prefab",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIcon/Avatar/1001.png",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/Avatar/1001.png",
+    "AvatarMiniIconPath": "SpriteOutput/AvatarMiniIcon/1001.png",
+    "AvatarGachaResultImgPath": "SpriteOutput/AvatarDrawCardResult/1001.png",
+    "ActionAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1001B.png",
+    "UltraSkillCutInPrefabPath": "UI/Battle/UltraSkillCutIn/Avatar/UltraSkillCutIn_1001.prefab",
+    "UIAvatarModelPath": "Characters/CharacterPrefabs/Manikin/Avatar/Mar_7th_00/Manikin_Avatar_Maid_Mar_7th_00.prefab",
+    "ManikinJsonPath": "Config/ConfigCharacter/Manikin/Avatar/Manikin_Avatar_Mar_7th_00_Config.json",
+    "AIPath": "Config/ConfigAI/ComplexSkillAIGlobalGroup/Avatar/Avatar_Mar_7th_00_ComplexSkillAI.json",
+    "SkilltreePrefabPath": "UI/Avatar/Widget/KnightSkillTreeGroup.prefab",
+    "DamageTypeResistance": [],
+    "Release": true,
+    "SideAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1001.png",
+    "WaitingAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1001.png",
+    "AvatarCutinImgPath": "SpriteOutput/AvatarCutinFigures/1001.png",
+    "AvatarCutinBgImgPath": "SpriteOutput/AvatarCutinBg/1001.png",
+    "AvatarCutinFrontImgPath": "SpriteOutput/AvatarDrawCard/1001.png",
+    "AvatarCutinIntroText": "N/A",
+    "AvatarDropOffset": [
+      31,
+      29,
+      0.59,
+      31,
+      29,
+      0.59,
+      31,
+      29,
+      0.59
+    ],
+    "AvatarTrialOffset": [],
+    "PlayerCardOffset": [
+      82,
+      -84,
+      0.77
+    ],
+    "AssistOffset": [
+      70,
+      -72,
+      1.1
+    ],
+    "AssistBgOffset": [
+      108,
+      -300,
+      1
+    ],
+    "AvatarSelfShowOffset": [
+      0,
+      -100,
+      5
+    ]
+  },
+  {
+    "AvatarID": 1002,
+    "AvatarName": "丹恒",
+    "AvatarFullName": "N/A",
+    "AdventurePlayerID": 1002,
+    "AvatarVOTag": "danheng",
+    "Rarity": "CombatPowerAvatarRarityType4",
+    "JsonPath": "Config/ConfigCharacter/Avatar/Avatar_DanHeng_00_Config.json",
+    "DamageType": "Wind",
+    "SPNeed": {
+      "Value": 100
+    },
+    "ExpGroup": 1,
+    "MaxPromotion": 6,
+    "MaxRank": 6,
+    "RankIDList": [
+      100201,
+      100202,
+      100203,
+      100204,
+      100205,
+      100206
+    ],
+    "SkillList": [
+      100201,
+      100202,
+      100203,
+      100204,
+      100206,
+      100207
+    ],
+    "AvatarBaseType": "Rogue",
+    "DefaultAvatarModelPath": "Characters/CharacterPrefabs/Avatar/DanHeng_00/Avatar_DanHeng_00.prefab",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIcon/Avatar/1002.png",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/Avatar/1002.png",
+    "AvatarMiniIconPath": "SpriteOutput/AvatarMiniIcon/1002.png",
+    "AvatarGachaResultImgPath": "SpriteOutput/AvatarDrawCardResult/1002.png",
+    "ActionAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1002B.png",
+    "UltraSkillCutInPrefabPath": "UI/Battle/UltraSkillCutIn/Avatar/UltraSkillCutIn_1002.prefab",
+    "UIAvatarModelPath": "Characters/CharacterPrefabs/Manikin/Avatar/DanHeng_00/Manikin_Avatar_Lad_DanHeng_00.prefab",
+    "ManikinJsonPath": "Config/ConfigCharacter/Manikin/Avatar/Manikin_Avatar_DanHeng_00_Config.json",
+    "AIPath": "Config/ConfigAI/ComplexSkillAIGlobalGroup/Avatar/Avatar_DanHeng_00_ComplexSkillAI.json",
+    "SkilltreePrefabPath": "UI/Avatar/Widget/RogueSkillTreeGroup.prefab",
+    "DamageTypeResistance": [],
+    "Release": true,
+    "SideAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1002.png",
+    "WaitingAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1002.png",
+    "AvatarCutinImgPath": "SpriteOutput/AvatarCutinFigures/1002.png",
+    "AvatarCutinBgImgPath": "SpriteOutput/AvatarCutinBg/1002.png",
+    "AvatarCutinFrontImgPath": "SpriteOutput/AvatarDrawCard/1002.png",
+    "AvatarCutinIntroText": "N/A",
+    "AvatarDropOffset": [
+      -65,
+      76.1,
+      0.71,
+      -65,
+      76.1,
+      0.71,
+      -65,
+      76.1,
+      0.71
+    ],
+    "AvatarTrialOffset": [],
+    "PlayerCardOffset": [
+      -21,
+      -48,
+      1
+    ],
+    "AssistOffset": [
+      10,
+      -42,
+      1.3
+    ],
+    "AssistBgOffset": [
+      -140,
+      -260,
+      1
+    ],
+    "AvatarSelfShowOffset": [
+      -55,
+      -45,
+      5
+    ]
+  },
+  {
+    "AvatarID": 1003,
+    "AvatarName": "姬子",
+    "AvatarFullName": "N/A",
+    "AdventurePlayerID": 1003,
+    "AvatarVOTag": "himeko",
+    "Rarity": "CombatPowerAvatarRarityType5",
+    "JsonPath": "Config/ConfigCharacter/Avatar/Avatar_Himeko_00_Config.json",
+    "DamageType": "Fire",
+    "SPNeed": {
+      "Value": 120
+    },
+    "ExpGroup": 1,
+    "MaxPromotion": 6,
+    "MaxRank": 6,
+    "RankIDList": [
+      100301,
+      100302,
+      100303,
+      100304,
+      100305,
+      100306
+    ],
+    "SkillList": [
+      100301,
+      100302,
+      100303,
+      100304,
+      100306,
+      100307
+    ],
+    "AvatarBaseType": "Mage",
+    "DefaultAvatarModelPath": "Characters/CharacterPrefabs/Avatar/Himeko_00/Avatar_Himeko_00.prefab",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIcon/Avatar/1003.png",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/Avatar/1003.png",
+    "AvatarMiniIconPath": "SpriteOutput/AvatarMiniIcon/1003.png",
+    "AvatarGachaResultImgPath": "SpriteOutput/AvatarDrawCardResult/1003.png",
+    "ActionAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1003B.png",
+    "UltraSkillCutInPrefabPath": "UI/Battle/UltraSkillCutIn/Avatar/UltraSkillCutIn_1003.prefab",
+    "UIAvatarModelPath": "Characters/CharacterPrefabs/Manikin/Avatar/Himeko_00/Manikin_Avatar_Lady_Himeko_00.prefab",
+    "ManikinJsonPath": "Config/ConfigCharacter/Manikin/Avatar/Manikin_Avatar_Himeko_00_Config.json",
+    "AIPath": "Config/ConfigAI/ComplexSkillAIGlobalGroup/Avatar/Avatar_Himeko_00_ComplexSkillAI.json",
+    "SkilltreePrefabPath": "UI/Avatar/Widget/MageSkillTreeGroup.prefab",
+    "DamageTypeResistance": [],
+    "Release": true,
+    "SideAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1003.png",
+    "WaitingAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1003.png",
+    "AvatarCutinImgPath": "SpriteOutput/AvatarCutinFigures/1003.png",
+    "AvatarCutinBgImgPath": "SpriteOutput/AvatarCutinBg/1003.png",
+    "AvatarCutinFrontImgPath": "SpriteOutput/AvatarDrawCard/1003.png",
+    "AvatarCutinIntroText": "N/A",
+    "AvatarDropOffset": [
+      11.9,
+      178,
+      0.66,
+      11.9,
+      178,
+      0.66,
+      11.9,
+      178,
+      0.66
+    ],
+    "AvatarTrialOffset": [
+      135.4,
+      24,
+      1
+    ],
+    "PlayerCardOffset": [
+      65.3,
+      102.2,
+      1.05
+    ],
+    "AssistOffset": [
+      62,
+      42,
+      1.3
+    ],
+    "AssistBgOffset": [
+      108,
+      12,
+      1
+    ],
+    "AvatarSelfShowOffset": [
+      -16,
+      26,
+      5
+    ]
+  },
+  {
+    "AvatarID": 1004,
+    "AvatarName": "瓦尔特",
+    "AvatarFullName": "N/A",
+    "AdventurePlayerID": 1004,
+    "AvatarVOTag": "welt",
+    "Rarity": "CombatPowerAvatarRarityType5",
+    "JsonPath": "Config/ConfigCharacter/Avatar/Avatar_Welt_00_Config.json",
+    "DamageType": "Imaginary",
+    "SPNeed": {
+      "Value": 120
+    },
+    "ExpGroup": 1,
+    "MaxPromotion": 6,
+    "MaxRank": 6,
+    "RankIDList": [
+      100401,
+      100402,
+      100403,
+      100404,
+      100405,
+      100406
+    ],
+    "SkillList": [
+      100401,
+      100402,
+      100403,
+      100404,
+      100406,
+      100407
+    ],
+    "AvatarBaseType": "Warlock",
+    "DefaultAvatarModelPath": "Characters/CharacterPrefabs/Avatar/Welt_00/Avatar_Welt_00.prefab",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIcon/Avatar/1004.png",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/Avatar/1004.png",
+    "AvatarMiniIconPath": "SpriteOutput/AvatarMiniIcon/1004.png",
+    "AvatarGachaResultImgPath": "SpriteOutput/AvatarDrawCardResult/1004.png",
+    "ActionAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1004B.png",
+    "UltraSkillCutInPrefabPath": "UI/Battle/UltraSkillCutIn/Avatar/UltraSkillCutIn_1004.prefab",
+    "UIAvatarModelPath": "Characters/CharacterPrefabs/Manikin/Avatar/Welt_00/Manikin_Avatar_Male_Welt_00.prefab",
+    "ManikinJsonPath": "Config/ConfigCharacter/Manikin/Avatar/Manikin_Avatar_Welt_00_Config.json",
+    "AIPath": "Config/ConfigAI/ComplexSkillAIGlobalGroup/Avatar/Avatar_Welt_00_ComplexSkillAI.json",
+    "SkilltreePrefabPath": "UI/Avatar/Widget/WarlockSkillTreeGroup.prefab",
+    "DamageTypeResistance": [],
+    "Release": true,
+    "SideAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1004.png",
+    "WaitingAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1004.png",
+    "AvatarCutinImgPath": "SpriteOutput/AvatarCutinFigures/1004.png",
+    "AvatarCutinBgImgPath": "SpriteOutput/AvatarCutinBg/1004.png",
+    "AvatarCutinFrontImgPath": "SpriteOutput/AvatarDrawCard/1004.png",
+    "AvatarCutinIntroText": "N/A",
+    "AvatarDropOffset": [
+      12,
+      -32,
+      0.61,
+      12,
+      -32,
+      0.61,
+      12,
+      -32,
+      0.61
+    ],
+    "AvatarTrialOffset": [],
+    "PlayerCardOffset": [
+      165.6,
+      -142.3,
+      0.81
+    ],
+    "AssistOffset": [
+      112,
+      -116,
+      1.2
+    ],
+    "AssistBgOffset": [
+      -106,
+      -408,
+      1
+    ],
+    "AvatarSelfShowOffset": [
+      27,
+      -110,
+      4.5
+    ]
+  },
+  {
+    "AvatarID": 1005,
+    "AvatarName": "卡芙卡",
+    "AvatarFullName": "N/A",
+    "AdventurePlayerID": 1005,
+    "AvatarVOTag": "kafka",
+    "Rarity": "CombatPowerAvatarRarityType5",
+    "JsonPath": "Config/ConfigCharacter/Avatar/Avatar_Kafka_00_Config.json",
+    "DamageType": "Thunder",
+    "SPNeed": {
+      "Value": 120
+    },
+    "ExpGroup": 1,
+    "MaxPromotion": 6,
+    "MaxRank": 6,
+    "RankIDList": [
+      100501,
+      100502,
+      100503,
+      100504,
+      100505,
+      100506
+    ],
+    "SkillList": [
+      100501,
+      100502,
+      100503,
+      100504,
+      100506,
+      100507
+    ],
+    "AvatarBaseType": "Warlock",
+    "DefaultAvatarModelPath": "Characters/CharacterPrefabs/Avatar/Kafka_00/Avatar_Kafka_00.prefab",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIcon/Avatar/1005.png",
+    "AvatarSideIconPath": "SpriteOutput/AvatarRoundIcon/Avatar/1005.png",
+    "AvatarMiniIconPath": "SpriteOutput/AvatarMiniIcon/1005.png",
+    "AvatarGachaResultImgPath": "SpriteOutput/AvatarDrawCardResult/1005.png",
+    "ActionAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1005B.png",
+    "UltraSkillCutInPrefabPath": "UI/Battle/UltraSkillCutIn/Avatar/UltraSkillCutIn_1005.prefab",
+    "UIAvatarModelPath": "Characters/CharacterPrefabs/Manikin/Avatar/Kafka_00/Manikin_Avatar_Lady_Kafka_00.prefab",
+    "ManikinJsonPath": "Config/ConfigCharacter/Manikin/Avatar/Manikin_Avatar_Kafka_00_Config.json",
+    "AIPath": "Config/ConfigAI/ComplexSkillAIGlobalGroup/Avatar/Avatar_Kafka_00_ComplexSkillAI.json",
+    "SkilltreePrefabPath": "UI/Avatar/Widget/WarlockSkillTreeGroup.prefab",
+    "DamageTypeResistance": [],
+    "Release": true,
+    "SideAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1005.png",
+    "WaitingAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1005.png",
+    "AvatarCutinImgPath": "SpriteOutput/AvatarCutinFigures/1005.png",
+    "AvatarCutinBgImgPath": "SpriteOutput/AvatarCutinBg/1005.png",
+    "AvatarCutinFrontImgPath": "SpriteOutput/AvatarDrawCard/1005.png",
+    "AvatarCutinIntroText": "N/A",
+    "AvatarDropOffset": [
+      1,
+      -50,
+      0.71,
+      1,
+      -50,
+      0.71,
+      1,
+      -50,
+      0.71
+    ],
+    "AvatarTrialOffset": [],
+    "PlayerCardOffset": [
+      130,
+      -155,
+      0.9
+    ],
+    "AssistOffset": [
+      94,
+      -127,
+      1.3
+    ],
+    "AssistBgOffset": [
+      130,
+      -54,
+      1
+    ],
+    "AvatarSelfShowOffset": []
+  }
+]

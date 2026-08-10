@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hsr-lore/schema/event.schema.json",
+  "title": "Event",
+  "description": "事件 — 星铁世界观中的历史事件",
+  "type": "object",
+  "required": ["event_id", "name", "citations"],
+  "properties": {
+    "event_id": {
+      "type": "string",
+      "pattern": "^EVT:.+$"
+    },
+    "name": { "type": "string", "minLength": 1 },
+    "summary": {
+      "type": "object",
+      "required": ["text", "claim_type", "confidence", "citations"],
+      "properties": {
+        "text": { "type": "string", "minLength": 1 },
+        "claim_type": { "type": "string", "enum": ["fact", "interpretation"] },
+        "confidence": { "type": "string", "enum": ["attested", "inferred", "disputed"] },
+        "citations": {
+          "type": "array", "minItems": 1,
+          "items": { "$ref": "citation.schema.json" }
+        }
+      }
+    },
+    "participants": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "locations": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "stated_time": { "type": "string" },
+    "relative_to": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["relation", "event_id"],
+        "properties": {
+          "relation": { "type": "string", "enum": ["before", "after", "during", "overlaps", "causes", "caused_by"] },
+          "event_id": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "order_hint": { "type": "integer" },
+    "confidence": { "type": "string", "enum": ["attested", "inferred", "disputed"] },
+    "citations": {
+      "type": "array", "minItems": 1,
+      "items": { "$ref": "citation.schema.json" }
+    }
+  },
+  "additionalProperties": false
+}

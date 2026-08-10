@@ -1,0 +1,59 @@
+{
+  "volumes": {
+    "lore": {
+      "entries": 570,
+      "chars": 70767,
+      "tokens_est": 53075
+    },
+    "books": {
+      "entries": 1772,
+      "chars": 786338,
+      "tokens_est": 589753
+    },
+    "characters": {
+      "entries": 5544,
+      "chars": 309140,
+      "tokens_est": 231855
+    },
+    "narrative": {
+      "entries": 37408,
+      "chars": 1055215,
+      "tokens_est": 791411
+    },
+    "dialogue": {
+      "entries": 177653,
+      "chars": 4847049,
+      "tokens_est": 3635286
+    },
+    "artifacts": {
+      "entries": 6014,
+      "chars": 365623,
+      "tokens_est": 274217
+    },
+    "rogue": {
+      "entries": 742,
+      "chars": 138999,
+      "tokens_est": 104249
+    },
+    "unattributed": {
+      "entries": 46999,
+      "chars": 823115,
+      "tokens_est": 617336
+    },
+    "speakerless": {
+      "entries": 18451,
+      "chars": 149249,
+      "tokens_est": 111936,
+      "isolated": true
+    },
+    "excluded_ip": {
+      "entries": 1696,
+      "chars": 42735,
+      "tokens_est": 32051,
+      "isolated": true
+    }
+  },
+  "total_entries": 276702,
+  "total_chars": 8396246,
+  "estimated_tokens": 6297182
+}

@@ -1,0 +1,68 @@
+{
+  "run_id": "mock_conc4",
+  "provider": "mock",
+  "concurrency": 4,
+  "live": false,
+  "start_time": "2026-08-07T09:25:29.776642+00:00",
+  "tasks": [
+    {
+      "task_id": "T1_entity_relation",
+      "total_chunks": 34,
+      "completed": 34,
+      "failed": 0,
+      "stopped": 0,
+      "skipped": 0
+    },
+    {
+      "task_id": "T2_event",
+      "total_chunks": 19,
+      "completed": 0,
+      "failed": 0,
+      "stopped": 0,
+      "skipped": 38
+    },
+    {
+      "task_id": "T3_discrepancy_intra",
+      "total_chunks": 15,
+      "completed": 0,
+      "failed": 0,
+      "stopped": 0,
+      "skipped": 30
+    },
+    {
+      "task_id": "T4_entity_merge",
+      "total_chunks": 1,
+      "completed": 1,
+      "failed": 0,
+      "stopped": 0,
+      "skipped": 0
+    },
+    {
+      "task_id": "T5_relation_crossvol",
+      "total_chunks": 1,
+      "completed": 1,
+      "failed": 0,
+      "stopped": 0,
+      "skipped": 0
+    },
+    {
+      "task_id": "T6_discrepancy_cross",
+      "total_chunks": 1,
+      "completed": 1,
+      "failed": 0,
+      "stopped": 0,
+      "skipped": 0
+    },
+    {
+      "task_id": "T7_event_timeline",
+      "total_chunks": 1,
+      "completed": 1,
+      "failed": 0,
+      "stopped": 0,
+      "skipped": 0
+    }
+  ],
+  "end_time": "2026-08-07T09:25:43.083543+00:00",
+  "total_chunks_ran": 38,
+  "elapsed_seconds": 13.3
+}

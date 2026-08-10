@@ -1,0 +1,10 @@
+[
+  {
+    "violation": "fake_cite_id",
+    "detail": "cite_id=FAKE-NOT-EXIST"
+  },
+  {
+    "violation": "fact_no_citation",
+    "detail": "fact with empty citations"
+  }
+]

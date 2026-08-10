@@ -1,0 +1,12 @@
+[
+  {
+    "violation": "bad_attribute_key",
+    "cite_id": "",
+    "detail": "key=bad_key_not_in_vocab"
+  },
+  {
+    "violation": "fact_no_citation",
+    "cite_id": "",
+    "detail": "fact with empty citations"
+  }
+]

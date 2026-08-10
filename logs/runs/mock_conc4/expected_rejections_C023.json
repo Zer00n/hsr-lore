@@ -1,0 +1,11 @@
+[
+  {
+    "violation": "doctored_quote",
+    "cite_id": ""
+  },
+  {
+    "violation": "fact_no_citation",
+    "cite_id": "",
+    "detail": "fact with empty citations"
+  }
+]

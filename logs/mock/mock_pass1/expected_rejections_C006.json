@@ -1,0 +1,11 @@
+[
+  {
+    "violation": "single_statement_contradiction",
+    "cite_id": "",
+    "detail": "only 1 statement"
+  },
+  {
+    "violation": "missing_confidence",
+    "cite_id": ""
+  }
+]

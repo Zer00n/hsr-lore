@@ -1,0 +1,17 @@
+# OpenViking 接入配置
+endpoint: https://api.vikingdb.cn-beijing.volces.com/openviking
+library_id: ov-290dce6904ec3189
+api_key_env: ZGVmYXVsdA.ZGVmYXVsdA.NjAwZDE3ZTM0MDM1N2EzMmNhNGUzYTg2ZDQ1Yjk0YzczMjJiNzE5YzVkZWM2OTJmNDJmZDFjMzEwNDM5NGYyNQ
+namespace: viking://resources/hsr
+timeout_sec: 120
+max_concurrent: 8
+
+billing:
+  base_afp_per_hour: 5
+  base_file_threshold: 40000
+  extra_afp_per_10k_files: 1.5
+  free_files: 50
+
+# OpenViking 只做导航器，不做信源。
+# 检索走 OpenViking → 拿到 cite_id → 原文从 work/cite_index.jsonl 取
+# 模型只能从这份原文里摘 quote。
