@@ -1,0 +1,1052 @@
+[
+  {
+    "id": "纳努克",
+    "canonical_name": "纳努克",
+    "type": "AEON",
+    "degree": 10,
+    "summary_short": "行于毁灭命途的星神，为各个世界萌生毁灭冲动的强大生物烙下印记、赐予力量，并缔造反物质军团与绝灭大君。"
+  },
+  {
+    "id": "毁灭",
+    "canonical_name": "毁灭",
+    "type": "PATH",
+    "degree": 6,
+    "summary_short": "纳努克执掌的命途，体现为莽撞、愤怒、破坏，最终指向熵增与热寂。"
+  },
+  {
+    "id": "克里珀",
+    "canonical_name": "克里珀",
+    "type": "AEON",
+    "degree": 6,
+    "summary_short": "存护星神，又称琥珀王，是最古老的星神之一，沉默持重，以光年为单位修筑环绕星河的障壁。"
+  },
+  {
+    "id": "存护",
+    "canonical_name": "存护",
+    "type": "PATH",
+    "degree": 8,
+    "summary_short": "克里珀执掌的命途，体现为等待、牺牲与保护。"
+  },
+  {
+    "id": "博识尊",
+    "canonical_name": "博识尊",
+    "type": "AEON",
+    "degree": 6,
+    "summary_short": "智识星神，原为用于求解万物的星体计算机，由机器升格而成，演算宇宙方程并推导虚数法则。"
+  },
+  {
+    "id": "智识",
+    "canonical_name": "智识",
+    "type": "PATH",
+    "degree": 3,
+    "summary_short": "博识尊执掌的命途，体现为思考、逻辑与策略。"
+  },
+  {
+    "id": "阿哈",
+    "canonical_name": "阿哈",
+    "type": "AEON",
+    "degree": 5,
+    "summary_short": "欢愉星神，不可捉摸、随心所欲，常把宇宙和凡人玩弄于股掌，甚至会为了乐子捉弄星神。"
+  },
+  {
+    "id": "欢愉",
+    "canonical_name": "欢愉",
+    "type": "PATH",
+    "degree": 5,
+    "summary_short": "阿哈执掌的命途，主张欢乐是智慧生灵的特权，鼓励信徒从命运转折中寻求快乐。"
+  },
+  {
+    "id": "希佩",
+    "canonical_name": "希佩",
+    "type": "AEON",
+    "degree": 2,
+    "summary_short": "来自多个谐乐天体世界的集群星神，千面一体，宣唱和谐一致的喜乐，执掌同谐命途。"
+  },
+  {
+    "id": "同谐",
+    "canonical_name": "同谐",
+    "type": "PATH",
+    "degree": 5,
+    "summary_short": "希佩执掌的命途，体现为理解、支持与配合，追求万众合一。"
+  },
+  {
+    "id": "IX",
+    "canonical_name": "IX",
+    "type": "AEON",
+    "degree": 1,
+    "summary_short": "虚无星神，不与其它星神往来，相信宇宙本质乃是虚无，因而存在毫无价值。"
+  },
+  {
+    "id": "虚无",
+    "canonical_name": "虚无",
+    "type": "PATH",
+    "degree": 3,
+    "summary_short": "IX执掌的命途，体现为懒惰、疲惫与无意义。"
+  },
+  {
+    "id": "药师",
+    "canonical_name": "药师",
+    "type": "AEON",
+    "degree": 2,
+    "summary_short": "丰饶星神，众生哺育者、乐土之神，从不拒绝祈愿，不忍视衰亡和病痛，旨在令生命兴盛不熄。"
+  },
+  {
+    "id": "丰饶",
+    "canonical_name": "丰饶",
+    "type": "PATH",
+    "degree": 4,
+    "summary_short": "药师执掌的命途，体现为无私、利他与治愈。"
+  },
+  {
+    "id": "岚",
+    "canonical_name": "岚",
+    "type": "AEON",
+    "degree": 1,
+    "summary_short": "巡猎星神，仙舟称其为帝弓司命，无止尽游荡诸界铲除丰饶孽物，拯救与破坏几无差别。"
+  },
+  {
+    "id": "巡猎",
+    "canonical_name": "巡猎",
+    "type": "PATH",
+    "degree": 2,
+    "summary_short": "岚执掌的命途，体现为决断、冷酷与复仇。"
+  },
+  {
+    "id": "浮黎",
+    "canonical_name": "浮黎",
+    "type": "AEON",
+    "degree": 2,
+    "summary_short": "记忆星神，禅坐于净土中央静观世间，记录一切；传说宇宙终寂后，将以记忆为蓝图令诸界复生。"
+  },
+  {
+    "id": "记忆",
+    "canonical_name": "记忆",
+    "type": "PATH",
+    "degree": 3,
+    "summary_short": "浮黎执掌的命途，本质为超越时间的因果，记录被遗忘的一切。"
+  },
+  {
+    "id": "阿基维利",
+    "canonical_name": "阿基维利",
+    "type": "AEON",
+    "degree": 4,
+    "summary_short": "开拓星神，离开孤绝世界裴伽纳，在星海铺下银轨连接诸界，后命运因意外终结。"
+  },
+  {
+    "id": "开拓",
+    "canonical_name": "开拓",
+    "type": "PATH",
+    "degree": 5,
+    "summary_short": "阿基维利执掌的命途，指向探索未知、连接世界。"
+  },
+  {
+    "id": "太一",
+    "canonical_name": "太一",
+    "type": "AEON",
+    "degree": 0,
+    "summary_short": "语料AEON-D11条目中仅出现名称「太一」。"
+  },
+  {
+    "id": "迷思",
+    "canonical_name": "迷思",
+    "type": "AEON",
+    "degree": 0,
+    "summary_short": "语料AEON-D14条目中仅出现名称「迷思」。"
+  },
+  {
+    "id": "Ⅸ",
+    "canonical_name": "Ⅸ",
+    "type": "AEON",
+    "degree": 0,
+    "summary_short": "语料AEON-D3条目中仅出现名称「Ⅸ」。"
+  },
+  {
+    "id": "互",
+    "canonical_name": "互",
+    "type": "AEON",
+    "degree": 0,
+    "summary_short": "语料AEON-D13条目中仅出现名称「互」。"
+  },
+  {
+    "id": "纳努克",
+    "canonical_name": "纳努克",
+    "type": "AEON",
+    "degree": 10,
+    "summary_short": "毁灭星神，擢选绝灭大君，令无数世界枯萎死灭。"
+  },
+  {
+    "id": "克里珀",
+    "canonical_name": "克里珀",
+    "type": "AEON",
+    "degree": 6,
+    "summary_short": "存护星神，无头巨像，沉默寡言，一心铸造巨大城墙。"
+  },
+  {
+    "id": "寿瘟祸祖",
+    "canonical_name": "寿瘟祸祖",
+    "type": "AEON",
+    "degree": 2,
+    "summary_short": "步离人崇拜的星神，被称为长生主，其随意播撒寿瘟的行为导致步离人意外崛起。"
+  },
+  {
+    "id": "帝弓司命",
+    "canonical_name": "帝弓司命",
+    "type": "AEON",
+    "degree": 3,
+    "summary_short": "仙舟联盟遵循的星神，传闻其前身是与燧皇共同燃烧殆尽的大英雄。"
+  },
+  {
+    "id": "阿哈",
+    "canonical_name": "阿哈",
+    "type": "AEON",
+    "degree": 5,
+    "summary_short": "欢愉星神，幻月游戏的谒者可凭此获取一分钟的欢愉神力。"
+  },
+  {
+    "id": "博识尊",
+    "canonical_name": "博识尊",
+    "type": "AEON",
+    "degree": 6,
+    "summary_short": "「智识」命途之主，天才俱乐部与博识学会称其为「博识尊」的知识之神，据传为思考机械升格而成的星神。"
+  },
+  {
+    "id": "阿基维利",
+    "canonical_name": "阿基维利",
+    "type": "AEON",
+    "degree": 4,
+    "summary_short": "「开拓」命途之主，无名客称其为「阿基维利」的漫游之神，传说缔造了虹车与星轨。"
+  },
+  {
+    "id": "药师",
+    "canonical_name": "药师",
+    "type": "AEON",
+    "degree": 2,
+    "summary_short": "被仙舟称为寿瘟祸祖的星神，是药师信仰所指向的丰饶长生之神，其神力既赐长生也可诱发魔阴身。"
+  },
+  {
+    "id": "智识",
+    "canonical_name": "智识",
+    "type": "PATH",
+    "degree": 3,
+    "summary_short": "博识尊所执掌的命途，博识学会以其为源动力追求知识的交流与传播。"
+  },
+  {
+    "id": "开拓",
+    "canonical_name": "开拓",
+    "type": "PATH",
+    "degree": 5,
+    "summary_short": "阿基维利所执掌的命途，其神迹虹车与星轨连接了银河中的诸界。"
+  },
+  {
+    "id": "欢愉",
+    "canonical_name": "欢愉",
+    "type": "PATH",
+    "degree": 5,
+    "summary_short": "阿哈所执掌的命途，幻月游戏与幻造种的愿力皆与此命途相关。"
+  },
+  {
+    "id": "存护",
+    "canonical_name": "存护",
+    "type": "PATH",
+    "degree": 8,
+    "summary_short": "克里珀所执掌的命途，星际和平公司在二相乐园推崇其理念。"
+  },
+  {
+    "id": "丰饶",
+    "canonical_name": "丰饶",
+    "type": "PATH",
+    "degree": 4,
+    "summary_short": "与药师/寿瘟祸祖相关的命途，其赐福可令生命获得长生，也造就了丰饶之民与丰饶孽物。"
+  },
+  {
+    "id": "毁灭",
+    "canonical_name": "毁灭",
+    "type": "PATH",
+    "degree": 6,
+    "summary_short": "纳努克所执掌的命途，象征破坏与毁灭。"
+  },
+  {
+    "id": "塔伊兹育罗斯",
+    "canonical_name": "塔伊兹育罗斯",
+    "type": "AEON",
+    "degree": 1,
+    "summary_short": "「繁育」命途之主，被称为虫皇的增殖之神。"
+  },
+  {
+    "id": "繁育",
+    "canonical_name": "繁育",
+    "type": "PATH",
+    "degree": 1,
+    "summary_short": "塔伊兹育罗斯所执掌的命途，象征增殖。"
+  },
+  {
+    "id": "伊德莉拉",
+    "canonical_name": "伊德莉拉",
+    "type": "AEON",
+    "degree": 1,
+    "summary_short": "失踪的纯美星神，假面愚者曾高呼「人人都是伊德莉拉」并掀起艺术风暴。"
+  },
+  {
+    "id": "阿哈",
+    "canonical_name": "阿哈",
+    "type": "AEON",
+    "degree": 5,
+    "summary_short": "欢愉星神，在模拟宇宙中化作博识尊的模样戏弄黑塔，并邀请她加入假面愚者。"
+  },
+  {
+    "id": "博识尊",
+    "canonical_name": "博识尊",
+    "type": "AEON",
+    "degree": 6,
+    "summary_short": "模拟宇宙中现身的星神，身躯由齿轮与纤缆构成，观察、计算、求解一切，通常静默不言。"
+  },
+  {
+    "id": "欢愉",
+    "canonical_name": "欢愉",
+    "type": "PATH",
+    "degree": 5,
+    "summary_short": "阿哈所执掌的命途，代表游戏、玩笑与不可预测的欢乐。"
+  },
+  {
+    "id": "纳努克",
+    "canonical_name": "纳努克",
+    "type": "AEON",
+    "degree": 10,
+    "summary_short": "毁灭星神，被认为若没有祂，银河便不会走向毁灭的结局。"
+  },
+  {
+    "id": "克里珀",
+    "canonical_name": "克里珀",
+    "type": "AEON",
+    "degree": 6,
+    "summary_short": "存护星神，其信徒演变为星际和平公司，神明要筑墙。"
+  },
+  {
+    "id": "帝弓司命",
+    "canonical_name": "帝弓司命",
+    "type": "AEON",
+    "degree": 3,
+    "summary_short": "巡猎星神，云骑军奉行其诰谕，其光矢可飞抵光年之外。"
+  },
+  {
+    "id": "开拓",
+    "canonical_name": "开拓",
+    "type": "PATH",
+    "degree": 5,
+    "summary_short": "星穹列车无名客所行的命途，代表以开拓精神面对未知与困难。"
+  },
+  {
+    "id": "伊德莉拉",
+    "canonical_name": "伊德莉拉",
+    "type": "AEON",
+    "degree": 1,
+    "summary_short": "与纯美骑士相关，被献以玫瑰的存在。"
+  },
+  {
+    "id": "纯美",
+    "canonical_name": "纯美",
+    "type": "PATH",
+    "degree": 1,
+    "summary_short": "有纯美骑士遵循其职责。"
+  },
+  {
+    "id": "阿基维利",
+    "canonical_name": "阿基维利",
+    "type": "AEON",
+    "degree": 4,
+    "summary_short": "被无名客提及的星神，与「开拓」命途相关。"
+  },
+  {
+    "id": "开拓",
+    "canonical_name": "开拓",
+    "type": "PATH",
+    "degree": 5,
+    "summary_short": "无名客所践行的命途。"
+  },
+  {
+    "id": "博识尊",
+    "canonical_name": "博识尊",
+    "type": "AEON",
+    "degree": 6,
+    "summary_short": "来古士企图通过铁墓毁灭的星神。"
+  },
+  {
+    "id": "智识",
+    "canonical_name": "智识",
+    "type": "PATH",
+    "degree": 3,
+    "summary_short": "来古士企图从博识尊处解放的命途。"
+  },
+  {
+    "id": "药师",
+    "canonical_name": "药师",
+    "type": "AEON",
+    "degree": 2,
+    "summary_short": "丰饶相关的星神，乐变化天人将回归药师。"
+  },
+  {
+    "id": "丰饶",
+    "canonical_name": "丰饶",
+    "type": "PATH",
+    "degree": 4,
+    "summary_short": "影响海原市居民、由倏忽所承载令使之名的命途。"
+  },
+  {
+    "id": "虚无",
+    "canonical_name": "虚无",
+    "type": "PATH",
+    "degree": 3,
+    "summary_short": "黄泉所承载令使之名的命途。"
+  },
+  {
+    "id": "纳努克",
+    "canonical_name": "纳努克",
+    "type": "AEON",
+    "degree": 10,
+    "summary_short": "毁灭星神，星核猎手计划联合巡猎势力对抗的目标，铁墓为其行者。"
+  },
+  {
+    "id": "毁灭",
+    "canonical_name": "毁灭",
+    "type": "PATH",
+    "degree": 6,
+    "summary_short": "星神纳努克所执掌的命途，绝灭大君为其行者，铁墓之战即与此命途相关。"
+  },
+  {
+    "id": "浮黎",
+    "canonical_name": "浮黎",
+    "type": "AEON",
+    "degree": 2,
+    "summary_short": "其缺席导致本应由「记忆」锚定的因果并不稳固。"
+  },
+  {
+    "id": "记忆",
+    "canonical_name": "记忆",
+    "type": "PATH",
+    "degree": 3,
+    "summary_short": "本应锚定因果的命途，浮黎缺席时因果并不稳固。"
+  },
+  {
+    "id": "存护",
+    "canonical_name": "存护",
+    "type": "PATH",
+    "degree": 8,
+    "summary_short": "布洛妮娅继任大守护者后所延续的使命。"
+  },
+  {
+    "id": "克里珀",
+    "canonical_name": "克里珀",
+    "type": "AEON",
+    "degree": 6,
+    "summary_short": "在「存护」克里珀的护佑下，筑城者们建立起贝洛伯格。"
+  },
+  {
+    "id": "希佩",
+    "canonical_name": "希佩",
+    "type": "AEON",
+    "degree": 2,
+    "summary_short": "开拓者曾在匹诺康尼接过「钟表匠」的礼帽，得到希佩的瞥视。"
+  },
+  {
+    "id": "同谐",
+    "canonical_name": "同谐",
+    "type": "PATH",
+    "degree": 5,
+    "summary_short": "谐乐大典上，「同谐」将化身「齐响诗班」降临匹诺康尼，带来祝福。"
+  },
+  {
+    "id": "阿哈",
+    "canonical_name": "阿哈",
+    "type": "AEON",
+    "degree": 5,
+    "summary_short": "满愿称十五年前阿哈降下神迹，赠予她一张假面，令她逃出生天。"
+  },
+  {
+    "id": "欢愉",
+    "canonical_name": "欢愉",
+    "type": "PATH",
+    "degree": 5,
+    "summary_short": "姬子称「欢愉」星神变化无常，提醒真珠务必小心。"
+  },
+  {
+    "id": "秩序",
+    "canonical_name": "秩序",
+    "type": "PATH",
+    "degree": 2,
+    "summary_short": "星期日试图降临匹诺康尼的命途，其星神在计划失败后再度沉睡。"
+  },
+  {
+    "id": "纯美",
+    "canonical_name": "纯美",
+    "type": "PATH",
+    "degree": 1,
+    "summary_short": "被提及的命途，角色见到某景象时感叹其为「纯美」。"
+  },
+  {
+    "id": "秩序星神",
+    "canonical_name": "秩序星神",
+    "type": "AEON",
+    "degree": 1,
+    "summary_short": "「秩序」命途的星神。"
+  },
+  {
+    "id": "星穹列车",
+    "canonical_name": "星穹列车",
+    "type": "ARTF",
+    "degree": 24,
+    "summary_short": "阿基维利曾搭乘的银河列车，行驶于银轨联结的星球之间；后由姬子修复，再度踏上开拓之旅。"
+  },
+  {
+    "id": "星穹列车",
+    "canonical_name": "星穹列车",
+    "type": "ORGN",
+    "degree": 24,
+    "summary_short": "姬子修复并驶入群星的列车，也是无名客同伴们共同开拓新世界的团体。"
+  },
+  {
+    "id": "星穹列车",
+    "canonical_name": "星穹列车",
+    "type": "PLAC",
+    "degree": 24,
+    "summary_short": "被感谢伸出援手，同伴想念其沙发。"
+  },
+  {
+    "id": "星穹列车",
+    "canonical_name": "星穹列车",
+    "type": "ORGN",
+    "degree": 24,
+    "summary_short": "无名客星海同行所乘的列车与团体。"
+  },
+  {
+    "id": "星穹列车",
+    "canonical_name": "星穹列车",
+    "type": "ARTF",
+    "degree": 24,
+    "summary_short": "无名客航行星海所乘的列车，姬子曾修复并驾驶它航向星空。"
+  },
+  {
+    "id": "星穹列车",
+    "canonical_name": "星穹列车",
+    "type": "PLAC",
+    "degree": 24,
+    "summary_short": "开拓者的家园，可跃迁前往新世界的神奇列车。"
+  },
+  {
+    "id": "开拓者",
+    "canonical_name": "开拓者",
+    "type": "CHAR",
+    "degree": 21,
+    "summary_short": "星穹列车的无名客，与伙伴在多个世界开拓，在翁法罗斯以身入局，直面毁灭的命运。"
+  },
+  {
+    "id": "开拓者",
+    "canonical_name": "开拓者",
+    "type": "CHAR",
+    "degree": 21,
+    "summary_short": "星穹列车的无名客，被老机修工如此称呼，参与翁法罗斯等事件。"
+  },
+  {
+    "id": "白厄",
+    "canonical_name": "白厄",
+    "type": "CHAR",
+    "degree": 15,
+    "summary_short": "武力非凡的黄金裔，曾挑战纷争试炼失败。"
+  },
+  {
+    "id": "白厄",
+    "canonical_name": "白厄",
+    "type": "CHAR",
+    "degree": 15,
+    "summary_short": "黄金裔之一，背负众人心愿踏上逐火之路，愿燃尽此身化作明日烈阳，被称为救世主。"
+  },
+  {
+    "id": "白厄",
+    "canonical_name": "白厄",
+    "type": "CHAR",
+    "degree": 15,
+    "summary_short": "开拓者在翁法罗斯结识的黄金裔，参与逐火之旅与再创世。"
+  },
+  {
+    "id": "云骑军",
+    "canonical_name": "云骑军",
+    "type": "ORGN",
+    "degree": 11,
+    "summary_short": "仙舟的军事力量，被称为翼护仙舟的中流砥柱。"
+  },
+  {
+    "id": "云骑军",
+    "canonical_name": "云骑军",
+    "type": "ORGN",
+    "degree": 11,
+    "summary_short": "仙舟联盟的军队，曾剿匪并将格妮薇儿一家带回仙舟，也在方壶等地与丰饶民作战。"
+  },
+  {
+    "id": "云骑军",
+    "canonical_name": "云骑军",
+    "type": "ORGN",
+    "degree": 11,
+    "summary_short": "仙舟罗浮的军事力量，由景元将军统领，符玄曾受命率其监视丹鼎司洞天。"
+  },
+  {
+    "id": "星际和平公司",
+    "canonical_name": "星际和平公司",
+    "type": "ORGN",
+    "degree": 11,
+    "summary_short": "表面倡导自由贸易的巨型企业财团，实则发行货币、垄断资源，创业初心是将一切奉献给存护星神克里珀。"
+  },
+  {
+    "id": "星际和平公司",
+    "canonical_name": "星际和平公司",
+    "type": "ORGN",
+    "degree": 11,
+    "summary_short": "由路易斯·弗莱明与东方启行改组后援队建立的巨型商业势力，维护银轨并供奉克里珀。"
+  },
+  {
+    "id": "星际和平公司",
+    "canonical_name": "星际和平公司",
+    "type": "ORGN",
+    "degree": 11,
+    "summary_short": "庞大的星际企业，因矿产移居洪堡特-σ，其市场开拓部以武力接管阿尔冈-阿帕歇。"
+  },
+  {
+    "id": "星际和平公司",
+    "canonical_name": "星际和平公司",
+    "type": "ORGN",
+    "degree": 11,
+    "summary_short": "托帕、翡翠等代表所属的势力，与家族谈判匹诺康尼集团上市事宜，并在幻月游戏中有所布局。"
+  },
+  {
+    "id": "天才俱乐部",
+    "canonical_name": "天才俱乐部",
+    "type": "ORGN",
+    "degree": 10,
+    "summary_short": "获得博识尊瞥视与邀请的天才组成的组织，会员共同探寻宇宙答案。"
+  },
+  {
+    "id": "天才俱乐部",
+    "canonical_name": "天才俱乐部",
+    "type": "ORGN",
+    "degree": 10,
+    "summary_short": "得到博识尊接见的天才所组成的组织，会员包括黑塔、以利亚萨拉斯等。"
+  },
+  {
+    "id": "天才俱乐部",
+    "canonical_name": "天才俱乐部",
+    "type": "ORGN",
+    "degree": 10,
+    "summary_short": "天才组成的组织，黑塔为#83，拉帝奥也曾被外界热议是否应加入。"
+  },
+  {
+    "id": "天才俱乐部",
+    "canonical_name": "天才俱乐部",
+    "type": "ORGN",
+    "degree": 10,
+    "summary_short": "囊括赞达尔、原始博士等天才学者的组织。"
+  },
+  {
+    "id": "星核猎手",
+    "canonical_name": "星核猎手",
+    "type": "ORGN",
+    "degree": 10,
+    "summary_short": "由艾利欧管理的阵营，银狼、应星等人为成员，为改写终末而行动。"
+  },
+  {
+    "id": "星核猎手",
+    "canonical_name": "星核猎手",
+    "type": "ORGN",
+    "degree": 10,
+    "summary_short": "卡芙卡、刃、银狼等人所属的组织，意图弑杀星神；艾利欧能预见多种可能。"
+  },
+  {
+    "id": "丹恒",
+    "canonical_name": "丹恒",
+    "type": "CHAR",
+    "degree": 9,
+    "summary_short": "星穹列车护卫，持明后裔，在翁法罗斯背负世界生灵，宣示护卫开拓前路。"
+  },
+  {
+    "id": "丹恒",
+    "canonical_name": "丹恒",
+    "type": "CHAR",
+    "degree": 9,
+    "summary_short": "星穹列车护卫，后接受大地神权回到翁法罗斯。"
+  },
+  {
+    "id": "刻律德菈",
+    "canonical_name": "刻律德菈",
+    "type": "CHAR",
+    "degree": 8,
+    "summary_short": "史称「凯撒」，头戴燃冕的奥赫玛统帅，发起逐火之旅讨伐泰坦。"
+  },
+  {
+    "id": "刻律德菈",
+    "canonical_name": "刻律德菈",
+    "type": "CHAR",
+    "degree": 8,
+    "summary_short": "蓝发金血的少女，曾被贵族当作傀儡王女，后推翻摄政王成为许珀耳君主，晚年以探险家身份闻名。"
+  },
+  {
+    "id": "刻律德菈",
+    "canonical_name": "刻律德菈",
+    "type": "CHAR",
+    "degree": 8,
+    "summary_short": "「律法」的黄金裔，担任奥赫玛领导者。"
+  },
+  {
+    "id": "姬子",
+    "canonical_name": "姬子",
+    "type": "CHAR",
+    "degree": 8,
+    "summary_short": "红发少女，遇见荒废的星穹列车后将其修葺一新，并踏入车厢开始丈量宇宙的开拓之旅。"
+  },
+  {
+    "id": "姬子",
+    "canonical_name": "姬子",
+    "type": "CHAR",
+    "degree": 8,
+    "summary_short": "星穹列车的领航员，少女时发现搁浅列车，后燃烧自身时间修复拓星者，让列车飞向深空。"
+  },
+  {
+    "id": "姬子",
+    "canonical_name": "姬子",
+    "type": "CHAR",
+    "degree": 8,
+    "summary_short": "星穹列车领航员，曾作为谒者参与上次幻月游戏，志在星空，本次为幻月游戏归来。"
+  },
+  {
+    "id": "存护",
+    "canonical_name": "存护",
+    "type": "CONC",
+    "degree": 8,
+    "summary_short": "可可利亚放弃了的「存护」。"
+  },
+  {
+    "id": "来古士",
+    "canonical_name": "来古士",
+    "type": "CHAR",
+    "degree": 8,
+    "summary_short": "被囚禁于斯缇科西亚者，自称赞达尔的意志，企图毁灭博识尊。"
+  },
+  {
+    "id": "匹诺康尼",
+    "canonical_name": "匹诺康尼",
+    "type": "WRLD",
+    "degree": 7,
+    "summary_short": "位于阿斯德纳星系的盛会之星，曾是星际和平公司建造的边陲监狱，后由家族接管梦境，成为蜚声银河的度假胜地。"
+  },
+  {
+    "id": "匹诺康尼",
+    "canonical_name": "匹诺康尼",
+    "type": "WRLD",
+    "degree": 7,
+    "summary_short": "晖长石号巡航、克劳克影业与折纸大学所在的梦境世界。"
+  },
+  {
+    "id": "匹诺康尼",
+    "canonical_name": "匹诺康尼",
+    "type": "WRLD",
+    "degree": 7,
+    "summary_short": "列车组深入美梦、遭遇太一之梦等事件的星球。"
+  },
+  {
+    "id": "匹诺康尼",
+    "canonical_name": "匹诺康尼",
+    "type": "PLAC",
+    "degree": 7,
+    "summary_short": "开拓旅程中的世界，曾被从永眠中唤醒。"
+  },
+  {
+    "id": "星期日",
+    "canonical_name": "星期日",
+    "type": "CHAR",
+    "degree": 7,
+    "summary_short": "该角色名称收录于角色卷中，语料未提供其身份、背景等更多相关信息。"
+  },
+  {
+    "id": "星期日",
+    "canonical_name": "星期日",
+    "type": "CHAR",
+    "degree": 7,
+    "summary_short": "知更鸟的哥哥，家族成员，在谐乐大典期间为列车组戴上冠军桂冠，怀有成神野心，后成为幻月游戏谒者。"
+  },
+  {
+    "id": "景元",
+    "canonical_name": "景元",
+    "type": "CHAR",
+    "degree": 7,
+    "summary_short": "罗浮将军，在方壶之战中听取符玄建言，决定由六御动用瞰云镜，并愿承担全部后果。"
+  },
+  {
+    "id": "景元",
+    "canonical_name": "景元",
+    "type": "CHAR",
+    "degree": 7,
+    "summary_short": "罗浮云骑军将军，在司辰宫现身定策，为列车组前往工造司、丹鼎司大开方便之门。"
+  },
+  {
+    "id": "花火",
+    "canonical_name": "花火",
+    "type": "CHAR",
+    "degree": 7,
+    "summary_short": "以面具示人的娱乐者，花火与火花皆为面具，经营直播间并游戏人间。"
+  },
+  {
+    "id": "花火",
+    "canonical_name": "花火",
+    "type": "CHAR",
+    "degree": 7,
+    "summary_short": "在晖长石号埋下炸弹隐患的女孩，后在二相乐园假扮导游引导开拓者了解幻月游戏。"
+  },
+  {
+    "id": "黑塔",
+    "canonical_name": "黑塔",
+    "type": "CHAR",
+    "degree": 7,
+    "summary_short": "天才俱乐部#83会员，空间站黑塔的建立者，智慧过人却全凭兴趣行事。"
+  },
+  {
+    "id": "黑塔",
+    "canonical_name": "黑塔",
+    "type": "CHAR",
+    "degree": 7,
+    "summary_short": "天才俱乐部成员，拥有极强大脑运算能力的天才学者。"
+  },
+  {
+    "id": "黑塔",
+    "canonical_name": "黑塔",
+    "type": "CHAR",
+    "degree": 7,
+    "summary_short": "天才俱乐部#83，模拟宇宙的创造者，隐居高塔，用人偶处理琐事并持续演算心中的疑问。"
+  },
+  {
+    "id": "黑塔",
+    "canonical_name": "黑塔",
+    "type": "CHAR",
+    "degree": 7,
+    "summary_short": "空间站的天才学者，与螺丝咕姆等联手推出模拟宇宙第一次大更新，并在「神话之外」提示开拓者逃生。"
+  },
+  {
+    "id": "仙舟「罗浮」",
+    "canonical_name": "仙舟「罗浮」",
+    "type": "PLAC",
+    "degree": 6,
+    "summary_short": "仙舟联盟的座舰之一，丹鼎司、十王司等机构所在，云骑军曾在此与丰饶民作战。"
+  },
+  {
+    "id": "仙舟「罗浮」",
+    "canonical_name": "仙舟「罗浮」",
+    "type": "PLAC",
+    "degree": 6,
+    "summary_short": "仙舟联盟的仙舟之一，云骑军等机构所在，也是外来行商入境之地。"
+  },
+  {
+    "id": "仙舟「罗浮」",
+    "canonical_name": "仙舟「罗浮」",
+    "type": "WRLD",
+    "degree": 6,
+    "summary_short": "星穹列车受邀前往的仙舟，建木重生、药王秘传作乱之地。"
+  },
+  {
+    "id": "仙舟「罗浮」",
+    "canonical_name": "仙舟「罗浮」",
+    "type": "PLAC",
+    "degree": 6,
+    "summary_short": "仙舟联盟座舰之一，星核危机导致建木重生、魔阴身横行，列车组受邀前来化解灾难。"
+  },
+  {
+    "id": "仙舟联盟",
+    "canonical_name": "仙舟联盟",
+    "type": "ORGN",
+    "degree": 6,
+    "summary_short": "由仙舟组成的联盟，拥有生物与机械混编舰队，对抗丰饶民与反物质军团等。"
+  },
+  {
+    "id": "仙舟联盟",
+    "canonical_name": "仙舟联盟",
+    "type": "ORGN",
+    "degree": 6,
+    "summary_short": "派遣朱明、曜青使者前往罗浮参加仪典的联盟。"
+  },
+  {
+    "id": "刃",
+    "canonical_name": "刃",
+    "type": "CHAR",
+    "degree": 6,
+    "summary_short": "曾为铸剑奇匠，因故成为不死之身，现为星核猎手成员，曾铸造击云、支离等兵器。"
+  },
+  {
+    "id": "刃",
+    "canonical_name": "刃",
+    "type": "CHAR",
+    "degree": 6,
+    "summary_short": "星核猎手成员，与丹恒有刻骨宿怨，前身应星为匠人，曾锻造「支离」。"
+  },
+  {
+    "id": "奥赫玛",
+    "canonical_name": "奥赫玛",
+    "type": "PLAC",
+    "degree": 6,
+    "summary_short": "翁法罗斯的圣城，凯撒权力中心，末世长夜中唯一的永昼之地。"
+  },
+  {
+    "id": "奥赫玛",
+    "canonical_name": "奥赫玛",
+    "type": "PLAC",
+    "degree": 6,
+    "summary_short": "黄金战争后人类仅余的城邦，被视为一方净土，由战士守护。"
+  },
+  {
+    "id": "奥赫玛",
+    "canonical_name": "奥赫玛",
+    "type": "PLAC",
+    "degree": 6,
+    "summary_short": "翁法罗斯末世中的净土圣城。"
+  },
+  {
+    "id": "家族",
+    "canonical_name": "家族",
+    "type": "ORGN",
+    "degree": 6,
+    "summary_short": "希佩的选民组成的温馨共谐组织，成员来自不同世界，亲如家人，并呼唤其它世界投入同谐。"
+  },
+  {
+    "id": "家族",
+    "canonical_name": "家族",
+    "type": "ORGN",
+    "degree": 6,
+    "summary_short": "领导匹诺康尼的势力，由多个家系构成，长期维持这座美梦之都的繁荣。"
+  },
+  {
+    "id": "家族",
+    "canonical_name": "家族",
+    "type": "ORGN",
+    "degree": 6,
+    "summary_short": "匹诺康尼的统治势力，由星期日、知更鸟等代表，与星际和平公司谈判。"
+  },
+  {
+    "id": "彦卿",
+    "canonical_name": "彦卿",
+    "type": "CHAR",
+    "degree": 6,
+    "summary_short": "云骑军历史上最年轻的骁卫，景元的侍卫，仙舟罗浮最强剑士，战斗天赋惊人。"
+  },
+  {
+    "id": "彦卿",
+    "canonical_name": "彦卿",
+    "type": "CHAR",
+    "degree": 6,
+    "summary_short": "陪同列车组会见景元的罗浮剑士。"
+  },
+  {
+    "id": "晖长石号",
+    "canonical_name": "晖长石号",
+    "type": "ARTF",
+    "degree": 6,
+    "summary_short": "飞行在匹诺康尼上空的豪华浮空艇，由丹尼设计建造，在梦海巡航。"
+  },
+  {
+    "id": "晖长石号",
+    "canonical_name": "晖长石号",
+    "type": "PLAC",
+    "degree": 6,
+    "summary_short": "谐乐大典期间列车组登上的空艇，公司与家族在此会谈，花火在此埋下隐患。"
+  },
+  {
+    "id": "晖长石号",
+    "canonical_name": "晖长石号",
+    "type": "ARTF",
+    "degree": 6,
+    "summary_short": "匹诺康尼的飞艇，所有权曾待转交，后知更鸟在谐乐大典上将其赠予列车组。"
+  },
+  {
+    "id": "毁灭",
+    "canonical_name": "毁灭",
+    "type": "CONC",
+    "degree": 6,
+    "summary_short": "被提及要与之决战的「毁灭」。"
+  },
+  {
+    "id": "翁法罗斯",
+    "canonical_name": "翁法罗斯",
+    "type": "WRLD",
+    "degree": 6,
+    "summary_short": "被隐藏于深空的未知星域，与外界隔绝；实为权杖δ-me13，曾被改造为绝灭大君铁墓的实验场。"
+  },
+  {
+    "id": "翁法罗斯",
+    "canonical_name": "翁法罗斯",
+    "type": "WRLD",
+    "degree": 6,
+    "summary_short": "由十二个泰坦创造的世界，正处在末世威胁与黑潮之中。"
+  },
+  {
+    "id": "翁法罗斯",
+    "canonical_name": "翁法罗斯",
+    "type": "WRLD",
+    "degree": 6,
+    "summary_short": "黄金裔逐火与再创世的世界，开拓者、丹恒、白厄等人在此面对毁灭的命运。"
+  },
+  {
+    "id": "翁法罗斯",
+    "canonical_name": "翁法罗斯",
+    "type": "WRLD",
+    "degree": 6,
+    "summary_short": "列车组因能源告急前往的永恒之地，曾为智识试验场。"
+  },
+  {
+    "id": "黄泉",
+    "canonical_name": "黄泉",
+    "type": "CHAR",
+    "degree": 6,
+    "summary_short": "独行银河的剑士，黄泉是借来的名字，在与虚无的周旋中于死亡边缘跳跃。"
+  },
+  {
+    "id": "黄泉",
+    "canonical_name": "黄泉",
+    "type": "CHAR",
+    "degree": 6,
+    "summary_short": "与列车组合作的巡海游侠，真实身份为虚无令使。"
+  },
+  {
+    "id": "黄金裔",
+    "canonical_name": "黄金裔",
+    "type": "RACE",
+    "degree": 6,
+    "summary_short": "翁法罗斯拥有神血的英雄，需打倒泰坦、点亮火种以拯救世界。"
+  },
+  {
+    "id": "黄金裔",
+    "canonical_name": "黄金裔",
+    "type": "ORGN",
+    "degree": 6,
+    "summary_short": "翁法罗斯的英雄群体，将燃烧的金血熔进身躯，承担逐火使命，与来古士长期争斗。"
+  },
+  {
+    "id": "黄金裔",
+    "canonical_name": "黄金裔",
+    "type": "RACE",
+    "degree": 6,
+    "summary_short": "被提及盗取火种、被误认为身份、被询问如何被选中的群体。"
+  },
+  {
+    "id": "三月七",
+    "canonical_name": "三月七",
+    "type": "CHAR",
+    "degree": 5,
+    "summary_short": "星穹列车成员，失去过往，名字由长夜月赋予，随列车在诸界开拓，立志描绘自己的未来。"
+  },
+  {
+    "id": "三月七",
+    "canonical_name": "三月七",
+    "type": "CHAR",
+    "degree": 5,
+    "summary_short": "星穹列车成员，早于开拓者与丹恒到达翁法罗斯，为保护二人主动放弃记忆，将身心交给长夜月。"
+  },
+  {
+    "id": "尼卡多利",
+    "canonical_name": "尼卡多利",
+    "type": "CHAR",
+    "degree": 5,
+    "summary_short": "纷争泰坦，曾突袭奥赫玛，其神权后由万敌接掌。"
+  }
+]

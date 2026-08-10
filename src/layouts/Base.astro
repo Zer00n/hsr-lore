@@ -1,0 +1,115 @@
+---
+import '../styles/tokens.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const {
+  title = '「崩坏：星穹铁道」世界观考据站',
+  description = '基于公开游戏文本的世界观考据与可追溯引证索引',
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <meta name="color-scheme" content="dark" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content="/images/og-cover.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="星铁世界观考据站" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="/images/og-cover.jpg" />
+
+    <title>{title}</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a href="/" class="brand">
+          <span class="brand-mark" aria-hidden="true">✦</span>
+          <span class="brand-text">星铁世界观考据站</span>
+        </a>
+        <span class="data-badge">Pass1 · 四卷</span>
+      </div>
+    </header>
+
+    <main class="site-main">
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <p>非商业同人考据作品 · 游戏资产著作权归 COGNOSPHERE 所有</p>
+      <p class="footer-links">
+        <a href="/disclaimer">数据来源与声明</a>
+      </p>
+    </footer>
+  </body>
+</html>
+
+<style>
+  .site-header {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    background: var(--bg-overlay);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--border);
+  }
+  .header-inner {
+    max-width: var(--content-max-width);
+    margin: 0 auto;
+    padding: 0 var(--space-6);
+    height: var(--header-height);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-4);
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    color: var(--text-primary);
+    font-weight: 600;
+    letter-spacing: 0.05em;
+  }
+  .brand-mark {
+    color: var(--accent);
+    font-size: var(--text-lg);
+  }
+  .data-badge {
+    font-size: var(--text-xs);
+    color: var(--accent);
+    background: var(--accent-muted);
+    border: 1px solid var(--border-light);
+    padding: 2px var(--space-3);
+    border-radius: var(--radius-full);
+  }
+  .site-main {
+    max-width: var(--content-max-width);
+    margin: 0 auto;
+    padding: var(--space-8) var(--space-6) var(--space-12);
+  }
+  .site-footer {
+    border-top: 1px solid var(--border);
+    padding: var(--space-6) var(--space-6) var(--space-10);
+    text-align: center;
+    color: var(--text-muted);
+    font-size: var(--text-xs);
+  }
+  .footer-links { margin-top: var(--space-2); }
+  .footer-links a { color: var(--text-muted); }
+  .footer-links a:hover { color: var(--accent); }
+</style>

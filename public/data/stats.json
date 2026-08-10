@@ -1,0 +1,21 @@
+{
+  "run_id": "live_pass1_20260810",
+  "generated_at": "2026-08-10T14:02:32.981702+00:00",
+  "source_manifest": "D:\\Office\\claudecode\\star\\hsr-lore\\logs\\runs\\live_pass1_20260810",
+  "citation_pass_rate": 0.8469,
+  "total_calls": 16,
+  "total_input_tokens": 936616,
+  "total_output_tokens": 583402,
+  "cumulative_afp": 0,
+  "per_task_counts": {},
+  "rejection_reasons": {},
+  "totals": {
+    "entities": 548,
+    "relations": 330,
+    "events": 189,
+    "discrepancies": 29
+  },
+  "manifest_run_id": "live_pass1_20260810",
+  "manifest_start_time": "2026-08-10T10:09:55.064098+00:00",
+  "manifest_elapsed_seconds": 0
+}

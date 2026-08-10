@@ -1,0 +1,1003 @@
+[
+  {
+    "kind": "ambiguity",
+    "topic": "铁墓在翁法罗斯事件中的结局与全貌",
+    "statements": [
+      {
+        "text": "铁墓在开拓和众英雄反抗下憎恨逻辑被覆写，席卷群星的病毒被转化为无害的空白模因。",
+        "citation": {
+          "cite_id": "NOUN-25154047274455847",
+          "quote": "但在「开拓」和众英雄的反抗下，铁墓的憎恨逻辑被覆写，席卷群星的病毒被转化为无害的空白模因。"
+        }
+      },
+      {
+        "text": "铁墓由权杖δ-me13飞升而成，但其全貌还不得而知。",
+        "citation": {
+          "cite_id": "NOUN-3134180495327604257",
+          "quote": "在翁法罗斯事件中，被证实由权杖δ-me13飞升而成。但其全貌还不得而知。"
+        }
+      },
+      {
+        "text": "在记忆命途作用下，权杖自主意识形成并牺牲，闭合实验因果，将铁墓陨落的事实锚定。",
+        "citation": {
+          "cite_id": "NOUN-2660052858429290298",
+          "quote": "在「记忆」命途的作用下，权杖一度被剥夺的自主意识完全形成，并以牺牲闭合了实验因果，将「铁墓陨落」的事实锚定。"
+        }
+      }
+    ],
+    "analysis": {
+      "text": "不同条目对铁墓结局的详述程度与侧重点不一：一条明确给出病毒被覆写转化的结果，一条仅称全貌未知，另一条则强调记忆命途对陨落事实的锚定。它们更像不同版本或视角的记述，而非简单互斥，需结合翁法罗斯剧情整体理解。",
+      "claim_type": "interpretation",
+      "confidence": "inferred",
+      "citations": []
+    },
+    "related_entities": [
+      "铁墓",
+      "翁法罗斯"
+    ],
+    "impact": "medium",
+    "source_volume": "lore",
+    "_cross_volume": false
+  },
+  {
+    "kind": "ambiguity",
+    "topic": "浮黎是否深居善见天及其存亡状态",
+    "statements": [
+      {
+        "text": "并非浮黎深居善见天，而是流光忆庭围绕星神构建了这片记忆的净土。",
+        "citation": {
+          "cite_id": "NOUN-3035454540502135654",
+          "quote": "并非浮黎深居善见天，而是流光忆庭围绕星神构建了这片记忆的净土。"
+        }
+      },
+      {
+        "text": "学者质疑善见天的水晶神只是假身，焚化工称浮黎早已身碎道陨，流光忆庭假借神名操纵无主命途。",
+        "citation": {
+          "cite_id": "NOUN-3035454540502135654",
+          "quote": "学者们质疑，「记忆」星神的行踪被忆庭层层遮掩，是否意味着善见天的水晶神只是一具假身？更有焚化工散布骇人的信息：浮黎早已身碎道陨，而流光忆庭假借神名，操纵着无主的命途。"
+        }
+      },
+      {
+        "text": "无主命途不会出现潮汐般的能量波动，已陨星神也不会瞥视行者，记忆与浮黎不符合这些标准。",
+        "citation": {
+          "cite_id": "NOUN-3035454540502135654",
+          "quote": "无主的命途不会出现有如潮汐的能量波动，已陨的星神也不会瞥视任何行者。「记忆」与浮黎并不符合这些标准。"
+        }
+      }
+    ],
+    "analysis": {
+      "text": "文本同时呈现了浮黎未深居善见天、水晶神或为假身、焚化工宣称其已陨，以及以命途波动反证其未陨等多重说法。由此可推断浮黎或许仍存，但善见天的水晶形象并非其本体，其真实行踪被忆庭遮掩。",
+      "claim_type": "interpretation",
+      "confidence": "inferred",
+      "citations": []
+    },
+    "related_entities": [
+      "浮黎",
+      "流光忆庭"
+    ],
+    "impact": "medium",
+    "source_volume": "lore",
+    "_cross_volume": false
+  },
+  {
+    "kind": "gap",
+    "topic": "幻造种诞生时组成身体的物质来源",
+    "statements": [
+      {
+        "text": "命途狭间说认为幻造种从欢愉星神的命途狭间获取质量，死亡时归还。",
+        "citation": {
+          "cite_id": "BOOK-191966",
+          "quote": "前者认为，幻造种在诞生的瞬间，会从欢愉星神的命途狭间中获取一部分质量，构成身体，并在死亡时逸散，将这部分质量归还。"
+        }
+      },
+      {
+        "text": "离散物质说认为幻造种核心吸纳周边离散物质构成身体，甚至愿力可能转化为质量。",
+        "citation": {
+          "cite_id": "BOOK-191966",
+          "quote": "后者则认为，幻造种的核心会迅速吸纳周边环境的离散物质，将其作为身体的组成部分，甚至有激进观点认为，这一过程中，愿力的能量改变了粒子的组成形态，部分转化为了质量。"
+        }
+      }
+    ],
+    "analysis": {
+      "text": "原文明确列出两种主流假说并称两派学者争论不休，至今未有定论，属于尚未解释的学界空白。",
+      "claim_type": "interpretation",
+      "confidence": "inferred",
+      "citations": [
+        {
+          "cite_id": "BOOK-191966",
+          "quote": "自二相乐园回归现实世界以来，两派学者便争论不休"
+        }
+      ]
+    },
+    "related_entities": [
+      "幻造种",
+      "二相乐园"
+    ],
+    "impact": "low",
+    "source_volume": "books",
+    "_cross_volume": false
+  },
+  {
+    "kind": "gap",
+    "topic": "纳努克座下七位绝灭大君的完整身份",
+    "statements": [
+      {
+        "text": "传言纳努克座下共有七位大君，代表毁灭的七种极致倾向。",
+        "citation": {
+          "cite_id": "BOOK-190404",
+          "quote": "根据传言，纳努克座下共有七位大君，代表了「毁灭」的七种极致倾向。"
+        }
+      },
+      {
+        "text": "目前至少四位大君尚且不知其名，仅能从毁灭倾向判断其存在。",
+        "citation": {
+          "cite_id": "BOOK-190404",
+          "quote": "其中至少有四位大君尚且不知其名，仅能从「毁灭」的倾向判断其存在。"
+        }
+      }
+    ],
+    "analysis": {
+      "text": "原文明确承认联盟与公司的情报有限，多位绝灭大君仅有观测记录而无名称，属于设定留白。",
+      "claim_type": "interpretation",
+      "confidence": "inferred",
+      "citations": [
+        {
+          "cite_id": "BOOK-190404",
+          "quote": "无论是联盟的观测记录，还是公司的情报网，所能获取的有效信息极少"
+        }
+      ]
+    },
+    "related_entities": [
+      "纳努克",
+      "反物质军团",
+      "星啸"
+    ],
+    "impact": "medium",
+    "source_volume": "books",
+    "_cross_volume": false
+  },
+  {
+    "kind": "gap",
+    "topic": "月里火如何逃脱可博追杀",
+    "statements": [
+      {
+        "text": "月里火从不肯说她如何逃脱了那场追杀，只知斥鲁巫在逃亡中死去。",
+        "citation": {
+          "cite_id": "BOOK-190684",
+          "quote": "月里火从不肯说她如何逃脱了那场追杀，我们只知道，她唯一的孩子斥鲁巫，在那场逃亡中死去了。"
+        }
+      }
+    ],
+    "analysis": {
+      "text": "原文明确留下未解之谜，未交代月里火以何种方式摆脱可博舰队追击。",
+      "claim_type": "interpretation",
+      "confidence": "inferred",
+      "citations": [
+        {
+          "cite_id": "BOOK-190684",
+          "quote": "月里火从不肯说她如何逃脱了那场追杀"
+        }
+      ]
+    },
+    "related_entities": [
+      "月里火",
+      "可博",
+      "闭戾多"
+    ],
+    "impact": "low",
+    "source_volume": "books",
+    "_cross_volume": false
+  },
+  {
+    "kind": "gap",
+    "topic": "阳雷骑士塞涅俄丝与第一次逐火之旅起因的关联未被解释",
+    "statements": [
+      {
+        "text": "阳雷骑士塞涅俄丝挑战神明是引发第一次逐火之旅的关键事件。",
+        "citation": {
+          "cite_id": "BOOK-190876",
+          "quote": "众所周知，阳雷骑士塞涅俄丝挑战神明，是引发第一次逐火之旅的关键事件。"
+        }
+      },
+      {
+        "text": "后文叙述第一次逐火之旅时仅提及刻律德菈颁布手谕组建远征，未再说明塞涅俄丝的作用。",
+        "citation": {
+          "cite_id": "BOOK-190876",
+          "quote": "刻律德菈颁布手谕，宣称要实现刻法勒神谕中的再创世——猎杀泰坦，夺取火种。她组建起一支浩大的队伍，囊括了战士、学者、祭司和冒险家。"
+        }
+      }
+    ],
+    "analysis": {
+      "text": "卷首明确提出塞涅俄丝挑战神明为关键事件，但随后的秘辛叙述因多处内容被烧毁，始终未交代该事件如何引发远征，二者关联在本卷中缺失。",
+      "claim_type": "interpretation",
+      "confidence": "inferred",
+      "citations": []
+    },
+    "related_entities": [
+      "塞涅俄丝",
+      "刻律德菈",
+      "第一次逐火之旅"
+    ],
+    "impact": "low",
+    "source_volume": "books",
+    "_cross_volume": false
+  },
+  {
+    "kind": "contradiction",
+    "topic": "仙舟罗浮领受建木与成为联盟魁元的时序",
+    "statements": [
+      {
+        "text": "诗句称罗浮作为魁元惶恐领受建木。",
+        "citation": {
+          "cite_id": "BOOK-190346",
+          "quote": "衔舻迢邈几斗转，魁元惶恐领天橦。"
+        }
+      },
+      {
+        "text": "校勘记称罗浮在领受建木后才成为联盟之首。",
+        "citation": {
+          "cite_id": "BOOK-190346",
+          "quote": "然仙舟罗浮在领受建木后才成为联盟之首，此处或为艺术加工。"
+        }
+      }
+    ],
+    "analysis": {
+      "text": "诗句先言魁元再言领天橦，暗示罗浮为首在领受建木之前；校勘记则明确指出罗浮领受建木后才成联盟之首，时序相反，校勘记以艺术加工解释。",
+      "claim_type": "interpretation",
+      "confidence": "inferred",
+      "citations": [
+        {
+          "cite_id": "BOOK-190346",
+          "quote": "然仙舟罗浮在领受建木后才成为联盟之首，此处或为艺术加工。"
+        }
+      ]
+    },
+    "related_entities": [
+      "仙舟「罗浮」",
+      "建木"
+    ],
+    "impact": "low",
+    "source_volume": "books",
+    "_cross_volume": false
+  },
+  {
+    "kind": "contradiction",
+    "topic": "圆峤失踪的年份记载",
+    "statements": [
+      {
+        "text": "《帝弓迹躔歌》校勘记称圆峤于星历3200年在阋墙之战中失控，航入红巨星后失踪。",
+        "citation": {
+          "cite_id": "BOOK-190344",
+          "quote": "圆峤于星历3200年在「阋墙之战」中失控，航入红巨星后失踪"
+        }
+      },
+      {
+        "text": "战地录音记录显示星历3287年毕方壹才观测到圆峤失速滑向红巨星并确认失踪。",
+        "citation": {
+          "cite_id": "BOOK-190394",
+          "quote": "圆峤外观没有异样。但他们不可能活下来的。他们失速了，正在惯性作用下滑向红巨星。"
+        }
+      }
+    ],
+    "analysis": {
+      "text": "两处记载相差87年；若3200年为失控起点、3287年为最终观测终点，原文未作说明，因而构成时间线上的矛盾。",
+      "claim_type": "interpretation",
+      "confidence": "inferred",
+      "citations": []
+    },
+    "related_entities": [
+      "仙舟「圆峤」"
+    ],
+    "impact": "medium",
+    "source_volume": "books",
+    "_cross_volume": false
+  },
+  {
+    "kind": "ambiguity",
+    "topic": "艾丝妲家族中谁在图谋不轨",
+    "statements": [
+      {
+        "text": "泰勒阿姨警告艾丝妲，巴林特叔叔可能对她下手，叮嘱「巴林特说什么你都别信，小心巴林特」。",
+        "citation": {
+          "cite_id": "BOOK-190206",
+          "quote": "切记：巴林特说什么你都别信，小心巴林特！"
+        }
+      },
+      {
+        "text": "艾丝妲的妈妈则在信中说，泰勒阿姨伪造了一份艾丝妲的股权转让书，叮嘱她小心泰勒。",
+        "citation": {
+          "cite_id": "BOOK-190206",
+          "quote": "信托基金那边的人前几天跟我汇报说她伪造了一份你的股权转让书"
+        }
+      }
+    ],
+    "analysis": {
+      "text": "两封信分别指控巴林特与泰勒，读者无法据现有文本判断谁真正在策划阴谋，构成悬而未决的歧义。",
+      "claim_type": "interpretation",
+      "confidence": "inferred",
+      "citations": []
+    },
+    "related_entities": [
+      "艾丝妲"
+    ],
+    "impact": "low",
+    "source_volume": "books",
+    "_cross_volume": false
+  },
+  {
+    "kind": "gap",
+    "topic": "幻月游戏「足够的愿力」究竟是多少",
+    "statements": [
+      {
+        "text": "极大额定论认为获胜标准是庞大且明确的愿力定额，需星球级关注持续汇聚。",
+        "citation": {
+          "cite_id": "BOOK-192061",
+          "quote": "幻月游戏的获胜标准是一个庞大且明确的愿力定额，只有星球级别的关注持续性汇聚到同一人身上，才能完成。"
+        }
+      },
+      {
+        "text": "阿哈心情论认为愿力只是幌子，真正获胜条件是让阿哈发自内心地笑出来。",
+        "citation": {
+          "cite_id": "BOOK-192061",
+          "quote": "既然如此，或许愿力从一开始就是个幌子，真正的获胜条件，不过是让阿哈发自内心地笑出来。"
+        }
+      },
+      {
+        "text": "作者提出动态变化论，认为获胜所需愿力随乐园整体情绪与时代变化。",
+        "citation": {
+          "cite_id": "BOOK-192061",
+          "quote": "在此假设下，乐园这个整体就像是一个巨大的人，它对愿的需求总量不断变化，而能够满足它的愿的谒者，便能取得幻月游戏的胜利。"
+        }
+      }
+    ],
+    "analysis": {
+      "text": "文本明确承认无人知道「足够的愿力」是多少，三种观点均为猜想，作者的动态变化论也仅供一笑，因此获胜标准在本卷中未有定论。",
+      "claim_type": "interpretation",
+      "confidence": "inferred",
+      "citations": []
+    },
+    "related_entities": [
+      "幻月游戏",
+      "阿哈"
+    ],
+    "impact": "medium",
+    "source_volume": "books",
+    "_cross_volume": false
+  },
+  {
+    "kind": "gap",
+    "topic": "三月七的身世与过往",
+    "statements": [
+      {
+        "text": "三月七从漂流的恒冰中苏醒后，对自己的身世与过往一无所知。",
+        "citation": {
+          "cite_id": "STRY-1001-1",
+          "quote": "从一块漂流的恒冰中苏醒，却发现自己对身世与过往都一无所知。"
+        }
+      }
+    ],
+    "analysis": {
+      "text": "原文明确提出三月七失去过往记忆，其来历与身世在本卷中未获解释。",
+      "claim_type": "interpretation",
+      "confidence": "inferred",
+      "citations": []
+    },
+    "related_entities": [
+      "三月七"
+    ],
+    "impact": "medium",
+    "source_volume": "characters",
+    "_cross_volume": false
+  },
+  {
+    "kind": "gap",
+    "topic": "彦卿的血脉传承",
+    "statements": [
+      {
+        "text": "云骑军籍文卷记录了景元寻得彦卿并将其编入军中，但家系一栏中其血脉传承信息付之阙如。",
+        "citation": {
+          "cite_id": "STRY-1209-3",
+          "quote": "然而独独在家系一栏中，彦卿血脉传承相关的信息却付之阙如。"
+        }
+      }
+    ],
+    "analysis": {
+      "text": "原文明确指出彦卿的出身血脉在军籍文卷中缺失，构成尚未解释的空白。",
+      "claim_type": "interpretation",
+      "confidence": "inferred",
+      "citations": []
+    },
+    "related_entities": [
+      "彦卿",
+      "景元"
+    ],
+    "impact": "low",
+    "source_volume": "characters",
+    "_cross_volume": false
+  },
+  {
+    "kind": "ambiguity",
+    "topic": "白厄完成再创世的叙述前后不一致",
+    "statements": [
+      {
+        "text": "白厄只身一人赶赴创世涡心，完成再创世。",
+        "citation": {
+          "cite_id": "CHRN-1040414",
+          "quote": "白厄只身一人赶赴创世涡心，完成再创世。"
+        }
+      },
+      {
+        "text": "你与白厄在创世涡心返还最后的火种，却未能迎来再创世，而是被来古士拉入沉浸式戏剧。",
+        "citation": {
+          "cite_id": "CHRN-1040501",
+          "quote": "在创世涡心处，你与白厄将最后的火种返还，却未能迎来「再创世」，而是被来古士拉入了一场「沉浸式戏剧」当中"
+        }
+      }
+    ],
+    "analysis": {
+      "text": "两处叙述分别表明白厄独自完成再创世、以及你与白厄返还火种却未迎来再创世。结合卷内对轮回与沉浸式戏剧的揭示，这可能是不同周目或记忆层面的叙事，但卷内未明确说明二者关系，存在歧义。",
+      "claim_type": "interpretation",
+      "confidence": "inferred",
+      "citations": []
+    },
+    "related_entities": [
+      "白厄",
+      "再创世",
+      "来古士",
+      "铁墓"
+    ],
+    "impact": "medium",
+    "source_volume": "narrative",
+    "_cross_volume": false
+  },
+  {
+    "kind": "contradiction",
+    "topic": "缭乱•忍侠训练中对实验体的编号称呼不一致",
+    "statements": [
+      {
+        "text": "同一段训诫中称呼实验体为 AK-A-3",
+        "citation": {
+          "cite_id": "SUBM-D-103420802",
+          "quote": "AK-A-3，你从诞生的那一天起，就知道自己是个实验品，对吧？"
+        }
+      },
+      {
+        "text": "相同语境的训诫中称呼实验体为 AK-A-2",
+        "citation": {
+          "cite_id": "SUBM-D-103420815",
+          "quote": "AK-A-2，你从诞生的那一天起，就知道自己是个实验品，对吧？"
+        }
+      }
+    ],
+    "analysis": {
+      "text": "两处文本的句式与语境完全一致，仅实验体编号由 AK-A-3 变为 AK-A-2，卷内未解释是否为不同实验体或笔误，因此构成编号信息的不一致。",
+      "claim_type": "interpretation",
+      "confidence": "inferred",
+      "citations": []
+    },
+    "related_entities": [
+      "缭乱•忍侠"
+    ],
+    "impact": "low",
+    "source_volume": "narrative",
+    "_cross_volume": false
+  },
+  {
+    "kind": "ambiguity",
+    "topic": "花火与火花是否为同一角色",
+    "statements": [
+      {
+        "text": "战胜花火后得到名为火花的卡牌，火花是寻求加入幻月游戏的主播",
+        "citation": {
+          "cite_id": "SKIP-D-105400236",
+          "quote": "你战胜花火，得到名为「火花」的卡牌。那是一位寻求加入「幻月游戏」的主播"
+        }
+      },
+      {
+        "text": "火花协助调查时提到花火以前在匹诺康尼演过类似戏码，这次立场切换",
+        "citation": {
+          "cite_id": "SUBM-D-205400307",
+          "quote": "说起来，以前在匹诺康尼，花火好像演过类似的戏码。只不过那次并没有有人遇害，并且花火扮演的是「凶手」。这次立场切换，也不知道火花是否还能那么游刃有余。"
+        }
+      }
+    ],
+    "analysis": {
+      "text": "第一段文本明确区分花火（被战胜者）与火花（获得的卡牌所描绘的主播），似为两个不同实体。第二段文本以「这次立场切换」将火花当前的协助者角色与花火过去的凶手角色并置，暗示二者可能为同一角色的不同面相。语料未明确说明二者是否同一，存在歧义。",
+      "claim_type": "interpretation",
+      "confidence": "inferred",
+      "citations": []
+    },
+    "related_entities": [
+      "花火"
+    ],
+    "impact": "low",
+    "source_volume": "narrative",
+    "_cross_volume": false
+  },
+  {
+    "kind": "contradiction",
+    "topic": "三月七战胜斯科特的方式",
+    "statements": [
+      {
+        "text": "银狼协助三月七，将普罗米交给三月七控制公司机甲，三月七战胜斯科特但与剑法无关",
+        "citation": {
+          "cite_id": "CHRN-8024114",
+          "quote": "多亏了银狼的协助，三月七剑术进步了不少…银狼将普罗米交给三月七，三月七直接控制了公司的机甲。就结果而言，三月七确实战胜了斯科特，只是这跟剑法毫无关系。"
+        }
+      },
+      {
+        "text": "椒丘协助三月七，贡献曜青灵药让斯科特在最后战斗中实力大减",
+        "citation": {
+          "cite_id": "CHRN-8024113",
+          "quote": "多亏了椒丘的协助，三月七剑术进步了不少…椒丘贡献了曜青的灵药，让斯科特在最后的战斗中实力大减。"
+        }
+      },
+      {
+        "text": "藿藿协助三月七，尾巴提出将斯科特改心，斯科特成为真正的孤狼",
+        "citation": {
+          "cite_id": "CHRN-8024112",
+          "quote": "多亏了藿藿的协助，三月七剑术进步了不少…尾巴提出要彻底将斯科特改心，最后斯科特也成为了真正的「孤狼」。"
+        }
+      }
+    ],
+    "analysis": {
+      "text": "三段编年史分别将三月七的胜利归因于银狼、椒丘、藿藿的协助，描述了三种互斥的战斗过程与结果。这可能对应不同的同伴任务路线，但在同一叙事卷内构成事实矛盾。",
+      "claim_type": "interpretation",
+      "confidence": "inferred",
+      "citations": []
+    },
+    "impact": "medium",
+    "source_volume": "narrative",
+    "_cross_volume": false
+  },
+  {
+    "kind": "ambiguity",
+    "topic": "模拟云吟术的起因判定",
+    "statements": [
+      {
+        "text": "地衡司判明模拟云吟术是次元扑满所为，展开追猎行动",
+        "citation": {
+          "cite_id": "SUBM-D-202060303",
+          "quote": "地衡司已经判明「模拟云吟术」是次元扑满所为，接下来你和地衡司决定展开「追猎行动」。"
+        }
+      },
+      {
+        "text": "地衡司判明模拟云吟术并非次元扑满个体行为，展开牧场行动",
+        "citation": {
+          "cite_id": "SUBM-D-407201301",
+          "quote": "地衡司已经判明「模拟云吟术」并非是次元扑满个体行为，接下来你和地衡司决定展开「牧场行动」。"
+        }
+      }
+    ],
+    "analysis": {
+      "text": "两处文本对模拟云吟术起因的判明结论看似矛盾：一处认定是次元扑满所为，另一处否定是个体行为。可能是调查推进的不同阶段——先判定为次元扑满所为，后发现并非个体行为而是有组织的行动，但文本未明确说明时序关系。",
+      "claim_type": "interpretation",
+      "confidence": "inferred",
+      "citations": []
+    },
+    "impact": "low",
+    "source_volume": "narrative",
+    "_cross_volume": false
+  },
+  {
+    "kind": "ambiguity",
+    "topic": "花火与火花是否为同一角色",
+    "statements": [
+      {
+        "text": "假面愚者名为花火，被砂金设计引诱上钩",
+        "citation": {
+          "cite_id": "CHRN-1031401",
+          "quote": "砂金将所有宝石四散一空，最终如愿以偿地令假面愚者花火上钩。"
+        }
+      },
+      {
+        "text": "在二相乐园协助调查的角色名为火花，与桑博有互动",
+        "citation": {
+          "cite_id": "SKIP-D-105430107",
+          "quote": "火花赶来协助调查，并带来能让人变聪明的「恍恍惚惚火火花花」。"
+        }
+      },
+      {
+        "text": "在二相乐园中花火提议寻找模因病毒清理大师，桑博在场",
+        "citation": {
+          "cite_id": "SKIP-D-105400122",
+          "quote": "花火提议她知道有个地方也许能找到模因病毒清理大师，桑博则向你们告辞别过。"
+        }
+      }
+    ],
+    "analysis": {
+      "text": "在同一故事线（二相乐园/幻月游戏）中，同一角色既被称为花火又被称为火花，二者均与桑博有互动且行为模式相似，极可能是同一角色的名称书写不一致，但文本未明确说明二者关系。",
+      "claim_type": "interpretation",
+      "confidence": "inferred",
+      "citations": []
+    },
+    "impact": "medium",
+    "source_volume": "narrative",
+    "_cross_volume": false
+  },
+  {
+    "kind": "gap",
+    "topic": "星神陨落的第三种方法",
+    "statements": [
+      {
+        "text": "卡芙卡称有三种方法可使「星神」陨落，其三尚未来得及言明。",
+        "citation": {
+          "cite_id": "SKIP-C-102100101",
+          "quote": "卡芙卡称，有三种方法可使「星神」陨落。其一为宽广命途吞并狭窄命途，其二为星神之间的神战。至于其三，卡芙卡尚未来得及言明。"
+        }
+      }
+    ],
+    "analysis": {
+      "text": "文本明确提出星神陨落共有三种方法并说明了前两种，但第三种方法被打断而未给出内容，属于设定留白。",
+      "claim_type": "interpretation",
+      "confidence": "inferred",
+      "citations": [
+        {
+          "cite_id": "SKIP-C-102100101",
+          "quote": "卡芙卡称，有三种方法可使「星神」陨落。其一为宽广命途吞并狭窄命途，其二为星神之间的神战。至于其三，卡芙卡尚未来得及言明。"
+        }
+      ]
+    },
+    "related_entities": [
+      "卡芙卡"
+    ],
+    "impact": "low",
+    "source_volume": "narrative",
+    "_cross_volume": false
+  },
+  {
+    "kind": "contradiction",
+    "topic": "姬子是否早已死于二相乐园",
+    "statements": [
+      {
+        "text": "隆介声称真正的姬子早已死于二相乐园，走向星空的是她创造的幻造种。",
+        "citation": {
+          "cite_id": "SKIP-D-105430706",
+          "quote": "隆介声称，真正的姬子害怕宇宙，早就死在了二相乐园。带着姬子的愿望走向星空的，不过是她按照自身模样创造的幻造种。"
+        }
+      },
+      {
+        "text": "姬子风化诅咒蔓延全身，在画中世界海岸看见搁浅的星穹列车并参与修复。",
+        "citation": {
+          "cite_id": "SKIP-D-105441315",
+          "quote": "又一个生日，姬子的风化诅咒已经蔓延至全身。孑然一身的她离开家，来到画中世界的海岸，看见了搁浅于此的星穹列车。"
+        }
+      },
+      {
+        "text": "姬子得到星穹列车救援，正与同伴赶来会合。",
+        "citation": {
+          "cite_id": "SKIP-C-105441701",
+          "quote": "姬子得到星穹列车的救援，正与同伴们一同赶来与你会合。"
+        }
+      }
+    ],
+    "analysis": {
+      "text": "隆介的说法与姬子患病、修复列车并最终获救援的叙事直接冲突，卷内未给出裁决性解释。",
+      "claim_type": "interpretation",
+      "confidence": "inferred",
+      "citations": []
+    },
+    "related_entities": [
+      "姬子",
+      "星穹列车"
+    ],
+    "impact": "medium",
+    "source_volume": "narrative",
+    "_cross_volume": false
+  },
+  {
+    "kind": "gap",
+    "topic": "「岁月」火种的归还时间",
+    "statements": [
+      {
+        "text": "创世涡心中归还负世火种后，似乎无人知晓岁月火种何时被归还。",
+        "citation": {
+          "cite_id": "SKIP-C-104365000",
+          "quote": "在创世涡心，你将「负世」的火种归还。不过，你总感觉有些违和感——似乎无人知晓「岁月」的火种何时被归还。"
+        }
+      }
+    ],
+    "analysis": {
+      "text": "原文明确提出岁月火种归还时间无人知晓的疑问，卷内未提供答案。",
+      "claim_type": "interpretation",
+      "confidence": "inferred",
+      "citations": []
+    },
+    "related_entities": [
+      "开拓者"
+    ],
+    "impact": "low",
+    "source_volume": "narrative",
+    "_cross_volume": false
+  },
+  {
+    "kind": "gap",
+    "topic": "第十三位泰坦是否存在",
+    "statements": [
+      {
+        "text": "长夜月表示第十三位泰坦本就不曾存在",
+        "citation": {
+          "cite_id": "SKIP-D-104365917",
+          "quote": "第十三位泰坦身在何方？长夜月却表示，它本就不曾存在。"
+        }
+      }
+    ],
+    "analysis": {
+      "text": "文本明确提出第十三位泰坦的存在问题，但长夜月仅表示其「本就不曾存在」，未给出进一步解释，留下设定空白。",
+      "claim_type": "interpretation",
+      "confidence": "inferred",
+      "citations": []
+    },
+    "related_entities": [
+      "尼卡多利"
+    ],
+    "impact": "medium",
+    "source_volume": "narrative",
+    "_cross_volume": false
+  },
+  {
+    "kind": "ambiguity",
+    "topic": "花火与火花的身份关系",
+    "statements": [
+      {
+        "text": "火花和花火外貌极为相似，简直是一个模子里刻出来的",
+        "citation": {
+          "cite_id": "SUBM-D-105400306",
+          "quote": "火花和花火简直是一个模子里刻出来的"
+        }
+      },
+      {
+        "text": "花火和火花中一人是面具，需回到佩戴者脸上",
+        "citation": {
+          "cite_id": "SKIP-D-105400635",
+          "quote": "无论花火和火花谁是面具，都到了该回到佩戴者脸上的时候"
+        }
+      }
+    ],
+    "analysis": {
+      "text": "文本暗示花火与火花中一人为面具、一人为佩戴者，但未明确说明谁是面具、谁是佩戴者，身份关系存在歧义。",
+      "claim_type": "interpretation",
+      "confidence": "inferred",
+      "citations": []
+    },
+    "related_entities": [
+      "花火",
+      "火花"
+    ],
+    "impact": "medium",
+    "source_volume": "narrative",
+    "_cross_volume": false
+  },
+  {
+    "kind": "ambiguity",
+    "topic": "迈德漠斯与万敌是否为同一人",
+    "statements": [
+      {
+        "text": "迈德漠斯自称不死的悬锋王储、纷争的新神",
+        "citation": {
+          "cite_id": "SUBM-D-104021118",
+          "quote": "我，不死的迈德漠斯，亡国的王储，纷争的新神…如今已迈上以血作辙的归途。"
+        }
+      },
+      {
+        "text": "万敌被称为白厄熟知的悬锋王子",
+        "citation": {
+          "cite_id": "SUBM-D-104050234",
+          "quote": "「戏剧」的第二幕，是白厄与那位我们熟知的悬锋王子——万敌的初遇…"
+        }
+      }
+    ],
+    "analysis": {
+      "text": "两处文本分别提及「悬锋王储迈德漠斯」与「悬锋王子万敌」，均指向悬锋王室身份且与纷争相关，但卷内未明确说明二者是否为同一人，存在歧义。",
+      "claim_type": "interpretation",
+      "confidence": "inferred",
+      "citations": []
+    },
+    "impact": "low",
+    "source_volume": "narrative",
+    "_cross_volume": false
+  },
+  {
+    "kind": "contradiction",
+    "topic": "卢卡是否出现幻觉",
+    "statements": [
+      {
+        "text": "卢卡出现幻觉似乎是压力过大的原因。",
+        "citation": {
+          "cite_id": "TALK-802514764",
+          "quote": "似乎是他压力过大的原因…"
+        }
+      },
+      {
+        "text": "据说话者所知，卢卡没有幻觉。",
+        "citation": {
+          "cite_id": "TALK-802514767",
+          "quote": "据我所知，卢卡没有幻觉…"
+        }
+      }
+    ],
+    "analysis": {
+      "text": "两句话对卢卡是否出现幻觉给出了互斥判断，可能源于角色信息差或认知不同。",
+      "claim_type": "interpretation",
+      "confidence": "inferred",
+      "citations": [
+        {
+          "cite_id": "TALK-802514764",
+          "quote": "似乎是他压力过大的原因…"
+        },
+        {
+          "cite_id": "TALK-802514767",
+          "quote": "据我所知，卢卡没有幻觉…"
+        }
+      ]
+    },
+    "related_entities": [
+      "卢卡"
+    ],
+    "impact": "low",
+    "source_volume": "narrative",
+    "_cross_volume": false
+  },
+  {
+    "kind": "gap",
+    "topic": "星核的本质",
+    "statements": [
+      {
+        "text": "提出「星核」究竟是什么的疑问",
+        "citation": {
+          "cite_id": "TALK-100000822",
+          "quote": "「星核」究竟是什么呢？"
+        }
+      },
+      {
+        "text": "询问对方是否知道星核是什么",
+        "citation": {
+          "cite_id": "TALK-201233119",
+          "quote": "你知道「星核」是什么吗？"
+        }
+      }
+    ],
+    "analysis": {
+      "text": "本卷语料中多次明确提出星核是什么的问题，但未给出定义或解释。",
+      "claim_type": "interpretation",
+      "confidence": "inferred",
+      "citations": [
+        {
+          "cite_id": "TALK-100000822",
+          "quote": "「星核」究竟是什么呢？"
+        },
+        {
+          "cite_id": "TALK-201233119",
+          "quote": "你知道「星核」是什么吗？"
+        }
+      ]
+    },
+    "related_entities": [
+      "星核"
+    ],
+    "impact": "low",
+    "source_volume": "narrative",
+    "_cross_volume": false
+  },
+  {
+    "kind": "ambiguity",
+    "topic": "昔涟与迷迷的身份混淆",
+    "statements": [
+      {
+        "text": "询问对方是昔涟还是迷迷",
+        "citation": {
+          "cite_id": "TALK-146010107",
+          "quote": "你是昔涟…还是迷迷？"
+        }
+      },
+      {
+        "text": "再次询问对方是昔涟还是迷迷",
+        "citation": {
+          "cite_id": "TALK-146010108",
+          "quote": "你是昔涟，还是迷迷？"
+        }
+      },
+      {
+        "text": "陪伴者的身份未点明",
+        "citation": {
+          "cite_id": "TALK-146792407",
+          "quote": "陪伴我的，一直都是…"
+        }
+      }
+    ],
+    "analysis": {
+      "text": "叙事多次以选择问句并列昔涟与迷迷，且陪伴者身份欲言又止，表明二者身份在文本中被刻意模糊。",
+      "claim_type": "interpretation",
+      "confidence": "inferred",
+      "citations": [
+        {
+          "cite_id": "TALK-146010107",
+          "quote": "你是昔涟…还是迷迷？"
+        },
+        {
+          "cite_id": "TALK-146792407",
+          "quote": "陪伴我的，一直都是…"
+        }
+      ]
+    },
+    "related_entities": [
+      "昔涟",
+      "迷迷"
+    ],
+    "impact": "medium",
+    "source_volume": "narrative",
+    "_cross_volume": false
+  },
+  {
+    "kind": "contradiction",
+    "topic": "皇帝的下落：驾崩还是变成小孩",
+    "statements": [
+      {
+        "text": "听说皇帝已经驾崩",
+        "citation": {
+          "cite_id": "TALK-230203202",
+          "quote": "可我听说皇帝驾崩了。"
+        }
+      },
+      {
+        "text": "疑问陛下为何变成小孩",
+        "citation": {
+          "cite_id": "TALK-230203005",
+          "quote": "陛下怎么变成小孩了？"
+        }
+      }
+    ],
+    "analysis": {
+      "text": "同一语境下既说皇帝驾崩，又说陛下变成小孩，两种表述互斥，可能是梦境或戏剧中的设定混淆。",
+      "claim_type": "interpretation",
+      "confidence": "inferred",
+      "citations": [
+        {
+          "cite_id": "TALK-230203202",
+          "quote": "可我听说皇帝驾崩了。"
+        },
+        {
+          "cite_id": "TALK-230203005",
+          "quote": "陛下怎么变成小孩了？"
+        }
+      ]
+    },
+    "related_entities": [],
+    "impact": "medium",
+    "source_volume": "narrative",
+    "_cross_volume": false
+  },
+  {
+    "kind": "ambiguity",
+    "topic": "克拉拉与史瓦罗的关系描述",
+    "statements": [
+      {
+        "text": "她是史瓦罗的家人",
+        "citation": {
+          "cite_id": "TALK-201231918",
+          "quote": "她是史瓦罗的家人。"
+        }
+      },
+      {
+        "text": "她是史瓦罗的主人",
+        "citation": {
+          "cite_id": "TALK-201231919",
+          "quote": "她是史瓦罗的主人。"
+        }
+      }
+    ],
+    "analysis": {
+      "text": "两种描述分别从情感纽带和指令权限两个角度定义克拉拉与史瓦罗的关系，并非互斥，可以同时成立。",
+      "claim_type": "interpretation",
+      "confidence": "inferred",
+      "citations": []
+    },
+    "related_entities": [
+      "克拉拉",
+      "史瓦罗"
+    ],
+    "impact": "low",
+    "source_volume": "narrative",
+    "_cross_volume": false
+  }
+]

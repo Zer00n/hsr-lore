@@ -1,0 +1,16 @@
+# 依赖与构建产物
+node_modules/
+dist/
+
+# 环境变量（含密钥，绝不提交）
+.env
+.env.*
+
+# Astro 缓存 / 编译器临时产物
+.astro/
+
+# 本地编辑器 / 系统文件
+.DS_Store
+*.local
+.vscode/
+.idea/

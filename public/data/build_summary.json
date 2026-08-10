@@ -1,0 +1,31 @@
+{
+  "build_args": {
+    "pass1": "D:\\Office\\claudecode\\star\\hsr-lore\\output\\pass1",
+    "pass2_enabled": false,
+    "pass2_dir": ""
+  },
+  "outputs": {
+    "entities": 548,
+    "relations": 330,
+    "events": 189,
+    "discrepancies": 29,
+    "citations": 875,
+    "entities_core": 150
+  },
+  "quality_filter": {
+    "total_filtered": 21,
+    "by_rule": {
+      "text_contains_internal_id": 0,
+      "template_sentence": 0,
+      "name_is_internal_id": 0,
+      "text_too_short": 21,
+      "empty_or_id_attribute": 0
+    }
+  },
+  "degradation": {
+    "pass2_missing": true,
+    "entities_unmerged": 548,
+    "timeline_inferred": 189,
+    "cross_volume_discrepancies": 0
+  }
+}

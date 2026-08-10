@@ -1,0 +1,86 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base title="数据来源与声明 — 星铁世界观考据站">
+  <article class="prose">
+    <h1>数据来源与声明</h1>
+
+    <section>
+      <h2>数据来源</h2>
+      <p>本项目的考据数据全部来自以下公开来源：</p>
+      <ul>
+        <li>游戏内公开文本（角色故事、书籍、对话、遗器描述、模拟宇宙事件等）</li>
+        <li>官方公开 Wiki 与设定集</li>
+        <li>公开数据集</li>
+      </ul>
+      <p>
+        所有数据均通过自动化管线提取与逐句校验（quote 精确匹配原文）。
+        每条结论均携带可追溯的引证标识（cite_id + 原文片段），访问者可据此定位游戏内原始出处。
+      </p>
+    </section>
+
+    <section>
+      <h2>版权声明</h2>
+      <p>本网站为<strong>非商业性质的同人考据作品</strong>。</p>
+      <ul>
+        <li>所引用游戏文本片段（包括但不限于角色对话、故事文本、物品描述等）之著作权、商标权及其他相关知识产权，均归 <strong>COGNOSPHERE PTE. LTD.</strong> 及其关联方所有。</li>
+        <li>本站不对任何游戏资产主张所有权。所引用的原文片段仅用于学术研究与同人考据目的，属于合理引用（fair use / 合理使用）范畴，不构成对原作的替代或侵权。</li>
+        <li>如版权方认为本作品存在不当使用，请联系仓库维护者进行内容调整或删除。</li>
+        <li>本站点不涉及任何商业盈利，不向访问者收取费用，不投放广告。</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>数据状态</h2>
+      <p>
+        当前数据来自 <strong>pass1 全量跑批（2026-08-10）</strong>，覆盖 lore / books /
+        characters / narrative 四卷，由 doubao-seed-evolving 模型
+        在 70K token 分块 + 60 对象输出上限配置下生成。
+      </p>
+      <p>
+        含 548 个实体、330 条关系、189 个事件、29 条矛盾、875 条引证。
+        artifacts / rogue / dialogue / unattributed 四卷因时间限制未纳入本轮。
+        跨卷归并与跨卷矛盾（pass2）尚未运行。
+      </p>
+      <p>
+        所有结论均附精确原文引证（citation），可在「引证审计台」逐条核查。
+      </p>
+    </section>
+
+    <section>
+      <h2>技术栈</h2>
+      <p>本站使用 <a href="https://astro.build/">Astro</a>（静态站点生成）+ <a href="https://react.dev/">React</a>（交互组件）构建，部署于 Cloudflare Pages。</p>
+    </section>
+
+    <p class="back-link"><a href="/">← 返回首页</a></p>
+  </article>
+</Base>
+
+<style>
+  .prose {
+    max-width: 720px;
+    margin: 0 auto;
+    color: var(--text-secondary);
+    line-height: var(--leading-relaxed);
+  }
+  .prose h1 {
+    font-size: var(--text-2xl);
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: var(--space-8);
+  }
+  .prose h2 {
+    font-size: var(--text-lg);
+    font-weight: 600;
+    color: var(--text-primary);
+    margin: var(--space-10) 0 var(--space-4);
+    padding-bottom: var(--space-2);
+    border-bottom: 1px solid var(--border);
+  }
+  .prose p { margin-bottom: var(--space-4); }
+  .prose ul { margin-bottom: var(--space-4); padding-left: var(--space-5); }
+  .prose li { margin-bottom: var(--space-2); }
+  .prose strong { color: var(--text-primary); }
+  .back-link { margin-top: var(--space-12); }
+</style>

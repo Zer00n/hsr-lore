@@ -1,0 +1,27 @@
+{
+  "name": "hsr-lore-site",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "《崩坏：星穹铁道》世界观考据站 — 非商业同人考据作品",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check"
+  },
+  "engines": {
+    "node": ">=18.17.1"
+  },
+  "dependencies": {
+    "@astrojs/react": "^6.0.2",
+    "astro": "^7.2.0",
+    "d3": "^7.9.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0"
+  }
+}
