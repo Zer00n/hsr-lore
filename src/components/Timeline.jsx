@@ -83,11 +83,9 @@ export default function Timeline({ events = null }) {
           return (
             <li key={evt.id || i} className={`chrono-row is-${c.tier}`}>
               <span className="chrono-node" aria-hidden="true" />
+              <time className="chrono-time mono">{evt.date}</time>
               <article className="chrono-card">
-                <div className="chrono-meta">
-                  <time className="chrono-time mono">{evt.date}</time>
-                  <span className={`chrono-tier mono tier-${c.tier}`}>{c.label}</span>
-                </div>
+                <span className={`chrono-tier mono tier-${c.tier}`}>{c.label}</span>
                 <h3 className="chrono-title">{evt.title}</h3>
                 {evt.description && <p className="chrono-desc">{evt.description}</p>}
                 {(evt.participants.length > 0 || evt.citations.length > 0) && (
