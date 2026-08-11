@@ -4,7 +4,7 @@
  * 边界: 视口底部翻转向上、右边缘左对齐
  * 关闭: 点击外部 / Esc / 滚动 / resize
  */
-import { useState, useRef, useEffect, useCallback, useLayoutEffect } from 'react';
+import { useState, useRef, useEffect, useLayoutEffect } from 'react';
 import { createPortal } from 'react-dom';
 
 const POPOVER_Z = 1000;
@@ -34,21 +34,18 @@ function computePosition(anchorRect, popW, popH) {
 
 export default function CitationBadge({ citations = [], claimText = '', sourceVolume = '', position = 'inline' }) {
   const [open, setOpen] = useState(false);
-  const [coords, setCoords] = useState(null);
+  const [coords, setCoords] = useState({ left: -9999, top: -9999 });
   const anchorRef = useRef(null);
   const popupRef = useRef(null);
 
-  // Recalculate position when open
-  const updatePosition = useCallback(() => {
+  // Compute position after Portal is in DOM (before paint)
+  useLayoutEffect(() => {
+    if (!open) return;
     if (!anchorRef.current || !popupRef.current) return;
     const anchorRect = anchorRef.current.getBoundingClientRect();
     const popRect = popupRef.current.getBoundingClientRect();
     setCoords(computePosition(anchorRect, popRect.width, popRect.height));
-  }, []);
-
-  useLayoutEffect(() => {
-    if (open) updatePosition();
-  }, [open, updatePosition]);
+  }, [open]);
 
   // Close on scroll / resize
   useEffect(() => {
@@ -89,7 +86,8 @@ export default function CitationBadge({ citations = [], claimText = '', sourceVo
   const citeId = firstCite?.cite_id || '—';
   const quote = firstCite?.quote || '';
 
-  const popup = open && coords ? createPortal(
+  // Render Portal whenever open; coords start offscreen, useLayoutEffect fixes them before paint
+  const popup = open ? createPortal(
     <div
       ref={popupRef}
       className="cite-popup"
