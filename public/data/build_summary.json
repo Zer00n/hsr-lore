@@ -1,31 +1,81 @@
 {
   "build_args": {
-    "pass1": "D:\\Office\\claudecode\\star\\hsr-lore\\output\\pass1",
-    "pass2_enabled": false,
-    "pass2_dir": ""
+    "pass1": "output\\pass1",
+    "pass2_enabled": true,
+    "pass2_dir": "output\\pass2",
+    "require_validation": true
+  },
+  "validation_gate": {
+    "pass1_entities": {
+      "total": 1349,
+      "accepted": 1296,
+      "rejected": 53
+    },
+    "pass1_relations": {
+      "total": 409,
+      "accepted": 396,
+      "rejected": 13
+    },
+    "pass1_events": {
+      "total": 222,
+      "accepted": 204,
+      "rejected": 18
+    },
+    "pass1_discrepancies": {
+      "total": 29,
+      "accepted": 9,
+      "rejected": 20
+    },
+    "pass2_entities": {
+      "total": 122,
+      "accepted": 107,
+      "rejected": 15
+    },
+    "pass2_relations": {
+      "total": 38,
+      "accepted": 37,
+      "rejected": 1
+    },
+    "pass2_events": {
+      "total": 27,
+      "accepted": 24,
+      "rejected": 3
+    },
+    "pass2_discrepancies": {
+      "total": 48,
+      "accepted": 47,
+      "rejected": 1
+    },
+    "pass2_merge_records": {
+      "total": 122,
+      "accepted": 117,
+      "rejected": 5
+    }
   },
   "outputs": {
-    "entities": 548,
-    "relations": 330,
-    "events": 189,
-    "discrepancies": 29,
-    "citations": 875,
+    "entities": 551,
+    "relations": 360,
+    "events": 200,
+    "discrepancies": 56,
+    "citations": 1081,
     "entities_core": 150
   },
   "quality_filter": {
-    "total_filtered": 21,
+    "total_filtered": 25,
     "by_rule": {
       "text_contains_internal_id": 0,
       "template_sentence": 0,
       "name_is_internal_id": 0,
-      "text_too_short": 21,
+      "text_too_short": 25,
       "empty_or_id_attribute": 0
     }
   },
   "degradation": {
-    "pass2_missing": true,
-    "entities_unmerged": 548,
-    "timeline_inferred": 189,
-    "cross_volume_discrepancies": 0
+    "pass2_missing": false,
+    "entities_merged": 106,
+    "entities_unmerged": 445,
+    "entities_cross_volume": 104,
+    "timeline_inferred": 176,
+    "cross_volume_discrepancies": 47
   }
 }

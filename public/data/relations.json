@@ -75,21 +75,6 @@
     "source_volume": "lore"
   },
   {
-    "subject_name": "IX",
-    "predicate": "EMBODIES",
-    "object_name": "虚无",
-    "qualifiers": {},
-    "claim_type": "fact",
-    "confidence": "attested",
-    "citations": [
-      {
-        "cite_id": "LOAD-10039",
-        "quote": "执掌「虚无」命途的星神。"
-      }
-    ],
-    "source_volume": "lore"
-  },
-  {
     "subject_name": "药师",
     "predicate": "EMBODIES",
     "object_name": "丰饶",
@@ -1490,21 +1475,6 @@
     "source_volume": "characters"
   },
   {
-    "subject_name": "卡芙卡",
-    "predicate": "MEMBER_OF",
-    "object_name": "星核猎手",
-    "qualifiers": {},
-    "claim_type": "fact",
-    "confidence": "attested",
-    "citations": [
-      {
-        "cite_id": "STRY-1005-1",
-        "quote": "星核猎手核心成员，『命运的奴隶』的副手。"
-      }
-    ],
-    "source_volume": "characters"
-  },
-  {
     "subject_name": "流萤",
     "predicate": "MEMBER_OF",
     "object_name": "星核猎手",
@@ -1717,6 +1687,21 @@
     "source_volume": "characters"
   },
   {
+    "subject_name": "卡芙卡",
+    "predicate": "MEMBER_OF",
+    "object_name": "星核猎手",
+    "qualifiers": {},
+    "claim_type": "fact",
+    "confidence": "attested",
+    "citations": [
+      {
+        "cite_id": "VOIC-1005-4",
+        "quote": "加入星核猎手前，由于工作的缘故，我很少见到一个人两次。"
+      }
+    ],
+    "source_volume": "characters"
+  },
+  {
     "subject_name": "砂金",
     "predicate": "MEMBER_OF",
     "object_name": "星际和平公司",
@@ -1889,27 +1874,6 @@
       {
         "cite_id": "VOIC-1510-109",
         "quote": "丹恒，辛苦你一如既往地守护列车。"
-      }
-    ],
-    "source_volume": "characters"
-  },
-  {
-    "subject_name": "伊德莉拉",
-    "predicate": "EMBODIES",
-    "object_name": "纯美",
-    "qualifiers": {
-      "note": "纯美骑士向伊德莉拉献誓，推断伊德莉拉承载纯美命途。"
-    },
-    "claim_type": "interpretation",
-    "confidence": "inferred",
-    "citations": [
-      {
-        "cite_id": "VOIC-1302-52",
-        "quote": "遵循纯美骑士的职责。"
-      },
-      {
-        "cite_id": "VOIC-1302-62",
-        "quote": "……献给伊德莉拉。"
       }
     ],
     "source_volume": "characters"
@@ -3198,25 +3162,6 @@
     "source_volume": "narrative"
   },
   {
-    "subject_name": "阿哈",
-    "predicate": "EMBODIES",
-    "object_name": "欢愉",
-    "qualifiers": {},
-    "claim_type": "fact",
-    "confidence": "inferred",
-    "citations": [
-      {
-        "cite_id": "SKIP-C-105420116",
-        "quote": "满愿称在十五年前，是阿哈降下神迹，赠予她一张假面，令她得以逃出生天。"
-      },
-      {
-        "cite_id": "SKIP-C-105400406",
-        "quote": "姬子称「欢愉」星神变化无常，提醒真珠务必小心。"
-      }
-    ],
-    "source_volume": "narrative"
-  },
-  {
     "subject_name": "流萤",
     "predicate": "MEMBER_OF",
     "object_name": "星核猎手",
@@ -3287,25 +3232,6 @@
       {
         "cite_id": "SKIP-C-100030101",
         "quote": "你遇到星穹列车的领航员姬子"
-      }
-    ],
-    "source_volume": "narrative"
-  },
-  {
-    "subject_name": "飞霄",
-    "predicate": "MEMBER_OF",
-    "object_name": "云骑军",
-    "qualifiers": {},
-    "claim_type": "fact",
-    "confidence": "attested",
-    "citations": [
-      {
-        "cite_id": "SKIP-C-202200505",
-        "quote": "天击将军飞霄出手阻止了云璃与彦卿的切磋。"
-      },
-      {
-        "cite_id": "SKIP-D-202220601",
-        "quote": "飞霄动员云骑军严阵待敌，决不让步离人的袭击得逞。"
       }
     ],
     "source_volume": "narrative"
@@ -4562,23 +4488,6 @@
     "source_volume": "narrative"
   },
   {
-    "subject_name": "公司",
-    "predicate": "RELATED_TO",
-    "object_name": "步离人",
-    "qualifiers": {
-      "note": "公司被指招惹了步离人"
-    },
-    "claim_type": "fact",
-    "confidence": "attested",
-    "citations": [
-      {
-        "cite_id": "TALK-2222141506",
-        "quote": "公司似乎招惹了步离人…"
-      }
-    ],
-    "source_volume": "narrative"
-  },
-  {
     "subject_name": "彦卿",
     "predicate": "PARTICIPATED_IN",
     "object_name": "演武仪典",
@@ -4657,21 +4566,6 @@
       {
         "cite_id": "TALK-250000006",
         "quote": "难道佩佩遭遇了什么意外？"
-      }
-    ],
-    "source_volume": "narrative"
-  },
-  {
-    "subject_name": "星期日",
-    "predicate": "FOLLOWER_OF",
-    "object_name": "欢愉",
-    "qualifiers": {},
-    "claim_type": "fact",
-    "confidence": "attested",
-    "citations": [
-      {
-        "cite_id": "TALK-150002010",
-        "quote": "踏上欢愉命途的星期日！"
       }
     ],
     "source_volume": "narrative"
@@ -4948,23 +4842,6 @@
       {
         "cite_id": "TALK-222130217",
         "quote": "谈谈艾利欧的预言"
-      }
-    ],
-    "source_volume": "narrative"
-  },
-  {
-    "subject_name": "缇宝",
-    "predicate": "RELATED_TO",
-    "object_name": "预言",
-    "qualifiers": {
-      "note": "缇宝的预言被说出"
-    },
-    "claim_type": "fact",
-    "confidence": "attested",
-    "citations": [
-      {
-        "cite_id": "SUBM-T-145040818",
-        "quote": "说出缇宝的预言。"
       }
     ],
     "source_volume": "narrative"
@@ -5305,5 +5182,704 @@
       }
     ],
     "source_volume": "narrative"
+  },
+  {
+    "subject_name": "丹枢",
+    "predicate": "MEMBER_OF",
+    "object_name": "丹鼎司",
+    "qualifiers": {},
+    "claim_type": "fact",
+    "confidence": "attested",
+    "citations": [
+      {
+        "cite_id": "CHRN-2020104",
+        "quote": "丹鼎司丹士长丹枢",
+        "offset_start": 0,
+        "offset_end": 8
+      },
+      {
+        "cite_id": "SUBM-D-202010325",
+        "quote": "丹枢是丹鼎司公认的「天才丹士」",
+        "offset_start": 0,
+        "offset_end": 15
+      }
+    ],
+    "source_volume": "narrative"
+  },
+  {
+    "subject_name": "万敌",
+    "predicate": "MEMBER_OF",
+    "object_name": "黄金裔",
+    "qualifiers": {},
+    "claim_type": "fact",
+    "confidence": "attested",
+    "citations": [
+      {
+        "cite_id": "CHRN-1040201",
+        "quote": "唯一的悬锋王储——黄金裔万敌",
+        "offset_start": 88,
+        "offset_end": 102
+      }
+    ],
+    "source_volume": "narrative"
+  },
+  {
+    "subject_name": "假面愚者",
+    "predicate": "FOLLOWER_OF",
+    "object_name": "阿哈",
+    "qualifiers": {
+      "note": "假面愚者以「阿哈」称呼欢愉星神，为其追随派系"
+    },
+    "claim_type": "interpretation",
+    "confidence": "inferred",
+    "citations": [
+      {
+        "cite_id": "BOOK-190412",
+        "quote": "「欢愉」命途之主，假面愚者与悲悼伶人称其为「阿哈」的诡计之神。",
+        "offset_start": 753,
+        "offset_end": 784
+      }
+    ],
+    "source_volume": "books"
+  },
+  {
+    "subject_name": "歌耳戈",
+    "predicate": "CREATED",
+    "object_name": "悬锋城",
+    "qualifiers": {},
+    "claim_type": "fact",
+    "confidence": "attested",
+    "citations": [
+      {
+        "cite_id": "BOOK-190774",
+        "quote": "后世尊其为「悬锋建城者」",
+        "offset_start": 1477,
+        "offset_end": 1489
+      }
+    ],
+    "source_volume": "books"
+  },
+  {
+    "subject_name": "太卜司",
+    "predicate": "LOCATED_IN",
+    "object_name": "仙舟「罗浮」",
+    "qualifiers": {},
+    "claim_type": "fact",
+    "confidence": "attested",
+    "citations": [
+      {
+        "cite_id": "BOOK-190486",
+        "quote": "罗浮太卜司太卜，符玄",
+        "offset_start": 991,
+        "offset_end": 1001
+      }
+    ],
+    "source_volume": "books"
+  },
+  {
+    "subject_name": "三月七",
+    "predicate": "ALLY_OF",
+    "object_name": "开拓者",
+    "qualifiers": {},
+    "claim_type": "fact",
+    "confidence": "attested",
+    "citations": [
+      {
+        "cite_id": "CHRN-1043650",
+        "quote": "为了保护你和丹恒，三月七主动放弃了「记忆」",
+        "offset_start": 101,
+        "offset_end": 122
+      }
+    ],
+    "source_volume": "narrative"
+  },
+  {
+    "subject_name": "银鬃铁卫",
+    "predicate": "RELATED_TO",
+    "object_name": "地火",
+    "qualifiers": {
+      "note": "银鬃铁卫与地火曾举行会谈"
+    },
+    "claim_type": "fact",
+    "confidence": "attested",
+    "citations": [
+      {
+        "cite_id": "SUBM-T-201140305",
+        "quote": "旁听银鬃铁卫与「地火」的会谈",
+        "offset_start": 0,
+        "offset_end": 14
+      }
+    ],
+    "source_volume": "narrative"
+  },
+  {
+    "subject_name": "星期日",
+    "predicate": "RELATED_TO",
+    "object_name": "面具",
+    "qualifiers": {
+      "note": "星期日被授予面具，成为幻月游戏谒者"
+    },
+    "claim_type": "fact",
+    "confidence": "attested",
+    "citations": [
+      {
+        "cite_id": "CHRN-1054009",
+        "quote": "顺势将面具授予星期日，使其成为谒者",
+        "offset_start": 90,
+        "offset_end": 107
+      }
+    ],
+    "source_volume": "narrative"
+  },
+  {
+    "subject_name": "尾巴",
+    "predicate": "ENEMY_OF",
+    "object_name": "岁阳",
+    "qualifiers": {},
+    "claim_type": "fact",
+    "confidence": "attested",
+    "citations": [
+      {
+        "cite_id": "SKIP-D-801511404",
+        "quote": "尾巴则向藏身的岁阳宣战。",
+        "offset_start": 23,
+        "offset_end": 35
+      }
+    ],
+    "source_volume": "narrative"
+  },
+  {
+    "subject_name": "开拓者",
+    "predicate": "PARTICIPATED_IN",
+    "object_name": "幻月游戏",
+    "qualifiers": {},
+    "claim_type": "fact",
+    "confidence": "attested",
+    "citations": [
+      {
+        "cite_id": "CHRN-1054410",
+        "quote": "姬子被归寂带去某处画中世界，她为你留下嘱托：点燃列车引擎，赢下幻月游戏。",
+        "offset_start": 44,
+        "offset_end": 80
+      }
+    ],
+    "source_volume": "narrative"
+  },
+  {
+    "subject_name": "阿格莱雅",
+    "predicate": "RELATED_TO",
+    "object_name": "逐火之旅",
+    "qualifiers": {
+      "note": "阿格莱雅是逐火之旅的重启者"
+    },
+    "claim_type": "fact",
+    "confidence": "attested",
+    "citations": [
+      {
+        "cite_id": "SKIP-D-104010405",
+        "quote": "也是逐火之旅的重启者",
+        "offset_start": 89,
+        "offset_end": 99
+      }
+    ],
+    "source_volume": "narrative"
+  },
+  {
+    "subject_name": "幻胧",
+    "predicate": "ENEMY_OF",
+    "object_name": "开拓者",
+    "qualifiers": {},
+    "claim_type": "fact",
+    "confidence": "attested",
+    "citations": [
+      {
+        "cite_id": "CHRN-1021201",
+        "quote": "幻胧以军团爪牙阻住你们的去路，而它即将深入鳞渊境，染指仙舟人长生的起源，建木。",
+        "offset_start": 95,
+        "offset_end": 134
+      }
+    ],
+    "source_volume": "narrative"
+  },
+  {
+    "subject_name": "幻胧",
+    "predicate": "ENEMY_OF",
+    "object_name": "仙舟「罗浮」",
+    "qualifiers": {},
+    "claim_type": "fact",
+    "confidence": "attested",
+    "citations": [
+      {
+        "cite_id": "CHRN-1021201",
+        "quote": "幻胧以军团爪牙阻住你们的去路，而它即将深入鳞渊境，染指仙舟人长生的起源，建木。",
+        "offset_start": 95,
+        "offset_end": 134
+      }
+    ],
+    "source_volume": "narrative"
+  },
+  {
+    "subject_name": "岁阳",
+    "predicate": "RELATED_TO",
+    "object_name": "太卜司",
+    "qualifiers": {
+      "note": "岁阳曾盘踞太卜司"
+    },
+    "claim_type": "fact",
+    "confidence": "attested",
+    "citations": [
+      {
+        "cite_id": "SKIP-D-801510205",
+        "quote": "太卜司内岁阳盘踞，青雀自告奋勇为你们带路。",
+        "offset_start": 0,
+        "offset_end": 21
+      }
+    ],
+    "source_volume": "narrative"
+  },
+  {
+    "subject_name": "藿藿",
+    "predicate": "RELATED_TO",
+    "object_name": "岁阳",
+    "qualifiers": {
+      "note": "藿藿体内曾有岁阳，尾巴附身于她以吞噬该岁阳"
+    },
+    "claim_type": "fact",
+    "confidence": "attested",
+    "citations": [
+      {
+        "cite_id": "SKIP-C-801510405",
+        "quote": "尾巴坦露自己被寒鸦封印一事，并同意附身藿藿，吞噬她体内另一岁阳。",
+        "offset_start": 0,
+        "offset_end": 32
+      }
+    ],
+    "source_volume": "narrative"
+  },
+  {
+    "subject_name": "星期日",
+    "predicate": "PARTICIPATED_IN",
+    "object_name": "幻月游戏",
+    "qualifiers": {},
+    "claim_type": "fact",
+    "confidence": "attested",
+    "citations": [
+      {
+        "cite_id": "BOOK-192011",
+        "quote": "自幻月游戏被乐子神创造以来，每逢幻月满盈，便会迎来谒者们打得头破血流的美好季节。",
+        "offset_start": 0,
+        "offset_end": 40
+      },
+      {
+        "cite_id": "CHRN-1054009",
+        "quote": "顺势将面具授予星期日，使其成为谒者",
+        "offset_start": 90,
+        "offset_end": 107
+      }
+    ],
+    "source_volume": "narrative"
+  },
+  {
+    "subject_name": "长夜月",
+    "predicate": "ENEMY_OF",
+    "object_name": "开拓者",
+    "qualifiers": {},
+    "claim_type": "fact",
+    "confidence": "attested",
+    "citations": [
+      {
+        "cite_id": "CHRN-1043650",
+        "quote": "意识到了这是「长夜月」意欲窃夺创世成果的陷阱",
+        "offset_start": 19,
+        "offset_end": 41
+      },
+      {
+        "cite_id": "CHRN-1040606",
+        "quote": "却被与三月七相貌相同的来客驱逐",
+        "offset_start": 68,
+        "offset_end": 83
+      }
+    ],
+    "source_volume": "narrative"
+  },
+  {
+    "subject_name": "卢卡",
+    "predicate": "ORIGINATES_FROM",
+    "object_name": "贝洛伯格",
+    "qualifiers": {
+      "note": "卢卡为贝洛伯格磐岩镇的搏击冠军，为帮助贝洛伯格重归宇宙社会赴仙舟参加演武仪典"
+    },
+    "claim_type": "fact",
+    "confidence": "attested",
+    "citations": [
+      {
+        "cite_id": "CHRN-8025101",
+        "quote": "为了帮助贝洛伯格重归宇宙社会，卢卡拿着一张过时的邀请函，来到了仙舟「罗浮」，参加星天演武仪典。",
+        "offset_start": 0,
+        "offset_end": 47
+      },
+      {
+        "cite_id": "SUBM-D-201160103",
+        "quote": "奥列格希望你能去给他的徒弟——磐岩镇的搏击冠军，卢卡——捧个场。",
+        "offset_start": 25,
+        "offset_end": 57
+      }
+    ],
+    "source_volume": "narrative"
+  },
+  {
+    "subject_name": "镜流",
+    "predicate": "KILLED",
+    "object_name": "刃",
+    "qualifiers": {
+      "note": "应刃的要求，镜流再次赐他短暂的死亡；刃因不死性而复活"
+    },
+    "claim_type": "fact",
+    "confidence": "attested",
+    "citations": [
+      {
+        "cite_id": "SKIP-C-202110245",
+        "quote": "在刃的要求下，镜流决定再次赐他短暂的死亡。",
+        "offset_start": 0,
+        "offset_end": 21
+      }
+    ],
+    "source_volume": "narrative"
+  },
+  {
+    "subject_name": "黑塔",
+    "predicate": "RELATED_TO",
+    "object_name": "斯蒂芬•劳艾德",
+    "qualifiers": {
+      "note": "联手推出模拟宇宙第一次大更新"
+    },
+    "claim_type": "fact",
+    "confidence": "attested",
+    "citations": [
+      {
+        "cite_id": "SUBM-D-801310102",
+        "quote": "黑塔、阮•梅、螺丝咕姆和斯蒂芬，联手推出了模拟宇宙的第一次大更新",
+        "offset_start": 0,
+        "offset_end": 32
+      }
+    ],
+    "source_volume": "narrative"
+  },
+  {
+    "subject_name": "螺丝咕姆",
+    "predicate": "RELATED_TO",
+    "object_name": "斯蒂芬•劳艾德",
+    "qualifiers": {
+      "note": "联手推出模拟宇宙第一次大更新"
+    },
+    "claim_type": "fact",
+    "confidence": "attested",
+    "citations": [
+      {
+        "cite_id": "SUBM-D-801310102",
+        "quote": "黑塔、阮•梅、螺丝咕姆和斯蒂芬，联手推出了模拟宇宙的第一次大更新",
+        "offset_start": 0,
+        "offset_end": 32
+      }
+    ],
+    "source_volume": "narrative"
+  },
+  {
+    "subject_name": "流萤",
+    "predicate": "RELATED_TO",
+    "object_name": "晖长石号",
+    "qualifiers": {
+      "note": "流萤登上晖长石号寻找传闻中的慈玉典押"
+    },
+    "claim_type": "fact",
+    "confidence": "attested",
+    "citations": [
+      {
+        "cite_id": "SUBM-D-103410708",
+        "quote": "流萤登上了「晖长石号」。她来这里是为了寻找传闻中的「慈玉典押」"
+      }
+    ],
+    "source_volume": "narrative"
+  },
+  {
+    "subject_name": "瓦尔特",
+    "predicate": "RELATED_TO",
+    "object_name": "裂界",
+    "qualifiers": {
+      "note": "瓦尔特观测到雅利洛上的裂界活动加剧"
+    },
+    "claim_type": "fact",
+    "confidence": "attested",
+    "citations": [
+      {
+        "cite_id": "SKIP-C-101120104",
+        "quote": "瓦尔特观测到雅利洛上的裂界活动加剧",
+        "offset_start": 0,
+        "offset_end": 17
+      }
+    ],
+    "source_volume": "narrative"
+  },
+  {
+    "subject_name": "帝弓司命",
+    "predicate": "RELATED_TO",
+    "object_name": "岚",
+    "qualifiers": {
+      "note": "岚被仙舟称为帝弓司命，二者为同一巡猎星神"
+    },
+    "claim_type": "fact",
+    "confidence": "attested",
+    "citations": [
+      {
+        "cite_id": "NOUN-2112103417938383990",
+        "quote": "被称为帝弓司命的游弋星神，无止尽地游荡于诸世界之间，铲除曾荼毒其家园的不死孽物。岚的游猎从来不计代价，其拯救和破坏也几无差别。"
+      }
+    ],
+    "source_volume": "lore"
+  },
+  {
+    "subject_name": "云骑军",
+    "predicate": "FOLLOWER_OF",
+    "object_name": "帝弓司命",
+    "qualifiers": {},
+    "claim_type": "fact",
+    "confidence": "attested",
+    "citations": [
+      {
+        "cite_id": "STRY-1204-3",
+        "quote": "奉行帝弓的「巡猎」诰谕",
+        "offset_start": 34,
+        "offset_end": 45
+      }
+    ],
+    "source_volume": "characters"
+  },
+  {
+    "subject_name": "希露瓦",
+    "predicate": "ALLY_OF",
+    "object_name": "可可利亚",
+    "qualifiers": {
+      "status": "曾为挚友"
+    },
+    "claim_type": "fact",
+    "confidence": "attested",
+    "citations": [
+      {
+        "cite_id": "STRY-1103-1",
+        "quote": "自由叛逆的朗道家长女，曾是可可利亚的挚友，如今是兴趣使然的机械师。",
+        "offset_start": 0,
+        "offset_end": 33
+      }
+    ],
+    "source_volume": "characters"
+  },
+  {
+    "subject_name": "丹恒",
+    "predicate": "RELATED_TO",
+    "object_name": "击云",
+    "qualifiers": {
+      "note": "击云是丹恒从不离身的兵器"
+    },
+    "claim_type": "fact",
+    "confidence": "attested",
+    "citations": [
+      {
+        "cite_id": "VOIC-1002-6",
+        "quote": "击云从不离身，不仅是为了我的安全，也是为了其他人的。",
+        "offset_start": 0,
+        "offset_end": 26
+      }
+    ],
+    "source_volume": "characters"
+  },
+  {
+    "subject_name": "希露瓦",
+    "predicate": "ORIGINATES_FROM",
+    "object_name": "雅利洛-Ⅵ",
+    "qualifiers": {},
+    "claim_type": "fact",
+    "confidence": "inferred",
+    "citations": [
+      {
+        "cite_id": "STRY-1103-1",
+        "quote": "在永冬的贝洛伯格经营着名为「永动」的机械屋，时不时停业举办摇滚露天演出。",
+        "offset_start": 34,
+        "offset_end": 70
+      },
+      {
+        "cite_id": "SUBM-D-101010110",
+        "quote": "带领你们前往星球表面唯一的人类聚居地——「贝洛伯格」",
+        "offset_start": 93,
+        "offset_end": 119
+      }
+    ],
+    "source_volume": "characters"
+  },
+  {
+    "subject_name": "景元",
+    "predicate": "FOLLOWER_OF",
+    "object_name": "帝弓司命",
+    "qualifiers": {},
+    "claim_type": "fact",
+    "confidence": "inferred",
+    "citations": [
+      {
+        "cite_id": "STRY-1204-3",
+        "quote": "奉行帝弓的「巡猎」诰谕",
+        "offset_start": 34,
+        "offset_end": 45
+      }
+    ],
+    "source_volume": "characters"
+  },
+  {
+    "subject_name": "陶德•雷奥登",
+    "predicate": "RELATED_TO",
+    "object_name": "博识学会",
+    "qualifiers": {
+      "note": "陶德将玉兆寄给博识学会精于此道的同行鉴定"
+    },
+    "claim_type": "fact",
+    "confidence": "attested",
+    "citations": [
+      {
+        "cite_id": "BOOK-190330",
+        "quote": "我并非是研究计算机科学的专家，于是，我将几块玉兆寄给了博识学会精于此道的同行。",
+        "offset_start": 245,
+        "offset_end": 284
+      }
+    ],
+    "source_volume": "books"
+  },
+  {
+    "subject_name": "地髓开拓团",
+    "predicate": "RELATED_TO",
+    "object_name": "筑城者",
+    "qualifiers": {
+      "note": "地髓开拓团经大守护者授意成为筑城者下属的重要组织"
+    },
+    "claim_type": "fact",
+    "confidence": "attested",
+    "citations": [
+      {
+        "cite_id": "BOOK-190237",
+        "quote": "经大守护者的授意，地髓开拓团才正式成为了筑城者下属的重要组织。",
+        "offset_start": 224,
+        "offset_end": 255
+      }
+    ],
+    "source_volume": "books"
+  },
+  {
+    "subject_name": "筑梦学院",
+    "predicate": "RELATED_TO",
+    "object_name": "折纸大学",
+    "qualifiers": {
+      "note": "筑梦学院是折纸大学的核心院系之一，肩负培养筑梦师重任"
+    },
+    "claim_type": "interpretation",
+    "confidence": "inferred",
+    "citations": [
+      {
+        "cite_id": "BOOK-190696",
+        "quote": "我院是折纸大学的核心院系之一，肩负着培养新一代筑梦师的重任。",
+        "offset_start": 0,
+        "offset_end": 30
+      }
+    ],
+    "source_volume": "narrative"
+  },
+  {
+    "subject_name": "克劳克影视乐园",
+    "predicate": "RELATED_TO",
+    "object_name": "克劳克影业",
+    "qualifiers": {
+      "note": "在克劳克影视乐园场景中提及克劳克影业，二者品牌相关"
+    },
+    "claim_type": "fact",
+    "confidence": "attested",
+    "citations": [
+      {
+        "cite_id": "TALK-105006334",
+        "quote": "我只知道克劳克影业…",
+        "offset_start": 0,
+        "offset_end": 10
+      }
+    ],
+    "source_volume": "narrative"
+  },
+  {
+    "subject_name": "法吉娜",
+    "predicate": "RELATED_TO",
+    "object_name": "泰坦",
+    "qualifiers": {
+      "note": "法吉娜是翁法罗斯欢喜月的代表泰坦，为十二泰坦之一"
+    },
+    "claim_type": "fact",
+    "confidence": "attested",
+    "citations": [
+      {
+        "cite_id": "BOOK-190742",
+        "quote": "五月•欢喜月 代表泰坦：满溢之杯，法吉娜"
+      }
+    ],
+    "source_volume": "books"
+  },
+  {
+    "subject_name": "丹恒•饮月",
+    "predicate": "RELATED_TO",
+    "object_name": "白露",
+    "qualifiers": {
+      "note": "丹恒欲见白露被龙尊侍女浣溪阻止，涉及白露继承龙尊之位一事"
+    },
+    "claim_type": "fact",
+    "confidence": "attested",
+    "citations": [
+      {
+        "cite_id": "SKIP-D-202060102",
+        "quote": "龙尊侍女浣溪交代不让丹恒见白露的原因：族内不想让白露继承龙尊之位。",
+        "offset_start": 0,
+        "offset_end": 33
+      }
+    ],
+    "source_volume": "characters"
+  },
+  {
+    "subject_name": "大黑塔",
+    "predicate": "RELATED_TO",
+    "object_name": "「黑塔」空间站",
+    "qualifiers": {
+      "note": "空间站以黑塔命名并归属黑塔，大黑塔即黑塔"
+    },
+    "claim_type": "interpretation",
+    "confidence": "inferred",
+    "citations": [
+      {
+        "cite_id": "SKIP-C-200070102",
+        "quote": "黑塔女士的一位学术伙伴突然造访空间站",
+        "offset_start": 19,
+        "offset_end": 37
+      }
+    ],
+    "source_volume": "characters"
+  },
+  {
+    "subject_name": "银枝",
+    "predicate": "FOLLOWER_OF",
+    "object_name": "纯美",
+    "qualifiers": {
+      "note": "银枝是纯美骑士团授勋骑士，奉行纯美骑士道并播撒纯美之名"
+    },
+    "claim_type": "fact",
+    "confidence": "attested",
+    "citations": [
+      {
+        "cite_id": "VOIC-1302-4",
+        "quote": "我是纯美骑士中的「授勋骑士」",
+        "offset_start": 0,
+        "offset_end": 14
+      }
+    ],
+    "source_volume": "characters"
   }
 ]

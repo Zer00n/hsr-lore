@@ -1,21 +1,28 @@
 {
-  "run_id": "live_pass1_20260810",
-  "generated_at": "2026-08-10T14:02:32.981702+00:00",
-  "source_manifest": "D:\\Office\\claudecode\\star\\hsr-lore\\logs\\runs\\live_pass1_20260810",
-  "citation_pass_rate": 0.8469,
-  "total_calls": 16,
-  "total_input_tokens": 936616,
-  "total_output_tokens": 583402,
+  "run_id": "live_pass2_20260811",
+  "generated_at": "2026-08-11T06:54:58.632443+00:00",
+  "source_manifest": "D:\\Office\\claudecode\\star\\hsr-lore\\logs\\runs\\live_pass2_20260811",
+  "citation_pass_rate": 0.9455,
+  "validation_source": "build_summary.validation_gate",
+  "total_calls": 14,
+  "total_input_tokens": 355324,
+  "total_output_tokens": 389047,
   "cumulative_afp": 0,
-  "per_task_counts": {},
+  "per_task_counts": {
+    "T7_event_timeline": {
+      "total_chunks": 2,
+      "completed": 0,
+      "failed": 2
+    }
+  },
   "rejection_reasons": {},
   "totals": {
-    "entities": 548,
-    "relations": 330,
-    "events": 189,
-    "discrepancies": 29
+    "entities": 551,
+    "relations": 360,
+    "events": 200,
+    "discrepancies": 56
   },
-  "manifest_run_id": "live_pass1_20260810",
-  "manifest_start_time": "2026-08-10T10:09:55.064098+00:00",
-  "manifest_elapsed_seconds": 0
+  "manifest_run_id": "live_pass2_20260811",
+  "manifest_start_time": "2026-08-11T05:04:47.022188+00:00",
+  "manifest_elapsed_seconds": 515.9
 }

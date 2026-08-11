@@ -1,5 +1,22 @@
 ---
 import Base from '../layouts/Base.astro';
+import fs from 'node:fs';
+import path from 'node:path';
+
+const dataDir = path.resolve('./public/data');
+const readJson = (f) => JSON.parse(fs.readFileSync(path.join(dataDir, f), 'utf8'));
+const summary = readJson('build_summary.json');
+const stats = readJson('stats.json');
+
+const out = summary.outputs ?? {};
+const gate = summary.validation_gate ?? {};
+const raw = Object.values(gate).reduce((s, v) => s + (v.total ?? 0), 0);
+const accepted = Object.values(gate).reduce((s, v) => s + (v.accepted ?? 0), 0);
+const passPct = raw > 0 ? ((accepted / raw) * 100).toFixed(1) : '—';
+const passRate = typeof stats.citation_pass_rate === 'number'
+  ? (stats.citation_pass_rate * 100).toFixed(1) + '%'
+  : '—';
+const requireValidation = summary.build_args?.require_validation !== false;
 ---
 
 <Base title="数据来源与声明 — 星铁世界观考据站">
@@ -15,8 +32,9 @@ import Base from '../layouts/Base.astro';
         <li>公开数据集</li>
       </ul>
       <p>
-        所有数据均通过自动化管线提取与逐句校验（quote 精确匹配原文）。
-        每条结论均携带可追溯的引证标识（cite_id + 原文片段），访问者可据此定位游戏内原始出处。
+        所有数据均通过自动化管线提取，并经逐句校验（quote 对语料原文做精确子串匹配，
+        含空白归一化）。每条收录的结论均携带可追溯的引证标识（cite_id + 原文片段），
+        访问者可据此定位游戏内原始出处。未通过引证校验的对象<strong>不予收录</strong>。
       </p>
     </section>
 
@@ -39,12 +57,25 @@ import Base from '../layouts/Base.astro';
         在 70K token 分块 + 60 对象输出上限配置下生成。
       </p>
       <p>
-        含 548 个实体、330 条关系、189 个事件、29 条矛盾、875 条引证。
+        模型共产出 <strong>{raw.toLocaleString()}</strong> 个原始对象，经校验器逐句引证校验后
+        <strong>{accepted.toLocaleString()}</strong> 个通过（通过率 {passPct}%），
+        未通过的 {Math.max(0, raw - accepted).toLocaleString()} 个不予收录。
+        去重与内容质量过滤后，本站实际发布
+        <strong>{out.entities}</strong> 个实体、<strong>{out.relations}</strong> 条关系、
+        <strong>{out.events}</strong> 个事件、<strong>{out.discrepancies}</strong> 条矛盾、
+        <strong>{out.citations}</strong> 条引证。
+      </p>
+      <p>
+        首页展示的「引证校验通过率」为 <strong>{passRate}</strong>，口径为
+        「通过逐字引证校验的对象数 ÷ 模型原始产出对象数」。
         artifacts / rogue / dialogue / unattributed 四卷因时间限制未纳入本轮。
         跨卷归并与跨卷矛盾（pass2）尚未运行。
       </p>
+      {!requireValidation && (
+        <p><strong>注意：</strong>当前构建未启用校验闸（--no-require-validation），非正式发布口径。</p>
+      )}
       <p>
-        所有结论均附精确原文引证（citation），可在「引证审计台」逐条核查。
+        所有收录结论均附精确原文引证（citation），可在「引证审计台」逐条核查。
       </p>
     </section>
 

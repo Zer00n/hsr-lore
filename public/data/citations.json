@@ -20,13 +20,48 @@
     "volume": "lore"
   },
   {
+    "cite_id": "AEON-D5",
+    "quote": "岚",
+    "volume": "lore"
+  },
+  {
+    "cite_id": "AVTR-N-1006",
+    "quote": "银狼",
+    "volume": "characters"
+  },
+  {
     "cite_id": "AVTR-N-1008",
     "quote": "阿兰",
     "volume": "characters"
   },
   {
+    "cite_id": "AVTR-N-1009",
+    "quote": "艾丝妲",
+    "volume": "characters"
+  },
+  {
+    "cite_id": "AVTR-N-1103",
+    "quote": "希露瓦",
+    "volume": "characters"
+  },
+  {
     "cite_id": "AVTR-N-1105",
     "quote": "娜塔莎",
+    "volume": "characters"
+  },
+  {
+    "cite_id": "AVTR-N-1106",
+    "quote": "佩拉",
+    "volume": "characters"
+  },
+  {
+    "cite_id": "AVTR-N-1109",
+    "quote": "虎克",
+    "volume": "characters"
+  },
+  {
+    "cite_id": "AVTR-N-1110",
+    "quote": "玲可",
     "volume": "characters"
   },
   {
@@ -45,6 +80,16 @@
     "volume": "characters"
   },
   {
+    "cite_id": "AVTR-N-1206",
+    "quote": "素裳",
+    "volume": "characters"
+  },
+  {
+    "cite_id": "AVTR-N-1209",
+    "quote": "彦卿",
+    "volume": "characters"
+  },
+  {
     "cite_id": "AVTR-N-1210",
     "quote": "桂乃芬",
     "volume": "characters"
@@ -55,6 +100,11 @@
     "volume": "characters"
   },
   {
+    "cite_id": "AVTR-N-1214",
+    "quote": "雪衣",
+    "volume": "characters"
+  },
+  {
     "cite_id": "AVTR-N-1218",
     "quote": "椒丘",
     "volume": "characters"
@@ -62,6 +112,11 @@
   {
     "cite_id": "AVTR-N-1225",
     "quote": "忘归人",
+    "volume": "characters"
+  },
+  {
+    "cite_id": "AVTR-N-1303",
+    "quote": "阮•梅",
     "volume": "characters"
   },
   {
@@ -100,6 +155,11 @@
     "volume": "characters"
   },
   {
+    "cite_id": "AVTR-N-1406",
+    "quote": "赛飞儿",
+    "volume": "characters"
+  },
+  {
     "cite_id": "AVTR-N-1413",
     "quote": "长夜月",
     "volume": "characters"
@@ -115,6 +175,11 @@
     "volume": "characters"
   },
   {
+    "cite_id": "AVTR-N-1506",
+    "quote": "银狼LV.999",
+    "volume": "characters"
+  },
+  {
     "cite_id": "AVTR-N-1507",
     "quote": "千冶•刃",
     "volume": "characters"
@@ -122,6 +187,56 @@
   {
     "cite_id": "AVTR-N-1510",
     "quote": "姬子•启行",
+    "volume": "characters"
+  },
+  {
+    "cite_id": "AVTR-N-8001",
+    "quote": "开拓者",
+    "volume": "characters"
+  },
+  {
+    "cite_id": "AVTR-N-8002",
+    "quote": "开拓者",
+    "volume": "characters"
+  },
+  {
+    "cite_id": "AVTR-N-8003",
+    "quote": "开拓者",
+    "volume": "characters"
+  },
+  {
+    "cite_id": "AVTR-N-8004",
+    "quote": "开拓者",
+    "volume": "characters"
+  },
+  {
+    "cite_id": "AVTR-N-8005",
+    "quote": "开拓者",
+    "volume": "characters"
+  },
+  {
+    "cite_id": "AVTR-N-8006",
+    "quote": "开拓者",
+    "volume": "characters"
+  },
+  {
+    "cite_id": "AVTR-N-8007",
+    "quote": "开拓者",
+    "volume": "characters"
+  },
+  {
+    "cite_id": "AVTR-N-8008",
+    "quote": "开拓者",
+    "volume": "characters"
+  },
+  {
+    "cite_id": "AVTR-N-8009",
+    "quote": "开拓者",
+    "volume": "characters"
+  },
+  {
+    "cite_id": "AVTR-N-8010",
+    "quote": "开拓者",
     "volume": "characters"
   },
   {
@@ -320,6 +435,11 @@
     "volume": "books"
   },
   {
+    "cite_id": "BOOK-190523",
+    "quote": "排查丹枢之乱后残存的药王秘传记录。",
+    "volume": "books"
+  },
+  {
     "cite_id": "BOOK-190560",
     "quote": "石头老板占领了美梦小镇，霸占了木头老爷的大宅子，抢来的宝石堆满了他的房间。",
     "volume": "books"
@@ -515,6 +635,11 @@
     "volume": "books"
   },
   {
+    "cite_id": "BOOK-192005",
+    "quote": "「乐子神在上，总统要从这里经过，不要破坏了欢愉的气氛。」",
+    "volume": "books"
+  },
+  {
     "cite_id": "BOOK-192009",
     "quote": "人们将希望寄托于古老的仪式——「幻月游戏」。通过遴选合适的谒者，让他们施展种种匪夷所思的壮举，以「欢愉」的力量带来喜乐",
     "volume": "books"
@@ -556,18 +681,38 @@
   },
   {
     "cite_id": "BOOK-192061",
-    "quote": "在此假设下，乐园这个整体就像是一个巨大的人，它对愿的需求总量不断变化，而能够满足它的愿的谒者，便能取得幻月游戏的胜利。",
+    "quote": "众所周知，幻月游戏由八位谒者共同参与，他们为阿哈和二相乐园献上奇迹，取得足够愿力的谒者将赢得游戏，从乐子神手中接过一分钟的神权。",
     "volume": "books"
   },
   {
     "cite_id": "BOOK-192064",
-    "quote": "它是驱动宇宙中有情众生踏上特定「命途」的核心能量",
+    "quote": "由于我们对愿力的运用几乎完全依托于「欢愉」星神力量的影响",
+    "volume": "books"
+  },
+  {
+    "cite_id": "BOOK-192085",
+    "quote": "很久以后，这座巨船和二相乐园被一同打捞至现实，船身化作不肯入水的岛屿",
     "volume": "books"
   },
   {
     "cite_id": "BOOK-192103",
     "quote": "纯美星神失踪后，愚者「达芬」在酒馆发表宣言，霎时间得到了一大批拥趸。他们高呼「人人都是伊德莉拉」，掀起一场艺术风暴",
     "volume": "books"
+  },
+  {
+    "cite_id": "CHRN-1010002",
+    "quote": "你的开拓第一站，是名为「雅利洛-Ⅵ」的冰雪星球。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "CHRN-1010101",
+    "quote": "由三人组成的开拓小分队降落在了雅利洛-Ⅵ的地表。你们只找到了无尽的风雪",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "CHRN-1010201",
+    "quote": "名为「贝洛伯格」的城市是雅利洛-Ⅵ唯一的聚居地",
+    "volume": "narrative"
   },
   {
     "cite_id": "CHRN-1010502",
@@ -612,6 +757,11 @@
   {
     "cite_id": "CHRN-1021501",
     "quote": "在所有人面前，丹恒显露出他不愿为人所知的面貌——持明龙尊之相，并以其力量分开古海之水，露出通向建木玄根的道路。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "CHRN-1030601",
+    "quote": "流萤消失在了「死亡」的翼刃下。这座美梦究竟发生了什么？",
     "volume": "narrative"
   },
   {
@@ -681,7 +831,7 @@
   },
   {
     "cite_id": "CHRN-1034103",
-    "quote": "托帕与翡翠作为星际和平公司的代表登上了「晖长石号」，参加与苜蓿草家系家主奥帝•艾弗法先生的会谈",
+    "quote": "托帕与翡翠作为星际和平公司的代表登上了「晖长石号」",
     "volume": "narrative"
   },
   {
@@ -841,7 +991,7 @@
   },
   {
     "cite_id": "CHRN-1043706",
-    "quote": "时光归墟，是白厄以身封印铁墓恨意的地方。",
+    "quote": "铁墓破土而出，而你们必须直面这位绝灭大君，并将其击败。",
     "volume": "narrative"
   },
   {
@@ -885,6 +1035,11 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "CHRN-1054301",
+    "quote": "绝灭大君「归寂」",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "CHRN-1054306",
     "quote": "乘坐绘世的渡船，你与刃、银狼抵达画中的彼岸花原，在此找到「贪饕」之口。为彻底消灭倏忽血肉，刃向其中一跃而下，坠入九死一生的危途。",
     "volume": "narrative"
@@ -896,7 +1051,7 @@
   },
   {
     "cite_id": "CHRN-1054400",
-    "quote": "为了寻回失窃的圣杯，你意外与位面行者兼魔术师远坂凛缔结主从契约，卷入幻造圣杯战争",
+    "quote": "你意外与位面行者兼魔术师远坂凛缔结主从契约，卷入幻造圣杯战争",
     "volume": "narrative"
   },
   {
@@ -950,6 +1105,11 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "CHRN-2022103",
+    "quote": "步离人首领，呼雷",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "CHRN-2022105",
     "quote": "在局外人的操弄之下，罗浮仙舟羁押许久的巨恶，步离人战首呼雷最终脱出牢笼大开杀戒。",
     "volume": "narrative"
@@ -987,11 +1147,6 @@
   {
     "cite_id": "CHRN-8015171",
     "quote": "其实桂乃芬是个宠粉的主播？",
-    "volume": "narrative"
-  },
-  {
-    "cite_id": "CHRN-8015194",
-    "quote": "受到十王司的召集，你们结成了「十王司下辖岁阳逃逸事件特别处理行动小组」。捉鬼小队需借助「罗浮杂俎」寻找逃逸岁阳的线索。",
     "volume": "narrative"
   },
   {
@@ -1075,11 +1230,6 @@
     "volume": "lore"
   },
   {
-    "cite_id": "LOAD-10039",
-    "quote": "执掌「虚无」命途的星神。",
-    "volume": "lore"
-  },
-  {
     "cite_id": "LOAD-10040",
     "quote": "执掌「存护」命途，最坚韧和古老的星神之一。",
     "volume": "lore"
@@ -1091,7 +1241,7 @@
   },
   {
     "cite_id": "LOAD-10042",
-    "quote": "执掌「开拓」命途的星神，从孤绝世界裴伽纳出发，不断开拓未知的边界。祂的命运因意外而终结。",
+    "quote": "执掌「开拓」命途的星神，从孤绝世界裴伽纳出发，不断开拓未知的边界。",
     "volume": "lore"
   },
   {
@@ -1130,6 +1280,11 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "MAIN-8026111",
+    "quote": "我是佩佩",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "NOUN-1009871877562455185",
     "quote": "「第一位天才」：以人类的知识，创造了「智识」的神明。",
     "volume": "lore"
@@ -1151,7 +1306,7 @@
   },
   {
     "cite_id": "NOUN-13096508804010577036",
-    "quote": "学者通常只需一个伟大成就即可名留青史，而黑塔的伟大成就俯拾皆是，不胜枚举。于是她顺理成章地赢得博识尊的瞥视，成为了天才俱乐部的一员。",
+    "quote": "而黑塔的伟大成就俯拾皆是，不胜枚举。于是她顺理成章地赢得博识尊的瞥视，成为了天才俱乐部的一员。",
     "volume": "lore"
   },
   {
@@ -1206,12 +1361,12 @@
   },
   {
     "cite_id": "NOUN-2937603739497843763",
-    "quote": "就对外宣传而言，公司是一家倡导自由贸易的巨型企业财团；从运作方式上来看，公司是发行货币并垄断资源的商界独裁；择创业初心而论，公司则是为「存护」的星神奉献一切的无私后援。",
+    "quote": "就对外宣传而言，公司是一家倡导自由贸易的巨型企业财团；从运作方式上来看，公司是发行货币并垄断资源的商界独裁；择创业初心而论，公司则是为「存护」的星神奉献一切",
     "volume": "lore"
   },
   {
     "cite_id": "NOUN-3035454540502135654",
-    "quote": "学者们质疑，「记忆」星神的行踪被忆庭层层遮掩，是否意味着善见天的水晶神只是一具假身？更有焚化工散布骇人的信息：浮黎早已身碎道陨，而流光忆庭假借神名，操纵着无主的命途。",
+    "quote": "无主的命途不会出现有如潮汐的能量波动，已陨的星神也不会瞥视任何行者。「记忆」与浮黎并不符合这些标准。",
     "volume": "lore"
   },
   {
@@ -1275,6 +1430,11 @@
     "volume": "lore"
   },
   {
+    "cite_id": "SKIP-C-100010101",
+    "quote": "星核猎手银狼使用「以太编辑」将怪物传送走。",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "SKIP-C-100010109",
     "quote": "卡芙卡称要把你留在空间站，你的冒险将自此启程。",
     "volume": "narrative"
@@ -1292,6 +1452,11 @@
   {
     "cite_id": "SKIP-C-101000202",
     "quote": "列车途径雅利洛-VI，因星轨被「星核」阻塞而被迫无限期停靠。姬子将「开拓」任务交给三月七、丹恒和你，以解除「星核」危机。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SKIP-C-101000204",
+    "quote": "望着舷窗外的雪原星球，三月七好奇自己在冰封之前的过去。",
     "volume": "narrative"
   },
   {
@@ -1340,6 +1505,16 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "SKIP-C-102100105",
+    "quote": "揭露「药王秘传」欲借建木复苏作乱。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SKIP-C-102120120",
+    "quote": "丹枢执意追求「丰饶」赐下的长生",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "SKIP-C-102140103",
     "quote": "景元请列车组协助封印星核、对抗幻胧",
     "volume": "narrative"
@@ -1352,11 +1527,6 @@
   {
     "cite_id": "SKIP-C-102160105",
     "quote": "景元在战斗中身负重伤，与丹恒合力击败幻胧。封印星核的工作尚需时日，好在幻胧短期内不会再有能力兴风作浪。",
-    "volume": "narrative"
-  },
-  {
-    "cite_id": "SKIP-C-102170234",
-    "quote": "景元赦免对丹恒的流放令，并将「结盟玉兆」送给星穹列车。",
     "volume": "narrative"
   },
   {
@@ -1405,11 +1575,6 @@
     "volume": "narrative"
   },
   {
-    "cite_id": "SKIP-C-104011001",
-    "quote": "「纷争」泰坦陨落后，你们取得其火种。你们商议决定，由白厄携带火种返回创世涡心",
-    "volume": "narrative"
-  },
-  {
     "cite_id": "SKIP-C-104040515",
     "quote": "在民众的欢呼声中，风堇登上长阶。她已经得到天空一族先祖的赐福，准备好引领人子重返天空",
     "volume": "narrative"
@@ -1417,6 +1582,11 @@
   {
     "cite_id": "SKIP-C-104050302",
     "quote": "白厄宣告对「毁灭」纳努克的终极复仇。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SKIP-C-104050402",
+    "quote": "翁法罗斯将化作绝灭大君「铁墓」摧毁宇宙",
     "volume": "narrative"
   },
   {
@@ -1441,7 +1611,7 @@
   },
   {
     "cite_id": "SKIP-C-104371318",
-    "quote": "昔涟回到铁墓灭世的瞬间，创造「一页永恒」。",
+    "quote": "昔涟回到铁墓灭世的瞬间，创造「一页永恒」。原来当时瞥视翁法罗斯的并非浮黎，而是回望过去的昔涟自己。",
     "volume": "narrative"
   },
   {
@@ -1496,12 +1666,17 @@
   },
   {
     "cite_id": "SKIP-C-200070317",
-    "quote": "银狼现身，然而她在模拟宇宙中只拿到了以太卡带的复制品",
+    "quote": "黑塔通过反向骇入，冻结了银狼的76个星际网络游戏账号",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SKIP-C-200070405",
+    "quote": "银狼痛惜自己被冻结的游戏账号，卡芙卡安慰其不要再像小孩子一样哭闹。",
     "volume": "narrative"
   },
   {
     "cite_id": "SKIP-C-202030605",
-    "quote": "「药王秘传」的信徒找上了你们，两边冲突之际",
+    "quote": "「药王秘传」的信徒找上了你们，两边冲突之际，十王司的判官雪衣加入了战斗。",
     "volume": "narrative"
   },
   {
@@ -1525,6 +1700,16 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "SKIP-C-202230312",
+    "quote": "他们将直面呼雷，与之死斗。演武仪典的「猎狼守擂」正式开始。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SKIP-C-202230511",
+    "quote": "只要接纳「赤月」，成为战首，飞霄将不再被「月狂」困扰。然而飞霄拒绝呼雷给出的道路，选择坚守本心。",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "SKIP-C-602020102",
     "quote": "卡芙卡讲述了关于你的事情，以及你为什么能容纳星核。",
     "volume": "narrative"
@@ -1545,6 +1730,16 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "SKIP-D-100050202",
+    "quote": "你登上星穹列车。列车长帕姆向作为新人的你搭话，要求你遵守列车上的规矩，遇到任何问题都可以去找它。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SKIP-D-102050101",
+    "quote": "瓦尔特猜想是星核猎手银狼动了手脚，使你们无法联系同伴。",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "SKIP-D-102100104",
     "quote": "你们观察到「建木」重新开始生长。瓦尔特推测，是星核的力量造就了这番异象。",
     "volume": "narrative"
@@ -1552,11 +1747,6 @@
   {
     "cite_id": "SKIP-D-102140112",
     "quote": "「绝灭大君」幻胧炮制了星核之乱",
-    "volume": "narrative"
-  },
-  {
-    "cite_id": "SKIP-D-102170233",
-    "quote": "「慰灵奠仪」结束后，景元召见列车组的各位，称要在神策府将两样东西送给星穹列车",
     "volume": "narrative"
   },
   {
@@ -1570,8 +1760,18 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "SKIP-D-103030106",
+    "quote": "你在梦境贩售店遇到「爱德华医生」。它邀请你体验一枚梦泡，据说其中的记忆来自已陨的阿基维利。",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "SKIP-D-103030207",
     "quote": "在一纪一度的谐乐大典上，「同谐」将化身「齐响诗班」降临匹诺康尼，带来恒久安宁的祝福。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SKIP-D-103030216",
+    "quote": "桑博解释自己的出现，称因你的努力，雅利洛-VI得以与银河接轨。",
     "volume": "narrative"
   },
   {
@@ -1610,6 +1810,11 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "SKIP-D-103280109",
+    "quote": "米沙回忆全数觉醒，坦言梦泡即为故乡，自己是只有无名客可以看见的忆域迷因。",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "SKIP-D-103290134",
     "quote": "剧目落幕，「同谐」改变匹诺康尼，奴仆仍困幻影之中。",
     "volume": "narrative"
@@ -1630,11 +1835,6 @@
     "volume": "narrative"
   },
   {
-    "cite_id": "SKIP-D-103310104",
-    "quote": "流萤为传递真相以真实死亡脱离梦境",
-    "volume": "narrative"
-  },
-  {
     "cite_id": "SKIP-D-103380401",
     "quote": "身为星核猎手合作者的花火将你和流萤送入梦境深处",
     "volume": "narrative"
@@ -1651,7 +1851,7 @@
   },
   {
     "cite_id": "SKIP-D-103380729",
-    "quote": "梦主与星期日的计划被挫败，「秩序」星神再度沉睡",
+    "quote": "「秩序」星神再度沉睡",
     "volume": "narrative"
   },
   {
@@ -1681,7 +1881,7 @@
   },
   {
     "cite_id": "SKIP-D-103600220",
-    "quote": "星期日确认秩序已严重异化。",
+    "quote": "扭蛋机用攻击方式「纠正」违规行为，星期日确认秩序已严重异化。",
     "volume": "narrative"
   },
   {
@@ -1705,6 +1905,11 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "SKIP-D-104010536",
+    "quote": "万敌身为黄金裔的天赐正是「拒绝死亡」",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "SKIP-D-104011315",
     "quote": "大黑塔与终端交互，再次尝试谒见博识尊。",
     "volume": "narrative"
@@ -1712,6 +1917,26 @@
   {
     "cite_id": "SKIP-D-104020417",
     "quote": "黑潮蔓延的树庭的消息此前并不为你们所知。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SKIP-D-104030513",
+    "quote": "「死亡」泰坦塞纳托斯位于已被淹没的斯缇科西亚",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SKIP-D-104030607",
+    "quote": "你得知遐蝶曾在哀地里亚担任「督战圣女」",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SKIP-D-104030616",
+    "quote": "你与遐蝶来到赛飞儿的秘密据点",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SKIP-D-104030718",
+    "quote": "灵魂球揭露出遐蝶的身世。斯缇科西亚于冥河席卷中覆灭，唯有女王与龙腹少女幸存。阿蒙内特答应照料少女成长，为其命名「遐蝶」。",
     "volume": "narrative"
   },
   {
@@ -1736,7 +1961,17 @@
   },
   {
     "cite_id": "SKIP-D-104050105",
-    "quote": "你与迷迷一起回到创世涡心",
+    "quote": "见证最后一颗火种归位，以及再创世仪式的开始",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SKIP-D-104050106",
+    "quote": "来古士揭示负世泰坦之试炼正是肩负世界本身",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SKIP-D-104050109",
+    "quote": "你与白厄一起归还刻法勒的火种，开启「再创世」仪式。",
     "volume": "narrative"
   },
   {
@@ -1750,8 +1985,8 @@
     "volume": "narrative"
   },
   {
-    "cite_id": "SKIP-D-104050236",
-    "quote": "白厄与昔涟下定反抗命运的决心，准备执行「再创世」仪式。",
+    "cite_id": "SKIP-D-104050238",
+    "quote": "来古士声称所谓的「救世主」，不过是翁法罗斯一厢情愿反抗命运的可悲幻觉。",
     "volume": "narrative"
   },
   {
@@ -1760,8 +1995,13 @@
     "volume": "narrative"
   },
   {
-    "cite_id": "SKIP-D-104050426",
-    "quote": "第33550336次永劫回归的当下",
+    "cite_id": "SKIP-D-104060213",
+    "quote": "此处是翁法罗斯与现实宇宙的交界——「神话之外」，来古士于此观察实验。他声称铁墓终会完成",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SKIP-D-104060432",
+    "quote": "你尝试通过灵水盆前往创世涡心",
     "volume": "narrative"
   },
   {
@@ -1781,7 +2021,7 @@
   },
   {
     "cite_id": "SKIP-D-104061202",
-    "quote": "来古士正是博识尊的创造者",
+    "quote": "千年前，黑塔、螺丝咕姆与来古士对峙，指出翁法罗斯的真身是历史上的第一台「权杖」，而来古士正是博识尊的创造者。来古士以十四行代数式重写自我意识，并将逻辑核心分布于九具躯体中，此身不过其中之一。",
     "volume": "narrative"
   },
   {
@@ -1790,18 +2030,38 @@
     "volume": "narrative"
   },
   {
-    "cite_id": "SKIP-D-104370107",
-    "quote": "翁法罗斯与外界的隔绝状态被打破，三位无名客先行者成为新世界的泰坦。",
+    "cite_id": "SKIP-D-104366114",
+    "quote": "你和迷迷来到黑塔空间站，看到卡芙卡和银狼。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SKIP-D-104367702",
+    "quote": "而今你将完成最后的「再创世」仪式",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SKIP-D-104370301",
+    "quote": "「记忆」最深的角落，无名泰坦大墓，是「昔涟」的诞生之地。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SKIP-D-104370422",
+    "quote": "昔涟讲述每一世的逐火之旅",
     "volume": "narrative"
   },
   {
     "cite_id": "SKIP-D-104370805",
-    "quote": "踏上「记忆」命途",
+    "quote": "你呼唤昔涟，为她分担世界的心识。醒来吧，我们一起，踏上「记忆」命途。",
     "volume": "narrative"
   },
   {
     "cite_id": "SKIP-D-104371006",
     "quote": "在哀丽秘榭，昔涟为幼年白厄留下心中的英雄与神谕",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SKIP-D-104371011",
+    "quote": "最后一位英雄回到了她的归宿。在迷路迷境的大树下，昔涟沉入梦乡。",
     "volume": "narrative"
   },
   {
@@ -1817,6 +2077,11 @@
   {
     "cite_id": "SKIP-D-105400122",
     "quote": "花火提议她知道有个地方也许能找到模因病毒清理大师，桑博则向你们告辞别过。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SKIP-D-105400206",
+    "quote": "它通往二相乐园曾经所在的画中世界。",
     "volume": "narrative"
   },
   {
@@ -1870,6 +2135,11 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "SKIP-D-105420112",
+    "quote": "满愿毕业后前往了「木花究理园星」，从事认知科学研究。",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "SKIP-D-105420117",
     "quote": "满愿宣布加入幻月游戏",
     "volume": "narrative"
@@ -1880,13 +2150,23 @@
     "volume": "narrative"
   },
   {
-    "cite_id": "SKIP-D-105420703",
-    "quote": "经她之手，所有乐变化天人将融为一体，回归药师",
+    "cite_id": "SKIP-D-105420802",
+    "quote": "二相乐园约有二十万人在同一时间被转化为丰饶之民，目前病变仍在乐园全域扩散",
     "volume": "narrative"
   },
   {
-    "cite_id": "SKIP-D-105420802",
-    "quote": "二相乐园约有二十万人在同一时间被转化为丰饶之民，目前病变仍在乐园全域扩散",
+    "cite_id": "SKIP-D-105421003",
+    "quote": "星穹列车走后，雅利洛-Ⅵ立刻就沦为了公司的资产。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SKIP-D-105421207",
+    "quote": "绝灭大君「归寂」回来了。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SKIP-D-105421209",
+    "quote": "在加入星核猎手时，银狼交出了自己的「卡带」。",
     "volume": "narrative"
   },
   {
@@ -1921,7 +2201,7 @@
   },
   {
     "cite_id": "SKIP-D-105441002",
-    "quote": "从姬子六岁起，扮演她「父亲」的人一直是归寂。",
+    "quote": "从姬子六岁起，扮演她「父亲」的人一直是归寂。归寂习惯在毁灭一颗星球前近距离欣赏其上的芸芸众生，这让他收获了一个又一个远超预期的作品。",
     "volume": "narrative"
   },
   {
@@ -1940,6 +2220,11 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "SKIP-D-105441203",
+    "quote": "归寂是一位观测可能性并加以幻造的绝灭大君",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "SKIP-D-105441309",
     "quote": "姬子猜出归寂曾经是领航员「我见」。归寂坦然承认",
     "volume": "narrative"
@@ -1947,6 +2232,11 @@
   {
     "cite_id": "SKIP-D-105441315",
     "quote": "又一个生日，姬子的风化诅咒已经蔓延至全身。孑然一身的她离开家，来到画中世界的海岸，看见了搁浅于此的星穹列车。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SKIP-D-105441316",
+    "quote": "其资料亦随阿基维利的陨落而消失",
     "volume": "narrative"
   },
   {
@@ -1960,8 +2250,23 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "SKIP-D-200070109",
+    "quote": "监控拍到了入侵者的模样，果然是星核猎手银狼。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SKIP-D-200070206",
+    "quote": "伦纳德为你加油，劝你放心跟着螺丝咕姆进入模拟宇宙。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SKIP-D-200070318",
+    "quote": "银狼动用「以太编辑」能力，一键跳过了解谜环节。",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "SKIP-D-200070402",
-    "quote": "模拟宇宙当然不会关停，这是他与黑塔共同的追求。",
+    "quote": "螺丝咕姆感谢你和伦纳德对此次事件的贡献。螺丝咕姆坦承，模拟宇宙当然不会关停，这是他与黑塔共同的追求。",
     "volume": "narrative"
   },
   {
@@ -2005,6 +2310,11 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "SKIP-D-202210203",
+    "quote": "彦卿引各位眺望天空，远处那艘飞舰，就是本次演武仪典的赛场——「竞锋舰」。",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "SKIP-D-202210204",
     "quote": "彦卿经椒丘点拨后顿悟",
     "volume": "narrative"
@@ -2027,6 +2337,11 @@
   {
     "cite_id": "SKIP-D-202230316",
     "quote": "椒丘早早喝下「颠踬散」，使药毒流遍己身。连同鲜血一起，多疑的呼雷服下毒药。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SKIP-D-202230502",
+    "quote": "所幸飞霄及时赶到竞锋舰，当下仍需处置被打败的呼雷。",
     "volume": "narrative"
   },
   {
@@ -2056,12 +2371,22 @@
   },
   {
     "cite_id": "SKIP-D-801510412",
-    "quote": "在景元将军的帮助下，你们顺利渡过了罗浮上下鲜为人知的「秘密危机」。",
+    "quote": "寒鸦重新将尾巴封印在藿藿身上。众人则领命封印浮烟。",
     "volume": "narrative"
   },
   {
     "cite_id": "SKIP-D-801511404",
     "quote": "尾巴则向藏身的岁阳宣战。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SKIP-D-991150299",
+    "quote": "她向「开拓者」们为雅利洛所做的贡献表达感谢。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SKIP-PlayVideo-105441017",
+    "quote": "归寂拔出幻月上的火箭作为画笔，将二相乐园绘成末日妖都。",
     "volume": "narrative"
   },
   {
@@ -2115,8 +2440,8 @@
     "volume": "characters"
   },
   {
-    "cite_id": "STRY-1005-4",
-    "quote": "她持有被称为『言灵术』的能力，能够使用语言进行催眠。",
+    "cite_id": "STRY-1006-1",
+    "quote": "将宇宙视为游戏的超级骇客。无论怎样棘手的防御系统，银狼都能轻松破解。她与「天才俱乐部」螺丝咕姆的数据攻防战，现已成为骇客界的传说。",
     "volume": "characters"
   },
   {
@@ -2291,7 +2616,7 @@
   },
   {
     "cite_id": "STRY-1305-5",
-    "quote": "许多人认为拉帝奥加入博识学会后，会一改从前的锋芒，以适应学会讲求实际、平和朴实的学术环境。",
+    "quote": "倘若愚钝是一种顽疾，学者的职责便是将其根除，医治宇宙。",
     "volume": "characters"
   },
   {
@@ -2316,7 +2641,7 @@
   },
   {
     "cite_id": "STRY-1315-5",
-    "quote": "调查当时下令灭族的男人，却发现他的身影在历史记载中，早已被抹去。",
+    "quote": "奥斯瓦尔多•施耐德，星际和平公司『市场开拓部』主管",
     "volume": "characters"
   },
   {
@@ -2331,7 +2656,7 @@
   },
   {
     "cite_id": "STRY-1401-5",
-    "quote": "祂的身躯庞大若神物，齿轮与纤缆精妙绝伦地纠缠在一起。祂观察、计算、求解一切。",
+    "quote": "祂的身躯庞大若神物，齿轮与纤缆精妙绝伦地纠缠在一起。",
     "volume": "characters"
   },
   {
@@ -2400,11 +2725,6 @@
     "volume": "characters"
   },
   {
-    "cite_id": "STRY-1506-3",
-    "quote": "「银狼LV.999」以太卡带遭窃！",
-    "volume": "characters"
-  },
-  {
     "cite_id": "STRY-1506-5",
     "quote": "管理员「ID：艾利欧」开放LV.999卡带权限。",
     "volume": "characters"
@@ -2445,8 +2765,13 @@
     "volume": "characters"
   },
   {
+    "cite_id": "SUBM-D-100020109",
+    "quote": "只有乘坐电梯才能前往空间站的主控舱段",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "SUBM-D-100040129",
-    "quote": "黑塔联合天才俱乐部的几位会员开发了一个「模拟宇宙」",
+    "quote": "原来，黑塔联合天才俱乐部的几位会员开发了一个「模拟宇宙」，用来探求宇宙的真理。",
     "volume": "narrative"
   },
   {
@@ -2457,6 +2782,11 @@
   {
     "cite_id": "SUBM-D-101000203",
     "quote": "是「星核」带来的影响阻塞了列车的前进路线",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SUBM-D-101000206",
+    "quote": "完成这一次对雅利洛-Ⅵ的「开拓之旅」",
     "volume": "narrative"
   },
   {
@@ -2476,17 +2806,7 @@
   },
   {
     "cite_id": "SUBM-D-101050101",
-    "quote": "「地火」骨干希儿及时赶到解围，却又转头与铁卫少女对峙起来。最终，希儿终于表明来意：原来是「地火」首领奥列格要求面见这位来自地上的高贵少女。",
-    "volume": "narrative"
-  },
-  {
-    "cite_id": "SUBM-D-101050102",
-    "quote": "看来要想见到他，你们首先要协助「地火」平息骚乱才行",
-    "volume": "narrative"
-  },
-  {
-    "cite_id": "SUBM-D-101060103",
-    "quote": "「地火」首领奥列格为报答各位无名客的支援，他同意与你们合作",
+    "quote": "「地火」骨干希儿及时赶到解围，却又转头与铁卫少女对峙起来。",
     "volume": "narrative"
   },
   {
@@ -2610,11 +2930,6 @@
     "volume": "narrative"
   },
   {
-    "cite_id": "SUBM-D-103060133",
-    "quote": "流萤被「死亡」带走了",
-    "volume": "narrative"
-  },
-  {
     "cite_id": "SUBM-D-103070217",
     "quote": "如果你们足够幸运，还可以找到流萤留下的痕迹，甚至揭开这场突如其来的死亡的真相",
     "volume": "narrative"
@@ -2670,8 +2985,18 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "SUBM-D-104010203",
+    "quote": "我们与被称作黄金裔的翁法罗斯人发生了初次接触",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "SUBM-D-104010212",
     "quote": "纷争泰坦「尼卡多利」突袭奥赫玛，情急下我们伸出援手，跟随白厄一路击败泰坦眷属、保护居民",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SUBM-D-104010301",
+    "quote": "黄金裔领袖阿格莱雅带我们来到云石天宫",
     "volume": "narrative"
   },
   {
@@ -2680,13 +3005,33 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "SUBM-D-104010602",
+    "quote": "遐蝶发觉尼卡多利的不死身源于它对「死亡」的背叛。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SUBM-D-104011001",
+    "quote": "尼卡多利一战，以黄金裔的胜利作结。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SUBM-D-104020407",
+    "quote": "缇安、遐蝶与开拓者三人先行前往树庭",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "SUBM-D-104021118",
     "quote": "我，不死的迈德漠斯，亡国的王储，纷争的新神…如今已迈上以血作辙的归途。",
     "volume": "narrative"
   },
   {
+    "cite_id": "SUBM-D-104030101",
+    "quote": "与盗火行者的意外遭遇，导致欧洛尼斯的火种被提前取出。众黄金裔们希望由开拓者来承担岁月的神职。",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "SUBM-D-104030901",
-    "quote": "成为半神的遐蝶成功将开拓者轻轻推出了冥界，她也为命运迎来结局。",
+    "quote": "成为半神的遐蝶成功将开拓者轻轻推出了冥界，她也为命运迎来结局。开拓者还记得与遐蝶再会的约定。",
     "volume": "narrative"
   },
   {
@@ -2697,6 +3042,11 @@
   {
     "cite_id": "SUBM-D-104060301",
     "quote": "这就是第一次逐火之旅的时代",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SUBM-D-104061101",
+    "quote": "满载荣耀与五百位英雄的大船自斯缇科西亚启航",
     "volume": "narrative"
   },
   {
@@ -2712,6 +3062,11 @@
   {
     "cite_id": "SUBM-D-104367703",
     "quote": "此世，他们将燃烧的金血熔进身躯",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SUBM-D-104370001",
+    "quote": "而今你已抵达黎明，准备好迎接世人的召唤了吗，开拓者？",
     "volume": "narrative"
   },
   {
@@ -2750,13 +3105,33 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "SUBM-D-105400807",
+    "quote": "二相乐园，被阿哈赐福的世界，姬子的故乡，而今它将成为星穹列车的下一站。",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "SUBM-D-105400909",
     "quote": "共愿帮的这笔生意，委实有些沉重。",
     "volume": "narrative"
   },
   {
+    "cite_id": "SUBM-D-105410019",
+    "quote": "至少为此而感到骄傲吧，阿基维利的后继者。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SUBM-D-105420118",
+    "quote": "满愿，她就是「幸福研究会」的组织者",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "SUBM-D-105430403",
     "quote": "隆介先生还真是…清闲啊，居然说到就到",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SUBM-D-105441001",
+    "quote": "绝灭大君归寂已经现身。眼下最紧要的，是尽快与同伴们会合",
     "volume": "narrative"
   },
   {
@@ -2770,8 +3145,18 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "SUBM-D-105441708",
+    "quote": "再度启程吧，阿基维利。承载寰宇众生的愿望，点燃奔行银轨的引擎，开拓命运之外的疆域。",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "SUBM-D-200070106",
     "quote": "他正是模拟宇宙的另一位缔造者，天才俱乐部#76，螺丝咕姆。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SUBM-D-200070204",
+    "quote": "没想到螺丝咕姆此行前来是为了终止「模拟宇宙」项目。好在这位机械绅士是个开明的人",
     "volume": "narrative"
   },
   {
@@ -2802,6 +3187,11 @@
   {
     "cite_id": "SUBM-D-201140205",
     "quote": "坐镇克里珀堡的新任大守护者布洛妮娅正召唤她返回军队",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SUBM-D-201150103",
+    "quote": "根据瓦尔特的说法，在雅利洛-Ⅵ的风雪减弱后，他与姬子便在此地探测到了不明信号。",
     "volume": "narrative"
   },
   {
@@ -2860,6 +3250,11 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "SUBM-D-205400302",
+    "quote": "二相乐园真是个神奇的地方，连过街天桥都能成为偶像。",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "SUBM-D-205400307",
     "quote": "说起来，以前在匹诺康尼，花火好像演过类似的戏码。只不过那次并没有有人遇害，并且花火扮演的是「凶手」。这次立场切换，也不知道火花是否还能那么游刃有余。",
     "volume": "narrative"
@@ -2867,6 +3262,11 @@
   {
     "cite_id": "SUBM-D-401010507",
     "quote": "来自「流光忆庭」的信使悄悄来到列车，并希望与你达成某个交易",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SUBM-D-401011602",
+    "quote": "黑塔要求你以「开拓」的身份进入天才俱乐部制作的「模拟宇宙」，试着从虚拟星神口中套出星神与命途的奥秘。",
     "volume": "narrative"
   },
   {
@@ -2930,8 +3330,23 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "SUBM-D-804010103",
+    "quote": "火花竟然是四大天王之一",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SUBM-D-804150001",
+    "quote": "又到了模拟宇宙更新的时节，听说这次会有位新的协作者？",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "SUBM-D-804220015",
     "quote": "来自仙舟的杂技表演大师桂乃芬",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SUBM-T-100060112",
+    "quote": "体验「模拟宇宙」",
     "volume": "narrative"
   },
   {
@@ -2957,6 +3372,11 @@
   {
     "cite_id": "SUBM-T-102070116",
     "quote": "前往太卜司",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SUBM-T-102080105",
+    "quote": "随青雀一同，面见符玄",
     "volume": "narrative"
   },
   {
@@ -3010,13 +3430,28 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "SUBM-T-104010305",
+    "quote": "投喂大地兽",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "SUBM-T-104010920",
     "quote": "迈向决战，打败尼卡多利！",
     "volume": "narrative"
   },
   {
-    "cite_id": "SUBM-T-104020801",
-    "quote": "觐见欧洛尼斯，恢复记忆",
+    "cite_id": "SUBM-T-104011104",
+    "quote": "前往黄金裔浴场与众人会合",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SUBM-T-104020482",
+    "quote": "击退围困迷迷的奇兽",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SUBM-T-104020602",
+    "quote": "与遐蝶和那刻夏交谈",
     "volume": "narrative"
   },
   {
@@ -3025,8 +3460,13 @@
     "volume": "narrative"
   },
   {
-    "cite_id": "SUBM-T-104030111",
-    "quote": "借用欧洛尼斯的预言算碑",
+    "cite_id": "SUBM-T-104030113",
+    "quote": "前往生命花园，向遐蝶咨询",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SUBM-T-104030610",
+    "quote": "查看遐蝶准备的礼物",
     "volume": "narrative"
   },
   {
@@ -3040,13 +3480,23 @@
     "volume": "narrative"
   },
   {
-    "cite_id": "SUBM-T-104041026",
-    "quote": "用欧洛尼斯祷言移开碎石",
+    "cite_id": "SUBM-T-104041107",
+    "quote": "前往创世涡心，完成「再创世」",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SUBM-T-104050106",
+    "quote": "完成「再创世」",
     "volume": "narrative"
   },
   {
     "cite_id": "SUBM-T-104050109",
     "quote": "与白厄共同完成「再创世」",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SUBM-T-104050202",
+    "quote": "跟随白厄，寻找昔涟",
     "volume": "narrative"
   },
   {
@@ -3105,6 +3555,16 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "SUBM-T-105441019",
+    "quote": "（可选）与银狼等人告别",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SUBM-T-200070110",
+    "quote": "追踪银狼的入侵路线",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "SUBM-T-200070112",
     "quote": "继续追踪银狼的入侵路线",
     "volume": "narrative"
@@ -3115,13 +3575,33 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "SUBM-T-200080102",
+    "quote": "与帕姆交谈",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "SUBM-T-200090112",
     "quote": "得到阿兰的协助",
     "volume": "narrative"
   },
   {
+    "cite_id": "SUBM-T-200100117",
+    "quote": "安置「阮•梅」造物",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SUBM-T-200100209",
+    "quote": "（可选）与黑塔、螺丝咕姆聊聊",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "SUBM-T-200130101",
     "quote": "前往磐岩镇",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SUBM-T-201020320",
+    "quote": "找到托帕，和她对峙",
     "volume": "narrative"
   },
   {
@@ -3145,6 +3625,11 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "SUBM-T-202100227",
+    "quote": "追上先行一步的彦卿",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "SUBM-T-202100230",
     "quote": "前往鳞渊境",
     "volume": "narrative"
@@ -3165,6 +3650,11 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "SUBM-T-202200305",
+    "quote": "击败公司的武装力量",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "SUBM-T-202200405",
     "quote": "见证彦卿与云璃的比试",
     "volume": "narrative"
@@ -3175,8 +3665,18 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "SUBM-T-202230101",
+    "quote": "驰援星槎海，阻挠呼雷的袭击",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "SUBM-T-202230102",
     "quote": "消灭所有入侵星槎海的步离人",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SUBM-T-202230409",
+    "quote": "见证呼雷的落败",
     "volume": "narrative"
   },
   {
@@ -3185,8 +3685,23 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "SUBM-T-205420004",
+    "quote": "协助银狼骇入摄像头",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "SUBM-T-301111204",
     "quote": "回去找邓恩交谈",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SUBM-T-405000502",
+    "quote": "回到列车，与帕姆交谈",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SUBM-T-405002102",
+    "quote": "给腿麻的帕姆搭把手",
     "volume": "narrative"
   },
   {
@@ -3197,6 +3712,21 @@
   {
     "cite_id": "SUBM-T-500050108",
     "quote": "大叛乱",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SUBM-T-801410108",
+    "quote": "击败「托帕后援团」",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SUBM-T-801510306",
+    "quote": "追踪彦卿留下的飞剑",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "SUBM-T-801511301",
+    "quote": "与彦卿交谈",
     "volume": "narrative"
   },
   {
@@ -3215,6 +3745,11 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "SUBM-T-802511103",
+    "quote": "开始比赛，对阵托帕",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "SUBM-T-804150003",
     "quote": "聆听两位智械的总结",
     "volume": "narrative"
@@ -3225,8 +3760,18 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "SUBM-T-804220012",
+    "quote": "与虚照对话",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "TALK-100000822",
     "quote": "「星核」究竟是什么呢？",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-100020207",
+    "quote": "我叫开拓者。",
     "volume": "narrative"
   },
   {
@@ -3260,8 +3805,23 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "TALK-102122004",
+    "quote": "丹鼎司。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-102160128",
+    "quote": "幻胧…还活着吗？",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "TALK-103032010",
     "quote": "她是流萤，是我的向导。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-103060126",
+    "quote": "令使？谁的令使？",
     "volume": "narrative"
   },
   {
@@ -3300,6 +3860,16 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "TALK-103412207",
+    "quote": "匹诺康尼的「秩序」是个例吗…",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-103420714",
+    "quote": "复活阿基维利！",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "TALK-103421416",
     "quote": "我「开拓」天下无敌啊！",
     "volume": "narrative"
@@ -3327,6 +3897,26 @@
   {
     "cite_id": "TALK-103433517",
     "quote": "谐乐学院。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-104020819",
+    "quote": "无所谓，「开拓」会打十个。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-104020823",
+    "quote": "没准是阿基维利自产自销呢。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-104021809",
+    "quote": "… 遐蝶，生命因何而沉睡？",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-104022014",
+    "quote": "想讹黄金裔？胆子太大了！",
     "volume": "narrative"
   },
   {
@@ -3360,6 +3950,11 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "TALK-105008207",
+    "quote": "关于正义斯科特…",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "TALK-138070108",
     "quote": "…寰宇蝗灾？",
     "volume": "narrative"
@@ -3375,8 +3970,28 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "TALK-140110313",
+    "quote": "送去公司手里吧！",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-140121615",
+    "quote": "黄金裔是什么？",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "TALK-140122108",
     "quote": "他把我们当成黄金裔了。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-140140309",
+    "quote": "黄金裔都像你这么多疑吗？",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-140140518",
+    "quote": "所以「半神」是什么？",
     "volume": "narrative"
   },
   {
@@ -3400,6 +4015,11 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "TALK-140163914",
+    "quote": "「迷迷」是你的名字？",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "TALK-140164103",
     "quote": "星核猎手…消失了。",
     "volume": "narrative"
@@ -3410,8 +4030,28 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "TALK-140180010",
+    "quote": "包在我和迷迷身上吧。",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "TALK-140180206",
     "quote": "为了彻底打败尼卡多利。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-140184904",
+    "quote": "你坚持得住吗，遐蝶？",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-140302115",
+    "quote": "遐蝶，你在颤抖。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-140306020",
+    "quote": "遐蝶，你变了…",
     "volume": "narrative"
   },
   {
@@ -3422,6 +4062,11 @@
   {
     "cite_id": "TALK-140313718",
     "quote": "献上火种。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-140318409",
+    "quote": "当然是要坚定「再创世」了！",
     "volume": "narrative"
   },
   {
@@ -3437,6 +4082,21 @@
   {
     "cite_id": "TALK-144020513",
     "quote": "《一拳神王•艾格勒卷》",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-144040221",
+    "quote": "但他们其实是冲着黄金裔来的。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-145010647",
+    "quote": "开启再创世吧，相信我。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-145023222",
+    "quote": "昔涟？你怎么在这里…",
     "volume": "narrative"
   },
   {
@@ -3460,8 +4120,18 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "TALK-146010326",
+    "quote": "「铁墓」不是早就存在了吗？",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "TALK-146010338",
     "quote": "他把「负世」的使命交给了我。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-146021325",
+    "quote": "铁墓降临，没人能毫发无损。",
     "volume": "narrative"
   },
   {
@@ -3495,13 +4165,13 @@
     "volume": "narrative"
   },
   {
-    "cite_id": "TALK-146052013",
-    "quote": "没有办法，我们只能刺杀凯撒。",
+    "cite_id": "TALK-146051311",
+    "quote": "来古士！他果然在这里。",
     "volume": "narrative"
   },
   {
-    "cite_id": "TALK-146060609",
-    "quote": "这是…欧洛尼斯的使者么？",
+    "cite_id": "TALK-146052013",
+    "quote": "没有办法，我们只能刺杀凯撒。",
     "volume": "narrative"
   },
   {
@@ -3520,6 +4190,16 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "TALK-146590628",
+    "quote": "所以昔涟的三千万次牺牲…",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-146610103",
+    "quote": "醒来吧，开拓者。",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "TALK-146611004",
     "quote": "又一场太一之梦…",
     "volume": "narrative"
@@ -3535,8 +4215,28 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "TALK-146785818",
+    "quote": "不能再等了，必须阻止铁墓。",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "TALK-146785909",
     "quote": "白厄在铁墓体内等待我们。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-146786304",
+    "quote": "帕姆？！你怎么在这…",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-146786313",
+    "quote": "我会追上昔涟，改写结局。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-146787117",
+    "quote": "让铁墓成为空白，意味着…",
     "volume": "narrative"
   },
   {
@@ -3555,8 +4255,13 @@
     "volume": "narrative"
   },
   {
-    "cite_id": "TALK-150002010",
-    "quote": "踏上欢愉命途的星期日！",
+    "cite_id": "TALK-150013905",
+    "quote": "崇拜阿哈的神龛？",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-150020018",
+    "quote": "公司会雇佣假面愚者？",
     "volume": "narrative"
   },
   {
@@ -3570,6 +4275,16 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "TALK-150022412",
+    "quote": "虚照社长？",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-150051007",
+    "quote": "三月，小心，是火花！",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "TALK-150051405",
     "quote": "想痛快揍斯科特一顿。",
     "volume": "narrative"
@@ -3577,6 +4292,11 @@
   {
     "cite_id": "TALK-150052809",
     "quote": "火花，把面具交出来！",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-150054002",
+    "quote": "火花劫持了一座学校！",
     "volume": "narrative"
   },
   {
@@ -3600,18 +4320,48 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "TALK-151100025",
+    "quote": "满愿已经出局了。",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "TALK-151100207",
     "quote": "你和仙舟打过交道吗？",
     "volume": "narrative"
   },
   {
+    "cite_id": "TALK-151100217",
+    "quote": "我会击败满愿的。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-151100223",
+    "quote": "我永远是星穹列车的一员。",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "TALK-152000115",
-    "quote": "阿哈变动了奖赏",
+    "quote": "阿哈变动了奖赏…",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-152011312",
+    "quote": "果然，最后又是公司…",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-152011926",
+    "quote": "所以，她是个假面愚者？",
     "volume": "narrative"
   },
   {
     "cite_id": "TALK-152050110",
     "quote": "爻光将军呢？",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-152050120",
+    "quote": "公司有什么打算？",
     "volume": "narrative"
   },
   {
@@ -3630,6 +4380,11 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "TALK-200100513",
+    "quote": "阮•梅让我回收泄漏的实验体。",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "TALK-200102412",
     "quote": "激活特殊的联觉信标。",
     "volume": "narrative"
@@ -3637,6 +4392,11 @@
   {
     "cite_id": "TALK-200112709",
     "quote": "感受到了「开拓」的意义。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-201010313",
+    "quote": "我是开拓者。",
     "volume": "narrative"
   },
   {
@@ -3690,6 +4450,21 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "TALK-202063011",
+    "quote": "幸会幸会，我是开拓者。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-202070203",
+    "quote": "怎么是帕姆？",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-202191237",
+    "quote": "所以孤云也是魔剑？",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "TALK-202192223",
     "quote": "那柄剑真的被铸入了岁阳？",
     "volume": "narrative"
@@ -3697,6 +4472,11 @@
   {
     "cite_id": "TALK-202203247",
     "quote": "美梦剧团。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-202220123",
+    "quote": "阿基维利呢？祂死于星神之手？",
     "volume": "narrative"
   },
   {
@@ -3710,6 +4490,11 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "TALK-203060234",
+    "quote": "我是「开拓者」。",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "TALK-203061629",
     "quote": "黑塔的空间站值得一去。",
     "volume": "narrative"
@@ -3717,6 +4502,11 @@
   {
     "cite_id": "TALK-203062004",
     "quote": "…巨人族？",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-203062205",
+    "quote": "我是开拓者！",
     "volume": "narrative"
   },
   {
@@ -3730,8 +4520,18 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "TALK-203090929",
+    "quote": "我天，爱剑如命的彦卿居然…",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "TALK-203091125",
     "quote": "呼雷越狱之事，太卜大人已知？",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-222020329",
+    "quote": "去绥园吧。",
     "volume": "narrative"
   },
   {
@@ -3747,6 +4547,16 @@
   {
     "cite_id": "TALK-222030323",
     "quote": "天舶司可以照价赔偿",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-222030354",
+    "quote": "尝试按照公司的法条解决问题",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-222110203",
+    "quote": "彦卿怎么也在这儿？",
     "volume": "narrative"
   },
   {
@@ -3795,6 +4605,21 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "TALK-222250010",
+    "quote": "我代彦卿师父守擂！",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-222250707",
+    "quote": "三月七，彦卿的弟子。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-222251137",
+    "quote": "彦卿师父。",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "TALK-222260211",
     "quote": "赶快疏散所有狐人吧！",
     "volume": "narrative"
@@ -3835,6 +4660,11 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "TALK-250000103",
+    "quote": "又一个佩佩！",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "TALK-250000303",
     "quote": "请把小狗的电视还给小狗。",
     "volume": "narrative"
@@ -3850,8 +4680,33 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "TALK-250002509",
+    "quote": "小狗，可爱！",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-250002519",
+    "quote": "我佩佩呢？",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "TALK-250031808",
     "quote": "都是幻造种。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-252000403",
+    "quote": "银狼好像还在骇入。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-401622814",
+    "quote": "「再创世」就要完成了…",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-414017012",
+    "quote": "帮帮我，阮•梅女士！",
     "volume": "narrative"
   },
   {
@@ -3895,8 +4750,33 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "TALK-500047814",
+    "quote": "我开拓者做好事从不留名！",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "TALK-500079035",
     "quote": "我是阿基维利祝福的无名客。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-500080216",
+    "quote": "她是异邦的黄金裔。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-500082612",
+    "quote": "算了，再创世之后再相见吧。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-500087417",
+    "quote": "新人半神，也没办法。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-502372308",
+    "quote": "你好，开山者，我是开拓者。",
     "volume": "narrative"
   },
   {
@@ -3907,6 +4787,11 @@
   {
     "cite_id": "TALK-505020926",
     "quote": "…步离战首呼雷。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-505070024",
+    "quote": "你们愚者是不是太闲了？",
     "volume": "narrative"
   },
   {
@@ -3930,13 +4815,43 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "TALK-802130019",
+    "quote": "我是列车组的开拓者。",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "TALK-802130034",
     "quote": "前无名客•玛姬？",
     "volume": "narrative"
   },
   {
+    "cite_id": "TALK-802211207",
+    "quote": "我是星穹列车的无名客。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-802411208",
+    "quote": "彦卿师父，你是不想教了？",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "TALK-802412604",
     "quote": "斯科特，你完蛋了。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-802414507",
+    "quote": "这是太卜司的著名卜者青雀！",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-802414652",
+    "quote": "劝斯科特离职。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-802510020",
+    "quote": "你怎么来参加演武仪典了？",
     "volume": "narrative"
   },
   {
@@ -3947,6 +4862,11 @@
   {
     "cite_id": "TALK-802511511",
     "quote": "公司和贝洛伯格都信「存护」…",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-802511535",
+    "quote": "该去会会公司通缉重犯了！",
     "volume": "narrative"
   },
   {
@@ -3975,6 +4895,11 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "TALK-802520704",
+    "quote": "我早晚会战胜银狼！",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "TALK-802723657",
     "quote": "也带我的球棒练练。",
     "volume": "narrative"
@@ -3982,6 +4907,11 @@
   {
     "cite_id": "TALK-803524431",
     "quote": "跟我的球棒去说吧！",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-803710008",
+    "quote": "和公司沾边的事都不太好。",
     "volume": "narrative"
   },
   {
@@ -3995,8 +4925,18 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "TALK-815106320",
+    "quote": "彦卿没事吧？",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "TALK-815153005",
     "quote": "毫无疑问，这应该是岁阳！",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-823104018",
+    "quote": "因为银狼对我念念不忘。",
     "volume": "narrative"
   },
   {
@@ -4010,8 +4950,23 @@
     "volume": "narrative"
   },
   {
+    "cite_id": "TALK-835110952",
+    "quote": "黄金裔活动中心。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-835130527",
+    "quote": "该请遐蝶出场了。",
+    "volume": "narrative"
+  },
+  {
     "cite_id": "TALK-841002212",
     "quote": "原来这游戏是桑博运营的。",
+    "volume": "narrative"
+  },
+  {
+    "cite_id": "TALK-841040731",
+    "quote": "…大地兽？",
     "volume": "narrative"
   },
   {
@@ -4027,6 +4982,11 @@
   {
     "cite_id": "VOIC-1001-14",
     "quote": "听说杨叔曾经是秘密组织的首领，拯救过星球，当过老师，还画过动画的原画！",
+    "volume": "characters"
+  },
+  {
+    "cite_id": "VOIC-1001-32",
+    "quote": "彦卿师父放心，咱不会给你丢人的！",
     "volume": "characters"
   },
   {
@@ -4050,6 +5010,26 @@
     "volume": "characters"
   },
   {
+    "cite_id": "VOIC-1005-25",
+    "quote": "这是你想要的玩法吗？银狼。",
+    "volume": "characters"
+  },
+  {
+    "cite_id": "VOIC-1005-4",
+    "quote": "加入星核猎手前，由于工作的缘故，我很少见到一个人两次。",
+    "volume": "characters"
+  },
+  {
+    "cite_id": "VOIC-1005-5",
+    "quote": "艾利欧说我擅长制造「恐惧」，即使我对它一无所知。",
+    "volume": "characters"
+  },
+  {
+    "cite_id": "VOIC-1006-9",
+    "quote": "骇入空间站的时候，我随手改了下螺丝咕姆的画像",
+    "volume": "characters"
+  },
+  {
     "cite_id": "VOIC-1009-1",
     "quote": "我是空间站「黑塔」的站长艾丝妲。",
     "volume": "characters"
@@ -4057,6 +5037,11 @@
   {
     "cite_id": "VOIC-1009-7",
     "quote": "「空间站不过是黑塔的玩具箱」，这句话不假。",
+    "volume": "characters"
+  },
+  {
+    "cite_id": "VOIC-1009-8",
+    "quote": "持续不断地将资金投入空间站的建设，完善员工福利",
     "volume": "characters"
   },
   {
@@ -4082,6 +5067,11 @@
   {
     "cite_id": "VOIC-1104-22",
     "quote": "玲可，站在我身后，别冲太前。",
+    "volume": "characters"
+  },
+  {
+    "cite_id": "VOIC-1106-11",
+    "quote": "不按规矩办事就是希露瓦的规矩。",
     "volume": "characters"
   },
   {
@@ -4170,6 +5160,11 @@
     "volume": "characters"
   },
   {
+    "cite_id": "VOIC-1209-21",
+    "quote": "总觉得，罗浮的星空亮了一些。",
+    "volume": "characters"
+  },
+  {
     "cite_id": "VOIC-1209-35",
     "quote": "将军也吩咐过我，要不遗余力地协助她，重整丹鼎司的风气。",
     "volume": "characters"
@@ -4177,6 +5172,11 @@
   {
     "cite_id": "VOIC-1212-1",
     "quote": "镜流不过是一介仙舟弃卒，流浪剑士。",
+    "volume": "characters"
+  },
+  {
+    "cite_id": "VOIC-1213-19",
+    "quote": "开拓者，小心行事。有我在，放心。",
     "volume": "characters"
   },
   {
@@ -4235,6 +5235,11 @@
     "volume": "characters"
   },
   {
+    "cite_id": "VOIC-1225-28",
+    "quote": "请阮•梅小姐放心，我恢复得不错呢。",
+    "volume": "characters"
+  },
+  {
     "cite_id": "VOIC-1302-1",
     "quote": "我是「纯美骑士团」的银枝。",
     "volume": "characters"
@@ -4247,16 +5252,6 @@
   {
     "cite_id": "VOIC-1302-5",
     "quote": "纯美骑士团成员甚少会面，但我们奉行相同的「骑士道」，各自来往于不同星球，向宇宙每个角落播撒女神美名。",
-    "volume": "characters"
-  },
-  {
-    "cite_id": "VOIC-1302-52",
-    "quote": "遵循纯美骑士的职责。",
-    "volume": "characters"
-  },
-  {
-    "cite_id": "VOIC-1302-62",
-    "quote": "……献给伊德莉拉。",
     "volume": "characters"
   },
   {
@@ -4335,6 +5330,11 @@
     "volume": "characters"
   },
   {
+    "cite_id": "VOIC-1501-106",
+    "quote": "现在，我才是欢愉！",
+    "volume": "characters"
+  },
+  {
     "cite_id": "VOIC-1501-16",
     "quote": "「花火」和「火花」一样，也只是一张面具哦~",
     "volume": "characters"
@@ -4350,6 +5350,26 @@
     "volume": "characters"
   },
   {
+    "cite_id": "VOIC-1505-20",
+    "quote": "她竟然是二相乐园第一款电子游戏的忠实粉丝",
+    "volume": "characters"
+  },
+  {
+    "cite_id": "VOIC-1506-11",
+    "quote": "从朋克洛德到星核猎手，我希望「银狼」永远在加载",
+    "volume": "characters"
+  },
+  {
+    "cite_id": "VOIC-1506-214",
+    "quote": "看好了阿哈，什么叫大活！",
+    "volume": "characters"
+  },
+  {
+    "cite_id": "VOIC-1506-8",
+    "quote": "愚者宁可被面具夺舍也要让阿哈发笑，骇客可没这么无聊，自己开心最重要。",
+    "volume": "characters"
+  },
+  {
     "cite_id": "VOIC-1507-112",
     "quote": "无名客…丹恒，别来无恙？",
     "volume": "characters"
@@ -4357,6 +5377,11 @@
   {
     "cite_id": "VOIC-1507-6",
     "quote": "于我，铸器最难的一步在如何取名…譬如「击云」「支离」，都曾令我彻夜难寐。",
+    "volume": "characters"
+  },
+  {
+    "cite_id": "VOIC-1510-105",
+    "quote": "接下来是你的主场了，开拓者。",
     "volume": "characters"
   },
   {
@@ -4372,6 +5397,11 @@
   {
     "cite_id": "VOIC-1510-226",
     "quote": "出门久了，还怪想念列车的沙发。",
+    "volume": "characters"
+  },
+  {
+    "cite_id": "VOIC-8001-1",
+    "quote": "当有机会做出选择的时候，不要让自己后悔……",
     "volume": "characters"
   }
 ]

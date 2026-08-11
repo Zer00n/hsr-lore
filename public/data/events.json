@@ -1698,36 +1698,6 @@
     "_timeline_inferred": true
   },
   {
-    "name": "景元力排众议编入彦卿",
-    "summary": {
-      "text": "景元寻得少年彦卿，力排众议将其编入云骑军；彦卿尚未成年便被授予军职，引发时人议论。",
-      "claim_type": "fact",
-      "confidence": "attested",
-      "citations": [
-        {
-          "cite_id": "STRY-1209-3",
-          "quote": "在云骑军的军籍文卷中记录了景元如何寻得少年，又力排众议，将他编入军中的始末...只是尚未成年便被授予了军职"
-        }
-      ]
-    },
-    "participants": [
-      "景元",
-      "彦卿"
-    ],
-    "locations": [
-      "仙舟「罗浮」"
-    ],
-    "confidence": "attested",
-    "citations": [
-      {
-        "cite_id": "STRY-1209-3",
-        "quote": "在云骑军的军籍文卷中记录了景元如何寻得少年，又力排众议，将他编入军中的始末。"
-      }
-    ],
-    "source_volume": "characters",
-    "_timeline_inferred": true
-  },
-  {
     "name": "彦卿初战斩防风",
     "summary": {
       "text": "彦卿初上战阵，面对丰饶之民制造的巨硕器兽「防风」，仅在照面间便斩去其头颅，令敌势溃散。",
@@ -3622,35 +3592,6 @@
     "_timeline_inferred": true
   },
   {
-    "name": "翁法罗斯隔绝状态被打破",
-    "summary": {
-      "text": "翁法罗斯与外界的隔绝状态被打破，三位无名客先行者成为新世界的泰坦。圣城居民向负世的开拓者祈祷。",
-      "claim_type": "fact",
-      "confidence": "attested",
-      "citations": [
-        {
-          "cite_id": "SKIP-D-104370107",
-          "quote": "翁法罗斯与外界的隔绝状态被打破，三位无名客先行者成为新世界的泰坦。"
-        }
-      ]
-    },
-    "participants": [
-      "开拓者"
-    ],
-    "locations": [
-      "翁法罗斯"
-    ],
-    "confidence": "attested",
-    "citations": [
-      {
-        "cite_id": "SKIP-D-104370107",
-        "quote": "翁法罗斯与外界的隔绝状态被打破，三位无名客先行者成为新世界的泰坦。"
-      }
-    ],
-    "source_volume": "narrative",
-    "_timeline_inferred": true
-  },
-  {
     "name": "卢卡挑战史瓦罗获胜",
     "summary": {
       "text": "卢卡曾向史瓦罗发起挑战但最终落败。在登上竞锋守擂擂台前，他得以再次挑战史瓦罗，这一次卢卡获得了胜利。",
@@ -3746,48 +3687,6 @@
     "_timeline_inferred": true
   },
   {
-    "name": "仙舟「罗浮」建木危机",
-    "summary": {
-      "text": "景元委托列车组相助，众人卷入幻胧染指建木的危机，事后景元赦免丹恒并赠予结盟玉兆。",
-      "claim_type": "fact",
-      "confidence": "attested",
-      "citations": [
-        {
-          "cite_id": "SKIP-C-102030111",
-          "quote": "「罗浮」将军景元来讯，称另有一事要拜托你们相助。"
-        },
-        {
-          "cite_id": "SKIP-D-102120122",
-          "quote": "瓦尔特称幻胧是七位「绝灭大君」之一，钟情于精神与物质的双重毁灭。原本的停云已于不知何时被替换，你们必须阻止幻胧染指建木。"
-        },
-        {
-          "cite_id": "SKIP-C-102170234",
-          "quote": "景元赦免对丹恒的流放令，并将「结盟玉兆」送给星穹列车。"
-        }
-      ]
-    },
-    "participants": [
-      "开拓者",
-      "三月七",
-      "丹恒",
-      "瓦尔特",
-      "卡芙卡",
-      "景元"
-    ],
-    "locations": [
-      "仙舟「罗浮」"
-    ],
-    "confidence": "attested",
-    "citations": [
-      {
-        "cite_id": "SKIP-C-102030111",
-        "quote": "「罗浮」将军景元来讯，称另有一事要拜托你们相助。"
-      }
-    ],
-    "source_volume": "narrative",
-    "_timeline_inferred": true
-  },
-  {
     "name": "匹诺康尼谐乐大典",
     "summary": {
       "text": "列车组前往匹诺康尼，卷入家族、公司与星核猎手的纷争，星期日宣称于「同谐」之中拥获「秩序」。",
@@ -3826,121 +3725,6 @@
       {
         "cite_id": "SKIP-D-103020102",
         "quote": "知更鸟与其兄长、「谐乐大典」主办人星期日前来协助你解决入住问题，并为列车组升级房型作为补偿。"
-      }
-    ],
-    "source_volume": "narrative",
-    "_timeline_inferred": true
-  },
-  {
-    "name": "翁法罗斯逐火之旅",
-    "summary": {
-      "text": "开拓者与丹恒降落翁法罗斯，协助黄金裔对抗黑潮，阿格莱雅陨落后白厄接过领袖重任。",
-      "claim_type": "fact",
-      "confidence": "attested",
-      "citations": [
-        {
-          "cite_id": "SKIP-C-104010222",
-          "quote": "你与丹恒追上白厄，得知率军进攻圣城的「纷争」泰坦尼卡多利正是「负世」泰坦刻法勒的死敌。你与丹恒决定加入保卫圣城的战斗。"
-        },
-        {
-          "cite_id": "SKIP-D-104040410",
-          "quote": "阿格莱雅留下遗言，坦承为清除圣城暗处的威胁而自毁设局，将守护翁法罗斯的使命托付白厄。白厄接过领袖重任，将以演讲团结公民。"
-        }
-      ]
-    },
-    "participants": [
-      "开拓者",
-      "丹恒",
-      "白厄",
-      "阿格莱雅",
-      "万敌",
-      "遐蝶"
-    ],
-    "locations": [
-      "翁法罗斯"
-    ],
-    "confidence": "attested",
-    "citations": [
-      {
-        "cite_id": "SKIP-C-104010222",
-        "quote": "你与丹恒追上白厄，得知率军进攻圣城的「纷争」泰坦尼卡多利正是「负世」泰坦刻法勒的死敌。你与丹恒决定加入保卫圣城的战斗。"
-      }
-    ],
-    "source_volume": "narrative",
-    "_timeline_inferred": true
-  },
-  {
-    "name": "二相乐园幻月游戏",
-    "summary": {
-      "text": "星穹列车前往二相乐园度假，卷入谒者面具、模因病毒与归寂引发的幻月游戏危机。",
-      "claim_type": "fact",
-      "confidence": "attested",
-      "citations": [
-        {
-          "cite_id": "SKIP-C-105400810",
-          "quote": "姬子提议前往这座「欢愉」色彩浓厚的乐园世界度假，并请你将消息带给黑天鹅。"
-        },
-        {
-          "cite_id": "SKIP-C-105400004",
-          "quote": "据新闻报道，当前是乐园历1999年，曾有预言称大魔王将从天而降；第一位佩戴面具者出现，「异常防御部」已确认火花成为谒者。"
-        },
-        {
-          "cite_id": "SKIP-C-105441011",
-          "quote": "归寂带来的末日是「不稳定的未来」，在一切尘埃落定之前打败他，就有机会改变现实。"
-        }
-      ]
-    },
-    "participants": [
-      "开拓者",
-      "三月七",
-      "姬子",
-      "瓦尔特",
-      "星期日",
-      "丹恒"
-    ],
-    "locations": [
-      "二相乐园"
-    ],
-    "stated_time": "乐园历1999年",
-    "confidence": "attested",
-    "citations": [
-      {
-        "cite_id": "SKIP-C-105400004",
-        "quote": "据新闻报道，当前是乐园历1999年，曾有预言称大魔王将从天而降；第一位佩戴面具者出现，「异常防御部」已确认火花成为谒者。"
-      }
-    ],
-    "source_volume": "narrative",
-    "_timeline_inferred": true
-  },
-  {
-    "name": "绥园岁阳逃逸事件",
-    "summary": {
-      "text": "十王司召集成立特别处理行动小组，借助罗浮杂俎寻找逃逸岁阳线索，并在景元帮助下渡过危机。",
-      "claim_type": "fact",
-      "confidence": "attested",
-      "citations": [
-        {
-          "cite_id": "CHRN-8015194",
-          "quote": "受到十王司的召集，你们结成了「十王司下辖岁阳逃逸事件特别处理行动小组」。捉鬼小队需借助「罗浮杂俎」寻找逃逸岁阳的线索。"
-        },
-        {
-          "cite_id": "SKIP-D-801510412",
-          "quote": "在景元将军的帮助下，你们顺利渡过了罗浮上下鲜为人知的「秘密危机」。"
-        }
-      ]
-    },
-    "participants": [
-      "开拓者",
-      "景元"
-    ],
-    "locations": [
-      "仙舟「罗浮」"
-    ],
-    "confidence": "attested",
-    "citations": [
-      {
-        "cite_id": "CHRN-8015194",
-        "quote": "受到十王司的召集，你们结成了「十王司下辖岁阳逃逸事件特别处理行动小组」。捉鬼小队需借助「罗浮杂俎」寻找逃逸岁阳的线索。"
       }
     ],
     "source_volume": "narrative",
@@ -4046,41 +3830,6 @@
     "_timeline_inferred": true
   },
   {
-    "name": "翁法罗斯再创世",
-    "summary": {
-      "text": "白厄与昔涟下定反抗命运的决心，准备执行再创世仪式，历经无数次永劫回归。",
-      "claim_type": "fact",
-      "confidence": "attested",
-      "citations": [
-        {
-          "cite_id": "SKIP-D-104050236",
-          "quote": "白厄与昔涟下定反抗命运的决心，准备执行「再创世」仪式。"
-        },
-        {
-          "cite_id": "SKIP-D-104050426",
-          "quote": "第33550336次永劫回归的当下"
-        }
-      ]
-    },
-    "participants": [
-      "白厄",
-      "昔涟",
-      "来古士"
-    ],
-    "locations": [
-      "翁法罗斯"
-    ],
-    "confidence": "attested",
-    "citations": [
-      {
-        "cite_id": "SKIP-D-104050236",
-        "quote": "准备执行「再创世」仪式。"
-      }
-    ],
-    "source_volume": "narrative",
-    "_timeline_inferred": true
-  },
-  {
     "name": "罗浮星核封印战",
     "summary": {
       "text": "景元身负重伤，与丹恒合力击败幻胧；列车组协助封印星核，幻胧短期内无力再兴风作浪。",
@@ -4110,6 +3859,48 @@
       {
         "cite_id": "SKIP-C-102160105",
         "quote": "景元在战斗中身负重伤，与丹恒合力击败幻胧。封印星核的工作尚需时日，好在幻胧短期内不会再有能力兴风作浪。"
+      }
+    ],
+    "source_volume": "narrative",
+    "_timeline_inferred": true
+  },
+  {
+    "name": "翁法罗斯再创世",
+    "summary": {
+      "text": "尼卡多利一战以黄金裔胜利作结，开拓者与白厄归还火种，开启并完成再创世仪式。",
+      "claim_type": "fact",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "SUBM-D-104011001",
+          "quote": "尼卡多利一战，以黄金裔的胜利作结。"
+        },
+        {
+          "cite_id": "SKIP-D-104050109",
+          "quote": "你与白厄一起归还刻法勒的火种，开启「再创世」仪式。"
+        },
+        {
+          "cite_id": "SKIP-D-104367702",
+          "quote": "而今你将完成最后的「再创世」仪式"
+        }
+      ]
+    },
+    "participants": [
+      "开拓者",
+      "白厄"
+    ],
+    "locations": [
+      "翁法罗斯"
+    ],
+    "confidence": "attested",
+    "citations": [
+      {
+        "cite_id": "SUBM-D-104011001",
+        "quote": "尼卡多利一战，以黄金裔的胜利作结。"
+      },
+      {
+        "cite_id": "SKIP-D-104050109",
+        "quote": "你与白厄一起归还刻法勒的火种，开启「再创世」仪式。"
       }
     ],
     "source_volume": "narrative",
@@ -4346,175 +4137,31 @@
     "_timeline_inferred": true
   },
   {
-    "name": "尼卡多利突袭奥赫玛",
-    "summary": {
-      "text": "纷争泰坦尼卡多利突袭奥赫玛，开拓者随白厄击败泰坦眷属、保护居民。",
-      "claim_type": "fact",
-      "confidence": "attested",
-      "citations": [
-        {
-          "cite_id": "SUBM-D-104010212",
-          "quote": "纷争泰坦「尼卡多利」突袭奥赫玛，情急下我们伸出援手，跟随白厄一路击败泰坦眷属、保护居民"
-        }
-      ]
-    },
-    "participants": [
-      "尼卡多利",
-      "白厄",
-      "开拓者"
-    ],
-    "locations": [
-      "奥赫玛"
-    ],
-    "source_volume": "narrative",
-    "_timeline_inferred": true
-  },
-  {
     "name": "流萤之死",
     "summary": {
-      "text": "流萤为传递真相以真实死亡脱离梦境，被「死亡」带走。",
+      "text": "流萤消失在了「死亡」的翼刃下，这座美梦究竟发生了什么。",
       "claim_type": "fact",
       "confidence": "attested",
       "citations": [
         {
-          "cite_id": "SKIP-D-103310104",
-          "quote": "流萤为传递真相以真实死亡脱离梦境"
-        },
-        {
-          "cite_id": "SUBM-D-103060133",
-          "quote": "流萤被「死亡」带走了"
+          "cite_id": "CHRN-1030601",
+          "quote": "流萤消失在了「死亡」的翼刃下。这座美梦究竟发生了什么？"
         }
       ]
     },
     "participants": [
       "流萤"
     ],
-    "locations": [],
-    "source_volume": "narrative",
-    "_timeline_inferred": true
-  },
-  {
-    "name": "星期日秩序计划失败",
-    "summary": {
-      "text": "星期日与梦主以秩序替代同谐的计划被挫败，秩序星神再度沉睡。",
-      "claim_type": "fact",
-      "confidence": "attested",
-      "citations": [
-        {
-          "cite_id": "SKIP-D-103380729",
-          "quote": "梦主与星期日的计划被挫败，「秩序」星神再度沉睡"
-        }
-      ]
-    },
-    "participants": [
-      "星期日"
-    ],
     "locations": [
       "匹诺康尼"
     ],
-    "source_volume": "narrative",
-    "_timeline_inferred": true
-  },
-  {
-    "name": "纷争泰坦陨落",
-    "summary": {
-      "text": "纷争泰坦尼卡多利陨落后，众人取得其火种，商议由白厄携带火种返回创世涡心。",
-      "claim_type": "fact",
-      "confidence": "attested",
-      "citations": [
-        {
-          "cite_id": "SKIP-C-104011001",
-          "quote": "「纷争」泰坦陨落后，你们取得其火种。你们商议决定，由白厄携带火种返回创世涡心"
-        }
-      ]
-    },
-    "participants": [
-      "白厄",
-      "尼卡多利",
-      "开拓者"
+    "confidence": "attested",
+    "citations": [
+      {
+        "cite_id": "CHRN-1030601",
+        "quote": "流萤消失在了「死亡」的翼刃下。这座美梦究竟发生了什么？"
+      }
     ],
-    "locations": [],
-    "source_volume": "narrative",
-    "_timeline_inferred": true
-  },
-  {
-    "name": "幻造圣杯战争",
-    "summary": {
-      "text": "为寻回失窃圣杯，开拓者与远坂凛缔结主从契约，卷入幻造圣杯战争。",
-      "claim_type": "fact",
-      "confidence": "attested",
-      "citations": [
-        {
-          "cite_id": "CHRN-1054400",
-          "quote": "为了寻回失窃的圣杯，你意外与位面行者兼魔术师远坂凛缔结主从契约，卷入幻造圣杯战争"
-        }
-      ]
-    },
-    "participants": [
-      "远坂凛",
-      "开拓者"
-    ],
-    "locations": [],
-    "source_volume": "narrative",
-    "_timeline_inferred": true
-  },
-  {
-    "name": "二相乐园丰饶之灾",
-    "summary": {
-      "text": "二相乐园约二十万人在同一时间被转化为丰饶之民，病变仍在乐园全域扩散。",
-      "claim_type": "fact",
-      "confidence": "attested",
-      "citations": [
-        {
-          "cite_id": "SKIP-D-105420802",
-          "quote": "二相乐园约有二十万人在同一时间被转化为丰饶之民，目前病变仍在乐园全域扩散"
-        }
-      ]
-    },
-    "participants": [],
-    "locations": [
-      "二相乐园"
-    ],
-    "source_volume": "narrative",
-    "_timeline_inferred": true
-  },
-  {
-    "name": "慰灵奠仪",
-    "summary": {
-      "text": "慰灵奠仪结束后，景元召见列车组，称要在神策府将两样东西送给星穹列车。",
-      "claim_type": "fact",
-      "confidence": "attested",
-      "citations": [
-        {
-          "cite_id": "SKIP-D-102170233",
-          "quote": "「慰灵奠仪」结束后，景元召见列车组的各位，称要在神策府将两样东西送给星穹列车"
-        }
-      ]
-    },
-    "participants": [],
-    "locations": [
-      "仙舟「罗浮」"
-    ],
-    "source_volume": "narrative",
-    "_timeline_inferred": true
-  },
-  {
-    "name": "星穹列车航向翁法罗斯",
-    "summary": {
-      "text": "列车长帕姆召开航线会议，经讨论与投票，星穹列车下一站目的地确定为翁法罗斯。",
-      "claim_type": "fact",
-      "confidence": "attested",
-      "citations": [
-        {
-          "cite_id": "SKIP-D-104010103",
-          "quote": "列车长帕姆召开航线会议，经过大家的讨论与投票，星穹列车下一站的目的地确定为翁法罗斯"
-        }
-      ]
-    },
-    "participants": [
-      "星穹列车"
-    ],
-    "locations": [],
     "source_volume": "narrative",
     "_timeline_inferred": true
   },
@@ -4852,33 +4499,6 @@
     "_timeline_inferred": true
   },
   {
-    "name": "铁墓降临",
-    "summary": {
-      "text": "铁墓已然降临，承载着「毁灭」的劫火，需要被击败。",
-      "claim_type": "fact",
-      "confidence": "attested",
-      "citations": [
-        {
-          "cite_id": "SKIP-T-104370718",
-          "quote": "铁墓已然降临。击败它，熄灭「毁灭」的劫火"
-        }
-      ]
-    },
-    "participants": [
-      "铁墓"
-    ],
-    "locations": [],
-    "confidence": "attested",
-    "citations": [
-      {
-        "cite_id": "SKIP-T-104370718",
-        "quote": "铁墓已然降临。击败它，熄灭「毁灭」的劫火"
-      }
-    ],
-    "source_volume": "narrative",
-    "_timeline_inferred": true
-  },
-  {
     "name": "布洛妮娅的继任仪式",
     "summary": {
       "text": "为布洛妮娅举行的继任仪式。",
@@ -5033,6 +4653,39 @@
       {
         "cite_id": "TALK-101027908",
         "quote": "守护者牺牲自己封印了星核。"
+      }
+    ],
+    "source_volume": "narrative",
+    "_timeline_inferred": true
+  },
+  {
+    "name": "铁墓降临",
+    "summary": {
+      "text": "铁墓降临，无人能毫发无损，开拓者必须阻止铁墓。",
+      "claim_type": "fact",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "TALK-146021325",
+          "quote": "铁墓降临，没人能毫发无损。"
+        },
+        {
+          "cite_id": "TALK-146785818",
+          "quote": "不能再等了，必须阻止铁墓。"
+        }
+      ]
+    },
+    "participants": [],
+    "locations": [],
+    "confidence": "attested",
+    "citations": [
+      {
+        "cite_id": "TALK-146021325",
+        "quote": "铁墓降临，没人能毫发无损。"
+      },
+      {
+        "cite_id": "TALK-146785818",
+        "quote": "不能再等了，必须阻止铁墓。"
       }
     ],
     "source_volume": "narrative",
@@ -5918,5 +5571,599 @@
     ],
     "source_volume": "narrative",
     "_timeline_inferred": true
+  },
+  {
+    "event_name": "反物质军团七波次攻击",
+    "relative_to": [
+      {
+        "relation": "after",
+        "event_name": "反物质军团与绝灭大君出现"
+      }
+    ],
+    "citations": [
+      {
+        "cite_id": "NOUN-25154047274455847",
+        "quote": "在司职不同的军团中出现了各自的统领者「绝灭大君」。",
+        "offset_start": 206,
+        "offset_end": 231
+      },
+      {
+        "cite_id": "BOOK-190286",
+        "quote": "反物质军团七波次攻击-基座舱段太空电梯损毁，入口处发生爆炸。",
+        "offset_start": 1057,
+        "offset_end": 1087
+      }
+    ],
+    "_timeline_inferred": false
+  },
+  {
+    "event_name": "天魔浩劫",
+    "relative_to": [
+      {
+        "relation": "after",
+        "event_name": "反物质军团与绝灭大君出现"
+      }
+    ],
+    "citations": [
+      {
+        "cite_id": "NOUN-25154047274455847",
+        "quote": "在司职不同的军团中出现了各自的统领者「绝灭大君」。",
+        "offset_start": 206,
+        "offset_end": 231
+      },
+      {
+        "cite_id": "BOOK-191997",
+        "quote": "琥珀纪2148纪，在席卷诸多星系后，反物质军团将毁灭的巨爪伸向了如今的失魂星域，这颗尚被称为「弁才天国」的星球自然也无法幸免，烬土纪元就此撕开序幕。",
+        "offset_start": 119,
+        "offset_end": 193
+      }
+    ],
+    "_timeline_inferred": false
+  },
+  {
+    "event_name": "建木重生",
+    "relative_to": [
+      {
+        "relation": "after",
+        "event_name": "反物质军团与绝灭大君出现"
+      }
+    ],
+    "citations": [
+      {
+        "cite_id": "NOUN-25154047274455847",
+        "quote": "在司职不同的军团中出现了各自的统领者「绝灭大君」。",
+        "offset_start": 206,
+        "offset_end": 231
+      },
+      {
+        "cite_id": "CHRN-1021201",
+        "quote": "那位时刻追随你们左右的引路人「停云小姐」却以令人震悚的方式化为一团火焰，向你们宣布它的真实身份：绝灭大君，幻胧。幻胧以军团爪牙阻住你们的去路，而它即将深入鳞渊境，染指仙舟人长生的起源，建木。"
+      }
+    ],
+    "_timeline_inferred": false
+  },
+  {
+    "event_name": "方壶之战",
+    "relative_to": [
+      {
+        "relation": "during",
+        "event_name": "第三次丰饶民战争"
+      }
+    ],
+    "citations": [
+      {
+        "cite_id": "BOOK-190684",
+        "quote": "8072年，第三次丰饶民战争爆发了。",
+        "offset_start": 1326,
+        "offset_end": 1344
+      },
+      {
+        "cite_id": "BOOK-190684",
+        "quote": "方壶作为主战场，迅速沦为了恐怖的绞肉机。",
+        "offset_start": 1346,
+        "offset_end": 1366
+      },
+      {
+        "cite_id": "STRY-1208-5",
+        "quote": "丰饶民大军三度成形，突袭方壶仙舟。",
+        "offset_start": 25,
+        "offset_end": 42
+      }
+    ],
+    "_timeline_inferred": false
+  },
+  {
+    "event_name": "月里火率闭戾多归顺方壶",
+    "relative_to": [
+      {
+        "relation": "before",
+        "event_name": "方壶之战"
+      }
+    ],
+    "citations": [
+      {
+        "cite_id": "BOOK-190684",
+        "quote": "8038年，月里火带领「闭戾多」（残存127人），来到了方壶，决意归顺联盟。",
+        "offset_start": 875,
+        "offset_end": 913
+      },
+      {
+        "cite_id": "STRY-1208-5",
+        "quote": "丰饶民大军三度成形，突袭方壶仙舟。",
+        "offset_start": 25,
+        "offset_end": 42
+      }
+    ],
+    "_timeline_inferred": false
+  },
+  {
+    "event_name": "苏乐达诞生",
+    "relative_to": [
+      {
+        "relation": "before",
+        "event_name": "谐乐大典"
+      }
+    ],
+    "citations": [
+      {
+        "cite_id": "BOOK-190643",
+        "quote": "银河中最传奇的饮料，「苏乐达」便诞生了。",
+        "offset_start": 1483,
+        "offset_end": 1503
+      },
+      {
+        "cite_id": "CHRN-1032701",
+        "quote": "为了封印星核，你们决定提前进入匹诺康尼大剧院，却苦于谐乐大典召开在即，剧院因排练需要暂时封锁。为此，你们听从三月七的建议，借道盛典预热的选秀会场「苏乐达™盛会海选」，并顺利拿下海选桂冠",
+        "offset_start": 0,
+        "offset_end": 92
+      }
+    ],
+    "_timeline_inferred": false
+  },
+  {
+    "event_name": "天魔浩劫",
+    "relative_to": [
+      {
+        "relation": "before",
+        "event_name": "匹诺康尼谐乐大典"
+      }
+    ],
+    "citations": [
+      {
+        "cite_id": "BOOK-191997",
+        "quote": "琥珀纪2148纪，在席卷诸多星系后，反物质军团将毁灭的巨爪伸向了如今的失魂星域，这颗尚被称为「弁才天国」的星球自然也无法幸免，烬土纪元就此撕开序幕。",
+        "offset_start": 119,
+        "offset_end": 193
+      },
+      {
+        "cite_id": "NOUN-9026116404297565285",
+        "quote": "琥珀2158纪，时值谐乐大典召开之际，传奇大亨「钟表匠」向全银河发出信函",
+        "offset_start": 410,
+        "offset_end": 446
+      }
+    ],
+    "_timeline_inferred": false
+  },
+  {
+    "event_name": "火花病毒扩散",
+    "relative_to": [
+      {
+        "relation": "during",
+        "event_name": "幻月游戏"
+      }
+    ],
+    "citations": [
+      {
+        "cite_id": "BOOK-192018",
+        "quote": "受谒者火花影响，「火花病毒」正在以绘世学院为中心，向周边地区扩散。异常防御部已启动幻月游戏应急预案",
+        "offset_start": 0,
+        "offset_end": 49
+      },
+      {
+        "cite_id": "CHRN-1054008",
+        "quote": "一场名为「幻月游戏」的神赐仪式即将开始，胜者可谒见欢愉星神，并分享其权柄一分钟",
+        "offset_start": 48,
+        "offset_end": 87
+      }
+    ],
+    "_timeline_inferred": false
+  },
+  {
+    "event_name": "万敌击溃盗火行者",
+    "relative_to": [
+      {
+        "relation": "after",
+        "event_name": "白厄纷争试炼失败与万敌接任"
+      }
+    ],
+    "citations": [
+      {
+        "cite_id": "CHRN-1040201",
+        "quote": "白厄的火种试炼失败，意味着承载尼卡多利神权的重任落到了唯一的悬锋王储——黄金裔万敌的身上",
+        "offset_start": 61,
+        "offset_end": 105
+      },
+      {
+        "cite_id": "BOOK-190833",
+        "quote": "万敌终于下定决心，顺利通过火种试炼、晋升为纷争的半神，在悬锋城掷出决定胜负的一枪，将盗火行者击溃。",
+        "offset_start": 1462,
+        "offset_end": 1511
+      }
+    ],
+    "_timeline_inferred": false
+  },
+  {
+    "event_name": "塞涅俄丝逐火弑神",
+    "relative_to": [
+      {
+        "relation": "before",
+        "event_name": "逐火之旅"
+      }
+    ],
+    "citations": [
+      {
+        "cite_id": "BOOK-190878",
+        "quote": "塞涅俄丝则洞穿了艾格勒的最后一只眼睛，夺过了司掌晨昏的权柄，并将取回火种的使命交由后人。",
+        "offset_start": 781,
+        "offset_end": 825
+      },
+      {
+        "cite_id": "SUBM-D-104060301",
+        "quote": "这就是第一次逐火之旅的时代",
+        "offset_start": 71,
+        "offset_end": 84
+      }
+    ],
+    "_timeline_inferred": false
+  },
+  {
+    "event_name": "列车组前往翁法罗斯",
+    "relative_to": [
+      {
+        "relation": "after",
+        "event_name": "阿基维利陨落与星穹列车续航"
+      }
+    ],
+    "citations": [
+      {
+        "cite_id": "NOUN-18077808807321366418",
+        "quote": "阿基维利殒落后，一群忠实的「无名客」继承了祂的遗志",
+        "offset_start": 370,
+        "offset_end": 395
+      },
+      {
+        "cite_id": "NOUN-16034760143307344588",
+        "quote": "一位红发少女与荒废的列车相遇了。她被遗落在引擎和银轨之间无言故事所吸引，花费时间填补了裂隙、抚平了磨损，将列车上下修葺一新。于是，好奇尚异的少女踏入列车的车厢，开始了丈量宇宙的开拓之旅。",
+        "offset_start": 183,
+        "offset_end": 276
+      },
+      {
+        "cite_id": "CHRN-1040101",
+        "quote": "列车能源告急，你们经过投票决定前往「永恒之地」翁法罗斯",
+        "offset_start": 0,
+        "offset_end": 27
+      }
+    ],
+    "_timeline_inferred": false
+  },
+  {
+    "event_name": "开拓者选择与星穹列车同行",
+    "relative_to": [
+      {
+        "relation": "before",
+        "event_name": "列车组前往翁法罗斯"
+      }
+    ],
+    "citations": [
+      {
+        "cite_id": "STRY-8001-11",
+        "quote": "为了消除星核带来的危机，开拓者选择与星穹列车同行。",
+        "offset_start": 0,
+        "offset_end": 25
+      },
+      {
+        "cite_id": "CHRN-1040101",
+        "quote": "列车能源告急，你们经过投票决定前往「永恒之地」翁法罗斯",
+        "offset_start": 0,
+        "offset_end": 27
+      }
+    ],
+    "_timeline_inferred": false
+  },
+  {
+    "event_name": "铁墓之战与再创世",
+    "relative_to": [
+      {
+        "relation": "during",
+        "event_name": "翁法罗斯事件"
+      }
+    ],
+    "citations": [
+      {
+        "cite_id": "NOUN-2660052858429290298",
+        "quote": "翁法罗斯实为权杖δ-me13：曾遭「智识」遗弃的天体神经元，后被改造为绝灭大君「铁墓」的实验场。",
+        "offset_start": 183,
+        "offset_end": 231
+      },
+      {
+        "cite_id": "NOUN-2660052858429290298",
+        "quote": "借助流光忆庭的特殊技术「忆庭之镜」，星穹列车成功抵达翁法罗斯，开启「开拓」之旅",
+        "offset_start": 127,
+        "offset_end": 166
+      },
+      {
+        "cite_id": "CHRN-1043708",
+        "quote": "铁墓的恨意，一瞬间便将寰宇文明的生命数据付之一炬。关键时刻， 黑塔抢先一步完成加冕，而昔涟则护住银河众生的记忆。在这永恒的一页，你真正踏上记忆的命途，完成了一次银河范围的「再创世」，随后与同伴们重返战场，熄灭这簇「毁灭」的劫火。"
+      }
+    ],
+    "_timeline_inferred": false
+  },
+  {
+    "event_name": "阿尔冈-阿帕歇之难",
+    "relative_to": [
+      {
+        "relation": "after",
+        "event_name": "星际和平公司成立"
+      }
+    ],
+    "citations": [
+      {
+        "cite_id": "BOOK-190169",
+        "quote": "距今七百七十余琥珀纪前，路易斯•弗莱明和东方启行宣布将后援队改组，成立星际和平公司。",
+        "offset_start": 1382,
+        "offset_end": 1424
+      },
+      {
+        "cite_id": "STRY-1315-5",
+        "quote": "奥斯瓦尔多•施耐德，星际和平公司『市场开拓部』主管",
+        "offset_start": 166,
+        "offset_end": 191
+      }
+    ],
+    "_timeline_inferred": false
+  },
+  {
+    "event_name": "卢卡参加星天演武仪典",
+    "relative_to": [
+      {
+        "relation": "after",
+        "event_name": "布洛妮娅继任大守护者"
+      }
+    ],
+    "citations": [
+      {
+        "cite_id": "SUBM-D-101150205",
+        "quote": "布洛妮娅继任成为大守护者，上下层区再次交融，组建成了完整的贝洛伯格",
+        "offset_start": 7,
+        "offset_end": 40
+      },
+      {
+        "cite_id": "CHRN-8025101",
+        "quote": "为了帮助贝洛伯格重归宇宙社会，卢卡拿着一张过时的邀请函，来到了仙舟「罗浮」，参加星天演武仪典。机缘巧合之下，你成为了他的教练，并陪他一起斩获了一场又一场胜利……",
+        "offset_start": 0,
+        "offset_end": 80
+      }
+    ],
+    "_timeline_inferred": false
+  },
+  {
+    "event_name": "逐火之旅",
+    "relative_to": [
+      {
+        "relation": "after",
+        "event_name": "黄金战争"
+      }
+    ],
+    "citations": [
+      {
+        "cite_id": "BOOK-191928",
+        "quote": "光历3798年，山民军队初入黄金战争，凭借坚韧的耐力与过人的体魄，旬日间连克三城。",
+        "offset_start": 485,
+        "offset_end": 526
+      },
+      {
+        "cite_id": "SUBM-D-104060301",
+        "quote": "这就是第一次逐火之旅的时代",
+        "offset_start": 71,
+        "offset_end": 84
+      }
+    ],
+    "_timeline_inferred": false
+  },
+  {
+    "event_name": "雅努萨波利斯围攻战",
+    "relative_to": [
+      {
+        "relation": "during",
+        "event_name": "逐火之旅"
+      }
+    ],
+    "citations": [
+      {
+        "cite_id": "BOOK-191921",
+        "quote": "光历3960年；地点：雅努萨波利斯；重要将领：刻律德菈",
+        "offset_start": 3123,
+        "offset_end": 3150
+      },
+      {
+        "cite_id": "SKIP-D-104060803",
+        "quote": "光历3960年，刻律德菈以出征法吉娜为由，献祭五百名黄金裔的性命，完成「律法」试炼并归还火种",
+        "offset_start": 0,
+        "offset_end": 46
+      },
+      {
+        "cite_id": "SUBM-D-104060301",
+        "quote": "这就是第一次逐火之旅的时代",
+        "offset_start": 71,
+        "offset_end": 84
+      }
+    ],
+    "_timeline_inferred": false
+  },
+  {
+    "event_name": "黑塔谒见博识尊",
+    "relative_to": [
+      {
+        "relation": "after",
+        "event_name": "瓦尔特加入星穹列车"
+      }
+    ],
+    "citations": [
+      {
+        "cite_id": "STRY-1004-3",
+        "quote": "既然暂时找不到回到家乡、回到和平生活的办法，那就再次开始战斗吧？",
+        "offset_start": 172,
+        "offset_end": 204
+      },
+      {
+        "cite_id": "CHRN-1040113",
+        "quote": "黑塔以整座空间站的静默为代价启动谒见系统终端，试图与博识尊交流。在清理扇区故障、揪出窃忆者后，谒见的进程却被闯入空间站的瓦尔特和星期日打断了。",
+        "offset_start": 0,
+        "offset_end": 71
+      }
+    ],
+    "_timeline_inferred": false
+  },
+  {
+    "event_name": "黑塔空间站遇袭",
+    "relative_to": [
+      {
+        "relation": "before",
+        "event_name": "雅利洛-VI星核危机"
+      }
+    ],
+    "citations": [
+      {
+        "cite_id": "SKIP-C-100010109",
+        "quote": "卡芙卡称要把你留在空间站，你的冒险将自此启程。",
+        "offset_start": 6,
+        "offset_end": 29
+      },
+      {
+        "cite_id": "SKIP-C-101000202",
+        "quote": "列车途径雅利洛-VI，因星轨被「星核」阻塞而被迫无限期停靠。姬子将「开拓」任务交给三月七、丹恒和你，以解除「星核」危机。",
+        "offset_start": 0,
+        "offset_end": 60
+      }
+    ],
+    "_timeline_inferred": false
+  },
+  {
+    "event_name": "黑塔空间站遇袭",
+    "relative_to": [
+      {
+        "relation": "before",
+        "event_name": "仙舟「罗浮」建木危机"
+      }
+    ],
+    "citations": [
+      {
+        "cite_id": "SKIP-C-100010109",
+        "quote": "卡芙卡称要把你留在空间站，你的冒险将自此启程。",
+        "offset_start": 6,
+        "offset_end": 29
+      },
+      {
+        "cite_id": "SKIP-C-102030111",
+        "quote": "「罗浮」将军景元来讯，称另有一事要拜托你们相助。",
+        "offset_start": 36,
+        "offset_end": 60
+      }
+    ],
+    "_timeline_inferred": false
+  },
+  {
+    "event_name": "黑塔空间站遇袭",
+    "relative_to": [
+      {
+        "relation": "before",
+        "event_name": "匹诺康尼谐乐大典"
+      }
+    ],
+    "citations": [
+      {
+        "cite_id": "SKIP-C-100010109",
+        "quote": "卡芙卡称要把你留在空间站，你的冒险将自此启程。",
+        "offset_start": 6,
+        "offset_end": 29
+      },
+      {
+        "cite_id": "SKIP-D-103020102",
+        "quote": "知更鸟与其兄长、「谐乐大典」主办人星期日前来协助你解决入住问题，并为列车组升级房型作为补偿。",
+        "offset_start": 14,
+        "offset_end": 60
+      }
+    ],
+    "_timeline_inferred": false
+  },
+  {
+    "event_name": "匹诺康尼之旅",
+    "relative_to": [
+      {
+        "relation": "before",
+        "event_name": "星穹列车航向翁法罗斯"
+      }
+    ],
+    "citations": [
+      {
+        "cite_id": "CHRN-1034101",
+        "quote": "星穹列车在匹诺康尼的开拓之旅终于告一段落。",
+        "offset_start": 12,
+        "offset_end": 33
+      },
+      {
+        "cite_id": "SKIP-D-104010103",
+        "quote": "列车长帕姆召开航线会议，经过大家的讨论与投票，星穹列车下一站的目的地确定为翁法罗斯",
+        "offset_start": 0,
+        "offset_end": 41
+      }
+    ],
+    "_timeline_inferred": false
+  },
+  {
+    "event_name": "卢卡挑战史瓦罗获胜",
+    "relative_to": [
+      {
+        "relation": "before",
+        "event_name": "星天演武"
+      }
+    ],
+    "citations": [
+      {
+        "cite_id": "CHRN-8025104",
+        "quote": "卢卡曾向史瓦罗发起挑战，最终输给了史瓦罗。现在，在登上「竞锋守擂」的擂台前，他得以再次挑战史瓦罗。这一次，卢卡获得了胜利。"
+      },
+      {
+        "cite_id": "SKIP-C-202200101",
+        "quote": "景元邀请列车组诸位拨冗赏光，参观罗浮即将举办的「星天演武」仪典。",
+        "offset_start": 18,
+        "offset_end": 50
+      }
+    ],
+    "_timeline_inferred": false
+  },
+  {
+    "event_name": "镜流教授刃剑术",
+    "relative_to": [
+      {
+        "relation": "before",
+        "event_name": "刃坠入贪饕之口"
+      }
+    ],
+    "citations": [
+      {
+        "cite_id": "SKIP-D-202110206",
+        "quote": "刃想起了镜流当年教他学剑的第一日。",
+        "offset_start": 0,
+        "offset_end": 17
+      },
+      {
+        "cite_id": "CHRN-1054306",
+        "quote": "乘坐绘世的渡船，你与刃、银狼抵达画中的彼岸花原，在此找到「贪饕」之口。为彻底消灭倏忽血肉，刃向其中一跃而下，坠入九死一生的危途。",
+        "offset_start": 0,
+        "offset_end": 64
+      }
+    ],
+    "_timeline_inferred": false
   }
 ]

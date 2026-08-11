@@ -3,8 +3,9 @@
 《崩坏：星穹铁道》（Honkai: Star Rail）的世界观考据与引证索引站点。
 从官方公开游戏文本中提取实体、关系、事件与矛盾，构建可追溯引证的世界观图谱。
 
-> **当前状态**：站点工程骨架已完成，数据为**测试用示例数据**（非真实考据结果）。
-> 正式数据管线运行后，本仓库数据文件将被替换为实际产出。
+> **当前状态**：站点已上线 pass1 全量真实考据数据（doubao-seed-evolving 生成，
+> 2026-08-10 跑批）。每条收录对象均通过逐字引证校验；未通过校验的对象不予收录。
+> 跨卷归并（pass2）尚未并入，实体/事件/矛盾以 pass1 形态展示并标注未归并/推断。
 
 ---
 
@@ -41,7 +42,7 @@ Node.js 版本要求：`>=18.17.1`（推荐 20+）。
 - 官方公开 Wiki 与设定集
 - 公开数据集
 
-所有数据均通过管线自动化提取与逐句校验（quote 精确匹配原文）。每条结论均携带可追溯的引证标识（cite_id + 原文片段），访问者可据此定位游戏内原始出处。
+所有数据均通过管线自动化提取，并经逐句引证校验（quote 对语料原文做精确子串匹配，含空白归一化）。每条收录结论均携带可追溯的引证标识（cite_id + 原文片段），访问者可据此定位游戏内原始出处；未通过校验的对象不予收录。
 
 ## 版权声明
 
@@ -75,20 +76,22 @@ Node.js 版本要求：`>=18.17.1`（推荐 20+）。
 └── tsconfig.json
 ```
 
-## 当前数据说明（示例数据）
+## 当前数据说明（pass1 真实数据）
 
-`public/data/` 下的 JSON 文件为示例数据，由以下命令生成：
+`public/data/` 下的 JSON 由管线从 `output/pass1/` 构建，构建时强制通过校验闸：
 
 ```bash
 cd ../hsr-lore
-python scripts/build_site_data.py --input tests/fixtures/mock_pass1/
+python scripts/build_site_data.py --input output/pass1 --require-validation --filter-mode filter
+python scripts/build_stats.py --run-id live_pass1_20260810
 ```
 
 特点：
 
+- **校验闸默认开启**（`--require-validation`）：只有校验器判定 ACCEPTED 的对象才会进入站点数据；未通过逐字引证校验的对象被剔除。可用 `--no-require-validation` 关闭（非正式发布口径）。
 - **pass1-only 数据**：无 pass2 归并，无跨卷矛盾关联
 - **实体未归并**：同名实体在多个卷中各自保留（标注「未归并」）
 - **时间轴推断**：事件时序来自 order_hint，标注「推断」
 - **引证仅含片段**：citations.json 只包含实际引用的原文片段（quote），不包含语料全文
 
-正式数据将在周一管线运行后切换，届时所有标注自动取消。
+pass2 跨卷归并跑完并并入后，未归并/推断标注将自动取消。
