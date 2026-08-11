@@ -58,6 +58,7 @@
     "events": 200,
     "discrepancies": 56,
     "citations": 1081,
+    "merges": 117,
     "entities_core": 150
   },
   "quality_filter": {

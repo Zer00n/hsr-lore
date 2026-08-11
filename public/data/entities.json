@@ -686,6 +686,10 @@
           "offset_end": 62
         },
         {
+          "cite_id": "STRY-1210-4",
+          "quote": "剿匪的军爷亦是宅心仁厚，将我全家都请回了仙舟。"
+        },
+        {
           "cite_id": "SUBM-T-102120106",
           "quote": "与符玄率领的云骑军汇合"
         },
@@ -696,10 +700,6 @@
         {
           "cite_id": "SUBM-T-202030613",
           "quote": "假扮云骑军，并通过哨卡"
-        },
-        {
-          "cite_id": "STRY-1210-4",
-          "quote": "剿匪的军爷亦是宅心仁厚，将我全家都请回了仙舟。"
         }
       ]
     },
@@ -760,8 +760,8 @@
     "source_volume": "books",
     "_source_volumes": [
       "books",
-      "narrative",
-      "characters"
+      "characters",
+      "narrative"
     ],
     "_merged": true,
     "_merge_ids": [
@@ -1707,8 +1707,8 @@
     "source_volume": "books",
     "_source_volumes": [
       "books",
-      "characters",
-      "narrative"
+      "narrative",
+      "characters"
     ],
     "_merged": true,
     "_merge_ids": [
@@ -8837,12 +8837,12 @@
           "offset_end": 42
         },
         {
-          "cite_id": "VOIC-1004-12",
-          "quote": "我和姬子不会让任何人伤害他。"
-        },
-        {
           "cite_id": "STRY-1004-4",
           "quote": "「操纵重力」仍旧是他惯用的作战手段。"
+        },
+        {
+          "cite_id": "VOIC-1004-12",
+          "quote": "我和姬子不会让任何人伤害他。"
         }
       ]
     },
@@ -8893,18 +8893,6 @@
       },
       {
         "key": "身份",
-        "value": "星穹列车成员",
-        "claim_type": "fact",
-        "confidence": "attested",
-        "citations": [
-          {
-            "cite_id": "VOIC-1004-12",
-            "quote": "我和姬子不会让任何人伤害他。"
-          }
-        ]
-      },
-      {
-        "key": "身份",
         "value": "前逆熵盟主",
         "claim_type": "fact",
         "confidence": "attested",
@@ -8924,6 +8912,18 @@
           {
             "cite_id": "STRY-1004-4",
             "quote": "「操纵重力」仍旧是他惯用的作战手段。"
+          }
+        ]
+      },
+      {
+        "key": "身份",
+        "value": "星穹列车成员",
+        "claim_type": "fact",
+        "confidence": "attested",
+        "citations": [
+          {
+            "cite_id": "VOIC-1004-12",
+            "quote": "我和姬子不会让任何人伤害他。"
           }
         ]
       }

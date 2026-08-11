@@ -1,0 +1,3486 @@
+[
+  {
+    "merged_name": "Ⅸ",
+    "source_names": [
+      "IX",
+      "Ⅸ"
+    ],
+    "method": "alias_match",
+    "rationale": {
+      "text": "两处条目均指向同一星神，名称“IX”与“Ⅸ”为同一罗马数字的不同写法。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "NOUN-15397534992088388589",
+          "quote": "Ⅸ不与其它星神往来，祂相信多宇宙的本质乃是虚无，因而存在毫无价值。",
+          "offset_start": 88,
+          "offset_end": 121
+        },
+        {
+          "cite_id": "AEON-D3",
+          "quote": "Ⅸ",
+          "offset_start": 0,
+          "offset_end": 1
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "万敌",
+    "source_names": [
+      "万敌"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "书籍卷与叙事卷均出现名为“万敌”的同一角色，身份与事迹相互衔接。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "BOOK-190833",
+          "quote": "万敌终于下定决心，顺利通过火种试炼、晋升为纷争的半神",
+          "offset_start": 1462,
+          "offset_end": 1488
+        },
+        {
+          "cite_id": "CHRN-1040201",
+          "quote": "承载尼卡多利神权的重任落到了唯一的悬锋王储——黄金裔万敌的身上",
+          "offset_start": 74,
+          "offset_end": 105
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "三月七",
+    "source_names": [
+      "三月七"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "角色卷与叙事卷均记载三月七，且叙事卷补充其在翁法罗斯的经历。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "STRY-1510-4",
+          "quote": "她救下漂流在银河的三月七，开拓之旅从此染上了小三月的活力色彩。",
+          "offset_start": 583,
+          "offset_end": 614
+        },
+        {
+          "cite_id": "CHRN-1043650",
+          "quote": "原来，三月七早就在你和丹恒到达翁法罗斯之前就已经到达这里",
+          "offset_start": 63,
+          "offset_end": 91
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "不死途",
+    "source_names": [
+      "不死途"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "角色卷收录名称，叙事卷记载其事迹，二者指向同一人物。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "AVTR-N-1504",
+          "quote": "不死途",
+          "offset_start": 0,
+          "offset_end": 3
+        },
+        {
+          "cite_id": "SKIP-D-105410202",
+          "quote": "不死途以黑影吞没三位破晓战士，为共愿帮复仇。",
+          "offset_start": 0,
+          "offset_end": 22
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "丰饶",
+    "source_names": [
+      "丰饶"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "设定卷、书籍卷与叙事卷均记载“丰饶”命途，内容互相补充。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "LOAD-10009",
+          "quote": "星神「药师」执掌的命途。无私、利他、治愈的行为是「丰饶」命途的体现。"
+        },
+        {
+          "cite_id": "BOOK-190421",
+          "quote": "他（或她）被认为是「丰饶」的令使，负责引导穹桑的兴盛生长，并哺育一切羽民。",
+          "offset_start": 975,
+          "offset_end": 1012
+        },
+        {
+          "cite_id": "CHRN-1054202",
+          "quote": "发现当地居民皆被「丰饶」力量影响",
+          "offset_start": 52,
+          "offset_end": 68
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "丹枢",
+    "source_names": [
+      "丹枢"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "书籍卷与叙事卷均出现丹枢，叙事卷揭示其丹鼎司丹士长与药王秘传魁首的身份。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "BOOK-190431",
+          "quote": "她看着我那双新生的眼睛，问道：「丹枢，你知道这意味这什么吗？」",
+          "offset_start": 2054,
+          "offset_end": 2085
+        },
+        {
+          "cite_id": "CHRN-2020104",
+          "quote": "丹鼎司丹士长丹枢…不，「药王秘传魁首」丹枢逃走了",
+          "offset_start": 0,
+          "offset_end": 24
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "丹鼎司",
+    "source_names": [
+      "丹鼎司"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "书籍卷与叙事卷均记载仙舟罗浮的丹鼎司，信息互为补充。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "BOOK-190316",
+          "quote": "观颐台，隶属丹鼎司治下研习丹道之地。",
+          "offset_start": 70,
+          "offset_end": 88
+        },
+        {
+          "cite_id": "SUBM-D-202010325",
+          "quote": "丹枢是丹鼎司公认的「天才丹士」",
+          "offset_start": 0,
+          "offset_end": 15
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "云骑军",
+    "source_names": [
+      "云骑军",
+      "云骑"
+    ],
+    "method": "alias_match",
+    "rationale": {
+      "text": "“云骑”与“云骑军”在语料中均指仙舟的同一支军事力量。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "BOOK-190448",
+          "quote": "人人都称云骑是翼护仙舟的中流砥柱。",
+          "offset_start": 744,
+          "offset_end": 761
+        },
+        {
+          "cite_id": "SUBM-T-102120106",
+          "quote": "与符玄率领的云骑军汇合",
+          "offset_start": 0,
+          "offset_end": 11
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "云璃",
+    "source_names": [
+      "云璃"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "角色卷与叙事卷均记载云璃，事迹围绕识剑、铸剑与魔剑事件展开。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "STRY-1221-3",
+          "quote": "她成为了怀炎的弟子，那剑胚也被她一同带离。",
+          "offset_start": 124,
+          "offset_end": 145
+        },
+        {
+          "cite_id": "CHRN-2021901",
+          "quote": "远道而来的卡勒瓦拉使团带回了仙舟的宝剑孤云，却被云璃一眼识出那是柄「魔剑」。",
+          "offset_start": 0,
+          "offset_end": 38
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "仙舟联盟",
+    "source_names": [
+      "仙舟联盟"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "书籍卷与叙事卷均记载仙舟联盟，分别补充其舰队编制与遣使活动。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "BOOK-190857",
+          "quote": "仙舟联盟的舰队经历过两次改革，如今是生物与机械舰船的庞大混编。",
+          "offset_start": 1319,
+          "offset_end": 1350
+        },
+        {
+          "cite_id": "SKIP-D-202200205",
+          "quote": "仙舟联盟对本次仪典十分重视，「朱明」和「曜青」两座仙舟都派遣使者来贺。",
+          "offset_start": 4,
+          "offset_end": 39
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "仙舟「罗浮」",
+    "source_names": [
+      "仙舟「罗浮」"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "书籍卷、角色卷与叙事卷均记载仙舟「罗浮」，虽类型标注有别，但名称与事件一致。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "BOOK-190689",
+          "quote": "悬停于仙舟「罗浮」洞天之上的竞锋舰",
+          "offset_start": 31,
+          "offset_end": 48
+        },
+        {
+          "cite_id": "STRY-1203-2",
+          "quote": "罗刹先生，欢迎来到仙舟『罗浮』。",
+          "offset_start": 152,
+          "offset_end": 168
+        },
+        {
+          "cite_id": "SUBM-D-102040201",
+          "quote": "受星核作祟，罗浮已然陷入灾变",
+          "offset_start": 94,
+          "offset_end": 108
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "以利亚萨拉斯",
+    "source_names": [
+      "以利亚萨拉斯"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "设定卷与书籍卷均记载天才俱乐部#56以利亚萨拉斯，成就互相补充。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "NOUN-7675726264303607480",
+          "quote": "久历岁月，「翻译」这看似简单却难如登天的问题，在「天才俱乐部」#56号成员以利亚萨拉斯的手中得到了解决。",
+          "offset_start": 263,
+          "offset_end": 315
+        },
+        {
+          "cite_id": "BOOK-190168",
+          "quote": "六百余个琥珀纪前，天才俱乐部会员#56号以利亚萨拉斯已发明该技术并应用于俱乐部。",
+          "offset_start": 789,
+          "offset_end": 829
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "伊德莉拉",
+    "source_names": [
+      "伊德莉拉"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "书籍卷与角色卷均记载伊德莉拉为纯美星神，内容互相印证。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "BOOK-192103",
+          "quote": "纯美星神失踪后，愚者「达芬」在酒馆发表宣言，霎时间得到了一大批拥趸。他们高呼「人人都是伊德莉拉」，掀起一场艺术风暴",
+          "offset_start": 650,
+          "offset_end": 707
+        },
+        {
+          "cite_id": "VOIC-1302-62",
+          "quote": "……献给伊德莉拉。",
+          "offset_start": 0,
+          "offset_end": 9
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "倏忽",
+    "source_names": [
+      "倏忽"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "角色卷与叙事卷均记载倏忽，角色卷称其为生命之神的使者，叙事卷明确其为丰饶令使。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "STRY-1213-4",
+          "quote": "生命之神的使者本尊",
+          "offset_start": 556,
+          "offset_end": 565
+        },
+        {
+          "cite_id": "CHRN-1054202",
+          "quote": "幸福手术所使用的丰饶细胞来自丰饶令使倏忽",
+          "offset_start": 111,
+          "offset_end": 131
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "停云",
+    "source_names": [
+      "停云"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "角色卷与叙事卷均记载停云，叙事卷补充其记忆分裂与回归的经历。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "STRY-1202-1",
+          "quote": "八面玲珑的狐人少女，天舶司商团「鸣火」的首席代表。",
+          "offset_start": 0,
+          "offset_end": 25
+        },
+        {
+          "cite_id": "SKIP-C-103600412",
+          "quote": "万维克协助调律，成功令所有分身汇聚为一体，停云本体回归。",
+          "offset_start": 0,
+          "offset_end": 28
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "克里珀",
+    "source_names": [
+      "克里珀"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "设定卷、书籍卷、角色卷与叙事卷均记载存护星神克里珀，形象与事迹一致。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "NOUN-8068480992952390752",
+          "quote": "传说「存护」的克里珀是最古老的星神。",
+          "offset_start": 50,
+          "offset_end": 68
+        },
+        {
+          "cite_id": "BOOK-190169",
+          "quote": "「琥珀王」克里珀——一尊无头巨像，沉默寡言，不理世事，一心只知道铸造祂那神秘莫测巨大无比的城墙。",
+          "offset_start": 15,
+          "offset_end": 63
+        },
+        {
+          "cite_id": "SKIP-C-101020101",
+          "quote": "在「存护」克里珀的护佑下，「筑城者」们建立起贝洛伯格。",
+          "offset_start": 32,
+          "offset_end": 59
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "克拉拉",
+    "source_names": [
+      "克拉拉"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "角色卷与叙事卷均记载克拉拉，叙事卷补充其与史瓦罗基地及铆钉镇相关的事迹。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "VOIC-1107-64",
+          "quote": "克拉拉：帮帮我，史瓦罗先生！",
+          "offset_start": 0,
+          "offset_end": 14
+        },
+        {
+          "cite_id": "SUBM-D-101090212",
+          "quote": "打开第二道大门的权限只掌握在克拉拉手里，而克拉拉此时又回到了铆钉镇搜集材料",
+          "offset_start": 0,
+          "offset_end": 37
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "刻律德菈",
+    "source_names": [
+      "刻律德菈",
+      "凯撒"
+    ],
+    "method": "alias_match",
+    "rationale": {
+      "text": "书籍卷明确记载刻律德菈史称“凯撒”，故与叙事卷中的“凯撒”归并。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "BOOK-191914",
+          "quote": "刻律德菈，史称「凯撒」——这位头戴燃冕的统帅",
+          "offset_start": 45,
+          "offset_end": 67
+        },
+        {
+          "cite_id": "TALK-146041835",
+          "quote": "小心一个叫来古士的人，凯撒。",
+          "offset_start": 0,
+          "offset_end": 14
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "刃",
+    "source_names": [
+      "刃",
+      "应星"
+    ],
+    "method": "alias_match",
+    "rationale": {
+      "text": "叙事卷提到“应星”曾锻造支离，而角色卷记载刃曾为铸剑奇匠，二者指向同一人物的不同身份阶段。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "VOIC-1204-41",
+          "quote": "他曾是铸剑的奇匠，又因故成了不死之身",
+          "offset_start": 0,
+          "offset_end": 18
+        },
+        {
+          "cite_id": "SKIP-C-105430807",
+          "quote": "怀炎却拿出应星在锻造「支离」时的残品",
+          "offset_start": 17,
+          "offset_end": 35
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "加拉赫",
+    "source_names": [
+      "加拉赫"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "角色卷与叙事卷均提及加拉赫，名称一致。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "VOIC-1309-21",
+          "quote": "背后的敌人就拜托你了，加拉赫先生。",
+          "offset_start": 0,
+          "offset_end": 17
+        },
+        {
+          "cite_id": "TALK-103411602",
+          "quote": "加拉赫怎么了？",
+          "offset_start": 0,
+          "offset_end": 7
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "匹诺康尼",
+    "source_names": [
+      "匹诺康尼"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "设定卷、书籍卷与叙事卷均记载匹诺康尼，名称与梦想之地、盛会之星的描述一致。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "NOUN-9026116404297565285",
+          "quote": "位于阿斯德纳星系的盛会之星，梦想之地。",
+          "offset_start": 0,
+          "offset_end": 19
+        },
+        {
+          "cite_id": "SUBM-D-103260201",
+          "quote": "由于酒店的严格规定，你们根本无法进入匹诺康尼",
+          "offset_start": 114,
+          "offset_end": 136
+        },
+        {
+          "cite_id": "TALK-105003474",
+          "quote": "我把匹诺康尼从永眠中唤醒！",
+          "offset_start": 0,
+          "offset_end": 13
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "十王司",
+    "source_names": [
+      "十王司"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "书籍卷、角色卷与叙事卷均记载十王司，职责与事迹互相补充。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "BOOK-190440",
+          "quote": "十王司律条所定的「不赦十恶」",
+          "offset_start": 1006,
+          "offset_end": 1020
+        },
+        {
+          "cite_id": "STRY-1215-2",
+          "quote": "她是十王司中的一名判官",
+          "offset_start": 657,
+          "offset_end": 668
+        },
+        {
+          "cite_id": "CHRN-8015104",
+          "quote": "十王司封印了浮烟",
+          "offset_start": 21,
+          "offset_end": 29
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "丹恒",
+    "source_names": [
+      "丹恒"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "角色卷与叙事卷均记载丹恒为列车护卫，叙事卷补充其回到翁法罗斯的经历。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "STRY-1414-4",
+          "quote": "护卫『开拓』前路之人！",
+          "offset_start": 733,
+          "offset_end": 744
+        },
+        {
+          "cite_id": "SUBM-D-104365801",
+          "quote": "丹恒，你最信任的列车护卫，「开拓」之旅中最靠谱的伙伴",
+          "offset_start": 0,
+          "offset_end": 26
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "博识尊",
+    "source_names": [
+      "博识尊",
+      "博识尊",
+      "博识尊",
+      "博识尊"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "四个来源均以「博识尊」为规范名，且都描述智识命途的星神，名称与身份一致，故合并。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "NOUN-2344910229968351065",
+          "quote": "博识尊试图体认宇宙，解开万物之谜。",
+          "offset_start": 132,
+          "offset_end": 149
+        },
+        {
+          "cite_id": "BOOK-190412",
+          "quote": "天才俱乐部、博识学会称其为「博识尊」的知识之神。",
+          "offset_start": 24,
+          "offset_end": 48
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "博识学会",
+    "source_names": [
+      "博识学会",
+      "博识学会",
+      "博识学会",
+      "博识学会"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "各卷均以「博识学会」为名，描述同一以智识为源动力的学术组织，主张知识流通，故合并。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "NOUN-8884926162431041364",
+          "quote": "博识学会提倡：「一切知识必须如货币般流通」。",
+          "offset_start": 132,
+          "offset_end": 154
+        },
+        {
+          "cite_id": "BOOK-190168",
+          "quote": "他们自称「博识学会」。",
+          "offset_start": 96,
+          "offset_end": 107
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "卡芙卡",
+    "source_names": [
+      "卡芙卡",
+      "卡芙卡"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "角色卷与叙事卷均以「卡芙卡」为规范名，且都称其为星核猎手，身份一致，故合并。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "STRY-1005-1",
+          "quote": "人们对这位星核猎手所知甚少",
+          "offset_start": 36,
+          "offset_end": 49
+        },
+        {
+          "cite_id": "SUBM-D-102010107",
+          "quote": "星核猎手卡芙卡不期而至",
+          "offset_start": 46,
+          "offset_end": 57
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "卢卡",
+    "source_names": [
+      "卢卡",
+      "卢卡"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "角色卷与叙事卷均直呼其名「卢卡」，叙事卷明确其磐岩镇搏击冠军身份，名称一致，故合并。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "VOIC-1102-25",
+          "quote": "跟你搭档？哈…真难得啊，卢卡。",
+          "offset_start": 0,
+          "offset_end": 15
+        },
+        {
+          "cite_id": "SUBM-D-201160103",
+          "quote": "磐岩镇的搏击冠军，卢卡",
+          "offset_start": 40,
+          "offset_end": 51
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "反物质军团",
+    "source_names": [
+      "反物质军团",
+      "反物质军团",
+      "反物质军团"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "三卷均以「反物质军团」为规范名，描述同一支以反物质重铸成员的军团，故合并。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "NOUN-25154047274455847",
+          "quote": "最终成为了军团的一员。",
+          "offset_start": 176,
+          "offset_end": 187
+        },
+        {
+          "cite_id": "BOOK-190404",
+          "quote": "「反物质军团」众多部队的领军者。",
+          "offset_start": 108,
+          "offset_end": 124
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "可可利亚",
+    "source_names": [
+      "可可利亚",
+      "可可利亚"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "书籍卷与叙事卷均以「可可利亚」为规范名，且都指向贝洛伯格的大守护者，故合并。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "BOOK-190136",
+          "quote": "可可利亚大守护者",
+          "offset_start": 777,
+          "offset_end": 785
+        },
+        {
+          "cite_id": "SUBM-D-101150101",
+          "quote": "可可利亚已经战败",
+          "offset_start": 0,
+          "offset_end": 8
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "史瓦罗",
+    "source_names": [
+      "史瓦罗",
+      "史瓦罗"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "角色卷与叙事卷均以「史瓦罗」为规范名，且都与克拉拉相关，名称一致，故合并。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "VOIC-1107-65",
+          "quote": "史瓦罗：离开克拉拉。",
+          "offset_start": 0,
+          "offset_end": 10
+        },
+        {
+          "cite_id": "CHRN-1010502",
+          "quote": "来自机械聚落的克拉拉和史瓦罗。",
+          "offset_start": 31,
+          "offset_end": 46
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "同谐",
+    "source_names": [
+      "同谐",
+      "同谐"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "lore与叙事卷均以「同谐」为规范名，描述希佩执掌的命途及其降临之事，故合并。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "LOAD-10006",
+          "quote": "星神「希佩」执掌的命途。",
+          "offset_start": 0,
+          "offset_end": 12
+        },
+        {
+          "cite_id": "SKIP-D-103030207",
+          "quote": "「同谐」将化身「齐响诗班」降临匹诺康尼",
+          "offset_start": 30,
+          "offset_end": 49
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "天才俱乐部",
+    "source_names": [
+      "天才俱乐部",
+      "天才俱乐部",
+      "天才俱乐部",
+      "天才俱乐部"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "四卷均以「天才俱乐部」为规范名，描述由博识尊邀请的天才组成的组织，故合并。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "NOUN-12950702512736689397",
+          "quote": "邀请「天才」们加入共同探寻宇宙答案的行列。",
+          "offset_start": 149,
+          "offset_end": 170
+        },
+        {
+          "cite_id": "BOOK-190168",
+          "quote": "得到博识尊亲自接见的天才俱乐部外",
+          "offset_start": 50,
+          "offset_end": 66
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "太卜司",
+    "source_names": [
+      "太卜司",
+      "太卜司",
+      "太卜司",
+      "太卜司"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "各卷均出现「太卜司」，书籍、角色与叙事卷描述同一罗浮卜算机构，叙事卷的「前往太卜司」指其所在地，名称与上下文一致，故合并。",
+      "claim_type": "interpretation",
+      "confidence": "inferred",
+      "citations": [
+        {
+          "cite_id": "BOOK-190486",
+          "quote": "罗浮太卜司太卜，符玄",
+          "offset_start": 991,
+          "offset_end": 1001
+        },
+        {
+          "cite_id": "SUBM-T-102070116",
+          "quote": "前往太卜司",
+          "offset_start": 0,
+          "offset_end": 5
+        }
+      ]
+    },
+    "confidence": "inferred"
+  },
+  {
+    "merged_name": "存护",
+    "source_names": [
+      "存护",
+      "存护",
+      "存护",
+      "存护"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "lore、books与叙事卷均以「存护」为规范名；叙事卷中可可利亚放弃的「存护」与命途同名且上下文相承，故合并为命途实体。",
+      "claim_type": "interpretation",
+      "confidence": "inferred",
+      "citations": [
+        {
+          "cite_id": "LOAD-10008",
+          "quote": "星神「克里珀」执掌的命途。",
+          "offset_start": 0,
+          "offset_end": 13
+        },
+        {
+          "cite_id": "TALK-201333312",
+          "quote": "可可利亚放弃了「存护」。",
+          "offset_start": 0,
+          "offset_end": 12
+        }
+      ]
+    },
+    "confidence": "inferred"
+  },
+  {
+    "merged_name": "家族",
+    "source_names": [
+      "家族",
+      "家族",
+      "家族"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "三卷均以「家族」为规范名，描述希佩选民组成的温馨共谐组织及其领导作用，故合并。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "NOUN-5118621496875868999",
+          "quote": "祂的选民们组成了温馨共谐的「家族」。",
+          "offset_start": 157,
+          "offset_end": 175
+        },
+        {
+          "cite_id": "BOOK-190608",
+          "quote": "在家族的领导下，这座繁华的城市始终具有鲜活的生命力。",
+          "offset_start": 38,
+          "offset_end": 64
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "寒鸦",
+    "source_names": [
+      "寒鸦",
+      "寒鸦"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "角色卷与叙事卷均以「寒鸦」为规范名，且都指向十王司判官，身份一致，故合并。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "STRY-1215-2",
+          "quote": "她是十王司中的一名判官，代号「寒鸦」的判官。",
+          "offset_start": 657,
+          "offset_end": 679
+        },
+        {
+          "cite_id": "TALK-815100021",
+          "quote": "寒鸦交待完捉鬼小队的事",
+          "offset_start": 0,
+          "offset_end": 11
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "岁阳",
+    "source_names": [
+      "岁阳",
+      "岁阳",
+      "岁阳",
+      "岁阳"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "书籍与叙事卷的种族条目、角色与叙事卷的概念条目均称「岁阳」，描述同一种可凭附人体的超自然存在，故合并。",
+      "claim_type": "interpretation",
+      "confidence": "inferred",
+      "citations": [
+        {
+          "cite_id": "BOOK-190420",
+          "quote": "岁阳一族是联盟历史悠久的宿敌，丰饶孽物中罕见的无形目生命，世外妖魔族类。",
+          "offset_start": 86,
+          "offset_end": 122
+        },
+        {
+          "cite_id": "TALK-815104404",
+          "quote": "她应该已经被岁阳凭附了…",
+          "offset_start": 0,
+          "offset_end": 12
+        }
+      ]
+    },
+    "confidence": "inferred"
+  },
+  {
+    "merged_name": "奥赫玛",
+    "source_names": [
+      "奥赫玛",
+      "奥赫玛",
+      "奥赫玛"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "三卷均以「奥赫玛」为规范名，描述同一座末世中的圣城与净土，故合并。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "BOOK-190787",
+          "quote": "「圣城」奥赫玛是如今的末世长夜中，唯一的永昼之地。",
+          "offset_start": 568,
+          "offset_end": 593
+        },
+        {
+          "cite_id": "VOIC-1402-4",
+          "quote": "如今人类仅余奥赫玛这一座城邦",
+          "offset_start": 15,
+          "offset_end": 29
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "姬子",
+    "source_names": [
+      "姬子",
+      "姬子",
+      "姬子"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "三卷均以「姬子」为规范名，描述同一位与荒废列车相遇并参与幻月游戏的红发女性，故合并。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "NOUN-16034760143307344588",
+          "quote": "一位红发少女与荒废的列车相遇了。",
+          "offset_start": 183,
+          "offset_end": 199
+        },
+        {
+          "cite_id": "SKIP-C-105400642",
+          "quote": "姬子曾作为谒者参与上次「幻月游戏」",
+          "offset_start": 0,
+          "offset_end": 17
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "娜塔莎",
+    "source_names": [
+      "娜塔莎",
+      "娜塔莎"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "角色卷与叙事卷均以「娜塔莎」为规范名，叙事卷补充其互助会与瓦赫医生相关情节，名称一致，故合并。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "AVTR-N-1105",
+          "quote": "娜塔莎",
+          "offset_start": 0,
+          "offset_end": 3
+        },
+        {
+          "cite_id": "CHRN-2010702",
+          "quote": "娜塔莎弄清楚了互助会的真相，并销毁了特效药",
+          "offset_start": 7,
+          "offset_end": 28
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "尼卡多利",
+    "source_names": [
+      "尼卡多利",
+      "尼卡多利",
+      "尼卡多利"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "书籍卷的角色条目与概念条目均以「尼卡多利」为名，叙事卷也描述同一纷争泰坦，名称与身份一致，故合并。",
+      "claim_type": "interpretation",
+      "confidence": "inferred",
+      "citations": [
+        {
+          "cite_id": "BOOK-190742",
+          "quote": "代表泰坦：天谴之矛，尼卡多利",
+          "offset_start": 1100,
+          "offset_end": 1114
+        },
+        {
+          "cite_id": "CHRN-1040101",
+          "quote": "纷争之泰坦尼卡多利的袭城",
+          "offset_start": 138,
+          "offset_end": 150
+        }
+      ]
+    },
+    "confidence": "inferred"
+  },
+  {
+    "merged_name": "布洛妮娅",
+    "source_names": [
+      "布洛妮娅",
+      "布洛妮娅"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "角色卷与叙事卷均以「布洛妮娅」为规范名，且都指向贝洛伯格大守护者继任者，故合并。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "STRY-1101-1",
+          "quote": "贝洛伯格「大守护者」继承人，年轻干练的银鬃铁卫统领。",
+          "offset_start": 0,
+          "offset_end": 26
+        },
+        {
+          "cite_id": "SUBM-D-201140205",
+          "quote": "坐镇克里珀堡的新任大守护者布洛妮娅",
+          "offset_start": 23,
+          "offset_end": 40
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "尾巴",
+    "source_names": [
+      "尾巴",
+      "尾巴"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "角色卷与叙事卷均以「尾巴」为规范名，且都指向被寒鸦封印的岁阳，故合并。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "VOIC-1217-62",
+          "quote": "尾巴：有种打我！",
+          "offset_start": 0,
+          "offset_end": 8
+        },
+        {
+          "cite_id": "SKIP-C-801510405",
+          "quote": "尾巴坦露自己被寒鸦封印一事",
+          "offset_start": 0,
+          "offset_end": 13
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "巡海游侠",
+    "source_names": [
+      "巡海游侠",
+      "巡海游侠"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "书籍卷与叙事卷均以「巡海游侠」为规范名，描述同一群崇信帝弓的豪杰，故合并。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "BOOK-190498",
+          "quote": "有一批「巡海游侠」亦是帝弓麾下的一群豪杰。",
+          "offset_start": 656,
+          "offset_end": 677
+        },
+        {
+          "cite_id": "SKIP-C-103310112",
+          "quote": "巡海游侠波提欧忽然现身",
+          "offset_start": 20,
+          "offset_end": 31
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "希佩",
+    "source_names": [
+      "希佩"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "lore卷与narrative卷均以「希佩」之名记载同一位星神，身份一致。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "NOUN-8445402167001477964",
+          "quote": "千面一体的希佩，宣唱着和谐一致的喜乐。",
+          "offset_start": 68,
+          "offset_end": 87
+        },
+        {
+          "cite_id": "SKIP-D-104060605",
+          "quote": "你曾在匹诺康尼接过「钟表匠」的礼帽，得到希佩的瞥视。",
+          "offset_start": 0,
+          "offset_end": 26
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "希儿",
+    "source_names": [
+      "希儿"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "characters卷与narrative卷均记载希儿为「地火」成员，身份与经历一致。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "STRY-1102-1",
+          "quote": "飒爽俊逸的「地火」成员，成长于地底危险混乱的环境，习惯独来独往。",
+          "offset_start": 0,
+          "offset_end": 32
+        },
+        {
+          "cite_id": "SUBM-D-101050101",
+          "quote": "「地火」骨干希儿及时赶到解围",
+          "offset_start": 15,
+          "offset_end": 29
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "帝弓司命",
+    "source_names": [
+      "帝弓司命"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "books卷与characters卷均以「帝弓司命」记载仙舟所遵循的星神，characters卷别名「帝弓」亦指同一者。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "BOOK-190440",
+          "quote": "仙舟联盟的确遵循帝弓司命的诰谕",
+          "offset_start": 940,
+          "offset_end": 955
+        },
+        {
+          "cite_id": "STRY-1204-3",
+          "quote": "奉行帝弓的「巡猎」诰谕",
+          "offset_start": 34,
+          "offset_end": 45
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "幻造种",
+    "source_names": [
+      "幻造种"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "books卷与narrative卷均以「幻造种」指称同一种由核心驱动的智慧生命。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "BOOK-191966",
+          "quote": "幻造种，一种由内部的核心驱动，以幻月和人类提供的愿力为能量，以离散物质作为身体的智慧生命。",
+          "offset_start": 199,
+          "offset_end": 244
+        },
+        {
+          "cite_id": "TALK-250031808",
+          "quote": "都是幻造种。",
+          "offset_start": 0,
+          "offset_end": 6
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "幻月游戏",
+    "source_names": [
+      "幻月游戏"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "books卷与narrative卷均以「幻月游戏」指称二相乐园的古老仪式。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "BOOK-192009",
+          "quote": "人们将希望寄托于古老的仪式——「幻月游戏」。",
+          "offset_start": 172,
+          "offset_end": 194
+        },
+        {
+          "cite_id": "SKIP-D-105400402",
+          "quote": "姬子推测公司欲利用「幻月游戏」拉拢星神",
+          "offset_start": 48,
+          "offset_end": 67
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "应星",
+    "source_names": [
+      "应星"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "books卷与characters卷均记载名唤应星的短生种，且关联朱明工匠与复仇之事。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "BOOK-190477",
+          "quote": "名唤应星的孩子是个外来求艺的短生种。",
+          "offset_start": 11,
+          "offset_end": 29
+        },
+        {
+          "cite_id": "STRY-1507-4",
+          "quote": "如今，他要向悲剧的罪魁祸首复仇。",
+          "offset_start": 516,
+          "offset_end": 532
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "建木",
+    "source_names": [
+      "建木"
+    ],
+    "method": "contextual",
+    "rationale": {
+      "text": "books卷记建木为又称天橦的神树，narrative卷记其为枯朽数千年后复苏的神迹，名称与罗浮背景一致。",
+      "claim_type": "interpretation",
+      "confidence": "inferred",
+      "citations": [
+        {
+          "cite_id": "BOOK-190346",
+          "quote": "「天橦」指建木。此处指建木的种子在仙舟罗浮中心生发。",
+          "offset_start": 358,
+          "offset_end": 384
+        },
+        {
+          "cite_id": "SUBM-D-102100105",
+          "quote": "枯朽数千年的神迹「建木」在遥远的洞天深处复苏重生",
+          "offset_start": 68,
+          "offset_end": 92
+        }
+      ]
+    },
+    "confidence": "inferred"
+  },
+  {
+    "merged_name": "开拓",
+    "source_names": [
+      "开拓"
+    ],
+    "method": "contextual",
+    "rationale": {
+      "text": "多卷均以「开拓」指称阿基维利执掌的命途；narrative中作概念或旅途使用时，仍与无名客践行的命途相同。",
+      "claim_type": "interpretation",
+      "confidence": "inferred",
+      "citations": [
+        {
+          "cite_id": "LOAD-10042",
+          "quote": "执掌「开拓」命途的星神，从孤绝世界裴伽纳出发，不断开拓未知的边界。",
+          "offset_start": 0,
+          "offset_end": 33
+        },
+        {
+          "cite_id": "SUBM-D-103280212",
+          "quote": "我踏上「开拓」之旅，只为学习生活本身和与它有关的一切",
+          "offset_start": 121,
+          "offset_end": 147
+        }
+      ]
+    },
+    "confidence": "inferred"
+  },
+  {
+    "merged_name": "彦卿",
+    "source_names": [
+      "彦卿"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "characters卷与narrative卷均记载彦卿为罗浮云骑剑士，并陪同会见景元。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "STRY-1209-1",
+          "quote": "意气飞扬的云骑骁卫，仙舟「罗浮」最强剑士。",
+          "offset_start": 0,
+          "offset_end": 21
+        },
+        {
+          "cite_id": "CHRN-2022008",
+          "quote": "在彦卿的陪同下，你们终于见到了景元",
+          "offset_start": 0,
+          "offset_end": 17
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "怀炎",
+    "source_names": [
+      "怀炎"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "books、characters、narrative三卷均以怀炎之名记载朱明仙舟的铸匠与将军。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "BOOK-190478",
+          "quote": "铸炼宫的主人，仙舟最长寿之人，工匠中的工匠——怀炎姗姗来迟。",
+          "offset_start": 823,
+          "offset_end": 853
+        },
+        {
+          "cite_id": "SUBM-D-202220501",
+          "quote": "受怀炎将军所遣，三月七与云璃登上竞锋舰参与演武仪典",
+          "offset_start": 0,
+          "offset_end": 25
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "悬锋城",
+    "source_names": [
+      "悬锋城"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "books卷与narrative卷均以「悬锋城」指称同一座与奥赫玛敌对的移动堡垒。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "BOOK-191921",
+          "quote": "就连奥赫玛的宿敌悬锋城，也认为这不过是凯撒集权、纠众的低劣诡计。",
+          "offset_start": 302,
+          "offset_end": 334
+        },
+        {
+          "cite_id": "CHRN-1040105",
+          "quote": "你们与白厄、万敌一同前往移动堡垒悬锋城",
+          "offset_start": 0,
+          "offset_end": 19
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "扎格列斯",
+    "source_names": [
+      "扎格列斯"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "books卷与narrative卷均记载扎格列斯为诡计泰坦，并与贼灵、贼之手相关。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "BOOK-190861",
+          "quote": "扎格列斯，其本体仅在幽灵日出没，会被优秀的诡计吸引。",
+          "offset_start": 730,
+          "offset_end": 756
+        },
+        {
+          "cite_id": "CHRN-1040414",
+          "quote": "一直以贼灵面目示人的扎格列斯将赛飞儿托付给它的刻法勒火种交给白厄",
+          "offset_start": 153,
+          "offset_end": 185
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "方壶",
+    "source_names": [
+      "方壶",
+      "方壶仙舟"
+    ],
+    "method": "alias_match",
+    "rationale": {
+      "text": "characters卷「方壶仙舟」别名为「方壶」，与books卷「方壶」同为仙舟联盟的仙舟。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "BOOK-190684",
+          "quote": "8038年，月里火带领「闭戾多」（残存127人），来到了方壶，决意归顺联盟。",
+          "offset_start": 875,
+          "offset_end": 913
+        },
+        {
+          "cite_id": "STRY-1208-5",
+          "quote": "丰饶民大军三度成形，突袭方壶仙舟。",
+          "offset_start": 25,
+          "offset_end": 42
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "无名客",
+    "source_names": [
+      "无名客"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "lore、characters、narrative三卷均以「无名客」指称搭乘星穹列车、追随开拓的旅行者群体。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "NOUN-18077808807321366418",
+          "quote": "旅行者们自称「无名客」，他们搭载着阿基维利建造的列车，奔行于被银轨联结的星球之间",
+          "offset_start": 145,
+          "offset_end": 185
+        },
+        {
+          "cite_id": "SUBM-D-102010105",
+          "quote": "按照阿基维利立下的传统，「无名客的道路当由无名客自己选择」。",
+          "offset_start": 24,
+          "offset_end": 54
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "星际和平公司",
+    "source_names": [
+      "星际和平公司"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "多卷均以「星际和平公司」记载同一巨型企业财团，books卷别名「公司」亦指同一势力。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "NOUN-2937603739497843763",
+          "quote": "就对外宣传而言，公司是一家倡导自由贸易的巨型企业财团",
+          "offset_start": 99,
+          "offset_end": 125
+        },
+        {
+          "cite_id": "BOOK-190169",
+          "quote": "路易斯•弗莱明和东方启行宣布将后援队改组，成立星际和平公司。",
+          "offset_start": 1394,
+          "offset_end": 1424
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "星穹列车",
+    "source_names": [
+      "星穹列车"
+    ],
+    "method": "contextual",
+    "rationale": {
+      "text": "ARTF条目记载其为行驶星海的银河列车，PLAC条目描述其为有房间、沙发且可跃迁的家园，所指为同一物理列车。",
+      "claim_type": "interpretation",
+      "confidence": "inferred",
+      "citations": [
+        {
+          "cite_id": "NOUN-18077808807321366418",
+          "quote": "那列曾搭载祂与追随者们的银河列车，至今仍然行驶在星海之间。",
+          "offset_start": 428,
+          "offset_end": 457
+        },
+        {
+          "cite_id": "SUBM-D-100050301",
+          "quote": "你乘上了神奇的星穹列车，今后，这里就是你的家了。",
+          "offset_start": 0,
+          "offset_end": 24
+        }
+      ]
+    },
+    "confidence": "inferred"
+  },
+  {
+    "merged_name": "星穹列车",
+    "source_names": [
+      "星穹列车"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "characters卷与narrative卷的ORGN条目均将星穹列车描述为无名客同行开拓的团体。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "STRY-1003-1",
+          "quote": "在「开拓」新世界的道路上，需要更多的同伴",
+          "offset_start": 61,
+          "offset_end": 81
+        },
+        {
+          "cite_id": "SUBM-D-802711105",
+          "quote": "感谢您乘坐星穹列车，与我们星海同行，遨游银河胜揽",
+          "offset_start": 9,
+          "offset_end": 33
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "星核",
+    "source_names": [
+      "星核"
+    ],
+    "method": "contextual",
+    "rationale": {
+      "text": "lore卷将星核定义为扭曲物质与宝石，narrative卷ARTF条目记载其被封装入体内并被称为大剧院，均指同一星核。",
+      "claim_type": "interpretation",
+      "confidence": "inferred",
+      "citations": [
+        {
+          "cite_id": "NOUN-5099145111579308309",
+          "quote": "这些扭曲难明的物质已经浊流诸界，而与泥滓同行的却是日彩星辉的宝石——亦即星核。",
+          "offset_start": 103,
+          "offset_end": 142
+        },
+        {
+          "cite_id": "SKIP-C-100050102",
+          "quote": "她所拘束的「星核」已经封装进你的体内",
+          "offset_start": 34,
+          "offset_end": 52
+        }
+      ]
+    },
+    "confidence": "inferred"
+  },
+  {
+    "merged_name": "星核猎手",
+    "source_names": [
+      "星核猎手"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "characters卷与narrative卷均以「星核猎手」指称同一阵营，并提及银狼加入、改写终末与弑神意图。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "STRY-1506-2",
+          "quote": "「ID：银狼」已加入「星核猎手」阵营",
+          "offset_start": 61,
+          "offset_end": 79
+        },
+        {
+          "cite_id": "SUBM-D-102100104",
+          "quote": "星核猎手们意图是「弑杀星神」",
+          "offset_start": 13,
+          "offset_end": 27
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "星期日",
+    "source_names": [
+      "星期日"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "characters卷收录其名，narrative卷记载其为知更鸟兄长并成为谒者，所指为同一角色。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "AVTR-N-1313",
+          "quote": "星期日",
+          "offset_start": 0,
+          "offset_end": 3
+        },
+        {
+          "cite_id": "SUBM-D-103280101",
+          "quote": "为你们戴上冠军桂冠的并非知更鸟，而是她的哥哥星期日",
+          "offset_start": 7,
+          "offset_end": 32
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "晖长石号",
+    "source_names": [
+      "晖长石号"
+    ],
+    "method": "contextual",
+    "rationale": {
+      "text": "books卷ARTF条目记其为豪华浮空艇，narrative卷PLAC条目记众人登上此艇，ARTF条目记其所有权转交与赠予，所指同一飞艇。",
+      "claim_type": "interpretation",
+      "confidence": "inferred",
+      "citations": [
+        {
+          "cite_id": "BOOK-190658",
+          "quote": "「晖长石号」并非普通的豪华游艇，它是飞行在匹诺康尼上空的明珠",
+          "offset_start": 262,
+          "offset_end": 292
+        },
+        {
+          "cite_id": "CHRN-1034108",
+          "quote": "列车组终于登上了「晖长石号」，静待谐乐大典开始",
+          "offset_start": 0,
+          "offset_end": 23
+        }
+      ]
+    },
+    "confidence": "inferred"
+  },
+  {
+    "merged_name": "景元",
+    "source_names": [
+      "景元"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "characters卷与narrative卷均记载景元为罗浮云骑军将军。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "STRY-1208-5",
+          "quote": "在面见将军后，少女说出了她的想法。",
+          "offset_start": 439,
+          "offset_end": 456
+        },
+        {
+          "cite_id": "SUBM-D-102030112",
+          "quote": "罗浮云骑军的将军景元现身定策。",
+          "offset_start": 65,
+          "offset_end": 80
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "智识",
+    "source_names": [
+      "智识"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "lore、books、narrative三卷均以「智识」指称博识尊执掌的命途。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "LOAD-10005",
+          "quote": "星神「博识尊」执掌的命途。思考、逻辑、策略的行为是「智识」命途的体现。"
+        },
+        {
+          "cite_id": "CHRN-1040612",
+          "quote": "意图通过铁墓毁灭博识尊，解放「智识」并推动列神之战",
+          "offset_start": 59,
+          "offset_end": 84
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "曜青",
+    "source_names": [
+      "曜青",
+      "曜青仙舟"
+    ],
+    "method": "contextual",
+    "rationale": {
+      "text": "narrative卷一处称椒丘为「曜青使节」，另一处提及「曜青仙舟」，后缀仙舟表明二者同指一仙舟。",
+      "claim_type": "interpretation",
+      "confidence": "inferred",
+      "citations": [
+        {
+          "cite_id": "TALK-222231310",
+          "quote": "我是曜青使节椒丘。",
+          "offset_start": 0,
+          "offset_end": 9
+        },
+        {
+          "cite_id": "TALK-222020512",
+          "quote": "曜青仙舟？",
+          "offset_start": 0,
+          "offset_end": 5
+        }
+      ]
+    },
+    "confidence": "inferred"
+  },
+  {
+    "merged_name": "朱明",
+    "source_names": [
+      "朱明",
+      "朱明仙舟"
+    ],
+    "method": "contextual",
+    "rationale": {
+      "text": "books卷称朱明为仙舟之一与匠作学府，narrative卷提及「朱明仙舟」，所指相同。",
+      "claim_type": "interpretation",
+      "confidence": "inferred",
+      "citations": [
+        {
+          "cite_id": "BOOK-190477",
+          "quote": "对渴望求学治艺的人来说，朱明是不逊于庇尔波因特和螺丝星（也许还有其他什么技术圣地我不知道）的匠作学府。",
+          "offset_start": 110,
+          "offset_end": 161
+        },
+        {
+          "cite_id": "TALK-222020509",
+          "quote": "朱明仙舟？",
+          "offset_start": 0,
+          "offset_end": 5
+        }
+      ]
+    },
+    "confidence": "inferred"
+  },
+  {
+    "merged_name": "杰帕德",
+    "source_names": [
+      "杰帕德"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "characters卷与narrative卷均以「杰帕德」指称同一位银鬃铁卫戍卫官。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "STRY-1104-1",
+          "quote": "高洁正直的银鬃铁卫戍卫官，出身于血脉高贵的朗道家族。",
+          "offset_start": 0,
+          "offset_end": 26
+        },
+        {
+          "cite_id": "SUBM-T-101020106",
+          "quote": "向杰帕德汇报谈判结果",
+          "offset_start": 0,
+          "offset_end": 10
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "桂乃芬",
+    "source_names": [
+      "桂乃芬",
+      "桂乃芬"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "角色卷与叙事卷均以「桂乃芬」指称同一角色，叙事卷补充其来自仙舟、杂技表演大师及宠粉主播的身份。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "AVTR-N-1210",
+          "quote": "桂乃芬",
+          "offset_start": 0,
+          "offset_end": 3
+        },
+        {
+          "cite_id": "SUBM-D-804220015",
+          "quote": "来自仙舟的杂技表演大师桂乃芬",
+          "offset_start": 7,
+          "offset_end": 21
+        },
+        {
+          "cite_id": "CHRN-8015171",
+          "quote": "其实桂乃芬是个宠粉的主播？",
+          "offset_start": 23,
+          "offset_end": 36
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "桑博",
+    "source_names": [
+      "桑博",
+      "桑博"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "角色卷与叙事卷均以「桑博」指称同一人物，叙事卷补充其被花火假扮及运营游戏的信息。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "VOIC-1108-21",
+          "quote": "不错的选择！桑博一定包你满意。",
+          "offset_start": 0,
+          "offset_end": 15
+        },
+        {
+          "cite_id": "TALK-103301526",
+          "quote": "被假扮成桑博的花火袭击…",
+          "offset_start": 0,
+          "offset_end": 12
+        },
+        {
+          "cite_id": "TALK-841002212",
+          "quote": "原来这游戏是桑博运营的。",
+          "offset_start": 0,
+          "offset_end": 12
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "椒丘",
+    "source_names": [
+      "椒丘",
+      "椒丘"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "角色卷与叙事卷均以「椒丘」指称同一角色，叙事卷补充其点拨彦卿、以自身为饵毒伤呼雷的事迹。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "AVTR-N-1218",
+          "quote": "椒丘",
+          "offset_start": 0,
+          "offset_end": 2
+        },
+        {
+          "cite_id": "SKIP-D-202210204",
+          "quote": "彦卿经椒丘点拨后顿悟",
+          "offset_start": 21,
+          "offset_end": 31
+        },
+        {
+          "cite_id": "SKIP-D-202230316",
+          "quote": "椒丘早早喝下「颠踬散」，使药毒流遍己身。",
+          "offset_start": 18,
+          "offset_end": 38
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "步离人",
+    "source_names": [
+      "步离人",
+      "步离人"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "books 与 narrative 卷均以「步离人」指称同一种族，叙事卷补充其代谢快、曾入侵星槎海的特征。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "BOOK-190687",
+          "quote": "第三次丰饶民战争后，步离的政治版图一直处于极度不稳定的状态。",
+          "offset_start": 11,
+          "offset_end": 41
+        },
+        {
+          "cite_id": "TALK-222220206",
+          "quote": "步离人代谢很快，药效不持久…",
+          "offset_start": 0,
+          "offset_end": 14
+        },
+        {
+          "cite_id": "SUBM-T-202230102",
+          "quote": "消灭所有入侵星槎海的步离人",
+          "offset_start": 0,
+          "offset_end": 13
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "毁灭",
+    "source_names": [
+      "毁灭",
+      "毁灭",
+      "毁灭",
+      "毁灭"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "lore、books、narrative 中的 PATH 实体均指纳努克执掌的命途；narrative 中 CONC 实体「迈向与『毁灭』的决战」与同卷「对抗『毁灭』星神纳努克」所指一致，故并入。",
+      "claim_type": "interpretation",
+      "confidence": "inferred",
+      "citations": [
+        {
+          "cite_id": "LOAD-10003",
+          "quote": "星神「纳努克」执掌的命途。莽撞、愤怒、破坏的行为是「毁灭」命途的体现。"
+        },
+        {
+          "cite_id": "BOOK-190413",
+          "quote": "「毁灭」命途之主",
+          "offset_start": 488,
+          "offset_end": 496
+        },
+        {
+          "cite_id": "SKIP-C-102080115",
+          "quote": "对抗「毁灭」星神纳努克",
+          "offset_start": 92,
+          "offset_end": 103
+        },
+        {
+          "cite_id": "TALK-146770213",
+          "quote": "迈向与「毁灭」的决战吧。",
+          "offset_start": 0,
+          "offset_end": 12
+        }
+      ]
+    },
+    "confidence": "inferred"
+  },
+  {
+    "merged_name": "波提欧",
+    "source_names": [
+      "波提欧",
+      "波提欧"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "characters 与 narrative 卷均以「波提欧」指称同一人物，角色卷说明其为巡海游侠，叙事卷补充其自称无名客并找茬。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "STRY-1315-4",
+          "quote": "波提欧。在我的家乡，这个名字被用来称呼那些被人打死的枪手。",
+          "offset_start": 676,
+          "offset_end": 705
+        },
+        {
+          "cite_id": "STRY-1315-5",
+          "quote": "波提欧。出生地未知。巡海游侠。",
+          "offset_start": 377,
+          "offset_end": 392
+        },
+        {
+          "cite_id": "SKIP-D-103260208",
+          "quote": "波提欧自称无名客，向大堂经理丹尼斯找茬。",
+          "offset_start": 0,
+          "offset_end": 20
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "流光忆庭",
+    "source_names": [
+      "流光忆庭",
+      "流光忆庭"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "lore 与 narrative 卷均以「流光忆庭」指称同一记忆命途组织，叙事卷别名「忆庭」并补充信使交易记忆的细节。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "NOUN-9387875675849736269",
+          "quote": "「流光忆庭」的忆者们致力于记忆的保存与分享。受主人浮黎的点化，忆者们脱化肉身，以迷因的形式存活。",
+          "offset_start": 241,
+          "offset_end": 289
+        },
+        {
+          "cite_id": "SUBM-D-401010507",
+          "quote": "来自「流光忆庭」的信使悄悄来到列车，并希望与你达成某个交易",
+          "offset_start": 12,
+          "offset_end": 41
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "流萤",
+    "source_names": [
+      "流萤",
+      "流萤"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "characters 与 narrative 卷均以「流萤」指称同一角色，叙事卷补充其在匹诺康尼梦境的经历与预言。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "STRY-1310-1",
+          "quote": "星核猎手成员，身着机械装甲「萨姆」战斗。忠于任务，性格坚强。作为战胜虫群的兵器而诞生，其生长速度异于常人，但生命非常短暂。"
+        },
+        {
+          "cite_id": "SUBM-D-103040226",
+          "quote": "流萤向你解释了此处是为何地：黄金时刻的边境，梦境的更深处，家族的建设改造地",
+          "offset_start": 0,
+          "offset_end": 37
+        },
+        {
+          "cite_id": "SUBM-D-103410708",
+          "quote": "流萤登上了「晖长石号」。她来这里是为了寻找传闻中的「慈玉典押」"
+        },
+        {
+          "cite_id": "SKIP-D-103380708",
+          "quote": "流萤则会为你们破除原始梦境，然后坠入太一之梦，迎来第二次死亡",
+          "offset_start": 21,
+          "offset_end": 51
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "浮黎",
+    "source_names": [
+      "浮黎",
+      "浮黎"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "lore 与 narrative 卷均以「浮黎」指称同一记忆星神，叙事卷补充其缺席对因果的影响。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "NOUN-2681548673476263738",
+          "quote": "而浮黎是溯游的鱼群，亦是宝库的钥匙。祂禅坐于净土中央，静观世间万物不知疲倦地重蹈覆辙。传说一切归于终寂之后，浮黎将以宇宙的记忆为蓝图，令诸界复生。",
+          "offset_start": 158,
+          "offset_end": 231
+        },
+        {
+          "cite_id": "CHRN-1043710",
+          "quote": "铁墓虽已落败，但因浮黎的缺席，本应由「记忆」锚定的因果并不稳固。",
+          "offset_start": 0,
+          "offset_end": 32
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "海瑟音",
+    "source_names": [
+      "海瑟音",
+      "海瑟音",
+      "海瑟音"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "books、characters、narrative 三卷均以「海瑟音」指称同一人物，别名「剑旗爵」「海列屈拉」可互补。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "BOOK-190876",
+          "quote": "那就是「海洋」的半神，以剑旗为名的爵士，海瑟音。",
+          "offset_start": 649,
+          "offset_end": 673
+        },
+        {
+          "cite_id": "STRY-1410-2",
+          "quote": "海妖的公主雀跃地追逐着泡泡",
+          "offset_start": 57,
+          "offset_end": 70
+        },
+        {
+          "cite_id": "STRY-1410-3",
+          "quote": "旧日的琴已化为两把利剑",
+          "offset_start": 629,
+          "offset_end": 640
+        },
+        {
+          "cite_id": "STRY-1410-4",
+          "quote": "海瑟音，追随我，我会赐予你所求的一切。",
+          "offset_start": 1,
+          "offset_end": 20
+        },
+        {
+          "cite_id": "CHRN-1040610",
+          "quote": "她曾是法吉娜的眷属，在残存黑潮的侵蚀下失去了养育自己的泰坦与姊妹",
+          "offset_start": 103,
+          "offset_end": 135
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "灵砂",
+    "source_names": [
+      "灵砂",
+      "灵砂"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "books 与 characters 卷均以「灵砂」指称同一人物，角色卷补充其自朱明归来、受命重整丹鼎司的信息。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "BOOK-190677",
+          "quote": "她就是咱们前任司鼎云华大人的徒弟啊，听说后来师徒俩都去了朱明，这次也算是衣锦还乡啦。",
+          "offset_start": 173,
+          "offset_end": 215
+        },
+        {
+          "cite_id": "VOIC-1222-1",
+          "quote": "妾身名唤灵砂，自朱明学成归来，忝任罗浮丹鼎司司鼎。",
+          "offset_start": 5,
+          "offset_end": 30
+        },
+        {
+          "cite_id": "VOIC-1209-35",
+          "quote": "将军也吩咐过我，要不遗余力地协助她，重整丹鼎司的风气。",
+          "offset_start": 25,
+          "offset_end": 52
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "符玄",
+    "source_names": [
+      "符玄",
+      "符玄",
+      "符玄"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "books、characters、narrative 三卷均以「符玄」指称同一太卜，别名「爻总」，信息可互补。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "BOOK-190486",
+          "quote": "罗浮太卜司太卜，符玄",
+          "offset_start": 991,
+          "offset_end": 1001
+        },
+        {
+          "cite_id": "STRY-1208-3",
+          "quote": "末学符玄，向太卜大人问安。",
+          "offset_start": 90,
+          "offset_end": 103
+        },
+        {
+          "cite_id": "STRY-1208-4",
+          "quote": "符玄以近乎自我放逐的方式逃离了玉阙仙舟。她投身风气更自由的罗浮太卜司",
+          "offset_start": 869,
+          "offset_end": 903
+        },
+        {
+          "cite_id": "STRY-1208-5",
+          "quote": "唯一的转机，是令帝弓垂迹示现。",
+          "offset_start": 474,
+          "offset_end": 489
+        },
+        {
+          "cite_id": "SUBM-D-102100106",
+          "quote": "符玄受命率领云骑军监视毗邻「建木」的丹鼎司洞天",
+          "offset_start": 39,
+          "offset_end": 62
+        },
+        {
+          "cite_id": "CHRN-1020801",
+          "quote": "穷观阵全力运转，阐演卡芙卡所历旧事，以揭示她的来意",
+          "offset_start": 0,
+          "offset_end": 25
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "白露",
+    "source_names": [
+      "白露",
+      "白露"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "characters 与 narrative 卷均以「白露」指称同一持明族龙女，别名「衔药龙女」「龙女」，叙事卷补充龙尊继承之争。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "STRY-1211-1",
+          "quote": "性格活泼的小女孩，持明族的「衔药龙女」，药到病除的名医。经常开出不拘一格的药方，如「多喝热水」、「睡一觉就好了」。见不得人受苦，治病时总是闭着眼睛。"
+        },
+        {
+          "cite_id": "SUBM-D-801510110",
+          "quote": "你们向前来寻找白露的医助们打听情报，打算找到消失不见的龙女",
+          "offset_start": 7,
+          "offset_end": 36
+        },
+        {
+          "cite_id": "SKIP-D-202060102",
+          "quote": "龙尊侍女浣溪交代不让丹恒见白露的原因：族内不想让白露继承龙尊之位。",
+          "offset_start": 0,
+          "offset_end": 33
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "白厄",
+    "source_names": [
+      "白厄",
+      "白厄",
+      "白厄"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "books、characters、narrative 三卷均以「白厄」指称同一黄金裔，别名「救世主」，信息可互补。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "BOOK-190787",
+          "quote": "名为白厄的黄金裔武力非凡，一击便斫断了我的长枪。",
+          "offset_start": 158,
+          "offset_end": 182
+        },
+        {
+          "cite_id": "STRY-1408-9",
+          "quote": "男人刻下「白厄」的最后一笔——",
+          "offset_start": 485,
+          "offset_end": 500
+        },
+        {
+          "cite_id": "STRY-1408-9",
+          "quote": "那就让怒火燃尽此身，化作明日的烈阳！",
+          "offset_start": 503,
+          "offset_end": 521
+        },
+        {
+          "cite_id": "STRY-1408-10",
+          "quote": "他将为它取另外一个名字——「救世主」。",
+          "offset_start": 626,
+          "offset_end": 645
+        },
+        {
+          "cite_id": "CHRN-1040101",
+          "quote": "结识了名为白厄与缇宝的黄金裔",
+          "offset_start": 93,
+          "offset_end": 107
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "瓦尔特•杨",
+    "source_names": [
+      "瓦尔特",
+      "瓦尔特•杨",
+      "瓦尔特"
+    ],
+    "method": "alias_match",
+    "rationale": {
+      "text": "角色卷中「瓦尔特」与「瓦尔特•杨」均别号「杨叔」，且同具前逆熵盟主、星穹列车成员身份；叙事卷中的瓦尔特亦延续此身份，故归并。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "STRY-1004-1",
+          "quote": "老成持重的前逆熵盟主，继承了「世界」之名，曾屡次拯救世界于灭亡的边缘。",
+          "offset_start": 0,
+          "offset_end": 35
+        },
+        {
+          "cite_id": "VOIC-1004-1",
+          "quote": "你好，我是瓦尔特•杨，遇到任何困难，欢迎随时来找我。",
+          "offset_start": 0,
+          "offset_end": 26
+        },
+        {
+          "cite_id": "VOIC-1001-14",
+          "quote": "听说杨叔曾经是秘密组织的首领，拯救过星球，当过老师，还画过动画的原画！",
+          "offset_start": 0,
+          "offset_end": 35
+        },
+        {
+          "cite_id": "SKIP-C-101120104",
+          "quote": "瓦尔特观测到雅利洛上的裂界活动加剧，但姬子认为这是你在「开拓」之旅中必须经历的考验。",
+          "offset_start": 0,
+          "offset_end": 42
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "空间站「黑塔」",
+    "source_names": [
+      "空间站「黑塔」",
+      "空间站「黑塔」",
+      "空间站「黑塔」"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "三处分卷来源均以「空间站「黑塔」」命名，分别描述其地点、科研管理与冒险场所属性，所指为同一空间站。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "STRY-1013-3",
+          "quote": "众所周知，获得空间站「黑塔」的科研资格已成为了广大研究者的共同目标",
+          "offset_start": 0,
+          "offset_end": 33
+        },
+        {
+          "cite_id": "VOIC-1009-1",
+          "quote": "我是空间站「黑塔」的站长艾丝妲。",
+          "offset_start": 6,
+          "offset_end": 22
+        },
+        {
+          "cite_id": "VOIC-1009-7",
+          "quote": "「空间站不过是黑塔的玩具箱」，这句话不假。",
+          "offset_start": 0,
+          "offset_end": 21
+        },
+        {
+          "cite_id": "MAIN-8014104",
+          "quote": "智斗！空间站「黑塔」",
+          "offset_start": 0,
+          "offset_end": 10
+        },
+        {
+          "cite_id": "TALK-203061629",
+          "quote": "黑塔的空间站值得一去。",
+          "offset_start": 0,
+          "offset_end": 11
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "狐人",
+    "source_names": [
+      "狐人",
+      "狐人"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "books 与 narrative 卷均以「狐人」指称同一种族，books 卷补充其干细胞与寿命特征。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "BOOK-190445",
+          "quote": "在狐人的年龄达到250-450岁之间时（顺带一提，中位数是307岁），这些全能干细胞会彻底停摆，失去自由分化的功能。",
+          "offset_start": 426,
+          "offset_end": 484
+        },
+        {
+          "cite_id": "TALK-222260211",
+          "quote": "赶快疏散所有狐人吧！",
+          "offset_start": 0,
+          "offset_end": 10
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "知更鸟",
+    "source_names": [
+      "知更鸟",
+      "知更鸟"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "characters 与 narrative 卷均以「知更鸟」指称同一银河大明星，叙事卷补充其登上晖长石号及协助他人等信息。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "AVTR-N-1309",
+          "quote": "知更鸟",
+          "offset_start": 0,
+          "offset_end": 3
+        },
+        {
+          "cite_id": "SUBM-D-103280101",
+          "quote": "为你们戴上冠军桂冠的并非知更鸟，而是她的哥哥星期日",
+          "offset_start": 7,
+          "offset_end": 32
+        },
+        {
+          "cite_id": "SUBM-D-103410504",
+          "quote": "翡翠发现知更鸟也登上了「晖长石号」，并打算上前和这位银河大明星打声招呼",
+          "offset_start": 89,
+          "offset_end": 124
+        },
+        {
+          "cite_id": "CHRN-1034204",
+          "quote": "他在知更鸟的帮助下找到了混进睡蕉社的法子",
+          "offset_start": 103,
+          "offset_end": 123
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "砂金",
+    "source_names": [
+      "砂金",
+      "砂金"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "characters 与 narrative 卷均以「砂金」指称同一人物，角色卷说明其公司职位，叙事卷补充其争夺基石被判死刑之事。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "VOIC-1304-1",
+          "quote": "不才「砂金」，隶属星际和平公司战略投资部，不良资产清算专家之一",
+          "offset_start": 0,
+          "offset_end": 31
+        },
+        {
+          "cite_id": "CHRN-1031101",
+          "quote": "砂金本想以两起命案为由取回蕴含着「存护」力量的「基石」，没曾想竟遭橡木家主反将了一军，更是被后者判了死刑。",
+          "offset_start": 0,
+          "offset_end": 53
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "盗火行者",
+    "source_names": [
+      "盗火行者",
+      "盗火行者"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "books 与 narrative 卷均以「盗火行者」指称同一黑衣剑士，books 卷称其覆灭神悟树庭，叙事卷提及他人计划将其击败处决。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "BOOK-190833",
+          "quote": "缇宝三人在重渊遭遇了覆灭树庭的黑衣剑士，「盗火行者」。",
+          "offset_start": 1313,
+          "offset_end": 1340
+        },
+        {
+          "cite_id": "TALK-144010405",
+          "quote": "「盗火行者」…",
+          "offset_start": 0,
+          "offset_end": 7
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "纳努克",
+    "source_names": [
+      "纳努克"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "各卷均以「纳努克」为规范名记载同一位毁灭星神，并补充别名「烬灭祸祖」「毁灭」，故合并。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "NOUN-25154047274455847",
+          "quote": "行于毁灭命途的星神纳努克，为各个世界上萌生毁灭冲动的强大生物投去一瞥，并为其烙下印记，赐予力量。",
+          "offset_start": 86,
+          "offset_end": 134
+        },
+        {
+          "cite_id": "BOOK-190404",
+          "quote": "绝灭大君是「烬灭祸祖」纳努克所擢选的令使",
+          "offset_start": 87,
+          "offset_end": 107
+        },
+        {
+          "cite_id": "VOIC-1306-10",
+          "quote": "银河中有个自以为是的星神叫「纳努克」",
+          "offset_start": 0,
+          "offset_end": 18
+        },
+        {
+          "cite_id": "SKIP-C-102080115",
+          "quote": "对抗「毁灭」星神纳努克积攒人情",
+          "offset_start": 92,
+          "offset_end": 107
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "翁法罗斯",
+    "source_names": [
+      "翁法罗斯"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "各卷均以「翁法罗斯」为规范名记载同一个世界，并补充别名「永恒之地」，故合并。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "NOUN-2660052858429290298",
+          "quote": "翁法罗斯实为权杖δ-me13",
+          "offset_start": 183,
+          "offset_end": 197
+        },
+        {
+          "cite_id": "BOOK-190787",
+          "quote": "十二个泰坦创造了翁法罗斯",
+          "offset_start": 433,
+          "offset_end": 445
+        },
+        {
+          "cite_id": "CHRN-1040101",
+          "quote": "前往「永恒之地」翁法罗斯",
+          "offset_start": 15,
+          "offset_end": 27
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "联觉信标",
+    "source_names": [
+      "联觉信标"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "各卷均以「联觉信标」为规范名记载同一种装置，故合并。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "NOUN-7675726264303607480",
+          "quote": "第一对「联觉信标」的原型机",
+          "offset_start": 490,
+          "offset_end": 503
+        },
+        {
+          "cite_id": "BOOK-190168",
+          "quote": "发扬光大的「联觉信标」",
+          "offset_start": 576,
+          "offset_end": 587
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "贝洛伯格",
+    "source_names": [
+      "贝洛伯格"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "各卷均以「贝洛伯格」为规范名记载同一座城市，并补充别名「贝城」，故合并。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "BOOK-190237",
+          "quote": "维持贝洛伯格的正常运转",
+          "offset_start": 283,
+          "offset_end": 294
+        },
+        {
+          "cite_id": "STRY-8001-13",
+          "quote": "你来到了「存护之城」",
+          "offset_start": 0,
+          "offset_end": 10
+        },
+        {
+          "cite_id": "SUBM-D-101010110",
+          "quote": "唯一的人类聚居地——「贝洛伯格」",
+          "offset_start": 103,
+          "offset_end": 119
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "雅利洛-Ⅵ",
+    "source_names": [
+      "雅利洛-Ⅵ",
+      "雅利洛-VI"
+    ],
+    "method": "alias_match",
+    "rationale": {
+      "text": "「雅利洛-VI」与「雅利洛-Ⅵ」仅为罗马数字写法差异，指代同一颗星球，故合并。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "NOUN-7132404191669262398",
+          "quote": "雅利洛-Ⅵ是一颗资源相对贫瘠的星球。",
+          "offset_start": 194,
+          "offset_end": 212
+        },
+        {
+          "cite_id": "SKIP-C-101000202",
+          "quote": "列车途径雅利洛-VI，因星轨被「星核」阻塞而被迫无限期停靠。",
+          "offset_start": 0,
+          "offset_end": 30
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "阿哈",
+    "source_names": [
+      "阿哈"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "各卷均以「阿哈」为规范名记载同一位欢愉星神，故合并。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "LOAD-10044",
+          "quote": "「欢愉」的星神。无人能预测祂会因何开怀大笑。",
+          "offset_start": 0,
+          "offset_end": 22
+        },
+        {
+          "cite_id": "BOOK-192004",
+          "quote": "阿哈亲自来到那名谒者的公寓",
+          "offset_start": 271,
+          "offset_end": 284
+        },
+        {
+          "cite_id": "STRY-1506-5",
+          "quote": "阿哈就是个欢愉的星神",
+          "offset_start": 31,
+          "offset_end": 41
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "阿基维利",
+    "source_names": [
+      "阿基维利"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "各卷均以「阿基维利」为规范名记载同一位开拓星神，并补充别名「游云天君」，故合并。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "NOUN-315732102517284612",
+          "quote": "阿基维利离开孤绝世界裴伽纳",
+          "offset_start": 115,
+          "offset_end": 128
+        },
+        {
+          "cite_id": "BOOK-190412",
+          "quote": "无名客称其为「阿基维利」的漫游之神",
+          "offset_start": 388,
+          "offset_end": 405
+        },
+        {
+          "cite_id": "SUBM-D-103280212",
+          "quote": "就算是阿基维利本人",
+          "offset_start": 259,
+          "offset_end": 268
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "黑塔",
+    "source_names": [
+      "黑塔"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "各卷均以「黑塔」为规范名记载同一位天才学者，并补充别名「大黑塔」，故合并。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "NOUN-13096508804010577036",
+          "quote": "成为了天才俱乐部的一员",
+          "offset_start": 54,
+          "offset_end": 65
+        },
+        {
+          "cite_id": "STRY-1401-2",
+          "quote": "天才俱乐部#83黑塔女士",
+          "offset_start": 97,
+          "offset_end": 109
+        },
+        {
+          "cite_id": "CHRN-2001001",
+          "quote": "黑塔、阮•梅、螺丝咕姆",
+          "offset_start": 0,
+          "offset_end": 11
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "虚无",
+    "source_names": [
+      "虚无"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "两卷均以「虚无」为规范名记载同一条命途，故合并。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "LOAD-10007",
+          "quote": "星神「IX」执掌的命途",
+          "offset_start": 0,
+          "offset_end": 11
+        },
+        {
+          "cite_id": "CHRN-1031801",
+          "quote": "黄泉正是「虚无」的令使",
+          "offset_start": 172,
+          "offset_end": 183
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "记忆",
+    "source_names": [
+      "记忆"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "两卷均以「记忆」为规范名记载同一条命途，故合并。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "NOUN-2681548673476263738",
+          "quote": "确认了「记忆」命途的本质：超越时间的因果。",
+          "offset_start": 253,
+          "offset_end": 274
+        },
+        {
+          "cite_id": "CHRN-1043710",
+          "quote": "本应由「记忆」锚定的因果并不稳固",
+          "offset_start": 15,
+          "offset_end": 31
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "药王秘传",
+    "source_names": [
+      "药王秘传"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "两卷均以「药王秘传」为规范名记载同一犯罪组织，故合并。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "BOOK-190440",
+          "quote": "在仙舟联盟为非作歹的「药王秘传」",
+          "offset_start": 188,
+          "offset_end": 204
+        },
+        {
+          "cite_id": "CHRN-2020104",
+          "quote": "「药王秘传魁首」丹枢逃走了",
+          "offset_start": 11,
+          "offset_end": 24
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "藿藿",
+    "source_names": [
+      "藿藿"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "两卷均以「藿藿」为规范名记载同一角色，故合并。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "VOIC-1215-18",
+          "quote": "将岁阳封印在藿藿身体里的法子",
+          "offset_start": 0,
+          "offset_end": 14
+        },
+        {
+          "cite_id": "CHRN-8015104",
+          "quote": "藿藿找回了尾巴",
+          "offset_start": 0,
+          "offset_end": 7
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "银狼",
+    "source_names": [
+      "银狼"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "两卷均以「银狼」为规范名记载同一位星核猎手成员，故合并。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "STRY-1506-2",
+          "quote": "「ID：银狼」已加入「星核猎手」阵营",
+          "offset_start": 61,
+          "offset_end": 79
+        },
+        {
+          "cite_id": "SKIP-C-200070317",
+          "quote": "银狼现身，然而她在模拟宇宙中只拿到了以太卡带的复制品",
+          "offset_start": 0,
+          "offset_end": 26
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "银鬃铁卫",
+    "source_names": [
+      "银鬃铁卫"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "两卷均以「银鬃铁卫」为规范名记载同一武装组织，并补充别名「铁卫」，故合并。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "STRY-1104-1",
+          "quote": "杰帕德与他率领的银鬃铁卫在守护这平淡无奇的日常生活。",
+          "offset_start": 60,
+          "offset_end": 86
+        },
+        {
+          "cite_id": "SUBM-T-201140305",
+          "quote": "旁听银鬃铁卫与「地火」的会谈",
+          "offset_start": 0,
+          "offset_end": 14
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "镜流",
+    "source_names": [
+      "镜流"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "两卷均以「镜流」为规范名记载同一角色，故合并。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "STRY-1212-1",
+          "quote": "曾经的罗浮剑首，云骑军不败盛名的缔造者。",
+          "offset_start": 0,
+          "offset_end": 20
+        },
+        {
+          "cite_id": "SKIP-D-202031453",
+          "quote": "得知镜流来自「苍城」。",
+          "offset_start": 10,
+          "offset_end": 21
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "花火",
+    "source_names": [
+      "花火"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "两卷均以「花火」为规范名记载同一角色，并补充别名「火花」，故合并。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "VOIC-1501-16",
+          "quote": "「花火」和「火花」一样，也只是一张面具哦~",
+          "offset_start": 32,
+          "offset_end": 53
+        },
+        {
+          "cite_id": "CHRN-1034108",
+          "quote": "然而花火的出现却打破了节庆的氛围。",
+          "offset_start": 25,
+          "offset_end": 42
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "阿格莱雅",
+    "source_names": [
+      "阿格莱雅"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "各卷均以「阿格莱雅」为规范名记载同一位黄金裔领袖，故合并。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "BOOK-190787",
+          "quote": "黄金裔领袖阿格莱雅带我们来到云石天宫",
+          "offset_start": 390,
+          "offset_end": 408
+        },
+        {
+          "cite_id": "SKIP-D-104010405",
+          "quote": "阿格莱雅与缇宝是如今圣城中唯二的半神",
+          "offset_start": 70,
+          "offset_end": 88
+        },
+        {
+          "cite_id": "SKIP-D-104060803",
+          "quote": "阿格莱雅接过统领职责",
+          "offset_start": 56,
+          "offset_end": 66
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "隆介",
+    "source_names": [
+      "隆介"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "两卷均以「隆介」为规范名记载同一角色，并补充别名，故合并。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "BOOK-192026",
+          "quote": "隆介荣之夫，原名隆介•毕沙罗"
+        },
+        {
+          "cite_id": "BOOK-192045",
+          "quote": "隆介，笔名大卫•范•霍尔特",
+          "offset_start": 38,
+          "offset_end": 51
+        },
+        {
+          "cite_id": "SKIP-D-105430401",
+          "quote": "姬子与隆介通讯，提议以父女的身份好好谈谈",
+          "offset_start": 0,
+          "offset_end": 20
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "飞霄",
+    "source_names": [
+      "飞霄"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "两卷均以「飞霄」为规范名记载同一角色，并补充别名「天击将军」，故合并。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "VOIC-1220-1",
+          "quote": "我是飞霄，仙舟「曜青」的将军。",
+          "offset_start": 0,
+          "offset_end": 15
+        },
+        {
+          "cite_id": "SKIP-C-202200505",
+          "quote": "天击将军飞霄出手阻止了云璃与彦卿的切磋。",
+          "offset_start": 0,
+          "offset_end": 20
+        },
+        {
+          "cite_id": "SKIP-D-202220412",
+          "quote": "飞霄是被步离人役使的狐人「战奴」",
+          "offset_start": 5,
+          "offset_end": 21
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "驭空",
+    "source_names": [
+      "驭空"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "两卷均以「驭空」为规范名记载同一角色，故合并。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "VOIC-1207-1",
+          "quote": "我是「罗浮」天舶司的驭空",
+          "offset_start": 13,
+          "offset_end": 25
+        },
+        {
+          "cite_id": "SUBM-T-102030101",
+          "quote": "前往司辰宫，谒见驭空",
+          "offset_start": 0,
+          "offset_end": 10
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "黄泉",
+    "source_names": [
+      "黄泉"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "两卷均以「黄泉」为规范名记载同一角色，故合并。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "VOIC-1308-1",
+          "quote": "「黄泉」…虽然只是借来的名字",
+          "offset_start": 0,
+          "offset_end": 14
+        },
+        {
+          "cite_id": "CHRN-1031801",
+          "quote": "黄泉正是「虚无」的令使",
+          "offset_start": 172,
+          "offset_end": 183
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "黑潮",
+    "source_names": [
+      "黑潮"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "两卷均以「黑潮」为规范名记载同一灾害概念，故合并。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "BOOK-190773",
+          "quote": "黑潮的危害主要由两部分构成",
+          "offset_start": 195,
+          "offset_end": 208
+        },
+        {
+          "cite_id": "SKIP-D-104050223",
+          "quote": "「黑潮」降临哀丽秘榭",
+          "offset_start": 0,
+          "offset_end": 10
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "魔阴身",
+    "source_names": [
+      "魔阴身"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "两卷均以「魔阴身」为规范名记载同一状态概念，故合并。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "BOOK-190433",
+          "quote": "这也就是我们常说的「魔阴身」",
+          "offset_start": 582,
+          "offset_end": 596
+        },
+        {
+          "cite_id": "BOOK-190407",
+          "quote": "身入魔阴，药石无医。",
+          "offset_start": 1057,
+          "offset_end": 1067
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "黑天鹅",
+    "source_names": [
+      "黑天鹅"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "两卷均以「黑天鹅」为规范名记载同一忆者，并补充别名「黑天鹅小姐」，故合并。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "VOIC-1309-22",
+          "quote": "与黑天鹅小姐的舞步相称。",
+          "offset_start": 6,
+          "offset_end": 18
+        },
+        {
+          "cite_id": "SUBM-D-103060101",
+          "quote": "一位名为「黑天鹅」的忆者",
+          "offset_start": 7,
+          "offset_end": 19
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "缇宝",
+    "source_names": [
+      "缇宝"
+    ],
+    "method": "exact_name",
+    "rationale": {
+      "text": "两卷均以「缇宝」为规范名记载同一角色，并补充别名「缇宝老师」，故合并。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "VOIC-1403-19",
+          "quote": "缇宝老师保证你，万事无忧~",
+          "offset_start": 0,
+          "offset_end": 13
+        },
+        {
+          "cite_id": "TALK-146040520",
+          "quote": "缇宝预见了我们的到来？",
+          "offset_start": 0,
+          "offset_end": 11
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "赛法利娅",
+    "source_names": [
+      "赛法利娅",
+      "赛飞儿"
+    ],
+    "method": "alias_match",
+    "rationale": {
+      "text": "书籍卷以「赛法利娅」为规范名，并注明别名「赛飞儿」；角色卷与叙事卷的「赛飞儿」即同一人，故合并。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "BOOK-190861",
+          "quote": "「欺世之人」赛法利娅",
+          "offset_start": 10,
+          "offset_end": 20
+        },
+        {
+          "cite_id": "VOIC-1408-33",
+          "quote": "赛飞儿小姐，有计策还麻烦提前通个气。",
+          "offset_start": 0,
+          "offset_end": 18
+        },
+        {
+          "cite_id": "CHRN-1040414",
+          "quote": "赛飞儿身故",
+          "offset_start": 0,
+          "offset_end": 5
+        }
+      ]
+    },
+    "confidence": "attested"
+  },
+  {
+    "merged_name": "路易斯•弗莱明",
+    "source_names": [
+      "路易斯•弗莱明",
+      "路易斯·弗莱明"
+    ],
+    "method": "alias_match",
+    "rationale": {
+      "text": "「路易斯·弗莱明」与「路易斯•弗莱明」仅为中间点写法差异，书籍卷引文亦作「路易斯•弗莱明」，指代同一人，故合并。",
+      "claim_type": "interpretation",
+      "confidence": "attested",
+      "citations": [
+        {
+          "cite_id": "NOUN-17594361931664684719",
+          "quote": "他是星际和平公司的创始人",
+          "offset_start": 42,
+          "offset_end": 54
+        },
+        {
+          "cite_id": "BOOK-190169",
+          "quote": "路易斯•弗莱明和东方启行。",
+          "offset_start": 834,
+          "offset_end": 847
+        }
+      ]
+    },
+    "confidence": "attested"
+  }
+]
